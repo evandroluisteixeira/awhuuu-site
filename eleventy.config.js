@@ -15,6 +15,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
   eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
   eleventyConfig.addPassthroughCopy({ "src/favicon.ico": "favicon.ico" });
+  eleventyConfig.addPassthroughCopy({ "src/verificacao": "/" });
+  eleventyConfig.ignores.add("src/verificacao/**");
 
   // todas as matérias publicadas, da mais nova para a mais antiga
   eleventyConfig.addCollection("materias", (api) =>
