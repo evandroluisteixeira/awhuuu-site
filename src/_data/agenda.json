@@ -1,4 +1,70 @@
 {
-  "aviso_vazio": "A agenda abre em dezembro. Tem show em Santa Catarina? Coloque ele aqui.",
-  "shows": []
+  "aviso_vazio": "A agenda está vazia agora. Tem show em Santa Catarina? Coloque ele aqui.",
+  "shows": [
+    {
+      "banda": "Verão do Caos: Aeternus + Centinex",
+      "data": "2026-12-04",
+      "hora": "",
+      "local": "Célula Showcase",
+      "cidade": "Florianópolis",
+      "preco": "",
+      "link_ingresso": "https://www.celulacultural.com",
+      "cartaz": "",
+      "texto": "Metal extremo norueguês (Aeternus) e death metal sueco da velha escola (Centinex), na primeira data da turnê pelo Sul e Sudeste. Ingressos com a casa.",
+      "destaque": false,
+      "publicidade": false
+    },
+    {
+      "banda": "Verão do Caos: Aeternus + Centinex",
+      "data": "2026-12-05",
+      "hora": "",
+      "local": "Casa do Bob Rock",
+      "cidade": "Dona Emma",
+      "preco": "",
+      "link_ingresso": "",
+      "cartaz": "",
+      "texto": "Segunda data catarinense da turnê, no Vale do Itajaí. Ingressos com a casa.",
+      "destaque": false,
+      "publicidade": false
+    },
+    {
+      "banda": "Tagore + Tutu Naná",
+      "data": "2026-12-05",
+      "hora": "17h",
+      "local": "Célula Showcase",
+      "cidade": "Florianópolis",
+      "preco": "",
+      "link_ingresso": "https://www.sympla.com.br/evento/tagore-tutu-nana-no-celula-showcase/3648800",
+      "cartaz": "",
+      "texto": "Do psicodélico nordestino ao noise etéreo, numa noite só.",
+      "destaque": false,
+      "publicidade": false
+    },
+    {
+      "banda": "Pitty",
+      "data": "2026-12-28",
+      "hora": "",
+      "local": "Music Park",
+      "cidade": "Balneário Camboriú",
+      "preco": "",
+      "link_ingresso": "https://pitty.com.br",
+      "cartaz": "",
+      "texto": "Turnê do sexto disco, ⚡ PITTY ⚡. Ingressos pelo site oficial da artista.",
+      "destaque": false,
+      "publicidade": false
+    },
+    {
+      "banda": "Floripa Camping Rock 2027",
+      "data": "2027-01-16",
+      "hora": "",
+      "local": "Florianópolis",
+      "cidade": "Florianópolis",
+      "preco": "",
+      "link_ingresso": "https://www.sympla.com.br/evento/floripa-camping-rock/3650605",
+      "cartaz": "",
+      "texto": "Dois dias de rock com acampamento, 16 e 17 de janeiro.",
+      "destaque": false,
+      "publicidade": false
+    }
+  ]
 }
