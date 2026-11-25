@@ -284,3 +284,12 @@ footer a{color:var(--cinza)}
 .versao .preco{font-family:var(--stencil);font-size:24px;color:var(--sangue);margin:6px 0}
 .versao p{margin:0;color:var(--cinza)}
 @media (max-width:540px){.versao+.versao{border-left:0;border-top:1px solid var(--sepia)}}
+
+.form-clube{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px 20px;margin-top:24px;max-width:860px}
+.form-clube label{display:flex;flex-direction:column;gap:6px;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--sepia)}
+.form-clube .largo{grid-column:1/-1}
+.form-clube input,.form-clube textarea{min-height:44px;background:var(--noite);color:var(--osso);border:1px solid var(--osso);padding:10px;font:inherit;font-size:16px;letter-spacing:0;text-transform:none}
+.form-clube .marca{flex-direction:row;align-items:flex-start;gap:10px;letter-spacing:0;text-transform:none;font-size:14px;color:var(--cinza)}
+.form-clube .marca input{min-height:0;width:20px;height:20px;flex:none;margin-top:2px;accent-color:var(--sangue)}
+.form-clube .botao{justify-self:start}
+.form-clube .retorno{grid-column:1/-1;margin:0;color:var(--osso)}

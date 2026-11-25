@@ -1,0 +1,464 @@
+{
+  "aviso": "Trilhas do Clube da Lua Cheia. A ordem aqui é a ordem em que os discos chegam. Edite à vontade: o sistema de ofertas lê esta lista.",
+  "trilhas": [
+    {
+      "nome": "História do Rock",
+      "tipo": "História do Rock",
+      "descricao": "Um disco por mês, do rock'n'roll dos anos 50 ao grunge.",
+      "discos": [
+        {
+          "artista": "Elvis Presley",
+          "album": "Elvis Presley",
+          "ano": "1956"
+        },
+        {
+          "artista": "Chuck Berry",
+          "album": "Chuck Berry Is on Top",
+          "ano": "1959"
+        },
+        {
+          "artista": "The Beatles",
+          "album": "Revolver",
+          "ano": "1966"
+        },
+        {
+          "artista": "The Jimi Hendrix Experience",
+          "album": "Are You Experienced",
+          "ano": "1967"
+        },
+        {
+          "artista": "Black Sabbath",
+          "album": "Paranoid",
+          "ano": "1970"
+        },
+        {
+          "artista": "Led Zeppelin",
+          "album": "Led Zeppelin IV",
+          "ano": "1971"
+        },
+        {
+          "artista": "Pink Floyd",
+          "album": "The Dark Side of the Moon",
+          "ano": "1973"
+        },
+        {
+          "artista": "Ramones",
+          "album": "Ramones",
+          "ano": "1976"
+        },
+        {
+          "artista": "Sex Pistols",
+          "album": "Never Mind the Bollocks",
+          "ano": "1977"
+        },
+        {
+          "artista": "The Clash",
+          "album": "London Calling",
+          "ano": "1979"
+        },
+        {
+          "artista": "Metallica",
+          "album": "Master of Puppets",
+          "ano": "1986"
+        },
+        {
+          "artista": "Nirvana",
+          "album": "Nevermind",
+          "ano": "1991"
+        }
+      ]
+    },
+    {
+      "nome": "Iron Maiden",
+      "tipo": "Complete a coleção",
+      "descricao": "Discografia de estúdio, em ordem.",
+      "discos": [
+        {
+          "artista": "Iron Maiden",
+          "album": "Iron Maiden",
+          "ano": "1980"
+        },
+        {
+          "artista": "Iron Maiden",
+          "album": "Killers",
+          "ano": "1981"
+        },
+        {
+          "artista": "Iron Maiden",
+          "album": "The Number of the Beast",
+          "ano": "1982"
+        },
+        {
+          "artista": "Iron Maiden",
+          "album": "Piece of Mind",
+          "ano": "1983"
+        },
+        {
+          "artista": "Iron Maiden",
+          "album": "Powerslave",
+          "ano": "1984"
+        },
+        {
+          "artista": "Iron Maiden",
+          "album": "Somewhere in Time",
+          "ano": "1986"
+        },
+        {
+          "artista": "Iron Maiden",
+          "album": "Seventh Son of a Seventh Son",
+          "ano": "1988"
+        },
+        {
+          "artista": "Iron Maiden",
+          "album": "No Prayer for the Dying",
+          "ano": "1990"
+        },
+        {
+          "artista": "Iron Maiden",
+          "album": "Fear of the Dark",
+          "ano": "1992"
+        },
+        {
+          "artista": "Iron Maiden",
+          "album": "The X Factor",
+          "ano": "1995"
+        },
+        {
+          "artista": "Iron Maiden",
+          "album": "Virtual XI",
+          "ano": "1998"
+        },
+        {
+          "artista": "Iron Maiden",
+          "album": "Brave New World",
+          "ano": "2000"
+        },
+        {
+          "artista": "Iron Maiden",
+          "album": "Dance of Death",
+          "ano": "2003"
+        },
+        {
+          "artista": "Iron Maiden",
+          "album": "A Matter of Life and Death",
+          "ano": "2006"
+        },
+        {
+          "artista": "Iron Maiden",
+          "album": "The Final Frontier",
+          "ano": "2010"
+        },
+        {
+          "artista": "Iron Maiden",
+          "album": "The Book of Souls",
+          "ano": "2015"
+        },
+        {
+          "artista": "Iron Maiden",
+          "album": "Senjutsu",
+          "ano": "2021"
+        }
+      ]
+    },
+    {
+      "nome": "Black Sabbath",
+      "tipo": "Complete a coleção",
+      "descricao": "Discografia de estúdio, em ordem.",
+      "discos": [
+        {
+          "artista": "Black Sabbath",
+          "album": "Black Sabbath",
+          "ano": "1970"
+        },
+        {
+          "artista": "Black Sabbath",
+          "album": "Paranoid",
+          "ano": "1970"
+        },
+        {
+          "artista": "Black Sabbath",
+          "album": "Master of Reality",
+          "ano": "1971"
+        },
+        {
+          "artista": "Black Sabbath",
+          "album": "Vol. 4",
+          "ano": "1972"
+        },
+        {
+          "artista": "Black Sabbath",
+          "album": "Sabbath Bloody Sabbath",
+          "ano": "1973"
+        },
+        {
+          "artista": "Black Sabbath",
+          "album": "Sabotage",
+          "ano": "1975"
+        },
+        {
+          "artista": "Black Sabbath",
+          "album": "Technical Ecstasy",
+          "ano": "1976"
+        },
+        {
+          "artista": "Black Sabbath",
+          "album": "Never Say Die!",
+          "ano": "1978"
+        },
+        {
+          "artista": "Black Sabbath",
+          "album": "Heaven and Hell",
+          "ano": "1980"
+        },
+        {
+          "artista": "Black Sabbath",
+          "album": "Mob Rules",
+          "ano": "1981"
+        },
+        {
+          "artista": "Black Sabbath",
+          "album": "Born Again",
+          "ano": "1983"
+        },
+        {
+          "artista": "Black Sabbath",
+          "album": "Seventh Star",
+          "ano": "1986"
+        },
+        {
+          "artista": "Black Sabbath",
+          "album": "The Eternal Idol",
+          "ano": "1987"
+        },
+        {
+          "artista": "Black Sabbath",
+          "album": "Headless Cross",
+          "ano": "1989"
+        },
+        {
+          "artista": "Black Sabbath",
+          "album": "Tyr",
+          "ano": "1990"
+        },
+        {
+          "artista": "Black Sabbath",
+          "album": "Dehumanizer",
+          "ano": "1992"
+        },
+        {
+          "artista": "Black Sabbath",
+          "album": "Cross Purposes",
+          "ano": "1994"
+        },
+        {
+          "artista": "Black Sabbath",
+          "album": "Forbidden",
+          "ano": "1995"
+        },
+        {
+          "artista": "Black Sabbath",
+          "album": "13",
+          "ano": "2013"
+        }
+      ]
+    },
+    {
+      "nome": "AC/DC",
+      "tipo": "Complete a coleção",
+      "descricao": "Discografia de estúdio (edições internacionais), em ordem.",
+      "discos": [
+        {
+          "artista": "AC/DC",
+          "album": "High Voltage",
+          "ano": "1976"
+        },
+        {
+          "artista": "AC/DC",
+          "album": "Dirty Deeds Done Dirt Cheap",
+          "ano": "1976"
+        },
+        {
+          "artista": "AC/DC",
+          "album": "Let There Be Rock",
+          "ano": "1977"
+        },
+        {
+          "artista": "AC/DC",
+          "album": "Powerage",
+          "ano": "1978"
+        },
+        {
+          "artista": "AC/DC",
+          "album": "Highway to Hell",
+          "ano": "1979"
+        },
+        {
+          "artista": "AC/DC",
+          "album": "Back in Black",
+          "ano": "1980"
+        },
+        {
+          "artista": "AC/DC",
+          "album": "For Those About to Rock We Salute You",
+          "ano": "1981"
+        },
+        {
+          "artista": "AC/DC",
+          "album": "Flick of the Switch",
+          "ano": "1983"
+        },
+        {
+          "artista": "AC/DC",
+          "album": "Fly on the Wall",
+          "ano": "1985"
+        },
+        {
+          "artista": "AC/DC",
+          "album": "Blow Up Your Video",
+          "ano": "1988"
+        },
+        {
+          "artista": "AC/DC",
+          "album": "The Razors Edge",
+          "ano": "1990"
+        },
+        {
+          "artista": "AC/DC",
+          "album": "Ballbreaker",
+          "ano": "1995"
+        },
+        {
+          "artista": "AC/DC",
+          "album": "Stiff Upper Lip",
+          "ano": "2000"
+        },
+        {
+          "artista": "AC/DC",
+          "album": "Black Ice",
+          "ano": "2008"
+        },
+        {
+          "artista": "AC/DC",
+          "album": "Rock or Bust",
+          "ano": "2014"
+        },
+        {
+          "artista": "AC/DC",
+          "album": "Power Up",
+          "ano": "2020"
+        }
+      ]
+    },
+    {
+      "nome": "Punk",
+      "tipo": "Assine um estilo",
+      "descricao": "Os discos que fizeram o punk, de Nova York a São Paulo.",
+      "discos": [
+        {
+          "artista": "Ramones",
+          "album": "Ramones",
+          "ano": "1976"
+        },
+        {
+          "artista": "Sex Pistols",
+          "album": "Never Mind the Bollocks",
+          "ano": "1977"
+        },
+        {
+          "artista": "The Clash",
+          "album": "London Calling",
+          "ano": "1979"
+        },
+        {
+          "artista": "Dead Kennedys",
+          "album": "Fresh Fruit for Rotting Vegetables",
+          "ano": "1980"
+        },
+        {
+          "artista": "Cólera",
+          "album": "Pela Paz em Todo Mundo",
+          "ano": "1986"
+        },
+        {
+          "artista": "Bad Religion",
+          "album": "Suffer",
+          "ano": "1988"
+        }
+      ]
+    },
+    {
+      "nome": "Heavy metal",
+      "tipo": "Assine um estilo",
+      "descricao": "Do riff de Birmingham ao thrash e ao metal brasileiro.",
+      "discos": [
+        {
+          "artista": "Black Sabbath",
+          "album": "Paranoid",
+          "ano": "1970"
+        },
+        {
+          "artista": "Judas Priest",
+          "album": "British Steel",
+          "ano": "1980"
+        },
+        {
+          "artista": "Iron Maiden",
+          "album": "The Number of the Beast",
+          "ano": "1982"
+        },
+        {
+          "artista": "Metallica",
+          "album": "Master of Puppets",
+          "ano": "1986"
+        },
+        {
+          "artista": "Slayer",
+          "album": "Reign in Blood",
+          "ano": "1986"
+        },
+        {
+          "artista": "Sepultura",
+          "album": "Roots",
+          "ano": "1996"
+        }
+      ]
+    },
+    {
+      "nome": "Rock nacional",
+      "tipo": "Assine um estilo",
+      "descricao": "Dos Mutantes ao manguebeat.",
+      "discos": [
+        {
+          "artista": "Os Mutantes",
+          "album": "Os Mutantes",
+          "ano": "1968"
+        },
+        {
+          "artista": "Secos & Molhados",
+          "album": "Secos & Molhados",
+          "ano": "1973"
+        },
+        {
+          "artista": "Raul Seixas",
+          "album": "Krig-ha, Bandolo!",
+          "ano": "1973"
+        },
+        {
+          "artista": "Legião Urbana",
+          "album": "Dois",
+          "ano": "1986"
+        },
+        {
+          "artista": "Titãs",
+          "album": "Cabeça Dinossauro",
+          "ano": "1986"
+        },
+        {
+          "artista": "Chico Science & Nação Zumbi",
+          "album": "Da Lama ao Caos",
+          "ano": "1994"
+        }
+      ]
+    }
+  ]
+}

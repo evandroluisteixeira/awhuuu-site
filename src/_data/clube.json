@@ -22,8 +22,13 @@
     {
       "nome": "História do Rock",
       "resumo": "Um álbum por mês, em ordem, do rock'n'roll dos anos 50 até hoje. Doze meses depois, você tem a linha do tempo inteira na estante.",
-      "sugestoes_titulo": "Primeiros meses",
-      "sugestoes": ["Elvis Presley (1956)", "The Beatles, Revolver (1966)", "Led Zeppelin IV (1971)", "Ramones (1976)"],
+      "sugestoes_titulo": "Os primeiros meses",
+      "sugestoes": [
+        "Elvis Presley (1956)",
+        "The Beatles, Revolver (1966)",
+        "Led Zeppelin IV (1971)",
+        "Ramones (1976)"
+      ],
       "link_pagamento": "",
       "ativo": true
     },
@@ -31,7 +36,15 @@
       "nome": "Complete a coleção",
       "resumo": "Escolha a banda e receba a discografia de estúdio em ordem, um disco por mês. Pode pular o que você já tem.",
       "sugestoes_titulo": "Por exemplo",
-      "sugestoes": ["Iron Maiden", "Black Sabbath", "AC/DC", "Led Zeppelin", "Pink Floyd", "Legião Urbana", "ou a banda que você quiser"],
+      "sugestoes": [
+        "Iron Maiden",
+        "Black Sabbath",
+        "AC/DC",
+        "Led Zeppelin",
+        "Pink Floyd",
+        "Legião Urbana",
+        "ou a banda que você quiser"
+      ],
       "link_pagamento": "",
       "ativo": true
     },
@@ -39,7 +52,15 @@
       "nome": "Assine um estilo",
       "resumo": "Um disco essencial por mês dentro de um estilo: o clássico, o lado B e a descoberta.",
       "sugestoes_titulo": "Por exemplo",
-      "sugestoes": ["Punk", "Heavy metal", "Rock nacional", "Psicodelia", "Grunge", "Blues rock", "ou outro estilo"],
+      "sugestoes": [
+        "Punk",
+        "Heavy metal",
+        "Rock nacional",
+        "Psicodelia",
+        "Grunge",
+        "Blues rock",
+        "ou outro estilo"
+      ],
       "link_pagamento": "",
       "ativo": true
     }
@@ -49,7 +70,11 @@
       "nome": "Caixa Primeiro Uivo",
       "preco": "",
       "resumo": "Para dar de presente a quem está começando: um disco clássico, um livro de rock e uma carta com a playlist do lobo.",
-      "inclui": ["1 disco (CD ou vinil)", "1 livro", "Carta com a história e QR code da playlist"],
+      "inclui": [
+        "1 disco (CD ou vinil)",
+        "1 livro",
+        "Carta com a história e QR code da playlist"
+      ],
       "link_pagamento": "",
       "ativo": true
     },
@@ -57,7 +82,11 @@
       "nome": "Caixa Fã de Carteirinha",
       "preco": "",
       "resumo": "Tudo sobre uma banda só: o disco essencial, a biografia e a playlist com o melhor do resto.",
-      "inclui": ["1 disco da banda escolhida", "1 biografia ou livro sobre a banda", "Carta com a playlist"],
+      "inclui": [
+        "1 disco da banda escolhida",
+        "1 biografia ou livro sobre a banda",
+        "Carta com a playlist"
+      ],
       "link_pagamento": "",
       "ativo": true
     }
@@ -68,5 +97,14 @@
     "botao": "Quero ser avisado",
     "link": "https://awhuuu.substack.com"
   },
-  "rodape": "Quer divulgar um show ou um lançamento? Veja os pacotes para bandas e produtores."
+  "rodape": "Quer divulgar um show ou um lançamento? Veja os pacotes para bandas e produtores.",
+  "formulario": {
+    "ativo": true,
+    "titulo": "Entre na lista do clube",
+    "texto": "Conte o que você quer receber. Assim o clube já abre do seu jeito, e você é o primeiro a saber o preço.",
+    "privacidade": "Usamos seus dados só para falar do clube. Para sair da lista, é só pedir pelo Instagram ou responder qualquer e-mail nosso.",
+    "sucesso": "Pronto, você está na lista. Uivamos quando o clube abrir.",
+    "supabase_url": "",
+    "chave_publica": ""
+  }
 }

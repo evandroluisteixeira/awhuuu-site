@@ -222,7 +222,41 @@ content:
           - { name: texto, label: Texto, type: text }
           - { name: botao, label: Texto do botão, type: string }
           - { name: link, label: Link (newsletter ou formulário), type: string }
+      - name: formulario
+        label: Formulário da lista (Supabase)
+        type: object
+        fields:
+          - { name: ativo, label: Mostrar formulário, type: boolean }
+          - { name: titulo, label: Título, type: string }
+          - { name: texto, label: Texto, type: text }
+          - { name: privacidade, label: Texto de consentimento, type: text }
+          - { name: sucesso, label: Mensagem depois de enviar, type: string }
+          - { name: supabase_url, label: Supabase Project URL, type: string, description: "Supabase > Project Settings > API > Project URL" }
+          - { name: chave_publica, label: Chave pública (anon/publishable), type: string, description: "Só a chave pública. Nunca a service_role/secret." }
       - { name: rodape, label: Nota no fim da página, type: text }
+
+  - name: trilhas
+    label: Trilhas do clube (ordem dos discos)
+    type: file
+    path: src/_data/trilhas.json
+    fields:
+      - { name: aviso, label: Nota interna, type: text }
+      - name: trilhas
+        label: Trilhas
+        type: object
+        list: true
+        fields:
+          - { name: nome, label: Nome (banda, estilo ou trilha), type: string }
+          - { name: tipo, label: Caminho, type: string, description: "Ex.: História do Rock, Complete a coleção, Assine um estilo" }
+          - { name: descricao, label: Descrição, type: text }
+          - name: discos
+            label: Discos, na ordem de envio
+            type: object
+            list: true
+            fields:
+              - { name: artista, label: Artista, type: string }
+              - { name: album, label: Álbum, type: string }
+              - { name: ano, label: Ano, type: string }
 
   - name: vitrine
     label: Anuncie e apoie

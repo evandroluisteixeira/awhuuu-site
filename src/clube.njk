@@ -52,11 +52,53 @@ descricao: Assinatura de discos do Awhuuu!. A história do rock, a discografia d
   </div>
 </section>
 
+{%- set f = clube.formulario %}
 <section class="secao apoio" id="espera">
   <div class="faixa">
+    {% if f and f.ativo and f.supabase_url and f.chave_publica %}
+    <h2>{{ f.titulo }}</h2>
+    <p class="chamada-pag">{{ f.texto }}</p>
+    <form class="form-clube" id="form-clube" data-url="{{ f.supabase_url }}" data-chave="{{ f.chave_publica }}">
+      <label>Nome<input name="nome" required maxlength="120" autocomplete="name"></label>
+      <label>E-mail<input name="email" type="email" required maxlength="200" autocomplete="email"></label>
+      <label>Qual caminho?<input name="caminho" list="lista-caminhos" maxlength="120" placeholder="História do Rock, Complete a coleção, uma caixa..."></label>
+      <datalist id="lista-caminhos">{% for a in clube.assinaturas %}<option value="{{ a.nome }}">{% endfor %}{% for c in clube.caixas %}<option value="{{ c.nome }}">{% endfor %}</datalist>
+      <label>Banda ou estilo<input name="escolha" list="lista-escolhas" maxlength="200" placeholder="Iron Maiden, punk, rock nacional..."></label>
+      <datalist id="lista-escolhas">{% for t in trilhas.trilhas %}<option value="{{ t.nome }}">{% endfor %}</datalist>
+      <label>Versão<input name="versao" list="lista-versoes" maxlength="60" placeholder="Digital, disco em casa, ainda não sei"></label>
+      <datalist id="lista-versoes">{% for v in clube.versoes %}<option value="{{ v.nome }}">{% endfor %}<option value="Ainda não sei"></datalist>
+      <label>Formato do disco<input name="formato" list="lista-formatos" maxlength="60" placeholder="CD, vinil, tanto faz"></label>
+      <datalist id="lista-formatos"><option value="CD"><option value="Vinil"><option value="Tanto faz"></datalist>
+      <label>Quanto topa gastar por mês? (R$)<input name="teto_mensal" type="number" min="0" step="1" inputmode="numeric" placeholder="Ex.: 120"></label>
+      <label>Cidade<input name="cidade" maxlength="120" autocomplete="address-level2" placeholder="Para calcular o frete"></label>
+      <label class="largo">Discos que você já tem (para o clube pular)<textarea name="ja_tenho" rows="3" maxlength="2000"></textarea></label>
+      <label class="largo">Mais alguma coisa?<textarea name="observacoes" rows="2" maxlength="2000"></textarea></label>
+      <label class="largo marca"><input type="checkbox" name="consentimento" required> {{ f.privacidade }}</label>
+      <button class="botao" type="submit">{{ clube.espera.botao }}</button>
+      <p class="retorno" role="status" aria-live="polite"></p>
+    </form>
+    <script>
+    (function(){
+      var form=document.getElementById('form-clube'), ret=form.querySelector('.retorno');
+      form.addEventListener('submit',function(e){
+        e.preventDefault(); var b=form.querySelector('button'); b.disabled=true; ret.textContent='Enviando...';
+        var d=Object.fromEntries(new FormData(form)); d.consentimento=!!form.consentimento.checked;
+        d.teto_mensal=d.teto_mensal?Number(d.teto_mensal):null; d.origem=location.pathname+(location.search||'');
+        Object.keys(d).forEach(function(k){ if(d[k]==='') d[k]=null; });
+        fetch(form.dataset.url.replace(/\/$/,'')+'/rest/v1/interessados',{method:'POST',headers:{'apikey':form.dataset.chave,'Authorization':'Bearer '+form.dataset.chave,'Content-Type':'application/json','Prefer':'return=minimal'},body:JSON.stringify(d)})
+        .then(function(r){
+          if(r.ok){ form.reset(); ret.textContent={{ f.sucesso | dump | safe }}; return; }
+          return r.json().then(function(j){ ret.textContent=(j&&j.code==='23505')?'Esse e-mail já está na lista.':'Não deu certo agora. Tente de novo em instantes.'; });
+        }).catch(function(){ ret.textContent='Sem conexão. Tente de novo em instantes.'; })
+        .finally(function(){ b.disabled=false; });
+      });
+    })();
+    </script>
+    {% else %}
     <h2>{{ clube.espera.titulo }}</h2>
     <p class="chamada-pag">{{ clube.espera.texto }}</p>
     {% if clube.espera.link %}<a class="botao" href="{{ clube.espera.link }}" target="_blank" rel="noopener">{{ clube.espera.botao }}</a>{% endif %}
+    {% endif %}
   </div>
 </section>
 
