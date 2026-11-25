@@ -18,6 +18,7 @@ eleventyComputed:
     <p class="rotulo">Editoria</p>
     <h1>{{ ed.nome }}</h1>
     <p>{{ ed.descricao }}</p>
+    {% if ed.slug == "rota-666" %}<p class="link-mapa"><a class="botao" href="/mapa/">Ver no mapa</a></p>{% endif %}
   </div>
 </header>
 <section class="secao" style="border-top:0">

@@ -1,0 +1,93 @@
+---
+layout: base.njk
+permalink: /mapa/
+title: "Mapa do rock"
+descricao: "Os lugares das histórias do Awhuuu!: clubes, palcos e esquinas onde o rock aconteceu, cada um com a matéria checada na fonte."
+---
+{%- set lugares = collections.materias | lugaresDe(editorias) %}
+<link rel="stylesheet" href="/vendor/leaflet/leaflet.css">
+
+<header class="cab-mapa faixa">
+  <p class="rotulo">Rota 666</p>
+  <h1>Mapa do rock</h1>
+  <p>Cada pino é um lugar onde o rock aconteceu e virou matéria aqui. Clube, palco, estrada, esquina. O mapa cresce a cada história publicada.</p>
+</header>
+
+<div class="mapa-moldura">
+  <div id="mapa" class="mapa" role="region" aria-label="Mapa com os lugares das matérias"></div>
+  {% if not lugares.length %}
+  <p class="mapa-vazio">O primeiro pino entra com a primeira matéria da Rota 666.<br>Volte na lua cheia.</p>
+  {% endif %}
+</div>
+
+{% if lugares.length %}
+<section class="secao lugares" style="border-top:0">
+  <div class="faixa">
+    <h2>{{ lugares.length }} {{ "lugar" if lugares.length == 1 else "lugares" }} no mapa</h2>
+    <ol class="lista-lugares">
+      {% for l in lugares %}
+      <li>
+        <button type="button" class="ir-pino" data-i="{{ loop.index0 }}" aria-label="Mostrar {{ l.nome }} no mapa">
+          <span class="pino-num">{{ loop.index }}</span>
+        </button>
+        <div>
+          <h3>{{ l.nome }}</h3>
+          {% if l.endereco %}<p class="end">{{ l.endereco }}{% if l.aproximado %} · local aproximado{% endif %}</p>{% endif %}
+          {% if l.nota %}<p>{{ l.nota }}</p>{% endif %}
+          <a href="{{ l.url }}">{{ l.editoria }}: {{ l.titulo }} →</a>
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+{% endif %}
+
+<script src="/vendor/leaflet/leaflet.js"></script>
+<script>
+(function () {
+  var lugares = {{ lugares | dump | safe }};
+  var mapa = L.map('mapa', { scrollWheelZoom: false, worldCopyJump: true }).setView([10, -30], 2);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(mapa);
+  mapa.on('click', function () { mapa.scrollWheelZoom.enable(); });
+
+  var pinos = lugares.map(function (l, i) {
+    var icone = L.divIcon({
+      className: 'pino' + (l.aproximado ? ' aprox' : ''),
+      html: '<span>' + (i + 1) + '</span>',
+      iconSize: [34, 34], iconAnchor: [17, 17], popupAnchor: [0, -18]
+    });
+    var caixa = document.createElement('div');
+    caixa.className = 'balao';
+    var ed = document.createElement('p'); ed.className = 'ed'; ed.textContent = l.editoria;
+    var h = document.createElement('h3'); h.textContent = l.nome;
+    caixa.appendChild(ed); caixa.appendChild(h);
+    if (l.endereco) {
+      var e = document.createElement('p'); e.className = 'end';
+      e.textContent = l.endereco + (l.aproximado ? ' · local aproximado' : '');
+      caixa.appendChild(e);
+    }
+    var a = document.createElement('a'); a.href = l.url; a.textContent = 'Ler a matéria →';
+    caixa.appendChild(a);
+    return L.marker([l.lat, l.lng], { icon: icone, title: l.nome }).addTo(mapa).bindPopup(caixa);
+  });
+
+  if (pinos.length === 1) {
+    mapa.setView(pinos[0].getLatLng(), 5);
+  } else if (pinos.length > 1) {
+    mapa.fitBounds(L.featureGroup(pinos).getBounds(), { padding: [48, 48], maxZoom: 6 });
+  }
+
+  document.querySelectorAll('.ir-pino').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var p = pinos[+b.dataset.i];
+      document.getElementById('mapa').scrollIntoView({ behavior: 'smooth', block: 'center' });
+      mapa.flyTo(p.getLatLng(), 14, { duration: 1.2 });
+      setTimeout(function () { p.openPopup(); }, 1300);
+    });
+  });
+})();
+</script>

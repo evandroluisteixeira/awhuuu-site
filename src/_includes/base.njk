@@ -25,6 +25,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Saira+Stencil+One&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/estilo.css">
+{%- if site.analytics and site.analytics.umami_id %}
+<script defer src="https://cloud.umami.is/script.js" data-website-id="{{ site.analytics.umami_id }}" data-domains="awhuuu.com.br"></script>
+{%- endif %}
 </head>
 <body>
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
@@ -40,6 +43,7 @@
       <a href="/materias/"{% if page.url == "/materias/" %} aria-current="page"{% endif %}>Matérias</a>
       <a href="/#editorias">Editorias</a>
       <a href="/editoria/fita-gasta/"{% if page.url == "/editoria/fita-gasta/" %} aria-current="page"{% endif %}>Playlists</a>
+      <a href="/mapa/"{% if page.url == "/mapa/" %} aria-current="page"{% endif %}>Mapa</a>
       <a href="/parcerias/"{% if page.url == "/parcerias/" %} aria-current="page"{% endif %}>Parcerias</a>
     </nav>
   </div>

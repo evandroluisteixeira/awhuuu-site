@@ -17,6 +17,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/favicon.ico": "favicon.ico" });
   eleventyConfig.addPassthroughCopy({ "src/verificacao": "/" });
   eleventyConfig.ignores.add("src/verificacao/**");
+  eleventyConfig.addPassthroughCopy({ "node_modules/leaflet/dist/leaflet.js": "vendor/leaflet/leaflet.js" });
+  eleventyConfig.addPassthroughCopy({ "node_modules/leaflet/dist/leaflet.css": "vendor/leaflet/leaflet.css" });
 
   // todas as matérias publicadas, da mais nova para a mais antiga
   eleventyConfig.addCollection("materias", (api) =>
@@ -32,6 +34,24 @@ export default function (eleventyConfig) {
       if (!MOSTRAR_FUTURO && data.page.date > new Date()) return false;
       return data.permalink;
     },
+  });
+
+  // lugares marcados nas matérias publicadas, para o mapa
+  eleventyConfig.addFilter("lugaresDe", (materias, editorias) => {
+    const lista = [];
+    for (const m of materias || []) {
+      for (const l of m.data.lugares || []) {
+        const lat = Number(l.lat), lng = Number(l.lng);
+        if (!Number.isFinite(lat) || !Number.isFinite(lng)) continue;
+        const ed = (editorias || []).find((e) => e.slug === m.data.editoria) || {};
+        lista.push({
+          nome: l.nome || m.data.title, endereco: l.endereco || "", nota: l.nota || "",
+          aproximado: !!l.aproximado, lat, lng,
+          titulo: m.data.title, url: m.url, editoria: ed.nome || "",
+        });
+      }
+    }
+    return lista;
   });
 
   eleventyConfig.addFilter("daEditoria", (materias, slug) =>

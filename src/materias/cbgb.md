@@ -29,6 +29,12 @@ fontes:
   - nome: "Boutique opens in old CBGB's space — The Real Deal"
     url: "https://therealdeal.com/2008/04/07/boutique-opens-in-old-cbgb-s-space/"
 pergunta: "Que lugar lendário você queria ter conhecido?"
+lugares:
+  - nome: CBGB
+    endereco: 315 Bowery, Nova York (EUA)
+    nota: "Onde Ramones, Television, Blondie, Talking Heads e Patti Smith fizeram nome. Fechou em 2006."
+    lat: 40.72528
+    lng: -73.99194
 ---
 CBGB queria dizer country, bluegrass e blues. Virou berço do punk. O dono abriu o bar pra tocar música de raiz e acabou recebendo Ramones, Blondie, Talking Heads, Television e Patti Smith.
 

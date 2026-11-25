@@ -9,5 +9,8 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  }
 }

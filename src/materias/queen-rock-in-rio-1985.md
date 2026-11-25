@@ -29,6 +29,13 @@ fontes:
   - nome: "Queen The Greatest, episódio 29 — brianmay.com"
     url: "https://brianmay.com/queen-news/2021/10/queen-the-greatest-episode-29"
 pergunta: "Você estava lá ou conhece alguém que estava?"
+lugares:
+  - nome: Cidade do Rock (1985)
+    endereco: Jacarepaguá, Rio de Janeiro, perto do Riocentro
+    nota: "Palco do primeiro Rock in Rio. O terreno foi demolido depois do festival; o pino marca a região, não o ponto exato."
+    lat: -22.97917
+    lng: -43.41333
+    aproximado: true
 ---
 Duas da manhã. Uma cidade do rock construída do zero em Jacarepaguá. O Queen sobe ao palco do primeiro Rock in Rio e, no meio do show, desliga a banda: só violão e voz.
 

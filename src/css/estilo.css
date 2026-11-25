@@ -171,6 +171,9 @@ footer a{color:var(--cinza)}
 @media (max-width:640px){
   .barra .marca img{height:32px}
   .barra nav a{font-size:15px}
+  .barra nav{flex-wrap:nowrap;overflow-x:auto;gap:14px;min-width:0;scrollbar-width:none;-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent)}
+  .barra nav::-webkit-scrollbar{display:none}
+  .barra nav a{white-space:nowrap}
   .corpo{font-size:17px}
   .navega{grid-template-columns:1fr}
 }
@@ -190,3 +193,35 @@ footer a{color:var(--cinza)}
 .news-form .botao{border:0;cursor:pointer}
 .news .news-nota{font-size:13px;color:var(--apagado);margin:0}
 .news .news-nota a{color:var(--cinza)}
+
+/* Mapa do rock */
+.cab-mapa{padding:72px 24px 32px}
+.cab-mapa h1{font-family:var(--titulo);font-weight:400;font-size:clamp(48px,9vw,104px);line-height:.95;margin:0 0 20px}
+.cab-mapa p:last-child{max-width:60ch;color:var(--cinza);margin:0}
+.mapa-moldura{position:relative;border-top:1px solid var(--linha);border-bottom:1px solid var(--linha)}
+.mapa{height:min(72vh,640px);background:#111}
+.mapa .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.78) contrast(1.1) sepia(.45) saturate(.7)}
+.mapa-vazio{position:absolute;inset:auto 16px 32px;margin:0 auto;max-width:440px;z-index:500;text-align:center;background:rgba(10,10,10,.9);border:1px dashed var(--sepia);padding:20px;color:var(--osso)}
+.leaflet-container{font-family:var(--mono)}
+.leaflet-control-attribution{background:rgba(10,10,10,.75)!important;color:var(--apagado)!important;font-size:11px}
+.leaflet-control-attribution a{color:var(--cinza)!important}
+.leaflet-bar a{background:var(--noite);color:var(--osso);border-color:var(--linha)}
+.leaflet-bar a:hover{background:var(--sangue);color:var(--noite)}
+.pino{display:grid;place-items:center}
+.pino span{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--sangue);color:var(--noite);font-family:var(--titulo);font-size:16px;border:2px solid var(--osso);box-shadow:0 0 0 6px rgba(213,6,12,.25),0 0 22px rgba(213,6,12,.7)}
+.pino.aprox span{border-style:dashed}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--noite);color:var(--osso);border:1px solid var(--linha);border-radius:0}
+.leaflet-popup-content{margin:16px 18px}
+.balao .ed{font-family:var(--stencil);color:var(--sangue);margin:0 0 4px;font-size:14px}
+.balao h3{font-family:var(--titulo);font-weight:400;font-size:24px;line-height:1.05;margin:0 0 6px}
+.balao .end{color:var(--cinza);font-size:13px;margin:0 0 10px}
+.balao a{color:var(--osso);font-weight:700}
+.leaflet-container a.leaflet-popup-close-button{color:var(--cinza)}
+.lista-lugares{list-style:none;margin:0;padding:0;display:grid;gap:28px;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+.lista-lugares li{display:flex;gap:16px;align-items:flex-start;border-top:1px solid var(--linha);padding-top:20px}
+.lista-lugares h3{font-family:var(--titulo);font-weight:400;font-size:28px;line-height:1.05;margin:0 0 6px}
+.lista-lugares p{margin:0 0 8px;color:var(--cinza);font-size:15px}
+.lista-lugares .end{color:var(--sepia);font-size:14px}
+.ir-pino{flex:none;width:44px;height:44px;border-radius:50%;border:2px solid var(--osso);background:var(--sangue);color:var(--noite);font-family:var(--titulo);font-size:20px;cursor:pointer}
+.ir-pino:hover,.ir-pino:focus-visible{background:var(--osso)}
+.link-mapa{margin-top:20px}

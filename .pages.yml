@@ -109,6 +109,18 @@ content:
         fields:
           - { name: nome, label: Produto, type: string }
           - { name: url, label: Link de afiliado, type: string }
+      - name: lugares
+        label: Lugares no mapa
+        description: "Cada lugar vira um pino em /mapa/. Para pegar a latitude e a longitude, clique com o botão direito no lugar no Google Maps: o primeiro número é a latitude, o segundo a longitude."
+        type: object
+        list: true
+        fields:
+          - { name: nome, label: Nome do lugar, type: string }
+          - { name: endereco, label: Endereço ou região, type: string }
+          - { name: nota, label: O que aconteceu ali, type: string }
+          - { name: lat, label: Latitude, type: number }
+          - { name: lng, label: Longitude, type: number }
+          - { name: aproximado, label: Local aproximado, type: boolean }
       - name: pergunta
         label: Pergunta final para o público
         type: string
@@ -158,3 +170,8 @@ content:
           - { name: chamada, label: Texto do convite, type: text }
       - { name: afiliados_ativos, label: Mostrar os Achados (afiliados), type: boolean }
       - { name: aviso_afiliados, label: Aviso de afiliados, type: text }
+      - name: analytics
+        label: Contador de visitas
+        type: object
+        fields:
+          - { name: umami_id, label: ID do site no Umami (vazio = desligado), type: string }

@@ -26,5 +26,8 @@
     "url": "https://awhuuu.substack.com",
     "nome": "Carta da Lua Cheia",
     "chamada": "Uma carta por semana com as matérias, a playlist e o que vem por aí. De graça, direto no seu e-mail."
+  },
+  "analytics": {
+    "umami_id": ""
   }
 }

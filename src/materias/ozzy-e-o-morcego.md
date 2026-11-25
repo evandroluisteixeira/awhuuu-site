@@ -29,6 +29,12 @@ fontes:
   - nome: "Did Ozzy Osbourne actually bite a bat's head off on stage? — AOL"
     url: "https://www.aol.com/did-ozzy-osbourne-actually-bite-130053377.html"
 pergunta: "Conhece história mais bizarra do rock?"
+lugares:
+  - nome: Veterans Memorial Auditorium
+    endereco: 833 5th Avenue, Des Moines, Iowa (EUA)
+    nota: "Onde Ozzy mordeu o morcego, em 20 de janeiro de 1982. Hoje é um centro de convenções."
+    lat: 41.5925
+    lng: -93.62278
 ---
 Turnê *Diary of a Madman*, 20 de janeiro de 1982, Des Moines, no estado americano de Iowa. Cerca de 5 mil pessoas no Veterans Memorial Auditorium. Num momento do show, Ozzy jogava carne crua na plateia, e a plateia devolvia o que tivesse levado. Naquela noite, alguém tinha levado um morcego.
 
