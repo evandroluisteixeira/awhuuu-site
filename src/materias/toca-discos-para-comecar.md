@@ -11,7 +11,7 @@ ficha:
   - campo: Para quem
     valor: quem vai comprar o primeiro toca-discos
   - campo: Faixa de preço
-    valor: de uns R$ 1.250 a uns R$ 4.500, mais as caixas de som
+    valor: de uns R$ 1.350 a uns R$ 3.900, mais as caixas de som
   - campo: Preços vistos em
     valor: novembro de 2026 (mudam toda semana; confira na loja)
 acervo:
@@ -33,6 +33,19 @@ fontes:
     url: "https://support.harmanaudio.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9d1575cf/pdfs/JBL%20Spinner%20BT_%20Specsheet_PTBR%20(1).pdf"
   - nome: "AT-LP60X — menor preço no Buscapé"
     url: "https://www.buscape.com.br/toca-discos/toca-discos-vinil-audio-technica-automatico-at-lp60x-bk-preto"
+achados:
+  - nome: "Audio-Technica AT-LP60X (Mercado Livre)"
+    url: "https://meli.la/25XQa2r"
+  - nome: "Audio-Technica AT-LP70X (Mercado Livre)"
+    url: "https://meli.la/1wMQDcj"
+  - nome: "Audio-Technica AT-LP120XUSB (Mercado Livre)"
+    url: "https://meli.la/1WVo7xf"
+  - nome: "JBL Spinner BT (Mercado Livre)"
+    url: "https://meli.la/1ECvNGr"
+  - nome: "Caixas Edifier R1280T (Mercado Livre)"
+    url: "https://meli.la/1Yqh65s"
+  - nome: "Caixas Edifier R1280DB (Mercado Livre)"
+    url: "https://meli.la/1JGJmRK"
 pergunta: "Qual foi o seu primeiro toca-discos? E ele sobreviveu?"
 ---
 
@@ -56,27 +69,27 @@ O que procurar no lugar:
 
 ## Degrau 1: o primeiro honesto
 
-**Audio-Technica AT-LP60X.** Um dos toca-discos de entrada mais vendidos do país, e com razão: automático (aperta um botão, o braço desce e volta sozinho), cápsula magnética, agulha trocável e pré-amplificador embutido. Na semana desta matéria saía por volta de **R$ 1.250 a R$ 1.400** no Pix nas grandes lojas.
+**Audio-Technica AT-LP60X.** Um dos toca-discos de entrada mais vendidos do país, e com razão: automático (aperta um botão, o braço desce e volta sozinho), cápsula magnética, agulha trocável e pré-amplificador embutido. Na semana desta matéria saía por volta de **R$ 1.250 a R$ 1.400** nas grandes lojas.
 
 O que ele não faz: você não ajusta o peso da agulha nem troca a cápsula por uma melhor. É um aparelho para tocar disco bem, não para evoluir.
 
 ## Degrau 2: o que cresce com você
 
-**Audio-Technica AT-LP70X.** O degrau acima do LP60X, sem mudar o jeito de usar. Corpo mais pesado (vibra menos), braço mais longo em formato de J e a cápsula VM95, que aceita agulhas melhores quando você quiser subir de nível. Também é automático e tem pré-amplificador. A versão com Bluetooth (AT-LP70XBT) aparecia perto de **R$ 2.600**.
+**Audio-Technica AT-LP70X.** O degrau acima do LP60X, sem mudar o jeito de usar. Corpo mais pesado (vibra menos), braço mais longo em formato de J e a cápsula VM95, que aceita agulhas melhores quando você quiser subir de nível. Também é automático e tem pré-amplificador. No Mercado Livre, a versão sem Bluetooth estava por **R$ 1.754**, pouca diferença para o LP60X.
 
 Se der para esticar até aqui, estique. É a compra que você não vai querer trocar tão cedo.
 
 ## Degrau 3: o ritual completo
 
-**Audio-Technica AT-LP120XUSB.** Tração direta, braço manual com contrapeso e anti-skating, controle de velocidade, saída USB para digitalizar seus discos. Fica por volta de **R$ 4.100 a R$ 4.500**.
+**Audio-Technica AT-LP120XUSB.** Tração direta, braço manual com contrapeso e anti-skating, controle de velocidade, saída USB para digitalizar seus discos. No Mercado Livre estava por **R$ 3.899**.
 
-Outra opção manual, mais bonita na estante: **JBL Spinner BT**, com prato e braço de alumínio, cápsula magnética já alinhada de fábrica, pré-amplificador e Bluetooth aptX HD. Visto a **R$ 3.230** no Magalu.
+Outra opção manual, mais bonita na estante: **JBL Spinner BT**, com prato e braço de alumínio, cápsula magnética já alinhada de fábrica, pré-amplificador e Bluetooth aptX HD. Visto a **R$ 3.230** no Mercado Livre e no Magalu.
 
 Por que manual? Porque você mesmo desce o braço até o disco. Dá mais trabalho, e é exatamente esse o gesto que faz parte da graça.
 
 ## E o som sai por onde?
 
-Toca-discos não tem caixa de som. Com pré-amplificador embutido, o caminho mais simples é um **par de caixas ativas**. A dupla clássica de entrada é a **Edifier R1280T** (só cabo, perto de **R$ 860** no Pix) ou a **R1280DB** (com Bluetooth e entrada óptica, de **R$ 1.060 a R$ 1.330**). Duas entradas RCA: o toca-discos fica ligado numa, o computador na outra.
+Toca-discos não tem caixa de som. Com pré-amplificador embutido, o caminho mais simples é um **par de caixas ativas**. A dupla clássica de entrada é a **Edifier R1280T** (só cabo, perto de **R$ 900**) ou a **R1280DB** (com Bluetooth e entrada óptica, perto de **R$ 1.300**). Duas entradas RCA: o toca-discos fica ligado numa, o computador na outra.
 
 ## O que o lobo comprou
 
@@ -85,5 +98,5 @@ Toca-discos não tem caixa de som. Com pré-amplificador embutido, o caminho mai
 ## Resumo da lua
 
 - **Até R$ 1.500:** AT-LP60X + caixas que você já tiver.
-- **Até R$ 3.500:** AT-LP70X + Edifier R1280T.
+- **Até R$ 3.000:** AT-LP70X + Edifier R1280T.
 - **Para a vida toda:** AT-LP120XUSB ou JBL Spinner BT + Edifier R1280DB.
