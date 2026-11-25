@@ -85,7 +85,7 @@ descricao: Assinatura de discos do Awhuuu!. A história do rock, a discografia d
         var d=Object.fromEntries(new FormData(form)); d.consentimento=!!form.consentimento.checked;
         d.teto_mensal=d.teto_mensal?Number(d.teto_mensal):null; d.origem=location.pathname+(location.search||'');
         Object.keys(d).forEach(function(k){ if(d[k]==='') d[k]=null; });
-        fetch(form.dataset.url.replace(/\/$/,'')+'/rest/v1/interessados',{method:'POST',headers:{'apikey':form.dataset.chave,'Authorization':'Bearer '+form.dataset.chave,'Content-Type':'application/json','Prefer':'return=minimal'},body:JSON.stringify(d)})
+        fetch(form.dataset.url.replace(/\/$/,'')+'/rest/v1/interessados',{method:'POST',headers:Object.assign({'apikey':form.dataset.chave,'Content-Type':'application/json','Prefer':'return=minimal'},/^sb_/.test(form.dataset.chave)?{}:{'Authorization':'Bearer '+form.dataset.chave}),body:JSON.stringify(d)})
         .then(function(r){
           if(r.ok){ form.reset(); ret.textContent={{ f.sucesso | dump | safe }}; return; }
           return r.json().then(function(j){ ret.textContent=(j&&j.code==='23505')?'Esse e-mail já está na lista.':'Não deu certo agora. Tente de novo em instantes.'; });
