@@ -39,7 +39,8 @@
     "nome": "Último Bonde",
     "descricao": "A agenda: o que rola na cena e como voltar pra casa.",
     "capa": "/img/capas/ultimo-bonde.webp",
-    "ativa": false
+    "ativa": true,
+    "link": "/agenda/"
   },
   {
     "slug": "madrugada-eletrica",

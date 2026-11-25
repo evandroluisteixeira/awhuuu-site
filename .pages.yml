@@ -150,6 +150,7 @@ content:
       - { name: descricao, label: Descrição, type: text }
       - { name: capa, label: Capa, type: image }
       - { name: ativa, label: Editoria ativa, type: boolean }
+      - { name: link, label: Link no cartão da home (opcional), type: string, description: "Ex.: /agenda/. Vazio = página da editoria." }
 
   - name: agenda
     label: Agenda de shows

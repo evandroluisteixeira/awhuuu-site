@@ -297,3 +297,6 @@ footer a{color:var(--cinza)}
 .embed-spotify{margin:16px 0}
 .embed-spotify iframe{width:100%;height:452px;border:0;border-radius:12px;display:block}
 @media (max-width:640px){.embed-spotify iframe{height:380px}}
+.texto-corrido h2{font-family:var(--titulo);font-weight:400;font-size:32px;line-height:1.1;margin:40px 0 10px;color:var(--osso)}
+.texto-corrido p{color:var(--cinza);margin:0 0 14px}
+.texto-corrido a{color:var(--osso)}

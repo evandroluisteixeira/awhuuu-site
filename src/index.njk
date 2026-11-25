@@ -42,7 +42,7 @@ layout: base.njk
     <h2>As editorias</h2>
     <div class="grade-ed">
       {% for e in editorias %}
-      <a class="ed-card" href="/editoria/{{ e.slug }}/">
+      <a class="ed-card" href="{{ e.link or ('/editoria/' + e.slug + '/') }}">
         <img src="{{ e.capa }}" alt="" loading="lazy" width="800" height="1000">
         <div class="txt">
           <h3>{{ e.nome }}</h3>

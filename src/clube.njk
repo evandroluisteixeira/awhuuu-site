@@ -73,7 +73,7 @@ descricao: Assinatura de discos do Awhuuu!. A história do rock, a discografia d
       <label>Cidade<input name="cidade" maxlength="120" autocomplete="address-level2" placeholder="Para calcular o frete"></label>
       <label class="largo">Discos que você já tem (para o clube pular)<textarea name="ja_tenho" rows="3" maxlength="2000"></textarea></label>
       <label class="largo">Mais alguma coisa?<textarea name="observacoes" rows="2" maxlength="2000"></textarea></label>
-      <label class="largo marca"><input type="checkbox" name="consentimento" required> {{ f.privacidade }}</label>
+      <label class="largo marca"><input type="checkbox" name="consentimento" required> <span>{{ f.privacidade }} <a href="/privacidade/">Ler a política</a>.</span></label>
       <button class="botao" type="submit">{{ clube.espera.botao }}</button>
       <p class="retorno" role="status" aria-live="polite"></p>
     </form>
