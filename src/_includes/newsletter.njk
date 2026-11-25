@@ -1,0 +1,13 @@
+{%- if site.newsletter and site.newsletter.url %}
+<section class="news" aria-labelledby="titulo-news">
+  <p class="rotulo">Newsletter</p>
+  <h2 id="titulo-news">{{ site.newsletter.nome }}</h2>
+  <p>{{ site.newsletter.chamada }}</p>
+  <form class="news-form" action="{{ site.newsletter.url }}/api/v1/free?nojs=true" method="post" target="_blank">
+    <label class="pular" for="email-{{ page.fileSlug or 'home' }}">Seu e-mail</label>
+    <input id="email-{{ page.fileSlug or 'home' }}" type="email" name="email" placeholder="seu@email.com" required autocomplete="email">
+    <button class="botao" type="submit">Assinar</button>
+  </form>
+  <p class="news-nota">Enviada pelo Substack. Dá para sair quando quiser. Ou <a href="{{ site.newsletter.url }}" target="_blank" rel="noopener">leia as edições anteriores</a>.</p>
+</section>
+{%- endif %}

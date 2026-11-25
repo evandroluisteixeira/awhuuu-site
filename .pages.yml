@@ -149,5 +149,12 @@ content:
           - { name: nome, label: Rede, type: string }
           - { name: rotulo, label: Perfil, type: string }
           - { name: url, label: Endereço, type: string }
+      - name: newsletter
+        label: Newsletter
+        type: object
+        fields:
+          - { name: url, label: Endereço do Substack, type: string }
+          - { name: nome, label: Nome da newsletter, type: string }
+          - { name: chamada, label: Texto do convite, type: text }
       - { name: afiliados_ativos, label: Mostrar os Achados (afiliados), type: boolean }
       - { name: aviso_afiliados, label: Aviso de afiliados, type: text }

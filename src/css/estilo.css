@@ -179,3 +179,14 @@ footer a{color:var(--cinza)}
 .corpo .faixas,.corpo .links-ouvir,.corpo .fases{padding-left:0}
 .corpo .pergunta{font-family:var(--stencil);font-size:22px;color:var(--osso);border-top:1px solid var(--linha);padding-top:24px;margin-top:40px}
 .compartilhe a{margin-right:4px}
+
+/* newsletter */
+.news{border:1px solid var(--sangue);padding:32px 28px;margin:48px 0;background:linear-gradient(135deg,rgba(213,6,12,.08),transparent 60%)}
+.news h2{font-family:var(--titulo);font-weight:400;font-size:clamp(32px,4.5vw,48px);line-height:1;margin:0 0 12px}
+.news p{margin:0 0 20px;color:var(--osso);max-width:56ch}
+.news-form{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 14px}
+.news-form input{flex:1 1 240px;min-height:52px;padding:12px 16px;background:var(--noite);border:1px solid var(--osso);color:var(--osso);font-family:var(--mono);font-size:16px}
+.news-form input:focus{outline:2px solid var(--sangue);outline-offset:2px}
+.news-form .botao{border:0;cursor:pointer}
+.news .news-nota{font-size:13px;color:var(--apagado);margin:0}
+.news .news-nota a{color:var(--cinza)}

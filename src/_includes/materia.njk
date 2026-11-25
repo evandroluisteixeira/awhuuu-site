@@ -72,6 +72,8 @@ layout: base.njk
     </section>
     {% endif %}
 
+    {% include "newsletter.njk" %}
+
     <p class="compartilhe">Gostou? Manda pra quem precisa ouvir. Siga o uivo:
       {% for r in site.redes %}<a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.nome }}</a>{% endfor %}</p>
 

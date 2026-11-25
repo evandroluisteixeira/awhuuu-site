@@ -4,10 +4,27 @@
   "url": "https://awhuuu.com.br",
   "descricao": "Acervo vivo de rock: discos, shows, lugares, histórias e a cena daqui, checados na fonte e contados de madrugada.",
   "redes": [
-    { "nome": "Instagram", "rotulo": "@awhuuu.rock", "url": "https://www.instagram.com/awhuuu.rock/" },
-    { "nome": "TikTok", "rotulo": "@awhuuu.rock", "url": "https://www.tiktok.com/@awhuuu.rock" },
-    { "nome": "YouTube", "rotulo": "@awhuuurock", "url": "https://www.youtube.com/@awhuuurock" }
+    {
+      "nome": "Instagram",
+      "rotulo": "@awhuuu.rock",
+      "url": "https://www.instagram.com/awhuuu.rock/"
+    },
+    {
+      "nome": "TikTok",
+      "rotulo": "@awhuuu.rock",
+      "url": "https://www.tiktok.com/@awhuuu.rock"
+    },
+    {
+      "nome": "YouTube",
+      "rotulo": "@awhuuurock",
+      "url": "https://www.youtube.com/@awhuuurock"
+    }
   ],
   "afiliados_ativos": false,
-  "aviso_afiliados": "Alguns links desta página são de afiliado: se você comprar por eles, o Awhuuu! ganha uma pequena comissão, sem custo extra para você."
+  "aviso_afiliados": "Alguns links desta página são de afiliado: se você comprar por eles, o Awhuuu! ganha uma pequena comissão, sem custo extra para você.",
+  "newsletter": {
+    "url": "https://awhuuu.substack.com",
+    "nome": "Carta da Lua Cheia",
+    "chamada": "Uma carta por semana com as matérias, a playlist e o que vem por aí. De graça, direto no seu e-mail."
+  }
 }
