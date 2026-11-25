@@ -43,9 +43,12 @@ layout: base.njk
 
     {% if nota %}{{ notaLua(nota, nota_frase) }}{% endif %}
 
-    {% if youtube_playlist or links_ouvir %}
+    {% if spotify_playlist or youtube_playlist or links_ouvir %}
     <section class="ouvir" aria-label="Ouvir">
       <h2>Ouça</h2>
+      {% if spotify_playlist %}
+      <div class="embed-spotify"><iframe src="https://open.spotify.com/embed/playlist/{{ spotify_playlist }}?theme=0" title="Playlist no Spotify" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div>
+      {% endif %}
       {% if youtube_playlist %}
       <div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list={{ youtube_playlist }}" title="Playlist no YouTube" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
       {% endif %}

@@ -15,9 +15,9 @@ ficha:
   - campo: Preços vistos em
     valor: novembro de 2026 (mudam toda semana; confira na loja)
 acervo:
-  imagem: ""
-  alt: "Foto da guitarra do Awhuuu!"
-  legenda: "A guitarra do lobo. [trocar pela foto]"
+  imagem: "/img/lobo/lobo-guitarra.webp"
+  alt: "Ilustração de um lobisomem de jaqueta de couro tocando uma guitarra vermelha ligada a um amplificador pequeno, sentado num banquinho do quarto, sob a lua cheia"
+  legenda: "O lobo no primeiro ensaio. Ilustração do Awhuuu!"
 fontes:
   - nome: "Pacifica 012/100 series — Yamaha"
     url: "https://ca.yamaha.com/en/products/musical_instruments/guitars_basses/el_guitars/pacifica/pac_100.html"

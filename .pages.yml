@@ -92,6 +92,10 @@ content:
       - name: nota_frase
         label: Frase da nota
         type: string
+      - name: spotify_playlist
+        label: ID da playlist do Spotify
+        description: O código depois de /playlist/ no link do Spotify (a playlist precisa estar pública).
+        type: string
       - name: youtube_playlist
         label: ID da playlist do YouTube
         description: O código depois de list= no endereço da playlist.

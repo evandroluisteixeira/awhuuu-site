@@ -5,8 +5,8 @@ numero: 1
 date: 2026-12-18T20:00:00-03:00
 rascunho: true
 resumo: "Coturno, jaqueta, calça rasgada, cinto de pirâmide, choker, bracelete e corrente. Peça por peça, com o preço da semana."
-capa: /img/capas/garagem.webp
-capa_alt: "[trocar pela capa de Trapos e Bugigangas]"
+capa: /img/capas/trapos-e-bugigangas.webp
+capa_alt: "Ilustração de um lobisomem de jaqueta de couro ajustando uma choker de spikes diante de um espelho rachado, com saia xadrez, calças rasgadas, coturnos e correntes ao redor e a lua cheia na janela"
 ficha:
   - campo: Para quem
     valor: quem quer montar (ou completar) o visual rock sem gastar muito
@@ -38,7 +38,7 @@ achados:
 pergunta: "Qual peça do seu visual já tem mais história que você?"
 ---
 
-> Rascunho interno. Antes de publicar: capa da editoria, foto do Evandro com as peças, conferir preços e estoque na semana.
+> Rascunho interno. Antes de publicar: texto do Evandro em "O que o lobo veste", conferir preços e estoque na semana.
 
 O visual rock nunca foi sobre etiqueta. Foi sobre o que dava para arrumar: jaqueta do brechó, alfinete na calça, tacha pregada à mão no cinto. Aqui vai o kit básico, peça por peça, pensado para durar mais que uma turnê.
 

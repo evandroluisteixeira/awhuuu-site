@@ -6,8 +6,11 @@ date: 2026-11-27T20:00:00-03:00
 resumo: "A primeira Sexta de Lua Cheia do Awhuuu! pede trilha. De lobisomem em Londres à lua que mata, o rock sempre soube onde olhar à noite."
 capa: /img/capas/fita-gasta.webp
 capa_alt: "Ilustração de um lobisomem deitado no chão do quarto, de fones, cercado de fitas cassete emboladas, com a lua cheia na janela"
+spotify_playlist: 5InBKBAr5FMGoZbiQT6JbW
 youtube_playlist: PLWFVBrzM-44o
 links_ouvir:
+  - nome: "Abrir no Spotify"
+    url: "https://open.spotify.com/playlist/5InBKBAr5FMGoZbiQT6JbW"
   - nome: "Abrir no YouTube"
     url: "https://www.youtube.com/playlist?list=PLWFVBrzM-44o"
 faixas:

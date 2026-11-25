@@ -15,9 +15,9 @@ ficha:
   - campo: Preços vistos em
     valor: novembro de 2026 (mudam toda semana; confira na loja)
 acervo:
-  imagem: ""
-  alt: "Foto do toca-discos do Awhuuu!"
-  legenda: "O toca-discos do lobo. [trocar pela foto do aparelho comprado]"
+  imagem: "/img/lobo/lobo-toca-discos.webp"
+  alt: "Ilustração de um lobisomem de jaqueta de couro tirando um toca-discos novo da caixa, com caixas de som e um caixote de discos ao lado, sob a lua cheia"
+  legenda: "O lobo e o primeiro toca-discos. Ilustração do Awhuuu!"
 fontes:
   - nome: "Vitrola de maleta estraga o disco de vinil? — Canaltech"
     url: "https://canaltech.com.br/produtos/vitrola-de-maleta-estraga-o-disco-de-vinil-veja-o-que-dizem-especialistas"
@@ -79,7 +79,7 @@ achados:
 pergunta: "Qual foi o seu primeiro toca-discos? E ele sobreviveu?"
 ---
 
-> Rascunho interno. Antes de publicar: trocar a foto do acervo pela do aparelho comprado, conferir os preços na semana da publicação e colocar os links de afiliado em "Achados".
+> Rascunho interno. Antes de publicar: escrever "O que o lobo comprou" (ou trocar a ilustração pela foto do aparelho, se preferir), conferir os preços na semana da publicação e colocar os links de afiliado em "Achados".
 
 Todo mundo que volta pro vinil passa pela mesma vitrine: uma maleta retrô, cor de cereja, com caixinha de som embutida, por menos de mil reais. É bonita. E é o jeito mais caro de começar, porque você vai trocar de aparelho em seis meses e, até lá, seus discos pagam a conta.
 
