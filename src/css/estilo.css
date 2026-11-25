@@ -225,3 +225,33 @@ footer a{color:var(--cinza)}
 .ir-pino{flex:none;width:44px;height:44px;border-radius:50%;border:2px solid var(--osso);background:var(--sangue);color:var(--noite);font-family:var(--titulo);font-size:20px;cursor:pointer}
 .ir-pino:hover,.ir-pino:focus-visible{background:var(--osso)}
 .link-mapa{margin-top:20px}
+
+/* Anuncie e apoie / Agenda */
+.titulo-pag{font-family:var(--titulo);font-weight:400;font-size:clamp(48px,9vw,96px);line-height:.95;margin:0 0 20px}
+.chamada-pag{max-width:62ch;font-size:18px;color:var(--cinza);margin:0 0 32px}
+.miudo{color:var(--cinza);font-size:14px}
+.passos{list-style:none;padding:0;margin:0 0 40px;display:flex;flex-wrap:wrap;gap:12px 28px;font-family:var(--stencil);font-size:20px}
+.passos span{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--sangue);color:var(--noite);font-family:var(--titulo);margin-right:10px}
+.pacotes{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:24px;margin:0 0 48px}
+.pacote{border:1px solid var(--linha);padding:28px;display:flex;flex-direction:column;gap:6px;background:#111}
+.pacote h2{font-family:var(--titulo);font-weight:400;font-size:32px;line-height:1;margin:0}
+.pacote .preco{font-family:var(--stencil);font-size:28px;color:var(--sangue);margin:4px 0 8px}
+.pacote p{margin:0 0 8px;color:var(--cinza)}
+.pacote h3{font-size:12px;letter-spacing:.25em;text-transform:uppercase;color:var(--sepia);margin:12px 0 4px}
+.pacote ul{margin:0 0 8px;padding-left:18px;color:var(--osso);font-size:15px}
+.pacote .specs{color:var(--cinza);font-size:14px}
+.pacote .botao{margin-top:auto;text-align:center}
+.botao.desligado{background:var(--linha);color:var(--apagado);cursor:default}
+.envio{border:1px dashed var(--sepia);padding:28px;max-width:720px}
+.envio h2,.apoio h2{font-family:var(--titulo);font-weight:400;font-size:36px;margin:0 0 8px}
+.apoio .pix{font-size:18px;margin:16px 0 0}
+.agenda{list-style:none;margin:0;padding:0;display:grid;gap:24px}
+.show{display:grid;grid-template-columns:minmax(0,160px) 1fr;gap:20px;border-top:1px solid var(--linha);padding-top:24px}
+.show img{width:100%;height:auto;border:1px solid var(--linha)}
+.show h2{font-family:var(--titulo);font-weight:400;font-size:34px;line-height:1;margin:4px 0 6px}
+.show .quando{font-family:var(--stencil);color:var(--sangue);margin:0;text-transform:capitalize}
+.show .onde{color:var(--sepia);margin:0 0 8px}
+.show p{margin:0 0 10px;color:var(--cinza)}
+.show.destaque{border:1px solid var(--sangue);padding:20px}
+.selo{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--apagado)}
+@media (max-width:640px){.show{grid-template-columns:1fr}.show img{max-width:220px}}

@@ -54,6 +54,18 @@ export default function (eleventyConfig) {
     return lista;
   });
 
+  // shows de hoje em diante (horário de Brasília), destaques primeiro
+  eleventyConfig.addFilter("futuros", (shows) => {
+    const hoje = new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 10);
+    return (shows || [])
+      .filter((s) => s.data && String(s.data).slice(0, 10) >= hoje)
+      .sort((a, b) => (b.destaque ? 1 : 0) - (a.destaque ? 1 : 0) || String(a.data).localeCompare(String(b.data)));
+  });
+  eleventyConfig.addFilter("diaShow", (d) => {
+    const dt = new Date(String(d).slice(0, 10) + "T12:00:00Z");
+    return dt.toLocaleDateString("pt-BR", { weekday: "short", day: "2-digit", month: "short", timeZone: "UTC" });
+  });
+
   eleventyConfig.addFilter("daEditoria", (materias, slug) =>
     (materias || []).filter((m) => m.data.editoria === slug)
   );

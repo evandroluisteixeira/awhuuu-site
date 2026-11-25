@@ -1,0 +1,34 @@
+---
+layout: base.njk
+permalink: /agenda/
+title: "Último Bonde: agenda de shows"
+descricao: Os shows de rock em Santa Catarina, com data, local e link do ingresso.
+---
+{%- set lista = agenda.shows | futuros %}
+<section class="secao" style="border-top:0">
+  <div class="faixa">
+    <p class="rotulo">Último Bonde</p>
+    <h1 class="titulo-pag">Agenda</h1>
+    <p class="chamada-pag">O que rola de rock em Santa Catarina. Confira sempre com a casa antes de sair: show muda de data.</p>
+    {% if lista.length %}
+    <ol class="agenda">
+      {% for s in lista %}
+      <li class="show{% if s.destaque %} destaque{% endif %}">
+        {% if s.cartaz %}<img src="{{ s.cartaz }}" alt="Cartaz: {{ s.banda }}" width="1080" height="1350" loading="lazy">{% endif %}
+        <div>
+          <p class="quando"><time datetime="{{ s.data }}">{{ s.data | diaShow }}</time>{% if s.hora %} · {{ s.hora }}{% endif %}</p>
+          <h2>{{ s.banda }}</h2>
+          <p class="onde">{{ s.local }}{% if s.cidade %}, {{ s.cidade }}{% endif %}{% if s.preco %} · {{ s.preco }}{% endif %}</p>
+          {% if s.texto %}<p>{{ s.texto }}</p>{% endif %}
+          {% if s.link_ingresso %}<a class="botao" href="{{ s.link_ingresso }}" target="_blank" rel="noopener">Ingresso</a>{% endif %}
+          {% if s.publicidade %}<p class="selo">Publicidade</p>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+    {% else %}
+    <p class="vazio">{{ agenda.aviso_vazio }}</p>
+    {% endif %}
+    <p style="margin-top:32px"><a class="botao contorno" href="/parcerias/">Divulgue seu show</a></p>
+  </div>
+</section>

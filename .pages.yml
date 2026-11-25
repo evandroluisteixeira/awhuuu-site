@@ -145,6 +145,66 @@ content:
       - { name: capa, label: Capa, type: image }
       - { name: ativa, label: Editoria ativa, type: boolean }
 
+  - name: agenda
+    label: Agenda de shows
+    type: file
+    path: src/_data/agenda.json
+    fields:
+      - { name: aviso_vazio, label: Texto quando a agenda está vazia, type: text }
+      - name: shows
+        label: Shows
+        description: Shows que já passaram somem sozinhos do site no dia seguinte.
+        type: object
+        list: true
+        fields:
+          - { name: banda, label: Banda ou evento, type: string }
+          - { name: data, label: Data, type: date }
+          - { name: hora, label: Horário, type: string }
+          - { name: local, label: Local, type: string }
+          - { name: cidade, label: Cidade, type: string }
+          - { name: preco, label: Preço, type: string }
+          - { name: link_ingresso, label: Link do ingresso, type: string }
+          - { name: cartaz, label: Cartaz, type: image, options: { path: src/img/agenda } }
+          - { name: texto, label: Texto curto, type: text }
+          - { name: destaque, label: Em destaque (pacote pago), type: boolean }
+          - { name: publicidade, label: Marcar como publicidade, type: boolean }
+
+  - name: vitrine
+    label: Anuncie e apoie
+    type: file
+    path: src/_data/vitrine.json
+    fields:
+      - { name: titulo, label: Título da página, type: string }
+      - { name: chamada, label: Texto de abertura, type: text }
+      - name: pacotes
+        label: Pacotes
+        type: object
+        list: true
+        fields:
+          - { name: nome, label: Nome do pacote, type: string }
+          - { name: preco, label: Preço, type: string }
+          - { name: resumo, label: Resumo, type: text }
+          - { name: inclui, label: O que inclui, type: string, list: true }
+          - { name: especificacoes, label: Especificações do material, type: string, list: true }
+          - { name: link_pagamento, label: "Link de pagamento (Mercado Pago). Vazio = botão 'Em breve'", type: string }
+          - { name: ativo, label: Mostrar no site, type: boolean }
+      - name: envio
+        label: Envio do material
+        type: object
+        fields:
+          - { name: texto, label: Texto, type: text }
+          - { name: link_formulario, label: Link do formulário, type: string }
+          - { name: email, label: E-mail, type: string }
+      - name: apoio
+        label: Apoio
+        type: object
+        fields:
+          - { name: titulo, label: Título, type: string }
+          - { name: texto, label: Texto, type: text }
+          - { name: link, label: Link de pagamento (valor livre), type: string }
+          - { name: pix, label: Chave Pix, type: string }
+      - { name: regras, label: Regras de publicidade, type: text }
+
   - name: site
     label: Configurações do site
     type: file
