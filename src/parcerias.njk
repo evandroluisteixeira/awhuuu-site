@@ -3,7 +3,7 @@ layout: base.njk
 permalink: /parcerias/
 eleventyComputed:
   title: "{{ vitrine.titulo }}"
-descricao: Divulgue seu show, seu lançamento ou apoie o Awhuuu!. Escolha o pacote, pague pelo link e envie o material.
+descricao: Divulgue seu show ou seu lançamento no Awhuuu!. Escolha o pacote e chame a gente.
 ---
 {%- set pagamento_online = false %}
 {%- for p in vitrine.pacotes %}{% if p.ativo and p.link_pagamento %}{% set pagamento_online = true %}{% endif %}{% endfor %}
