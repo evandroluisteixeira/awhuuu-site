@@ -1,0 +1,4 @@
+{
+  "layout": "materia.njk",
+  "permalink": "/{{ editoria }}/{{ page.fileSlug }}/"
+}

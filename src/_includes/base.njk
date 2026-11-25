@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{%- set tituloPag = (title + " · " + site.nome) if title else (site.nome + " — " + site.lema) %}
+{%- set descPag = resumo or descricao or site.descricao %}
+{%- set imgPag = (capa_social or capa or "/img/og-awhuuu.jpg") | absoluta(site.url) %}
+<title>{{ tituloPag }}</title>
+<meta name="description" content="{{ descPag }}">
+<link rel="canonical" href="{{ page.url | absoluta(site.url) }}">
+<meta property="og:title" content="{{ title or tituloPag }}">
+<meta property="og:description" content="{{ descPag }}">
+<meta property="og:image" content="{{ imgPag }}">
+<meta property="og:url" content="{{ page.url | absoluta(site.url) }}">
+<meta property="og:type" content="{{ 'article' if editoria else 'website' }}">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0A0A0A">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-64.png" sizes="64x64">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="{{ site.nome }}" href="/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Saira+Stencil+One&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/estilo.css">
+</head>
+<body>
+<a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<svg class="grao" aria-hidden="true" width="100%" height="100%">
+  <filter id="grao"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"></feTurbulence></filter>
+  <rect width="100%" height="100%" filter="url(#grao)"></rect>
+</svg>
+
+<header class="barra">
+  <div class="faixa">
+    <a class="marca" href="/" aria-label="Awhuuu!, página inicial"><img src="/img/awhuuu-palavra.webp" width="900" height="560" alt="Awhuuu!"></a>
+    <nav aria-label="Principal">
+      <a href="/materias/"{% if page.url == "/materias/" %} aria-current="page"{% endif %}>Matérias</a>
+      <a href="/#editorias">Editorias</a>
+      <a href="/editoria/fita-gasta/"{% if page.url == "/editoria/fita-gasta/" %} aria-current="page"{% endif %}>Playlists</a>
+      <a href="/parcerias/"{% if page.url == "/parcerias/" %} aria-current="page"{% endif %}>Parcerias</a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+{{ content | safe }}
+</main>
+
+<footer>
+  <img src="/img/awhuuu-palavra.webp" width="900" height="560" alt="Awhuuu!">
+  <p>{{ site.lema }} · feito em Santa Catarina · © <span id="ano">2026</span></p>
+  <p>{% for r in site.redes %}<a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.nome }}</a>{% if not loop.last %} · {% endif %}{% endfor %} · <a href="/feed.xml">RSS</a></p>
+</footer>
+<script>document.getElementById('ano').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "pedrada-do-dia",
+    "nome": "Pedrada do Dia",
+    "descricao": "Um disco, a história por trás dele e a nota em fases da lua: de lua nova a lua cheia.",
+    "capa": "/img/capas/pedrada-do-dia.webp",
+    "ativa": true
+  },
+  {
+    "slug": "rota-666",
+    "nome": "Rota 666",
+    "descricao": "O mapa: palcos lendários, berços de bandas e estúdios onde a história foi gravada.",
+    "capa": "/img/capas/rota-666.webp",
+    "ativa": true
+  },
+  {
+    "slug": "hora-do-lobo",
+    "nome": "Hora do Lobo",
+    "descricao": "Crônicas de shows e momentos históricos, contadas de madrugada e com fonte.",
+    "capa": "/img/capas/hora-do-lobo.webp",
+    "ativa": true
+  },
+  {
+    "slug": "mondo-bizarro",
+    "nome": "Mondo Bizarro",
+    "descricao": "O lado estranho do rock. Tudo verdade, infelizmente.",
+    "capa": "/img/capas/mondo-bizarro.webp",
+    "ativa": true
+  },
+  {
+    "slug": "fita-gasta",
+    "nome": "Fita Gasta",
+    "descricao": "Playlists para ouvir até a fita enroscar.",
+    "capa": "/img/capas/fita-gasta.webp",
+    "ativa": true
+  },
+  {
+    "slug": "ultimo-bonde",
+    "nome": "Último Bonde",
+    "descricao": "A agenda: o que rola na cena e como voltar pra casa.",
+    "capa": "/img/capas/ultimo-bonde.webp",
+    "ativa": false
+  },
+  {
+    "slug": "madrugada-eletrica",
+    "nome": "Madrugada Elétrica",
+    "descricao": "Registros e resenhas dos shows que a gente viu de perto.",
+    "capa": "/img/capas/madrugada-eletrica.webp",
+    "ativa": false
+  },
+  {
+    "slug": "sexta-de-lua-cheia",
+    "nome": "Sexta de Lua Cheia",
+    "descricao": "Edição especial todo mês, na sexta-feira mais perto da lua cheia.",
+    "capa": "/img/capas/sexta-de-lua-cheia.webp",
+    "ativa": true
+  }
+]

@@ -1,0 +1,31 @@
+---
+layout: base.njk
+pagination:
+  data: editorias
+  size: 1
+  alias: ed
+permalink: "/editoria/{{ ed.slug }}/"
+eleventyComputed:
+  title: "{{ ed.nome }}"
+  descricao: "{{ ed.descricao }}"
+  capa_social: "{{ ed.capa }}"
+---
+{%- from "macros.njk" import cartao %}
+{%- set lista = collections.materias | daEditoria(ed.slug) %}
+<header class="cab-ed">
+  <img src="{{ ed.capa }}" alt="" width="1000" height="1250">
+  <div class="txt">
+    <p class="rotulo">Editoria</p>
+    <h1>{{ ed.nome }}</h1>
+    <p>{{ ed.descricao }}</p>
+  </div>
+</header>
+<section class="secao" style="border-top:0">
+  <div class="faixa">
+    {% if lista.length %}
+    <div class="lista">{% for m in lista %}{{ cartao(m, editorias) }}{% endfor %}</div>
+    {% else %}
+    <p class="vazio">{% if ed.ativa %}A primeira matéria desta editoria está a caminho.{% else %}Esta editoria abre em breve.{% endif %}</p>
+    {% endif %}
+  </div>
+</section>

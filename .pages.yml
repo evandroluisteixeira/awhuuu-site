@@ -1,0 +1,153 @@
+# Painel de edição do Awhuuu! (Pages CMS: https://app.pagescms.org)
+media:
+  input: src/img/materias
+  output: /img/materias
+
+content:
+  - name: materias
+    label: Matérias
+    type: collection
+    path: src/materias
+    format: yaml-frontmatter
+    filename: "{primary}.md"
+    view:
+      primary: title
+      fields: [title, editoria, date]
+      sort: date
+      order: desc
+    fields:
+      - name: title
+        label: Título
+        type: string
+        required: true
+      - name: editoria
+        label: Editoria
+        type: select
+        required: true
+        options:
+          values:
+            - { value: pedrada-do-dia, label: "Pedrada do Dia" }
+            - { value: rota-666, label: "Rota 666" }
+            - { value: hora-do-lobo, label: "Hora do Lobo" }
+            - { value: mondo-bizarro, label: "Mondo Bizarro" }
+            - { value: fita-gasta, label: "Fita Gasta" }
+            - { value: ultimo-bonde, label: "Último Bonde" }
+            - { value: madrugada-eletrica, label: "Madrugada Elétrica" }
+            - { value: sexta-de-lua-cheia, label: "Sexta de Lua Cheia" }
+      - name: numero
+        label: Número na série
+        type: number
+      - name: date
+        label: Data e hora de publicação
+        description: A matéria só aparece no site a partir desta data.
+        type: date
+        options:
+          time: true
+      - name: rascunho
+        label: Rascunho (não publicar)
+        type: boolean
+      - name: resumo
+        label: Linha fina (resumo)
+        type: text
+      - name: capa
+        label: Imagem de capa
+        description: Se ficar vazio, usa a capa da editoria.
+        type: image
+      - name: capa_alt
+        label: Descrição da capa (para leitores de tela)
+        type: string
+      - name: capa_credito
+        label: Crédito da capa
+        type: string
+      - name: ficha
+        label: Ficha técnica
+        type: object
+        list: true
+        fields:
+          - { name: campo, label: Campo, type: string }
+          - { name: valor, label: Valor, type: string }
+      - name: acervo
+        label: Foto do acervo
+        type: object
+        fields:
+          - { name: imagem, label: Foto, type: image }
+          - { name: alt, label: Descrição da foto, type: string }
+          - { name: legenda, label: Legenda, type: string }
+      - name: body
+        label: Texto
+        type: rich-text
+      - name: faixas
+        label: Faixas (playlists)
+        type: object
+        list: true
+        fields:
+          - { name: musica, label: Música, type: string }
+          - { name: artista, label: Artista, type: string }
+          - { name: ano, label: Ano, type: number }
+      - name: nota
+        label: Nota (1 = lua nova, 5 = lua cheia)
+        type: number
+      - name: nota_frase
+        label: Frase da nota
+        type: string
+      - name: youtube_playlist
+        label: ID da playlist do YouTube
+        description: O código depois de list= no endereço da playlist.
+        type: string
+      - name: links_ouvir
+        label: Links para ouvir
+        type: object
+        list: true
+        fields:
+          - { name: nome, label: Texto do botão, type: string }
+          - { name: url, label: Endereço, type: string }
+      - name: achados
+        label: Achados (links de afiliado)
+        description: Só aparecem quando os afiliados estiverem ativos nas configurações do site.
+        type: object
+        list: true
+        fields:
+          - { name: nome, label: Produto, type: string }
+          - { name: url, label: Link de afiliado, type: string }
+      - name: pergunta
+        label: Pergunta final para o público
+        type: string
+      - name: fontes
+        label: Fontes
+        type: object
+        list: true
+        fields:
+          - { name: nome, label: Fonte, type: string }
+          - { name: url, label: Endereço, type: string }
+
+  - name: editorias
+    label: Editorias
+    type: file
+    path: src/_data/editorias.json
+    list: true
+    fields:
+      - { name: slug, label: "Identificador (não mude depois de publicar)", type: string }
+      - { name: nome, label: Nome, type: string }
+      - { name: descricao, label: Descrição, type: text }
+      - { name: capa, label: Capa, type: image }
+      - { name: ativa, label: Editoria ativa, type: boolean }
+
+  - name: site
+    label: Configurações do site
+    type: file
+    path: src/_data/site.json
+    fields:
+      - { name: nome, label: Nome, type: string }
+      - { name: lema, label: Lema, type: string }
+      - { name: url, label: Endereço, type: string }
+      - { name: descricao, label: Descrição para o Google, type: text }
+      - name: redes
+        label: Redes
+        type: object
+        list: true
+        fields:
+          - { name: nome, label: Rede, type: string }
+          - { name: rotulo, label: Perfil, type: string }
+          - { name: url, label: Endereço, type: string }
+      - { name: afiliados_ativos, label: Mostrar os Achados (afiliados), type: boolean }
+      - { name: aviso_afiliados, label: Aviso de afiliados, type: text }

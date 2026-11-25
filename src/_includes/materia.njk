@@ -1,0 +1,87 @@
+---
+layout: base.njk
+---
+{%- from "macros.njk" import nota as notaLua %}
+{%- set ed = editorias | editoriaPor(editoria) %}
+<article>
+  <header class="materia-cab">
+    <div class="faixa-texto">
+      <a class="ed" href="/editoria/{{ editoria }}/">{{ ed.nome }}{% if numero %} #{{ numero }}{% endif %}</a>
+      <h1>{{ title }}</h1>
+      {% if resumo %}<p class="linha-fina">{{ resumo }}</p>{% endif %}
+      <time datetime="{{ page.date | dataISO }}">{{ page.date | dataBR }}</time>
+    </div>
+  </header>
+
+  <figure class="materia-capa">
+    <img src="{{ capa or ed.capa }}" alt="{{ capa_alt or ('Ilustração da editoria ' + ed.nome) }}" width="1000" height="1250">
+    <figcaption>{{ capa_credito or "Ilustração: Awhuuu! (imagem gerada com IA)" }}</figcaption>
+  </figure>
+
+  <div class="faixa-texto corpo">
+    {% if ficha %}
+    <dl class="ficha">
+      {% for item in ficha %}<div><dt>{{ item.campo }}</dt><dd>{{ item.valor }}</dd></div>{% endfor %}
+    </dl>
+    {% endif %}
+
+    {% if acervo and acervo.imagem %}
+    <figure>
+      <img src="{{ acervo.imagem }}" alt="{{ acervo.alt }}" loading="lazy">
+      <figcaption>{{ acervo.legenda or "Do acervo do lobo." }}</figcaption>
+    </figure>
+    {% endif %}
+
+    {{ content | safe }}
+
+    {% if faixas %}
+    <ol class="faixas">
+      {% for f in faixas %}<li><strong>{{ f.musica }}</strong><span>{{ f.artista }}{% if f.ano %} · {{ f.ano }}{% endif %}</span></li>{% endfor %}
+    </ol>
+    {% endif %}
+
+
+    {% if nota %}{{ notaLua(nota, nota_frase) }}{% endif %}
+
+    {% if youtube_playlist or links_ouvir %}
+    <section class="ouvir" aria-label="Ouvir">
+      <h2>Ouça</h2>
+      {% if youtube_playlist %}
+      <div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list={{ youtube_playlist }}" title="Playlist no YouTube" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+      {% endif %}
+      {% if links_ouvir %}
+      <ul class="links-ouvir">{% for l in links_ouvir %}<li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.nome }}</a></li>{% endfor %}</ul>
+      {% endif %}
+    </section>
+    {% endif %}
+
+    {% if achados and site.afiliados_ativos %}
+    <section class="achados" aria-label="Achados">
+      <h2>Achados</h2>
+      <ul class="links-ouvir">{% for a in achados %}<li><a href="{{ a.url }}" target="_blank" rel="sponsored noopener">{{ a.nome }}</a></li>{% endfor %}</ul>
+      <p class="aviso">{{ site.aviso_afiliados }}</p>
+    </section>
+    {% endif %}
+
+    {% if pergunta %}<p class="pergunta">{{ pergunta }} Responde no <a href="https://www.instagram.com/awhuuu.rock/" target="_blank" rel="noopener">Instagram</a>.</p>{% endif %}
+
+    {% if fontes %}
+    <section class="fontes">
+      <h2>Fontes</h2>
+      <ul>{% for f in fontes %}<li>{% if f.url %}<a href="{{ f.url }}" target="_blank" rel="noopener">{{ f.nome }}</a>{% else %}{{ f.nome }}{% endif %}</li>{% endfor %}</ul>
+    </section>
+    {% endif %}
+
+    <p class="compartilhe">Gostou? Manda pra quem precisa ouvir. Siga o uivo:
+      {% for r in site.redes %}<a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.nome }}</a>{% endfor %}</p>
+
+    {%- set anterior = collections.materias | getPreviousCollectionItem(page) %}
+    {%- set seguinte = collections.materias | getNextCollectionItem(page) %}
+    {% if anterior or seguinte %}
+    <nav class="navega" aria-label="Outras matérias">
+      {% if seguinte %}<a href="{{ seguinte.url }}"><small>Anterior</small><span>{{ seguinte.data.title }}</span></a>{% endif %}
+      {% if anterior %}<a href="{{ anterior.url }}"><small>Mais nova</small><span>{{ anterior.data.title }}</span></a>{% endif %}
+    </nav>
+    {% endif %}
+  </div>
+</article>

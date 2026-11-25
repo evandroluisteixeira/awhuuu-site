@@ -1,0 +1,46 @@
+{# Peças reutilizáveis do site #}
+
+{% macro cartao(m, editorias) %}
+{%- set ed = editorias | editoriaPor(m.data.editoria) %}
+<a class="cartao" href="{{ m.url }}">
+  <div class="img"><img src="{{ m.data.capa or ed.capa }}" alt="" loading="lazy" width="800" height="1000"></div>
+  <span class="ed">{{ ed.nome }}{% if m.data.numero %} #{{ m.data.numero }}{% endif %}</span>
+  <h3>{{ m.data.title }}</h3>
+  {% if m.data.resumo %}<p>{{ m.data.resumo }}</p>{% endif %}
+  <time datetime="{{ m.date | dataISO }}">{{ m.date | dataBR }}</time>
+</a>
+{% endmacro %}
+
+{# Lua desenhada em SVG: k vai de 1 (nova) a -1 (cheia) #}
+{% macro lua(k, acesa, id) %}
+<svg viewBox="0 0 100 100" aria-hidden="true">
+  <defs><clipPath id="c{{ id }}"><circle cx="50" cy="50" r="46"/></clipPath></defs>
+  <circle cx="50" cy="50" r="46" fill="#1E1D1B" stroke="#46423A" stroke-width="2"/>
+  {%- if k < 1 %}
+  {%- set rx = (46 * (k if k > 0 else -k)) %}
+  <g clip-path="url(#c{{ id }})" fill="{{ '#F4D49A' if acesa else '#58523F' }}">
+    {%- if k <= 0 %}
+    <rect x="50" y="0" width="50" height="100"/>
+    <ellipse cx="50" cy="50" rx="{{ rx }}" ry="46"/>
+    {%- else %}
+    <path d="M50 4 A46 46 0 0 1 50 96 A{{ rx }} 46 0 0 0 50 4 Z"/>
+    {%- endif %}
+  </g>
+  {%- endif %}
+</svg>
+{% endmacro %}
+
+{% macro nota(valor, frase) %}
+{%- set fases = ["Lua nova", "Crescente", "Quarto", "Gibosa", "Lua cheia"] %}
+{%- set ks = [1, 0.45, 0, -0.45, -1] %}
+<section class="nota" aria-label="Nota: {{ fases[valor - 1] }}, {{ valor }} de 5">
+  <p class="rotulo">A nota</p>
+  <p class="fase-nome">{{ fases[valor - 1] }}.</p>
+  {% if frase %}<p class="frase">{{ frase }}</p>{% endif %}
+  <ol class="fases">
+    {%- for f in fases %}
+    <li{% if loop.index == valor %} class="atual"{% endif %}>{{ lua(ks[loop.index0], loop.index <= valor, loop.index) }}{{ f }}</li>
+    {%- endfor %}
+  </ol>
+</section>
+{% endmacro %}

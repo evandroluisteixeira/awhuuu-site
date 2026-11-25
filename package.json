@@ -1,0 +1,13 @@
+{
+  "name": "awhuuu-site",
+  "private": true,
+  "description": "Site do Awhuuu! — rock, noite e estrada",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  },
+  "type": "module"
+}

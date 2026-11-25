@@ -1,0 +1,16 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{{ site.url }}/</loc></url>
+  <url><loc>{{ site.url }}/materias/</loc></url>
+  <url><loc>{{ site.url }}/parcerias/</loc></url>
+  {%- for e in editorias %}
+  <url><loc>{{ site.url }}/editoria/{{ e.slug }}/</loc></url>
+  {%- endfor %}
+  {%- for m in collections.materias %}
+  <url><loc>{{ m.url | absoluta(site.url) }}</loc><lastmod>{{ m.date | dataISO }}</lastmod></url>
+  {%- endfor %}
+</urlset>

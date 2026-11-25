@@ -1,0 +1,18 @@
+---
+layout: base.njk
+title: Matérias
+permalink: /materias/
+descricao: Todas as matérias do Awhuuu!, da mais nova para a mais antiga.
+---
+{%- from "macros.njk" import cartao %}
+<section class="secao" style="border-top:0">
+  <div class="faixa">
+    <p class="rotulo">O acervo</p>
+    <h2>Todas as matérias</h2>
+    {% if collections.materias.length %}
+    <div class="lista">{% for m in collections.materias %}{{ cartao(m, editorias) }}{% endfor %}</div>
+    {% else %}
+    <p class="vazio">A primeira matéria sai na próxima lua cheia.</p>
+    {% endif %}
+  </div>
+</section>

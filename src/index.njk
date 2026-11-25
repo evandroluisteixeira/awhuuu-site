@@ -1,0 +1,102 @@
+---
+layout: base.njk
+---
+{%- from "macros.njk" import cartao %}
+<section class="topo">
+  <img src="/img/awhuuu-emblema.webp" width="1100" height="1100" alt="Awhuuu!: um lobisomem toca guitarra e uiva diante da lua cheia">
+  <p class="assinatura">rock · noite · estrada</p>
+  <a class="botao" href="#ultimas">Ler as matérias</a>
+</section>
+
+<section class="secao manifesto">
+  <div class="faixa">
+    <p class="rotulo">Manifesto</p>
+    <h1>O rock morreu. Esqueceram de avisar o lobo.</h1>
+    <p>Já deram o rock como morto mais vezes do que dá para contar. Na era da disco, na do pop, na do streaming. Toda lua cheia ele volta.</p>
+    <p>O Awhuuu! é um acervo vivo de rock: discos, shows, lugares, histórias e a cena daqui, cruzados entre si, checados na fonte e contados de madrugada. Sem algoritmo de autoajuda e sem playlist de elevador.</p>
+  </div>
+</section>
+
+<section class="secao" id="ultimas">
+  <div class="faixa">
+    <p class="rotulo">Acabou de sair</p>
+    <h2>Últimas do acervo</h2>
+    {% if collections.materias.length %}
+    <div class="lista">
+      {% for m in collections.materias | limite(6) %}{{ cartao(m, editorias) }}{% endfor %}
+    </div>
+    <p style="margin-top:40px"><a class="botao contorno" href="/materias/">Todas as matérias</a></p>
+    {% else %}
+    <p class="vazio">A primeira matéria sai na próxima lua cheia. Enquanto isso, o uivo está no <a href="https://www.instagram.com/awhuuu.rock/">Instagram</a>.</p>
+    {% endif %}
+  </div>
+</section>
+
+<section class="secao" id="editorias">
+  <div class="faixa">
+    <p class="rotulo">Por onde o lobo anda</p>
+    <h2>As editorias</h2>
+    <div class="grade-ed">
+      {% for e in editorias %}
+      <a class="ed-card" href="/editoria/{{ e.slug }}/">
+        <img src="{{ e.capa }}" alt="" loading="lazy" width="800" height="1000">
+        <div class="txt">
+          <h3>{{ e.nome }}</h3>
+          <p>{{ e.descricao }}</p>
+          {% if not e.ativa %}<span class="breve">em breve</span>{% endif %}
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="secao" aria-labelledby="titulo-lua">
+  <div class="faixa">
+    <p class="rotulo">Sexta de Lua Cheia</p>
+    <h2 id="titulo-lua">A próxima transformação</h2>
+    <div class="lua-caixa">
+      <div class="disco-lua" aria-hidden="true"></div>
+      <div class="lua-texto">
+        <p>Próxima edição especial:</p>
+        <p class="lua-data" id="sexta-lua">—</p>
+        <p id="detalhe-lua">Calculando a lua…</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="secao" id="contato">
+  <div class="faixa">
+    <p class="rotulo">Onde uivar junto</p>
+    <h2>Redes e parcerias</h2>
+    <ul class="redes">
+      {% for r in site.redes %}<li><a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.nome }} · {{ r.rotulo }}</a></li>{% endfor %}
+    </ul>
+    <p style="max-width:60ch;color:var(--cinza)">Casa de show, produtora, escola de música, banda ou loja de discos? <a href="/parcerias/">Veja como fazer parte</a>. A cena se faz junto.</p>
+  </div>
+</section>
+
+<script>
+  // Lua cheia aproximada (média do ciclo lunar), suficiente para marcar a edição do mês.
+  (function () {
+    var SINODICO = 29.530588853, LUA_NOVA_REF = Date.UTC(2000, 0, 6, 18, 14), DIA = 86400000;
+    var agora = Date.now();
+    var ciclo = Math.floor((agora - LUA_NOVA_REF) / (SINODICO * DIA)) - 1;
+    function sextaDoCiclo(n) {
+      var cheia = LUA_NOVA_REF + (n + 0.5) * SINODICO * DIA;
+      var dif = 5 - new Date(cheia).getDay();
+      if (dif > 3) dif -= 7;
+      if (dif < -3) dif += 7;
+      var sexta = new Date(cheia + dif * DIA);
+      sexta.setHours(23, 59, 59, 0);
+      return { cheia: new Date(cheia), sexta: sexta };
+    }
+    var r = sextaDoCiclo(ciclo);
+    while (r.sexta.getTime() < agora) { ciclo += 1; r = sextaDoCiclo(ciclo); }
+    var fmt = { day: 'numeric', month: 'long' };
+    document.getElementById('sexta-lua').textContent = 'Sexta, ' + r.sexta.toLocaleDateString('pt-BR', fmt);
+    document.getElementById('detalhe-lua').textContent =
+      'A lua cheia deste ciclo cai por volta de ' + r.cheia.toLocaleDateString('pt-BR', fmt) + '. A data é aproximada, como toda boa lenda.';
+  })();
+</script>
