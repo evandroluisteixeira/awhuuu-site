@@ -1,13 +1,21 @@
 {
   "titulo": "Anuncie e apoie",
-  "chamada": "O Awhuuu! conta a história do rock e acompanha a cena de Santa Catarina. Se você faz essa cena acontecer, escolha um pacote, pague pelo link e mande o material. Sem precisar marcar reunião.",
+  "chamada": "O Awhuuu! conta a história do rock e acompanha a cena. Se você faz essa cena acontecer, escolha um pacote e chame a gente: combinamos o pagamento e você manda o material.",
   "pacotes": [
     {
       "nome": "Show no Último Bonde",
       "preco": "R$ 49",
       "resumo": "Seu show na agenda do site, com cartaz, data, local e link do ingresso, mais um story no Instagram do Awhuuu!.",
-      "inclui": ["Entrada na agenda do site até o dia do show", "1 story no Instagram com link para o ingresso"],
-      "especificacoes": ["Cartaz em JPG ou PNG, 1080 x 1350 px, até 5 MB", "Texto de até 300 caracteres", "Data, horário, local, cidade, preço e link do ingresso", "Envio com pelo menos 7 dias de antecedência"],
+      "inclui": [
+        "Entrada na agenda do site até o dia do show",
+        "1 story no Instagram com link para o ingresso"
+      ],
+      "especificacoes": [
+        "Cartaz em JPG ou PNG, 1080 x 1350 px, até 5 MB",
+        "Texto de até 300 caracteres",
+        "Data, horário, local, cidade, preço e link do ingresso",
+        "Envio com pelo menos 7 dias de antecedência"
+      ],
       "link_pagamento": "",
       "ativo": true
     },
@@ -15,8 +23,17 @@
       "nome": "Show em destaque",
       "preco": "R$ 149",
       "resumo": "Tudo do pacote anterior, com o show no topo da agenda e um post no feed do Instagram e no TikTok.",
-      "inclui": ["Destaque no topo da agenda", "1 post no feed do Instagram e no TikTok, marcado como publicidade", "1 story no dia do show"],
-      "especificacoes": ["Cartaz em JPG ou PNG, 1080 x 1350 px, até 5 MB", "Até 3 fotos da banda (opcional)", "Texto de até 600 caracteres", "Envio com pelo menos 10 dias de antecedência"],
+      "inclui": [
+        "Destaque no topo da agenda",
+        "1 post no feed do Instagram e no TikTok, marcado como publicidade",
+        "1 story no dia do show"
+      ],
+      "especificacoes": [
+        "Cartaz em JPG ou PNG, 1080 x 1350 px, até 5 MB",
+        "Até 3 fotos da banda (opcional)",
+        "Texto de até 600 caracteres",
+        "Envio com pelo menos 10 dias de antecedência"
+      ],
       "link_pagamento": "",
       "ativo": true
     },
@@ -24,8 +41,15 @@
       "nome": "Lançamento",
       "preco": "R$ 99",
       "resumo": "Disco, EP ou clipe novo? Um post no feed do Instagram e no TikTok apresentando o lançamento, marcado como publicidade.",
-      "inclui": ["1 post no feed do Instagram e no TikTok", "Link do lançamento na bio por 7 dias"],
-      "especificacoes": ["Capa ou imagem em 1080 x 1350 px", "Link para ouvir ou assistir", "Texto de até 600 caracteres"],
+      "inclui": [
+        "1 post no feed do Instagram e no TikTok",
+        "Link do lançamento na bio por 7 dias"
+      ],
+      "especificacoes": [
+        "Capa ou imagem em 1080 x 1350 px",
+        "Link para ouvir ou assistir",
+        "Texto de até 600 caracteres"
+      ],
       "link_pagamento": "",
       "ativo": true
     }
@@ -41,5 +65,9 @@
     "link": "",
     "pix": ""
   },
-  "regras": "Todo conteúdo pago é marcado como publicidade, como orienta o CONAR. O Awhuuu! pode recusar material que não combine com a linha editorial; nesse caso, o valor é devolvido."
+  "regras": "Todo conteúdo pago é marcado como publicidade, como orienta o CONAR. O Awhuuu! pode recusar material que não combine com a linha editorial; nesse caso, o valor é devolvido.",
+  "contato": {
+    "texto": "Pedir pelo direct",
+    "link": "https://ig.me/m/awhuuu.rock"
+  }
 }

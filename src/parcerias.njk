@@ -5,6 +5,8 @@ eleventyComputed:
   title: "{{ vitrine.titulo }}"
 descricao: Divulgue seu show, seu lançamento ou apoie o Awhuuu!. Escolha o pacote, pague pelo link e envie o material.
 ---
+{%- set pagamento_online = false %}
+{%- for p in vitrine.pacotes %}{% if p.ativo and p.link_pagamento %}{% set pagamento_online = true %}{% endif %}{% endfor %}
 <section class="secao" style="border-top:0">
   <div class="faixa">
     <p class="rotulo">Parcerias</p>
@@ -13,7 +15,7 @@ descricao: Divulgue seu show, seu lançamento ou apoie o Awhuuu!. Escolha o paco
 
     <ol class="passos">
       <li><span>1</span>Escolha o pacote</li>
-      <li><span>2</span>Pague pelo link</li>
+      <li><span>2</span>{% if pagamento_online %}Pague pelo link{% else %}Chame no direct{% endif %}</li>
       <li><span>3</span>Envie o material</li>
     </ol>
 
@@ -25,30 +27,33 @@ descricao: Divulgue seu show, seu lançamento ou apoie o Awhuuu!. Escolha o paco
         <p>{{ p.resumo }}</p>
         {% if p.inclui.length %}<h3>Inclui</h3><ul>{% for i in p.inclui %}<li>{{ i }}</li>{% endfor %}</ul>{% endif %}
         {% if p.especificacoes.length %}<h3>Material</h3><ul class="specs">{% for e in p.especificacoes %}<li>{{ e }}</li>{% endfor %}</ul>{% endif %}
-        {% if p.link_pagamento %}<a class="botao" href="{{ p.link_pagamento }}" target="_blank" rel="noopener">Comprar</a>{% else %}<span class="botao desligado" aria-disabled="true">Em breve</span>{% endif %}
+        {% if p.link_pagamento %}<a class="botao" href="{{ p.link_pagamento }}" target="_blank" rel="noopener">Comprar</a>{% elif vitrine.contato and vitrine.contato.link %}<a class="botao contorno" href="{{ vitrine.contato.link }}" target="_blank" rel="noopener">{{ vitrine.contato.texto }}</a>{% else %}<span class="botao desligado" aria-disabled="true">Em breve</span>{% endif %}
       </article>
       {% endif %}{% endfor %}
     </div>
 
+    {% if pagamento_online %}
     <div class="envio">
       <h2>Já pagou?</h2>
       <p>{{ vitrine.envio.texto }}</p>
       {% if vitrine.envio.link_formulario %}<a class="botao contorno" href="{{ vitrine.envio.link_formulario }}" target="_blank" rel="noopener">Enviar material</a>{% endif %}
       {% if vitrine.envio.email %}<p class="miudo">Ou por e-mail: <a href="mailto:{{ vitrine.envio.email }}">{{ vitrine.envio.email }}</a></p>{% endif %}
     </div>
+    {% endif %}
   </div>
 </section>
 
+{% if vitrine.apoio.link or vitrine.apoio.pix %}
 <section class="secao apoio" id="apoie">
   <div class="faixa">
     <h2>{{ vitrine.apoio.titulo }}</h2>
     <p class="chamada-pag">{{ vitrine.apoio.texto }}</p>
     {% if vitrine.apoio.link %}<a class="botao" href="{{ vitrine.apoio.link }}" target="_blank" rel="noopener">Apoiar</a>{% endif %}
     {% if vitrine.apoio.pix %}<p class="pix">Pix: <strong>{{ vitrine.apoio.pix }}</strong></p>{% endif %}
-    {% if not vitrine.apoio.link and not vitrine.apoio.pix %}<p class="miudo">O apoio abre em breve.</p>{% endif %}
     {% if site.newsletter and site.newsletter.url %}<p class="miudo">Outra forma de apoiar, de graça: <a href="{{ site.newsletter.url }}" target="_blank" rel="noopener">assine a newsletter</a>.</p>{% endif %}
   </div>
 </section>
+{% endif %}
 
 <section class="secao">
   <div class="faixa">

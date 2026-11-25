@@ -270,6 +270,12 @@ content:
     fields:
       - { name: titulo, label: Título da página, type: string }
       - { name: chamada, label: Texto de abertura, type: text }
+      - name: contato
+        label: Contato (usado enquanto não há link de pagamento)
+        type: object
+        fields:
+          - { name: texto, label: Texto do botão, type: string }
+          - { name: link, label: Link, type: string }
       - name: pacotes
         label: Pacotes
         type: object
