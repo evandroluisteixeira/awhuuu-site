@@ -34,6 +34,7 @@ content:
             - { value: ultimo-bonde, label: "Último Bonde" }
             - { value: madrugada-eletrica, label: "Madrugada Elétrica" }
             - { value: sexta-de-lua-cheia, label: "Sexta de Lua Cheia" }
+            - { value: garagem, label: "Garagem" }
       - name: numero
         label: Número na série
         type: number

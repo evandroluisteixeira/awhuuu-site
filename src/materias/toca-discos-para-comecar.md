@@ -5,8 +5,8 @@ numero: 1
 date: 2026-12-15T20:00:00-03:00
 rascunho: true
 resumo: "Do primeiro toca-discos honesto ao que dura a vida toda, com preço de loja brasileira. E por que a maleta bonitinha é a pior porta de entrada."
-capa: /img/capas/pedrada-do-dia.webp
-capa_alt: "Ilustração de um lobisomem sentado sobre pilhas de discos, erguendo um vinil contra a lua cheia"
+capa: /img/capas/garagem.webp
+capa_alt: "Ilustração de um lobisomem de jaqueta de couro numa garagem à noite, pondo um disco no toca-discos entre amplificadores, com a lua cheia na porta"
 ficha:
   - campo: Para quem
     valor: quem vai comprar o primeiro toca-discos

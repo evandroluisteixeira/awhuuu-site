@@ -54,5 +54,12 @@
     "descricao": "Edição especial todo mês, na sexta-feira mais perto da lua cheia.",
     "capa": "/img/capas/sexta-de-lua-cheia.webp",
     "ativa": true
+  },
+  {
+    "slug": "garagem",
+    "nome": "Garagem",
+    "descricao": "Equipamento para ouvir e tocar rock: toca-discos, caixas, fones e o que vale o seu dinheiro.",
+    "capa": "/img/capas/garagem.webp",
+    "ativa": false
   }
 ]
