@@ -56,6 +56,7 @@
 <footer>
   <img src="/img/awhuuu-palavra.webp" width="900" height="560" alt="Awhuuu!">
   <p>{{ site.lema }} · feito em Santa Catarina · © <span id="ano">2026</span></p>
+  {% if site.afiliados_ativos %}<p class="miudo">Como Associado Amazon, o Awhuuu! ganha com compras qualificadas.</p>{% endif %}
   <p>{% for r in site.redes %}<a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.nome }}</a>{% if not loop.last %} · {% endif %}{% endfor %} · <a href="/feed.xml">RSS</a></p>
 </footer>
 <script>document.getElementById('ano').textContent = new Date().getFullYear();</script>
