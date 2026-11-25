@@ -22,6 +22,13 @@ faixas:
   - { musica: "Harvest Moon", artista: "Neil Young", ano: 1992 }
   - { musica: "Howlin' for You", artista: "The Black Keys", ano: 2010 }
 pergunta: "Qual faltou? Entra na próxima fita."
+achados:
+  - nome: "Vinil: David Bowie, Ziggy Stardust (tem Moonage Daydream) — Amazon"
+    url: "https://www.amazon.com.br/dp/B09Z278TXX?tag=awhuuu-20"
+  - nome: "Vinil: Creedence, Green River (tem Bad Moon Rising) — Amazon"
+    url: "https://www.amazon.com.br/dp/B0DP566GNQ?tag=awhuuu-20"
+  - nome: "Vinil: Warren Zevon, Excitable Boy (tem Werewolves of London) — Amazon"
+    url: "https://www.amazon.com.br/dp/B0H7217GF9?tag=awhuuu-20"
 ---
 Toda primeira fita tem que ser sobre o que importa. A nossa é sobre a lua, sobre os lobos e sobre o que a noite faz com quem tem uma guitarra por perto.
 

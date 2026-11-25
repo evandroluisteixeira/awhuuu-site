@@ -35,6 +35,9 @@ lugares:
     nota: "Onde Ramones, Television, Blondie, Talking Heads e Patti Smith fizeram nome. Fechou em 2006."
     lat: 40.72528
     lng: -73.99194
+achados:
+  - nome: "Livro: Mate-me por favor, a história sem censura do punk (L&PM) — Amazon"
+    url: "https://www.amazon.com.br/dp/6556661546?tag=awhuuu-20"
 ---
 CBGB queria dizer country, bluegrass e blues. Virou berço do punk. O dono abriu o bar pra tocar música de raiz e acabou recebendo Ramones, Blondie, Talking Heads, Television e Patti Smith.
 

@@ -42,6 +42,11 @@ acervo:
   alt: "Foto do LP Krig-ha, Bandolo!, de Raul Seixas, apoiado numa estante contra a parede"
   legenda: "Do acervo do lobo: o LP na estante de casa."
 pergunta: "Qual é o melhor disco do Raul?"
+achados:
+  - nome: "Vinil: Krig-ha, Bandolo!, série Clássicos em Vinil — Amazon"
+    url: "https://www.amazon.com.br/dp/B0784F63ZT?tag=awhuuu-20"
+  - nome: "Livro: Raul Seixas, Não diga que a canção está perdida (Jotabê Medeiros) — Amazon"
+    url: "https://www.amazon.com.br/dp/658030961X?tag=awhuuu-20"
 ---
 "Krig-ha, bandolo!" era um dos gritos de guerra do Tarzan nos quadrinhos, um aviso de que o inimigo estava perto. Em 1973, Raul Seixas pegou o aviso e fez dele o título do primeiro disco solo. Saíram dali "Ouro de Tolo", "Mosca na Sopa" e "Metamorfose Ambulante". Um baiano gritando rock'n'roll em português em plena ditadura.
 

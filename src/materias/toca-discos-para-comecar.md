@@ -11,7 +11,7 @@ ficha:
   - campo: Para quem
     valor: quem vai comprar o primeiro toca-discos
   - campo: Faixa de preço
-    valor: de uns R$ 1.350 a uns R$ 3.900, mais as caixas de som
+    valor: de uns R$ 1.200 a uns R$ 3.900, mais as caixas de som
   - campo: Preços vistos em
     valor: novembro de 2026 (mudam toda semana; confira na loja)
 acervo:
@@ -38,26 +38,38 @@ achados:
     url: "https://meli.la/25XQa2r"
   - nome: "Audio-Technica AT-LP60X (Magalu)"
     url: "https://www.magazinevoce.com.br/magazineawhuuu/toca-discos-vinil-audio-technica-automatico-at-lp60x-bk/p/hdad87hck0/ea/auvt/"
+  - nome: "Audio-Technica AT-LP60X (Amazon)"
+    url: "https://www.amazon.com.br/dp/B07N3XJ66N?tag=awhuuu-20"
   - nome: "Audio-Technica AT-LP70X (Mercado Livre)"
     url: "https://meli.la/1wMQDcj"
   - nome: "Audio-Technica AT-LP70X (Magalu)"
     url: "https://www.magazinevoce.com.br/magazineawhuuu/toca-discos-audio-technica-atlp70xbgc-acionamento-por-correia-automatico-preto-e-cinza-audio/p/egkg0ekhg8/ea/auvt/"
+  - nome: "Audio-Technica AT-LP70X (Amazon)"
+    url: "https://www.amazon.com.br/dp/B0DJBZ9NS1?tag=awhuuu-20"
   - nome: "Audio-Technica AT-LP120XUSB (Mercado Livre)"
     url: "https://meli.la/1WVo7xf"
   - nome: "Audio-Technica AT-LP120XUSB (Magalu)"
     url: "https://www.magazinevoce.com.br/magazineawhuuu/toca-discos-audiotechnica-atlp120xusb-direct-drive-usb-profissional-preto-audio-technica/p/bchc7809hd/ea/auvt/"
+  - nome: "Audio-Technica AT-LP120XUSB (Amazon)"
+    url: "https://www.amazon.com.br/dp/B07N3S4X3P?tag=awhuuu-20"
   - nome: "JBL Spinner BT (Mercado Livre)"
     url: "https://meli.la/1ECvNGr"
   - nome: "JBL Spinner BT (Magalu)"
     url: "https://www.magazinevoce.com.br/magazineawhuuu/toca-discos-jbl-spinner-bluetooth-acionamento-por-correia-cor-preto-110v-220v/p/db82dkkd53/ea/auvt/"
+  - nome: "JBL Spinner BT (Amazon)"
+    url: "https://www.amazon.com.br/dp/B0CYHJHN9R?tag=awhuuu-20"
   - nome: "Caixas Edifier R1280T (Mercado Livre)"
     url: "https://meli.la/1Yqh65s"
   - nome: "Caixas Edifier R1280T (Magalu)"
     url: "https://www.magazinevoce.com.br/magazineawhuuu/caixa-de-som-42w-rms-bivolt-para-home-audio-r1280t-edifier-madeira/p/hf8864b3e3/ea/cxsm/"
+  - nome: "Caixas Edifier R1280T (Amazon)"
+    url: "https://www.amazon.com.br/dp/B00GBN50SC?tag=awhuuu-20"
   - nome: "Caixas Edifier R1280DB (Mercado Livre)"
     url: "https://meli.la/1JGJmRK"
   - nome: "Caixas Edifier R1280DB (Magalu)"
     url: "https://www.magazinevoce.com.br/magazineawhuuu/caixa-de-som-monitor-de-audio-r1280db-bluetooth-bivolt-42w-rms-edifier-madeira/p/bba8f282jd/in/mnpc/"
+  - nome: "Caixas Edifier R1280DB (Amazon)"
+    url: "https://www.amazon.com.br/dp/B01NCTGH9M?tag=awhuuu-20"
 pergunta: "Qual foi o seu primeiro toca-discos? E ele sobreviveu?"
 ---
 
@@ -81,7 +93,7 @@ O que procurar no lugar:
 
 ## Degrau 1: o primeiro honesto
 
-**Audio-Technica AT-LP60X.** Um dos toca-discos de entrada mais vendidos do país, e com razão: automático (aperta um botão, o braço desce e volta sozinho), cápsula magnética, agulha trocável e pré-amplificador embutido. Na semana desta matéria saía por volta de **R$ 1.250 a R$ 1.400** nas grandes lojas.
+**Audio-Technica AT-LP60X.** Um dos toca-discos de entrada mais vendidos do país, e com razão: automático (aperta um botão, o braço desce e volta sozinho), cápsula magnética, agulha trocável e pré-amplificador embutido. Na semana desta matéria saía por volta de **R$ 1.190 a R$ 1.400** nas grandes lojas.
 
 O que ele não faz: você não ajusta o peso da agulha nem troca a cápsula por uma melhor. É um aparelho para tocar disco bem, não para evoluir.
 
@@ -93,9 +105,9 @@ Se der para esticar até aqui, estique. É a compra que você não vai querer tr
 
 ## Degrau 3: o ritual completo
 
-**Audio-Technica AT-LP120XUSB.** Tração direta, braço manual com contrapeso e anti-skating, controle de velocidade, saída USB para digitalizar seus discos. No Mercado Livre estava por **R$ 3.899**.
+**Audio-Technica AT-LP120XUSB.** Tração direta, braço manual com contrapeso e anti-skating, controle de velocidade, saída USB para digitalizar seus discos. Estava entre **R$ 3.240** (Amazon) e **R$ 3.900** (Mercado Livre).
 
-Outra opção manual, mais bonita na estante: **JBL Spinner BT**, com prato e braço de alumínio, cápsula magnética já alinhada de fábrica, pré-amplificador e Bluetooth aptX HD. Visto a **R$ 3.230** no Mercado Livre e no Magalu.
+Outra opção manual, mais bonita na estante: **JBL Spinner BT**, com prato e braço de alumínio, cápsula magnética já alinhada de fábrica, pré-amplificador e Bluetooth aptX HD. Visto entre **R$ 2.950** (Amazon) e **R$ 3.400**.
 
 Por que manual? Porque você mesmo desce o braço até o disco. Dá mais trabalho, e é exatamente esse o gesto que faz parte da graça.
 

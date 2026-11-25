@@ -36,6 +36,9 @@ lugares:
     lat: -22.97917
     lng: -43.41333
     aproximado: true
+achados:
+  - nome: "Livro: Rock in Rio, a história (Luiz Felipe Carneiro) — Amazon"
+    url: "https://www.amazon.com.br/dp/6555670592?tag=awhuuu-20"
 ---
 Duas da manhã. Uma cidade do rock construída do zero em Jacarepaguá. O Queen sobe ao palco do primeiro Rock in Rio e, no meio do show, desliga a banda: só violão e voz.
 

@@ -35,6 +35,11 @@ lugares:
     nota: "Onde Ozzy mordeu o morcego, em 20 de janeiro de 1982. Hoje é um centro de convenções."
     lat: 41.5925
     lng: -93.62278
+achados:
+  - nome: "Livro: Eu sou Ozzy, a autobiografia (Belas Letras) — Amazon"
+    url: "https://www.amazon.com.br/dp/6555375051?tag=awhuuu-20"
+  - nome: "Livro: Fora dos Trilhos, viagens com Randy Rhoads e Ozzy (Rudy Sarzo) — Amazon"
+    url: "https://www.amazon.com.br/dp/6555375590?tag=awhuuu-20"
 ---
 Turnê *Diary of a Madman*, 20 de janeiro de 1982, Des Moines, no estado americano de Iowa. Cerca de 5 mil pessoas no Veterans Memorial Auditorium. Num momento do show, Ozzy jogava carne crua na plateia, e a plateia devolvia o que tivesse levado. Naquela noite, alguém tinha levado um morcego.
 
