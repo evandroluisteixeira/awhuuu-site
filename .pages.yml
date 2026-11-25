@@ -168,6 +168,7 @@ content:
           - { name: estado, label: Estado ou região, type: string, description: "Ex.: SC, PR, São Paulo, Califórnia, Buenos Aires" }
           - { name: pais, label: País, type: string, description: "Ex.: Brasil, Argentina, Estados Unidos" }
           - { name: preco, label: Preço, type: string }
+          - { name: link_evento, label: Página do evento (de onde vem a foto automática), type: string, description: "Se o link do ingresso já é a página do evento (Sympla etc.), pode deixar vazio." }
           - { name: link_ingresso, label: Link do ingresso, type: string }
           - { name: cartaz, label: Foto de divulgação (enviar arquivo), type: image, options: { path: src/img/agenda } }
           - { name: cartaz_url, label: Foto de divulgação (ou cole o link da imagem), type: string }

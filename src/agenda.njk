@@ -23,11 +23,12 @@ descricao: Shows de rock no Brasil e no mundo, com foto, data, local e link do i
 
     <ol class="agenda" id="lista-shows">
       {% for s in lista %}
-      {%- set foto = s.cartaz or s.cartaz_url %}
+      {%- set foto = s.cartaz or s.cartaz_url or previews[s.link_evento or s.link_ingresso] %}
+      {%- set credito = s.credito or ("Divulgação" if (foto and not s.cartaz and not s.cartaz_url) else "") %}
       <li class="show{% if s.destaque %} destaque{% endif %}" data-pais="{{ s.pais }}" data-estado="{{ s.estado }}" data-cidade="{{ s.cidade }}" data-banda="{{ s.banda }}">
         <div class="foto-show">
           {% if foto %}<img src="{{ foto }}" alt="Divulgação: {{ s.banda }}" loading="lazy" referrerpolicy="no-referrer">
-          {% if s.credito %}<span class="credito">{{ s.credito }}</span>{% endif %}
+          {% if credito %}<span class="credito">{{ credito }}</span>{% endif %}
           {% else %}<span class="sem-foto" aria-hidden="true">{{ s.banda }}</span>{% endif %}
         </div>
         <div class="info-show">

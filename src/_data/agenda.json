@@ -12,12 +12,13 @@
       "pais": "Brasil",
       "preco": "",
       "link_ingresso": "https://www.celulacultural.com",
-      "cartaz": "",
       "cartaz_url": "",
       "credito": "",
       "texto": "Metal extremo norueguês (Aeternus) e death metal sueco da velha escola (Centinex), na primeira data da turnê pelo Sul e Sudeste. Ingressos com a casa.",
       "destaque": false,
-      "publicidade": false
+      "publicidade": false,
+      "cartaz": "",
+      "link_evento": "https://www.sympla.com.br/evento/verao-do-caos-com-aeternus-centinex-orthostat-red-razor/3462481"
     },
     {
       "banda": "Verão do Caos: Aeternus + Centinex",
@@ -29,12 +30,13 @@
       "pais": "Brasil",
       "preco": "",
       "link_ingresso": "",
-      "cartaz": "",
       "cartaz_url": "",
       "credito": "",
       "texto": "Segunda data catarinense da turnê, no Vale do Itajaí. Ingressos com a casa.",
       "destaque": false,
-      "publicidade": false
+      "publicidade": false,
+      "cartaz": "",
+      "link_evento": ""
     },
     {
       "banda": "Tagore + Tutu Naná",
@@ -46,12 +48,13 @@
       "pais": "Brasil",
       "preco": "",
       "link_ingresso": "https://www.sympla.com.br/evento/tagore-tutu-nana-no-celula-showcase/3648800",
-      "cartaz": "",
       "cartaz_url": "",
       "credito": "",
       "texto": "Do psicodélico nordestino ao noise etéreo, numa noite só.",
       "destaque": false,
-      "publicidade": false
+      "publicidade": false,
+      "cartaz": "",
+      "link_evento": ""
     },
     {
       "banda": "Pitty",
@@ -63,12 +66,13 @@
       "pais": "Brasil",
       "preco": "",
       "link_ingresso": "https://pitty.com.br",
-      "cartaz": "",
       "cartaz_url": "",
       "credito": "",
       "texto": "Turnê do sexto disco, ⚡ PITTY ⚡. Ingressos pelo site oficial da artista.",
       "destaque": false,
-      "publicidade": false
+      "publicidade": false,
+      "cartaz": "",
+      "link_evento": ""
     },
     {
       "banda": "Floripa Camping Rock 2027",
@@ -80,12 +84,13 @@
       "pais": "Brasil",
       "preco": "",
       "link_ingresso": "https://www.sympla.com.br/evento/floripa-camping-rock/3650605",
-      "cartaz": "",
       "cartaz_url": "",
       "credito": "",
       "texto": "Dois dias de rock com acampamento, 16 e 17 de janeiro.",
       "destaque": false,
-      "publicidade": false
+      "publicidade": false,
+      "cartaz": "",
+      "link_evento": ""
     },
     {
       "banda": "Rush",
@@ -97,12 +102,13 @@
       "pais": "Brasil",
       "preco": "",
       "link_ingresso": "https://www.eventim.com.br",
-      "cartaz": "",
       "cartaz_url": "",
       "credito": "",
       "texto": "Turnê Fifty Something, em homenagem a Neil Peart: a primeira das cinco datas brasileiras, depois de 17 anos sem o Rush no país.",
       "destaque": false,
-      "publicidade": false
+      "publicidade": false,
+      "cartaz": "",
+      "link_evento": ""
     },
     {
       "banda": "Rush",
@@ -114,12 +120,13 @@
       "pais": "Brasil",
       "preco": "",
       "link_ingresso": "https://www.eventim.com.br",
-      "cartaz": "",
       "cartaz_url": "",
       "credito": "",
       "texto": "Turnê Fifty Something. Depois vêm Rio (30/1), Belo Horizonte (1/2) e Brasília (4/2).",
       "destaque": false,
-      "publicidade": false
+      "publicidade": false,
+      "cartaz": "",
+      "link_evento": ""
     },
     {
       "banda": "Iron Maiden",
@@ -131,12 +138,13 @@
       "pais": "Estados Unidos",
       "preco": "",
       "link_ingresso": "https://www.ironmaiden.com",
-      "cartaz": "",
       "cartaz_url": "",
       "credito": "",
       "texto": "Abertura da última perna da Run For Your Lives, com Bullet For My Valentine e The Raven Age. Repertório só dos nove primeiros discos.",
       "destaque": false,
-      "publicidade": false
+      "publicidade": false,
+      "cartaz": "",
+      "link_evento": ""
     },
     {
       "banda": "Europe",
@@ -148,12 +156,13 @@
       "pais": "Argentina",
       "preco": "",
       "link_ingresso": "https://www.europetheband.com",
-      "cartaz": "",
       "cartaz_url": "",
       "credito": "",
       "texto": "Turnê sul-americana do disco Come This Madness, com abertura do Jayler. A banda também passa por três cidades brasileiras em abril.",
       "destaque": false,
-      "publicidade": false
+      "publicidade": false,
+      "cartaz": "",
+      "link_evento": ""
     },
     {
       "banda": "Europe",
@@ -165,12 +174,13 @@
       "pais": "Chile",
       "preco": "",
       "link_ingresso": "https://www.europetheband.com",
-      "cartaz": "",
       "cartaz_url": "",
       "credito": "",
       "texto": "Turnê Come This Madness, com abertura do Jayler.",
       "destaque": false,
-      "publicidade": false
+      "publicidade": false,
+      "cartaz": "",
+      "link_evento": ""
     }
   ]
 }
