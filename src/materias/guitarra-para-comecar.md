@@ -3,7 +3,6 @@ title: "Guitarra para começar: o que comprar para não desistir no terceiro mê
 editoria: garagem
 numero: 2
 date: 2026-12-22T20:00:00-03:00
-rascunho: true
 resumo: "Três guitarras honestas, dois amplificadores e a armadilha da voltagem que ninguém te conta. Com preço de loja brasileira."
 capa: /img/capas/garagem.webp
 capa_alt: "Ilustração de um lobisomem de jaqueta de couro numa garagem à noite, pondo um disco no toca-discos entre amplificadores, com a lua cheia na porta"
@@ -73,8 +72,6 @@ achados:
 pergunta: "Qual foi a sua primeira guitarra? E onde ela está hoje?"
 ---
 
-> Rascunho interno. Antes de publicar: foto e texto do Evandro em "O que o lobo usa", conferir preços e voltagens na semana da publicação.
-
 Todo professor de guitarra conhece a cena: o aluno chega animado com uma guitarra barata, a corda fica alta, a afinação escapa, o dedo dói, e no terceiro mês o instrumento vira enfeite atrás da porta. A culpa quase nunca é do aluno. É do instrumento.
 
 A boa notícia é que a primeira guitarra decente custa menos do que parece. Este guia tem três degraus de guitarra, dois amplificadores e um aviso de tomada que vale mais que qualquer especificação.
@@ -88,7 +85,7 @@ A boa notícia é que a primeira guitarra decente custa menos do que parece. Est
 
 ## Degrau 1: a nacional que segura o tranco
 
-**Tagima TG-530.** A Tagima é uma marca brasileira, de 1986, e a TG-530 é uma das guitarras mais vendidas para iniciantes no país. Corpo estilo Stratocaster, três captadores single, 22 trastes, ponte com alavanca. Fica entre **R$ 900 e R$ 1.000**.
+**Tagima TG-530.** A Tagima é uma marca brasileira, de 1986, e a TG-530 é uma das mais indicadas para iniciantes no país. Corpo estilo Stratocaster, três captadores single, 22 trastes, ponte com alavanca. Fica entre **R$ 900 e R$ 1.000**.
 
 O ponto fraco mais citado por quem tem: as tarraxas perdem a afinação quando se abusa da alavanca. Para quem está começando e mal vai tocar nela, não pesa.
 
@@ -106,6 +103,10 @@ Se a dúvida for entre as duas: Debut para quem quer o som clássico de Strat e 
 
 **Squier Affinity Stratocaster.** Um passo acima das Squier de entrada, com trastes medium jumbo (mais fáceis para bends) e acabamento um pouco melhor. É uma base comum para quem, mais tarde, quer trocar só os captadores em vez da guitarra inteira. Entre **R$ 2.150 e R$ 2.750**.
 
+## E a usada?
+
+Guitarra usada de marca conhecida costuma ser o melhor negócio desta lista, se alguém que toca for junto conferir o braço, os trastes e a parte elétrica. Sozinho, na primeira compra, o novo com garantia é mais seguro.
+
 ## O amplificador (e a armadilha da tomada)
 
 **Boss Katana Mini.** Cabe numa estante, tem três tipos de amplificador (limpo, crunch e o "brown", distorção de rock), delay, entrada para tocar junto com música e saída de fone para estudar de madrugada sem acordar ninguém. Funciona com pilha ou fonte; confira se a fonte vem junto, porque às vezes é vendida à parte. Entre **R$ 1.160 e R$ 1.530**.
@@ -118,9 +119,11 @@ Se a dúvida for entre as duas: Debut para quem quer o som clássico de Strat e 
 
 Cabo de guitarra (P10), afinador de clipe (ou um aplicativo no celular), palhetas médias, correia e uma capa. Sem o cabo, nada funciona no primeiro dia.
 
-## O que o lobo usa
+## A escolha do lobo
 
-*[Espaço para o Evandro: a guitarra dele, por que escolheu, e a primeira música que aprendeu nela.]*
+Para quem vai começar sozinho em casa, o lobo levaria a **Yamaha Pacifica 012 com o Boss Katana Mini**. A Pacifica costuma chegar tocável, e o humbucker da ponte aguenta o rock mais pesado sem embolar. O Katana Mini cabe na estante, tem fone para a madrugada e, com pilha, escapa da armadilha da tomada.
+
+Depois, é separar meia hora por dia. Guitarra boa não substitui ensaio, só impede que você desista antes dele.
 
 ## Resumo da lua
 

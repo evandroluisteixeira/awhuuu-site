@@ -3,7 +3,6 @@ title: "Toca-discos para começar: o que comprar sem estragar seus discos"
 editoria: garagem
 numero: 1
 date: 2026-12-15T20:00:00-03:00
-rascunho: true
 resumo: "Do primeiro toca-discos honesto ao que dura a vida toda, com preço de loja brasileira. E por que a maleta bonitinha é a pior porta de entrada."
 capa: /img/capas/garagem.webp
 capa_alt: "Ilustração de um lobisomem de jaqueta de couro numa garagem à noite, pondo um disco no toca-discos entre amplificadores, com a lua cheia na porta"
@@ -79,8 +78,6 @@ achados:
 pergunta: "Qual foi o seu primeiro toca-discos? E ele sobreviveu?"
 ---
 
-> Rascunho interno. Antes de publicar: escrever "O que o lobo comprou" (ou trocar a ilustração pela foto do aparelho, se preferir), conferir os preços na semana da publicação e colocar os links de afiliado em "Achados".
-
 Todo mundo que volta pro vinil passa pela mesma vitrine: uma maleta retrô, cor de cereja, com caixinha de som embutida, por menos de mil reais. É bonita. E é o jeito mais caro de começar, porque você vai trocar de aparelho em seis meses e, até lá, seus discos pagam a conta.
 
 Este guia tem três degraus. Todos tocam disco direito. A diferença é quanto você quer crescer depois.
@@ -99,7 +96,7 @@ O que procurar no lugar:
 
 ## Degrau 1: o primeiro honesto
 
-**Audio-Technica AT-LP60X.** Um dos toca-discos de entrada mais vendidos do país, e com razão: automático (aperta um botão, o braço desce e volta sozinho), cápsula magnética, agulha trocável e pré-amplificador embutido. Na semana desta matéria saía por volta de **R$ 1.190 a R$ 1.400** nas grandes lojas.
+**Audio-Technica AT-LP60X.** O toca-discos de entrada que mais aparece nas listas de recomendação, e com razão: automático (aperta um botão, o braço desce e volta sozinho), cápsula magnética, agulha trocável e pré-amplificador embutido. Quando esta matéria foi escrita, saía por volta de **R$ 1.190 a R$ 1.400** nas grandes lojas.
 
 O que ele não faz: você não ajusta o peso da agulha nem troca a cápsula por uma melhor. É um aparelho para tocar disco bem, não para evoluir.
 
@@ -117,13 +114,19 @@ Outra opção manual, mais bonita na estante: **JBL Spinner BT**, com prato e br
 
 Por que manual? Porque você mesmo desce o braço até o disco. Dá mais trabalho, e é exatamente esse o gesto que faz parte da graça.
 
+## E o usado?
+
+Toca-discos antigo de marca boa, revisado, pode ser ótima compra, e muitas vezes mais robusto que um novo de entrada. O risco está na agulha gasta e no braço desregulado: compre de quem revisa e entrega com agulha nova, ou leve alguém que entenda. Usado sem revisão é a maleta de cereja com outra cara.
+
 ## E o som sai por onde?
 
 Toca-discos não tem caixa de som. Com pré-amplificador embutido, o caminho mais simples é um **par de caixas ativas**. A dupla clássica de entrada é a **Edifier R1280T** (só cabo, perto de **R$ 900**) ou a **R1280DB** (com Bluetooth e entrada óptica, perto de **R$ 1.300**). Duas entradas RCA: o toca-discos fica ligado numa, o computador na outra.
 
-## O que o lobo comprou
+## A escolha do lobo
 
-*[Espaço para o Evandro: qual aparelho, por quê, e a primeira bolacha que rodou nele.]*
+Se fosse para gastar uma vez só e não pensar mais no assunto, o lobo iria de **AT-LP70X com as Edifier R1280DB**. O toca-discos custa pouco mais que o LP60X e deixa a porta aberta para uma agulha melhor no futuro. As caixas têm Bluetooth e entrada óptica, então servem também para a TV e para o celular quando o disco descansa.
+
+E a primeira bolacha? Aquela que você tem há anos e nunca ouviu direito.
 
 ## Resumo da lua
 

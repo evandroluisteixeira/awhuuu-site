@@ -3,7 +3,6 @@ title: "O kit do lobo: visual rock da bota à corrente"
 editoria: trapos-e-bugigangas
 numero: 1
 date: 2026-12-18T20:00:00-03:00
-rascunho: true
 resumo: "Coturno, jaqueta, calça rasgada, cinto de pirâmide, choker, bracelete e corrente. Peça por peça, com o preço da semana."
 capa: /img/capas/trapos-e-bugigangas.webp
 capa_alt: "Ilustração de um lobisomem de jaqueta de couro ajustando uma choker de spikes diante de um espelho rachado, com saia xadrez, calças rasgadas, coturnos e correntes ao redor e a lua cheia na janela"
@@ -17,7 +16,7 @@ ficha:
 acervo:
   imagem: ""
   alt: "Foto de peças do acervo do Awhuuu!"
-  legenda: "[espaço para foto do Evandro com as peças]"
+  legenda: ""
 achados:
   - nome: "Coturno de couro com 5 fivelas"
     url: "https://meli.la/2yT2uZp"
@@ -38,13 +37,11 @@ achados:
 pergunta: "Qual peça do seu visual já tem mais história que você?"
 ---
 
-> Rascunho interno. Antes de publicar: texto do Evandro em "O que o lobo veste", conferir preços e estoque na semana.
-
 O visual rock nunca foi sobre etiqueta. Foi sobre o que dava para arrumar: jaqueta do brechó, alfinete na calça, tacha pregada à mão no cinto. Aqui vai o kit básico, peça por peça, pensado para durar mais que uma turnê.
 
 ## Pés: o coturno
 
-Tudo começa no chão. Um **coturno de cano alto em couro com cinco fivelas** (por volta de **R$ 360**) é a base de tudo. Couro de verdade amacia com o uso; se for gastar mais em uma peça só, gaste aqui.
+Tudo começa no chão. Um **coturno de cano alto em couro com cinco fivelas** (por volta de **R$ 360**) é a base de tudo. Couro de verdade amacia com o uso; se for gastar mais em uma peça só, gaste aqui. Quem não usa couro animal acha modelos sintéticos parecidos, por menos.
 
 ## Tronco: a jaqueta
 
@@ -53,7 +50,7 @@ A **jaqueta estilo motoqueiro** é o uniforme desde os anos 50. A que escolhemos
 ## Pernas: calça ou saia
 
 - **Calça skinny preta rasgada**, com elastano, por volta de **R$ 70**. Mais de 13 mil avaliações, nota 4,7. O básico do básico.
-- **Saia xadrez plissada preta e vermelha**, por volta de **R$ 50**. O xadrez vermelho é herança direta do punk londrino dos anos 70.
+- **Saia xadrez plissada preta e vermelha**, por volta de **R$ 50**. O xadrez vermelho lembra o punk londrino dos anos 70.
 
 ## Os acessórios (onde mora a bugiganga)
 
@@ -70,6 +67,6 @@ Só os acessórios saem por menos de R$ 200 e já mudam qualquer camiseta preta.
 - **Leia as avaliações com foto.** Elas mostram a peça de verdade, não a foto de catálogo.
 - **Envio internacional demora.** Se o anúncio diz "compra internacional", conte com semanas de entrega.
 
-## O que o lobo veste
+## A escolha do lobo
 
-*[Espaço para o Evandro: a peça mais antiga do guarda-roupa dele e a história por trás dela.]*
+Se o dinheiro estiver curto, comece pelo **cinto de pirâmides e pela corrente**: juntos saem por menos de R$ 100 e transformam uma camiseta preta lisa em visual. Se for para investir numa peça só, que seja **o coturno**, que dura anos e combina com qualquer calça. O resto vai chegando aos poucos, como sempre foi no punk.
