@@ -1,0 +1,89 @@
+---
+title: "Toca-discos para começar: o que comprar sem estragar seus discos"
+editoria: garagem
+numero: 1
+date: 2026-12-15T20:00:00-03:00
+rascunho: true
+resumo: "Do primeiro toca-discos honesto ao que dura a vida toda, com preço de loja brasileira. E por que a maleta bonitinha é a pior porta de entrada."
+capa: /img/capas/pedrada-do-dia.webp
+capa_alt: "Ilustração de um lobisomem sentado sobre pilhas de discos, erguendo um vinil contra a lua cheia"
+ficha:
+  - campo: Para quem
+    valor: quem vai comprar o primeiro toca-discos
+  - campo: Faixa de preço
+    valor: de uns R$ 1.250 a uns R$ 4.500, mais as caixas de som
+  - campo: Preços vistos em
+    valor: novembro de 2026 (mudam toda semana; confira na loja)
+acervo:
+  imagem: ""
+  alt: "Foto do toca-discos do Awhuuu!"
+  legenda: "O toca-discos do lobo. [trocar pela foto do aparelho comprado]"
+fontes:
+  - nome: "Vitrola de maleta estraga o disco de vinil? — Canaltech"
+    url: "https://canaltech.com.br/produtos/vitrola-de-maleta-estraga-o-disco-de-vinil-veja-o-que-dizem-especialistas"
+  - nome: "Vitrola de maleta é ruim mesmo? Comparei com toca-discos JBL — Canaltech"
+    url: "https://canaltech.com.br/produtos/vitrola-de-maleta-e-ruim-mesmo-comparei-com-toca-discos-jbl-e-entendi-o-problema/"
+  - nome: "AT-LP70X vs. AT-LP60X — Turntable Lab"
+    url: "https://turntablelab.com/products/audio-technica-at-lp70x-automatic-turntable"
+  - nome: "AT-LP70X review — Gear Patrol"
+    url: "https://www.gearpatrol.com/audio/audio-technica-at-lp70x-turntable/"
+  - nome: "Catálogo de toca-discos Audio-Technica Brasil (abril de 2024)"
+    url: "https://docs.audio-technica.com/us/Vol8.Toca-Discos_2024-abril.pdf"
+  - nome: "Ficha técnica JBL Spinner BT (PT-BR) — Harman"
+    url: "https://support.harmanaudio.com/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9d1575cf/pdfs/JBL%20Spinner%20BT_%20Specsheet_PTBR%20(1).pdf"
+  - nome: "AT-LP60X — menor preço no Buscapé"
+    url: "https://www.buscape.com.br/toca-discos/toca-discos-vinil-audio-technica-automatico-at-lp60x-bk-preto"
+pergunta: "Qual foi o seu primeiro toca-discos? E ele sobreviveu?"
+---
+
+> Rascunho interno. Antes de publicar: trocar a foto do acervo pela do aparelho comprado, conferir os preços na semana da publicação e colocar os links de afiliado em "Achados".
+
+Todo mundo que volta pro vinil passa pela mesma vitrine: uma maleta retrô, cor de cereja, com caixinha de som embutida, por menos de mil reais. É bonita. E é o jeito mais caro de começar, porque você vai trocar de aparelho em seis meses e, até lá, seus discos pagam a conta.
+
+Este guia tem três degraus. Todos tocam disco direito. A diferença é quanto você quer crescer depois.
+
+## Antes de tudo: fuja da maleta
+
+O problema da maleta não é a cara, é a agulha. A maioria usa cápsula de cerâmica, que precisa apoiar mais peso no sulco, e o braço não tem contrapeso para você regular essa força. O som sai de alto-falantes colados no prato, que tremem junto com o disco.
+
+Uma tocada não destrói um LP. O estrago é de desgaste: centenas de audições com peso demais, e o chiado vai chegando. Se você já tem uma, não precisa jogar fora. Só não compre os discos que você ama pensando nela.
+
+O que procurar no lugar:
+
+- **Cápsula magnética**, com agulha de diamante que se troca sozinha.
+- **Pré-amplificador embutido** (aparece como "phono preamp" ou chave PHONO/LINE). Com ele você liga direto em caixa ativa, sem aparelho no meio.
+- **Saída por cabo**, mesmo que tenha Bluetooth. O fio sempre soa melhor.
+
+## Degrau 1: o primeiro honesto
+
+**Audio-Technica AT-LP60X.** Um dos toca-discos de entrada mais vendidos do país, e com razão: automático (aperta um botão, o braço desce e volta sozinho), cápsula magnética, agulha trocável e pré-amplificador embutido. Na semana desta matéria saía por volta de **R$ 1.250 a R$ 1.400** no Pix nas grandes lojas.
+
+O que ele não faz: você não ajusta o peso da agulha nem troca a cápsula por uma melhor. É um aparelho para tocar disco bem, não para evoluir.
+
+## Degrau 2: o que cresce com você
+
+**Audio-Technica AT-LP70X.** O degrau acima do LP60X, sem mudar o jeito de usar. Corpo mais pesado (vibra menos), braço mais longo em formato de J e a cápsula VM95, que aceita agulhas melhores quando você quiser subir de nível. Também é automático e tem pré-amplificador. A versão com Bluetooth (AT-LP70XBT) aparecia perto de **R$ 2.600**.
+
+Se der para esticar até aqui, estique. É a compra que você não vai querer trocar tão cedo.
+
+## Degrau 3: o ritual completo
+
+**Audio-Technica AT-LP120XUSB.** Tração direta, braço manual com contrapeso e anti-skating, controle de velocidade, saída USB para digitalizar seus discos. Fica por volta de **R$ 4.100 a R$ 4.500**.
+
+Outra opção manual, mais bonita na estante: **JBL Spinner BT**, com prato e braço de alumínio, cápsula magnética já alinhada de fábrica, pré-amplificador e Bluetooth aptX HD. Visto a **R$ 3.230** no Magalu.
+
+Por que manual? Porque você mesmo desce o braço até o disco. Dá mais trabalho, e é exatamente esse o gesto que faz parte da graça.
+
+## E o som sai por onde?
+
+Toca-discos não tem caixa de som. Com pré-amplificador embutido, o caminho mais simples é um **par de caixas ativas**. A dupla clássica de entrada é a **Edifier R1280T** (só cabo, perto de **R$ 860** no Pix) ou a **R1280DB** (com Bluetooth e entrada óptica, de **R$ 1.060 a R$ 1.330**). Duas entradas RCA: o toca-discos fica ligado numa, o computador na outra.
+
+## O que o lobo comprou
+
+*[Espaço para o Evandro: qual aparelho, por quê, e a primeira bolacha que rodou nele.]*
+
+## Resumo da lua
+
+- **Até R$ 1.500:** AT-LP60X + caixas que você já tiver.
+- **Até R$ 3.500:** AT-LP70X + Edifier R1280T.
+- **Para a vida toda:** AT-LP120XUSB ou JBL Spinner BT + Edifier R1280DB.
