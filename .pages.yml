@@ -35,6 +35,7 @@ content:
             - { value: madrugada-eletrica, label: "Madrugada Elétrica" }
             - { value: sexta-de-lua-cheia, label: "Sexta de Lua Cheia" }
             - { value: garagem, label: "Garagem" }
+            - { value: trapos-e-bugigangas, label: "Trapos e Bugigangas" }
       - name: numero
         label: Número na série
         type: number
