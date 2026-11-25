@@ -61,5 +61,12 @@
     "descricao": "Equipamento para ouvir e tocar rock: toca-discos, caixas, fones e o que vale o seu dinheiro.",
     "capa": "/img/capas/garagem.webp",
     "ativa": false
+  },
+  {
+    "slug": "trapos-e-bugigangas",
+    "nome": "Trapos e Bugigangas",
+    "descricao": "O visual rock peça por peça: coturno, jaqueta, calça rasgada, spikes, correntes e outras bugigangas.",
+    "capa": "/img/capas/garagem.webp",
+    "ativa": false
   }
 ]
