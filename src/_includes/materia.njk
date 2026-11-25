@@ -58,7 +58,7 @@ layout: base.njk
     {% if achados and site.afiliados_ativos %}
     <section class="achados" aria-label="Achados">
       <h2>Achados</h2>
-      <ul class="links-ouvir">{% for a in achados %}<li><a href="{{ a.url }}" target="_blank" rel="sponsored noopener">{{ a.nome }}</a></li>{% endfor %}</ul>
+      <ul class="achados-lista">{% for a in achados %}<li><a href="{{ a.url }}" target="_blank" rel="sponsored noopener">{% if a.imagem %}<img src="{{ a.imagem }}" alt="" width="160" height="160" loading="lazy" referrerpolicy="no-referrer">{% endif %}<span>{{ a.nome }}</span></a></li>{% endfor %}</ul>
       <p class="aviso">{{ site.aviso_afiliados }}</p>
     </section>
     {% endif %}

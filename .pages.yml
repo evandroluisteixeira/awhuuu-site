@@ -111,6 +111,7 @@ content:
         fields:
           - { name: nome, label: Produto, type: string }
           - { name: url, label: Link de afiliado, type: string }
+          - { name: imagem, label: Foto do produto (link da imagem na loja), type: string, description: "Na página do produto, clique com o botão direito na foto e copie o endereço da imagem. Opcional." }
       - name: lugares
         label: Lugares no mapa
         description: "Cada lugar vira um pino em /mapa/. Para pegar a latitude e a longitude, clique com o botão direito no lugar no Google Maps: o primeiro número é a latitude, o segundo a longitude."
@@ -152,6 +153,7 @@ content:
     path: src/_data/agenda.json
     fields:
       - { name: aviso_vazio, label: Texto quando a agenda está vazia, type: text }
+      - { name: chamada, label: Texto de abertura, type: text }
       - name: shows
         label: Shows
         description: Shows que já passaram somem sozinhos do site no dia seguinte.
@@ -163,12 +165,64 @@ content:
           - { name: hora, label: Horário, type: string }
           - { name: local, label: Local, type: string }
           - { name: cidade, label: Cidade, type: string }
+          - { name: estado, label: Estado ou região, type: string, description: "Ex.: SC, PR, São Paulo, Califórnia, Buenos Aires" }
+          - { name: pais, label: País, type: string, description: "Ex.: Brasil, Argentina, Estados Unidos" }
           - { name: preco, label: Preço, type: string }
           - { name: link_ingresso, label: Link do ingresso, type: string }
-          - { name: cartaz, label: Cartaz, type: image, options: { path: src/img/agenda } }
+          - { name: cartaz, label: Foto de divulgação (enviar arquivo), type: image, options: { path: src/img/agenda } }
+          - { name: cartaz_url, label: Foto de divulgação (ou cole o link da imagem), type: string }
+          - { name: credito, label: Crédito da foto, type: string, description: "Ex.: Divulgação, Foto: Fulano" }
           - { name: texto, label: Texto curto, type: text }
           - { name: destaque, label: Em destaque (pacote pago), type: boolean }
           - { name: publicidade, label: Marcar como publicidade, type: boolean }
+
+  - name: clube
+    label: Clube (assinaturas e caixas)
+    type: file
+    path: src/_data/clube.json
+    fields:
+      - { name: titulo, label: Nome do clube, type: string }
+      - { name: chamada, label: Texto de abertura, type: text }
+      - { name: passos, label: Como funciona (passos), type: string, list: true }
+      - name: versoes
+        label: Versões (digital, disco em casa...)
+        type: object
+        list: true
+        fields:
+          - { name: nome, label: Nome, type: string }
+          - { name: preco, label: Preço (vazio = "em breve"), type: string }
+          - { name: texto, label: O que inclui, type: text }
+      - name: assinaturas
+        label: Assinaturas
+        type: object
+        list: true
+        fields:
+          - { name: nome, label: Nome, type: string }
+          - { name: resumo, label: Resumo, type: text }
+          - { name: sugestoes_titulo, label: Título das sugestões, type: string }
+          - { name: sugestoes, label: Sugestões (bandas, discos, estilos), type: string, list: true }
+          - { name: link_pagamento, label: Link de pagamento (vazio = lista de espera), type: string }
+          - { name: ativo, label: Mostrar no site, type: boolean }
+      - name: caixas
+        label: Caixas para presente
+        type: object
+        list: true
+        fields:
+          - { name: nome, label: Nome, type: string }
+          - { name: preco, label: Preço (vazio = "em breve"), type: string }
+          - { name: resumo, label: Resumo, type: text }
+          - { name: inclui, label: Vem na caixa, type: string, list: true }
+          - { name: link_pagamento, label: Link de pagamento (vazio = lista de espera), type: string }
+          - { name: ativo, label: Mostrar no site, type: boolean }
+      - name: espera
+        label: Lista de espera
+        type: object
+        fields:
+          - { name: titulo, label: Título, type: string }
+          - { name: texto, label: Texto, type: text }
+          - { name: botao, label: Texto do botão, type: string }
+          - { name: link, label: Link (newsletter ou formulário), type: string }
+      - { name: rodape, label: Nota no fim da página, type: text }
 
   - name: vitrine
     label: Anuncie e apoie

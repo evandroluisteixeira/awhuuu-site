@@ -1,0 +1,72 @@
+{
+  "titulo": "Clube da Lua Cheia",
+  "chamada": "Disco novo na sua estante todo mês, escolhido a dedo e com a história contada. Você escolhe o caminho: a história do rock, a discografia de uma banda ou um estilo. Quem prefere só ouvir assina a versão digital.",
+  "passos": [
+    "Escolha o caminho",
+    "Escolha a versão: digital ou com o disco em casa",
+    "Todo mês chega o disco (ou a playlist) com o texto do lobo"
+  ],
+  "versoes": [
+    {
+      "nome": "Digital",
+      "preco": "",
+      "texto": "Playlist do disco do mês, texto contando a história dele e o que ouvir com atenção."
+    },
+    {
+      "nome": "Disco em casa",
+      "preco": "",
+      "texto": "Tudo da versão digital, mais o disco (CD ou vinil, você escolhe) entregue no seu endereço."
+    }
+  ],
+  "assinaturas": [
+    {
+      "nome": "História do Rock",
+      "resumo": "Um álbum por mês, em ordem, do rock'n'roll dos anos 50 até hoje. Doze meses depois, você tem a linha do tempo inteira na estante.",
+      "sugestoes_titulo": "Primeiros meses",
+      "sugestoes": ["Elvis Presley (1956)", "The Beatles, Revolver (1966)", "Led Zeppelin IV (1971)", "Ramones (1976)"],
+      "link_pagamento": "",
+      "ativo": true
+    },
+    {
+      "nome": "Complete a coleção",
+      "resumo": "Escolha a banda e receba a discografia de estúdio em ordem, um disco por mês. Pode pular o que você já tem.",
+      "sugestoes_titulo": "Por exemplo",
+      "sugestoes": ["Iron Maiden", "Black Sabbath", "AC/DC", "Led Zeppelin", "Pink Floyd", "Legião Urbana", "ou a banda que você quiser"],
+      "link_pagamento": "",
+      "ativo": true
+    },
+    {
+      "nome": "Assine um estilo",
+      "resumo": "Um disco essencial por mês dentro de um estilo: o clássico, o lado B e a descoberta.",
+      "sugestoes_titulo": "Por exemplo",
+      "sugestoes": ["Punk", "Heavy metal", "Rock nacional", "Psicodelia", "Grunge", "Blues rock", "ou outro estilo"],
+      "link_pagamento": "",
+      "ativo": true
+    }
+  ],
+  "caixas": [
+    {
+      "nome": "Caixa Primeiro Uivo",
+      "preco": "",
+      "resumo": "Para dar de presente a quem está começando: um disco clássico, um livro de rock e uma carta com a playlist do lobo.",
+      "inclui": ["1 disco (CD ou vinil)", "1 livro", "Carta com a história e QR code da playlist"],
+      "link_pagamento": "",
+      "ativo": true
+    },
+    {
+      "nome": "Caixa Fã de Carteirinha",
+      "preco": "",
+      "resumo": "Tudo sobre uma banda só: o disco essencial, a biografia e a playlist com o melhor do resto.",
+      "inclui": ["1 disco da banda escolhida", "1 biografia ou livro sobre a banda", "Carta com a playlist"],
+      "link_pagamento": "",
+      "ativo": true
+    }
+  ],
+  "espera": {
+    "titulo": "Abre em breve",
+    "texto": "O clube está sendo montado. Entre na lista e seja o primeiro a saber quando abrir (e com que preço).",
+    "botao": "Quero ser avisado",
+    "link": "https://awhuuu.substack.com"
+  },
+  "rodape": "Quer divulgar um show ou um lançamento? Veja os pacotes para bandas e produtores."
+}

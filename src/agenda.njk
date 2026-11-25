@@ -2,23 +2,38 @@
 layout: base.njk
 permalink: /agenda/
 title: "Último Bonde: agenda de shows"
-descricao: Os shows de rock em Santa Catarina, com data, local e link do ingresso.
+descricao: Shows de rock no Brasil e no mundo, com foto, data, local e link do ingresso. Filtre por país, estado e cidade.
 ---
 {%- set lista = agenda.shows | futuros %}
 <section class="secao" style="border-top:0">
   <div class="faixa">
     <p class="rotulo">Último Bonde</p>
     <h1 class="titulo-pag">Agenda</h1>
-    <p class="chamada-pag">O que rola de rock em Santa Catarina. Confira sempre com a casa antes de sair: show muda de data.</p>
+    <p class="chamada-pag">{{ agenda.chamada }}</p>
+
     {% if lista.length %}
-    <ol class="agenda">
+    <form class="filtro-agenda" id="filtro" hidden onsubmit="return false">
+      <label>País<select data-campo="pais"><option value="">Todos</option></select></label>
+      <label>Estado ou região<select data-campo="estado"><option value="">Todos</option></select></label>
+      <label>Cidade<select data-campo="cidade"><option value="">Todas</option></select></label>
+      <label class="busca">Banda<input type="search" data-campo="banda" placeholder="Digite um nome" list="bandas-lista"></label>
+      <datalist id="bandas-lista"></datalist>
+      <button type="button" class="limpar" id="limpar">Ver tudo</button>
+    </form>
+
+    <ol class="agenda" id="lista-shows">
       {% for s in lista %}
-      <li class="show{% if s.destaque %} destaque{% endif %}">
-        {% if s.cartaz %}<img src="{{ s.cartaz }}" alt="Cartaz: {{ s.banda }}" width="1080" height="1350" loading="lazy">{% endif %}
-        <div>
+      {%- set foto = s.cartaz or s.cartaz_url %}
+      <li class="show{% if s.destaque %} destaque{% endif %}" data-pais="{{ s.pais }}" data-estado="{{ s.estado }}" data-cidade="{{ s.cidade }}" data-banda="{{ s.banda }}">
+        <div class="foto-show">
+          {% if foto %}<img src="{{ foto }}" alt="Divulgação: {{ s.banda }}" loading="lazy" referrerpolicy="no-referrer">
+          {% if s.credito %}<span class="credito">{{ s.credito }}</span>{% endif %}
+          {% else %}<span class="sem-foto" aria-hidden="true">{{ s.banda }}</span>{% endif %}
+        </div>
+        <div class="info-show">
           <p class="quando"><time datetime="{{ s.data }}">{{ s.data | diaShow }}</time>{% if s.hora %} · {{ s.hora }}{% endif %}</p>
           <h2>{{ s.banda }}</h2>
-          <p class="onde">{{ s.local }}{% if s.cidade %}, {{ s.cidade }}{% endif %}{% if s.preco %} · {{ s.preco }}{% endif %}</p>
+          <p class="onde">{{ s.local }}{% if s.cidade %}, {{ s.cidade }}{% endif %}{% if s.estado and s.estado != s.cidade %} ({{ s.estado }}){% endif %}{% if s.pais and s.pais != "Brasil" %} · {{ s.pais }}{% endif %}{% if s.preco %} · {{ s.preco }}{% endif %}</p>
           {% if s.texto %}<p>{{ s.texto }}</p>{% endif %}
           {% if s.link_ingresso %}<a class="botao" href="{{ s.link_ingresso }}" target="_blank" rel="noopener">Ingresso</a>{% endif %}
           {% if s.publicidade %}<p class="selo">Publicidade</p>{% endif %}
@@ -26,9 +41,58 @@ descricao: Os shows de rock em Santa Catarina, com data, local e link do ingress
       </li>
       {% endfor %}
     </ol>
+    <p class="vazio" id="vazio" hidden>{{ agenda.aviso_vazio }}</p>
     {% else %}
     <p class="vazio">{{ agenda.aviso_vazio }}</p>
     {% endif %}
     <p style="margin-top:32px"><a class="botao contorno" href="/parcerias/">Divulgue seu show</a></p>
   </div>
 </section>
+
+<script>
+(function(){
+  var form=document.getElementById('filtro'); if(!form) return;
+  var itens=[].slice.call(document.querySelectorAll('#lista-shows .show'));
+  var sel={}; [].forEach.call(form.querySelectorAll('[data-campo]'),function(el){sel[el.dataset.campo]=el;});
+  var CHAVE='awhuuu-agenda';
+  function valores(campo,filtro){
+    var v={}; itens.forEach(function(li){
+      if(filtro && Object.keys(filtro).some(function(k){return filtro[k] && li.dataset[k]!==filtro[k];})) return;
+      if(li.dataset[campo]) v[li.dataset[campo]]=1;
+    }); return Object.keys(v).sort(function(a,b){return a.localeCompare(b,'pt-BR');});
+  }
+  function preencher(campo,lista,atual){
+    var el=sel[campo], primeiro=el.options[0].outerHTML;
+    el.innerHTML=primeiro+lista.map(function(x){return '<option'+(x===atual?' selected':'')+'>'+x.replace(/</g,'&lt;')+'</option>';}).join('');
+    if(lista.indexOf(atual)<0) el.value='';
+  }
+  function aplicar(salvar){
+    var f={pais:sel.pais.value};
+    preencher('estado',valores('estado',f),sel.estado.value);
+    f.estado=sel.estado.value;
+    preencher('cidade',valores('cidade',f),sel.cidade.value);
+    f.cidade=sel.cidade.value;
+    var termo=(sel.banda.value||'').trim().toLowerCase(), vistos=0;
+    itens.forEach(function(li){
+      var ok=['pais','estado','cidade'].every(function(k){return !f[k]||li.dataset[k]===f[k];}) && (!termo||li.dataset.banda.toLowerCase().indexOf(termo)>=0);
+      li.hidden=!ok; if(ok) vistos++;
+    });
+    document.getElementById('vazio').hidden=vistos>0;
+    if(salvar){ try{ localStorage.setItem(CHAVE,JSON.stringify({pais:f.pais,estado:f.estado,cidade:f.cidade})); }catch(e){} }
+  }
+  preencher('pais',valores('pais'),'');
+  document.getElementById('bandas-lista').innerHTML=valores('banda').map(function(b){return '<option value="'+b.replace(/"/g,'&quot;')+'">';}).join('');
+  try{ var s=JSON.parse(localStorage.getItem(CHAVE)||'{}');
+    if(s.pais){ sel.pais.value=s.pais; } aplicar(false);
+    if(s.estado){ sel.estado.value=s.estado; } aplicar(false);
+    if(s.cidade){ sel.cidade.value=s.cidade; }
+  }catch(e){}
+  aplicar(false);
+  form.addEventListener('change',function(){aplicar(true);});
+  sel.banda.addEventListener('input',function(){aplicar(false);});
+  document.getElementById('limpar').addEventListener('click',function(){
+    ['pais','estado','cidade','banda'].forEach(function(k){sel[k].value='';}); aplicar(true);
+  });
+  form.hidden=false;
+})();
+</script>

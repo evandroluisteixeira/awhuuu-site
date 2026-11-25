@@ -245,13 +245,42 @@ footer a{color:var(--cinza)}
 .envio{border:1px dashed var(--sepia);padding:28px;max-width:720px}
 .envio h2,.apoio h2{font-family:var(--titulo);font-weight:400;font-size:36px;margin:0 0 8px}
 .apoio .pix{font-size:18px;margin:16px 0 0}
-.agenda{list-style:none;margin:0;padding:0;display:grid;gap:24px}
-.show{display:grid;grid-template-columns:minmax(0,160px) 1fr;gap:20px;border-top:1px solid var(--linha);padding-top:24px}
-.show img{width:100%;height:auto;border:1px solid var(--linha)}
+.agenda{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:28px}
+.show{display:flex;flex-direction:column;border:1px solid var(--linha);background:#111}
+.show[hidden]{display:none}
+.foto-show{position:relative;aspect-ratio:4/3;background:var(--noite);border-bottom:1px solid var(--linha);overflow:hidden}
+.foto-show img{width:100%;height:100%;object-fit:cover;display:block}
+.foto-show .credito{position:absolute;right:6px;bottom:6px;font-size:10px;letter-spacing:.1em;text-transform:uppercase;background:rgba(10,10,10,.75);color:var(--cinza);padding:2px 6px}
+.sem-foto{display:flex;align-items:center;justify-content:center;height:100%;padding:20px;text-align:center;font-family:var(--titulo);font-size:40px;line-height:1;color:var(--linha);text-transform:uppercase}
+.info-show{padding:20px;display:flex;flex-direction:column;flex:1}
+.info-show .botao{margin-top:auto;align-self:flex-start}
 .show h2{font-family:var(--titulo);font-weight:400;font-size:34px;line-height:1;margin:4px 0 6px}
 .show .quando{font-family:var(--stencil);color:var(--sangue);margin:0;text-transform:capitalize}
 .show .onde{color:var(--sepia);margin:0 0 8px}
 .show p{margin:0 0 10px;color:var(--cinza)}
-.show.destaque{border:1px solid var(--sangue);padding:20px}
+.show.destaque{border-color:var(--sangue);grid-column:1/-1}
+.show.destaque .foto-show{aspect-ratio:16/7}
 .selo{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--apagado)}
-@media (max-width:640px){.show{grid-template-columns:1fr}.show img{max-width:220px}}
+.filtro-agenda{display:flex;flex-wrap:wrap;gap:12px 16px;align-items:flex-end;margin:0 0 32px;padding:16px;border:1px solid var(--linha)}
+.filtro-agenda label{display:flex;flex-direction:column;gap:4px;font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--sepia);flex:1 1 150px}
+.filtro-agenda select,.filtro-agenda input{min-height:44px;background:var(--noite);color:var(--osso);border:1px solid var(--osso);padding:8px 10px;font:inherit;font-size:16px;letter-spacing:0;text-transform:none}
+.filtro-agenda .limpar{min-height:44px;background:none;border:1px solid var(--linha);color:var(--osso);padding:8px 14px;font:inherit;cursor:pointer}
+.filtro-agenda .limpar:hover{border-color:var(--osso)}
+
+/* achados com foto da loja */
+.achados-lista{list-style:none;margin:16px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:12px}
+.achados-lista a{display:flex;flex-direction:column;gap:8px;height:100%;min-height:44px;padding:10px;border:1px solid var(--linha);text-decoration:none;color:var(--osso);font-weight:700;font-size:14px;line-height:1.3}
+.achados-lista a:hover{border-color:var(--osso)}
+.achados-lista img{width:100%;aspect-ratio:1;object-fit:contain;background:#fff;padding:6px}
+.corpo .achados-lista{padding-left:0}
+/* clube */
+.sub-pag{font-family:var(--titulo);font-weight:400;font-size:40px;line-height:1;margin:48px 0 20px;color:var(--osso)}
+.etiquetas{list-style:none;padding:0!important;display:flex;flex-wrap:wrap;gap:6px}
+.etiquetas li{border:1px solid var(--linha);padding:4px 10px;font-size:13px;color:var(--osso)}
+.versoes{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:0;border:1px solid var(--sepia);margin:-24px 0 24px}
+.versao{padding:24px}
+.versao+.versao{border-left:1px solid var(--sepia)}
+.versao h3{font-size:12px;letter-spacing:.25em;text-transform:uppercase;color:var(--sepia);margin:0}
+.versao .preco{font-family:var(--stencil);font-size:24px;color:var(--sangue);margin:6px 0}
+.versao p{margin:0;color:var(--cinza)}
+@media (max-width:540px){.versao+.versao{border-left:0;border-top:1px solid var(--sepia)}}
