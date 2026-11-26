@@ -323,3 +323,6 @@ footer a{color:var(--cinza)}
 .mapa-pequeno{height:300px;border:1px solid var(--linha)}
 .casa-lado .end{color:var(--sepia);margin:12px 0 0}
 .show .onde a{color:inherit;text-decoration:underline;text-decoration-color:var(--sangue);text-underline-offset:3px}
+.casa .foto-show{aspect-ratio:16/7;background:radial-gradient(circle at 80% 20%,rgba(213,6,12,.28),transparent 55%),var(--noite)}
+.casa .sem-foto{color:var(--sepia);opacity:.55;font-size:44px}
+.casa .quando{text-transform:none}
