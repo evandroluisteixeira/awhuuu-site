@@ -82,6 +82,8 @@
   }
   function estrada() {
     var passo = 2, fase = est.dist % (passo * 2);
+    var chao = g.createLinearGradient(0, HZ, 0, HZ + 60); chao.addColorStop(0, '#120604'); chao.addColorStop(1, '#24120a');
+    g.fillStyle = chao; g.fillRect(0, HZ, W, H - HZ);
     for (var d = FAR; d > -CAM + 1; d -= passo) {
       var a = proj(d), b = proj(d - passo);
       var faixa = Math.floor((d + fase) / passo) % 2 === 0;
@@ -149,12 +151,24 @@
     g.strokeStyle = '#121212'; g.lineWidth = 16; g.lineCap = 'round';
     g.beginPath(); g.moveTo(-40, -135); g.lineTo(-74, -98); g.moveTo(40, -135); g.lineTo(74, -98); g.stroke();
     g.fillStyle = '#9a9a9a'; g.fillRect(-90, -104, 180, 8);
-    // cabeça de lobo (de costas): pelo cinza, orelhas
-    g.fillStyle = '#5b5248'; g.beginPath(); g.arc(0, -180, 30, 0, 7); g.fill();
-    g.beginPath(); g.moveTo(-28, -192); g.lineTo(-20, -232); g.lineTo(-4, -204); g.closePath(); g.fill();
-    g.beginPath(); g.moveTo(28, -192); g.lineTo(20, -232); g.lineTo(4, -204); g.closePath(); g.fill();
-    g.fillStyle = '#3e3731'; g.beginPath(); g.moveTo(-18, -200); g.lineTo(-17, -222); g.lineTo(-8, -204); g.closePath(); g.fill();
-    g.beginPath(); g.moveTo(18, -200); g.lineTo(17, -222); g.lineTo(8, -204); g.closePath(); g.fill();
+    // juba de lobo (de costas): pelo arrepiado sobre a gola
+    g.fillStyle = '#4a4138';
+    g.beginPath(); g.moveTo(-40, -150);
+    for (var k = 0; k <= 8; k++) { var ax = -40 + k * 10; g.lineTo(ax + 5, -176 - (k % 2 ? 4 : 14)); g.lineTo(ax + 10, -150); }
+    g.closePath(); g.fill();
+    // cabeça
+    g.fillStyle = '#5b5248'; g.beginPath(); g.ellipse(0, -188, 32, 30, 0, 0, 7); g.fill();
+    // orelhas longas, abertas para fora
+    g.beginPath(); g.moveTo(-30, -198); g.lineTo(-40, -252); g.lineTo(-8, -212); g.closePath(); g.fill();
+    g.beginPath(); g.moveTo(30, -198); g.lineTo(40, -252); g.lineTo(8, -212); g.closePath(); g.fill();
+    g.fillStyle = '#2e2823'; g.beginPath(); g.moveTo(-24, -206); g.lineTo(-34, -240); g.lineTo(-13, -212); g.closePath(); g.fill();
+    g.beginPath(); g.moveTo(24, -206); g.lineTo(34, -240); g.lineTo(13, -212); g.closePath(); g.fill();
+    // tufos laterais (bochechas)
+    g.fillStyle = '#5b5248';
+    g.beginPath(); g.moveTo(-30, -196); g.lineTo(-46, -178); g.lineTo(-30, -176); g.lineTo(-44, -162); g.lineTo(-22, -166); g.closePath(); g.fill();
+    g.beginPath(); g.moveTo(30, -196); g.lineTo(46, -178); g.lineTo(30, -176); g.lineTo(44, -162); g.lineTo(22, -166); g.closePath(); g.fill();
+    // risca escura no topo da cabeça
+    g.fillStyle = '#3e3731'; g.beginPath(); g.ellipse(0, -200, 8, 16, 0, 0, 7); g.fill();
     g.restore();
   }
   function hud() {
@@ -162,7 +176,7 @@
     g.fillStyle = COR.osso; g.font = '34px Anton, Impact, sans-serif'; g.textAlign = 'left';
     g.fillText(Math.floor(est.dist / 10) + ' m', 20, 46);
     g.textAlign = 'center'; g.fillStyle = COR.sepia; g.font = '26px Anton, Impact, sans-serif';
-    g.fillText('● ' + est.discos + ' discos', CX, 44);
+    g.fillText('● ' + est.discos + (est.discos === 1 ? ' disco' : ' discos'), CX, 44);
     g.textAlign = 'right'; g.fillStyle = COR.sangue; g.font = '30px sans-serif';
     g.fillText('♥'.repeat(Math.max(0, est.vidas)), W - 20, 44);
   }
