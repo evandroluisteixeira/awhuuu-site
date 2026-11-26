@@ -31,7 +31,7 @@
       (votou?'<span class="barra" style="--p:'+pct+'%"><b>'+pct+'%</b></span>':'')+'</div>'+
       '<div class="acoes">'+
         (aberta&&!votou?'<button type="button" class="botao votar" data-c="'+c.id+'" data-d="'+id+'">Votar</button>':'')+
-        '<button type="button" class="botao contorno ouvir" data-sp="'+e_(d.spotify||'')+'" data-u="'+spotifyUrl(d)+'">Ouvir</button>'+
+        '<button type="button" class="botao contorno tocar" data-sp="'+e_(d.spotify||'')+'" data-u="'+spotifyUrl(d)+'">Ouvir</button>'+
         '<a class="botao contorno comprar" href="'+amazonUrl(d)+'" target="_blank" rel="noopener sponsored">Comprar</a>'+
       '</div></div>';
   }
@@ -57,7 +57,7 @@
   }
   function ligar(){
     document.querySelectorAll('#cp-atual .votar').forEach(function(b){ b.onclick=function(){ vota(b.dataset.c,b.dataset.d); }; });
-    document.querySelectorAll('#cp-atual .ouvir').forEach(function(b){ b.onclick=function(){ toca(b.dataset.sp,b.dataset.u); }; });
+    document.querySelectorAll('#cp-atual .tocar').forEach(function(b){ b.onclick=function(){ toca(b.dataset.sp,b.dataset.u); }; });
   }
   function toca(sp,u){
     if(!sp){ window.open(u,'_blank','noopener'); return; }
