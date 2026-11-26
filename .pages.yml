@@ -330,6 +330,14 @@ content:
           - { name: url, label: Endereço do Substack, type: string }
           - { name: nome, label: Nome da newsletter, type: string }
           - { name: chamada, label: Texto do convite, type: text }
+      - name: trilha
+        label: Player da página inicial (Spotify)
+        type: object
+        fields:
+          - { name: mostrar, label: Mostrar o player, type: boolean }
+          - { name: titulo, label: Título, type: string }
+          - { name: texto, label: Texto curto, type: text }
+          - { name: spotify_playlist, label: ID da playlist do Spotify (o código depois de /playlist/ no link), type: string }
       - { name: afiliados_ativos, label: Mostrar os Achados (afiliados), type: boolean }
       - { name: aviso_afiliados, label: Aviso de afiliados, type: text }
       - name: analytics

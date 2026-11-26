@@ -70,6 +70,17 @@ layout: base.njk
   </div>
 </section>
 
+{% if site.trilha and site.trilha.mostrar and site.trilha.spotify_playlist %}
+<section class="secao" aria-labelledby="titulo-trilha">
+  <div class="faixa">
+    <p class="rotulo">Fita Gasta</p>
+    <h2 id="titulo-trilha">{{ site.trilha.titulo }}</h2>
+    {% if site.trilha.texto %}<p>{{ site.trilha.texto }}</p>{% endif %}
+    <div class="embed-spotify"><iframe src="https://open.spotify.com/embed/playlist/{{ site.trilha.spotify_playlist }}?theme=0" title="Playlist no Spotify" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div>
+  </div>
+</section>
+{% endif %}
+
 <section class="secao" id="contato">
   <div class="faixa">
     <p class="rotulo">Onde uivar junto</p>
