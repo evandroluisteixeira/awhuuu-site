@@ -529,3 +529,4 @@ a.patch:focus-visible{outline-color:var(--sangue)}
 .discografia li{display:flex;gap:12px;align-items:baseline;padding:6px 0;border-bottom:1px solid #1e1d1c;font-size:.9rem}
 .discografia span{font:400 1.05rem var(--titulo);color:var(--sangue);min-width:3ch}
 @media (max-width:640px){.lt-grade{--rotulo:96px}.lt-nome{font-size:.7rem}.lt-nome small{display:none}.lt-eixo span{font-size:.6rem}}
+@media (max-width:640px){.lt-disco{width:10px;height:10px;margin-left:-5px;top:6px}}
