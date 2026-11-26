@@ -638,3 +638,56 @@ content:
           - { name: papel, label: Papel, type: string }
           - { name: bio, label: Apresentação, type: text }
           - { name: link, label: Link (opcional), type: string }
+  - name: loja
+    label: Loja do lobo
+    type: file
+    path: src/_data/loja.json
+    format: json
+    fields:
+      - { name: titulo, label: Título da página, type: string }
+      - { name: chamada, label: Texto de abertura, type: text }
+      - { name: aviso, label: Aviso de afiliados, type: text }
+      - name: categorias
+        label: Tipos de produto (ordem dos filtros)
+        type: string
+        list: true
+        description: "Os achados das matérias entram sozinhos, pelo começo do nome (Vinil:, CD:, Livro:) ou pela editoria. Aqui você muda a ordem ou cria tipos novos."
+      - name: destaques
+        label: Produtos escolhidos à mão
+        description: "Aparecem antes dos achados das matérias. Use para produtos do Substack, das redes ou que você quer empurrar."
+        type: object
+        list: true
+        fields:
+          - { name: nome, label: Nome do produto, type: string }
+          - { name: categoria, label: Tipo, type: string, description: "Escreva igual a um dos tipos acima, ou um tipo novo." }
+          - { name: texto, label: Uma frase sobre o produto, type: string }
+          - { name: imagem, label: Foto (endereço da imagem ou envio), type: image }
+          - name: lojas
+            label: Onde comprar
+            type: object
+            list: true
+            fields:
+              - { name: loja, label: Loja, type: string, description: "Amazon, Mercado Livre, Magalu... Vazio: o site descobre pelo link." }
+              - { name: url, label: Link de afiliado, type: string }
+          - { name: de_onde, label: Texto de onde saiu, type: string }
+          - { name: de_onde_link, label: Link desse texto, type: string }
+          - { name: ativo, label: Aparece na loja, type: boolean, default: true }
+      - name: proprios
+        label: Produtos do Awhuuu! (camisetas, adesivos...)
+        type: object
+        fields:
+          - { name: ativo, label: Mostrar esta área, type: boolean }
+          - { name: titulo, label: Título da área, type: string }
+          - { name: texto, label: Texto, type: text }
+          - name: itens
+            label: Produtos
+            type: object
+            list: true
+            fields:
+              - { name: nome, label: Nome, type: string }
+              - { name: preco, label: Preço, type: string }
+              - { name: texto, label: Descrição curta, type: string }
+              - { name: imagem, label: Foto, type: image }
+              - { name: imagem_alt, label: Descrição da foto, type: string }
+              - { name: link, label: Link de compra, type: string }
+              - { name: ativo, label: Aparece na loja, type: boolean, default: true }

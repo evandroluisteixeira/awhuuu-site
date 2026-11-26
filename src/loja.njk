@@ -1,0 +1,70 @@
+---
+layout: base.njk
+permalink: /loja/
+eleventyComputed:
+  title: "{{ loja.titulo }}"
+descricao: Discos, livros, instrumentos e roupas que aparecem nos textos do Awhuuu!, com o link da loja e o texto de onde cada um saiu.
+---
+{%- set itens = collections.materias | lojaItens(loja.destaques) %}
+<section class="secao" style="border-top:0">
+  <div class="faixa">
+    <p class="rotulo">Loja</p>
+    <h1 class="titulo-pag">{{ loja.titulo }}</h1>
+    <p class="chamada-pag">{{ loja.chamada }}</p>
+
+    {% if loja.proprios and loja.proprios.ativo %}
+    <section class="loja-proprios" aria-labelledby="proprios-titulo">
+      <h2 id="proprios-titulo" class="sub-pag">{{ loja.proprios.titulo }}</h2>
+      <p>{{ loja.proprios.texto }}</p>
+      {% if loja.proprios.itens.length %}
+      <ul class="loja-grade">
+        {% for p in loja.proprios.itens %}{% if p.ativo != false %}
+        <li class="loja-item">
+          {% if p.imagem %}<img src="{{ p.imagem }}" alt="{{ p.imagem_alt or '' }}" width="300" height="300" loading="lazy">{% endif %}
+          <h3>{{ p.nome }}</h3>
+          {% if p.preco %}<p class="loja-preco">{{ p.preco }}</p>{% endif %}
+          {% if p.texto %}<p>{{ p.texto }}</p>{% endif %}
+          {% if p.link %}<a class="loja-botao" href="{{ p.link }}" target="_blank" rel="noopener">Comprar</a>{% endif %}
+        </li>
+        {% endif %}{% endfor %}
+      </ul>
+      {% endif %}
+    </section>
+    {% endif %}
+
+    {% if itens.length %}
+    <div class="loja-filtro" role="group" aria-label="Filtrar por tipo">
+      <button type="button" aria-pressed="true" data-cat="">Tudo <span>{{ itens.length }}</span></button>
+      {%- for c in loja.categorias %}{% set n = 0 %}{% for i in itens %}{% if i.categoria == c %}{% set n = n + 1 %}{% endif %}{% endfor %}{% if n %}
+      <button type="button" aria-pressed="false" data-cat="{{ c }}">{{ c }} <span>{{ n }}</span></button>
+      {%- endif %}{% endfor %}
+    </div>
+
+    <ul class="loja-grade" id="loja-grade">
+      {% for i in itens %}
+      <li class="loja-item" data-cat="{{ i.categoria }}">
+        {% if i.imagem %}<img src="{{ i.imagem }}" alt="" width="300" height="300" loading="lazy" referrerpolicy="no-referrer">{% else %}<div class="loja-sem-foto" aria-hidden="true">{{ i.categoria }}</div>{% endif %}
+        <p class="loja-cat">{{ i.categoria }}</p>
+        <h3>{{ i.nome }}</h3>
+        {% if i.texto %}<p>{{ i.texto }}</p>{% endif %}
+        <div class="loja-lojas">{% for l in i.lojas %}<a class="loja-botao" href="{{ l.url }}" target="_blank" rel="sponsored noopener">Ver {{ "no" if l.loja == "Mercado Livre" else "na" }} {{ l.loja }}</a>{% endfor %}</div>
+        {% if i.de_onde %}<p class="loja-origem">Do texto {% if i.de_onde_link %}<a href="{{ i.de_onde_link }}">{{ i.de_onde }}</a>{% else %}{{ i.de_onde }}{% endif %}</p>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <p>Os primeiros achados chegam com as próximas matérias.</p>
+    {% endif %}
+
+    <p class="aviso-loja">{{ loja.aviso }}</p>
+  </div>
+</section>
+<script>
+(function(){
+  var bs=document.querySelectorAll('.loja-filtro button'), its=document.querySelectorAll('#loja-grade .loja-item');
+  bs.forEach(function(b){b.addEventListener('click',function(){
+    bs.forEach(function(x){x.setAttribute('aria-pressed', x===b?'true':'false');});
+    var c=b.dataset.cat; its.forEach(function(i){i.hidden = !!c && i.dataset.cat!==c;});
+  });});
+})();
+</script>

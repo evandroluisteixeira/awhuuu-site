@@ -117,6 +117,62 @@ export default function (eleventyConfig) {
     for (const d in out) out[d].sort((a, b) => (a.tipo === "fato" ? -1 : 0) - (b.tipo === "fato" ? -1 : 0) || a.ano - b.ano);
     return out;
   });
+  // Loja do lobo: junta os destaques escolhidos à mão com os "achados" das matérias publicadas.
+  // O mesmo produto em várias lojas ("Tagima TG-530 (Amazon)", "(Magalu)"...) vira um cartão só, com um botão por loja.
+  eleventyConfig.addFilter("lojaItens", (materias, destaques) => {
+    const nomeLoja = (url) => {
+      const u = String(url || "");
+      if (/amazon\.|amzn\./.test(u)) return "Amazon";
+      if (/mercadoli|meli\.la/.test(u)) return "Mercado Livre";
+      if (/magazinevoce|magalu|magazineluiza/.test(u)) return "Magalu";
+      if (/shopee/.test(u)) return "Shopee";
+      try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return "Loja"; }
+    };
+    const categoriaDe = (nome, editoria) => {
+      const n = nome.toLowerCase();
+      if (/^vinil|^lp\b|^box/.test(n)) return "Vinil";
+      if (/^cd\b/.test(n)) return "CD";
+      if (/^livro|^e-book|^hq\b|^gibi/.test(n)) return "Livro";
+      if (/^dvd|^blu-ray|^filme/.test(n)) return "Vídeo";
+      if (editoria === "garagem") return "Instrumento e equipamento";
+      if (editoria === "trapos-e-bugigangas") return "Roupa e acessório";
+      return "Outros";
+    };
+    const limpa = (nome) =>
+      String(nome)
+        .replace(/\s*\((amazon|mercado livre|magalu|shopee)\)\s*$/i, "")
+        .replace(/\s+—\s+(amazon|mercado livre|magalu|shopee)\s*$/i, "")
+        .replace(/^(vinil duplo|vinil|cd|livro|e-book|dvd|blu-ray|box|lp)\s*:\s*/i, "")
+        .trim();
+    const itens = [];
+    for (const d of destaques || []) {
+      if (d.ativo === false || !d.nome) continue;
+      itens.push({
+        nome: d.nome, categoria: d.categoria || "Outros", texto: d.texto || "", imagem: d.imagem || "",
+        lojas: (d.lojas || []).filter((l) => l.url).map((l) => ({ loja: l.loja || nomeLoja(l.url), url: l.url })),
+        de_onde: d.de_onde || "", de_onde_link: d.de_onde_link || "", destaque: true,
+      });
+    }
+    const porChave = new Map();
+    for (const m of materias || []) {
+      for (const a of m.data.achados || []) {
+        if (!a || !a.url || !a.nome) continue;
+        const nome = limpa(a.nome);
+        const categoria = a.categoria || categoriaDe(a.nome, m.data.editoria);
+        const chave = m.fileSlug + "|" + categoria + "|" + nome.toLowerCase();
+        let it = porChave.get(chave);
+        if (!it) {
+          it = { nome, categoria, texto: "", imagem: "", lojas: [], de_onde: m.data.title, de_onde_link: m.url, data: m.date };
+          porChave.set(chave, it);
+          itens.push(it);
+        }
+        if (!it.imagem && a.imagem) it.imagem = a.imagem;
+        it.lojas.push({ loja: nomeLoja(a.url), url: a.url });
+      }
+    }
+    return itens.filter((i) => i.lojas.length);
+  });
+
   eleventyConfig.addFilter("mapaMaterias", (materias) => Object.fromEntries((materias || []).map((m) => [m.fileSlug, { url: m.url, titulo: m.data.title }])));
   // família visual do patch da banda, pelo estilo (só muda a cor do patch; não aparece escrita)
   eleventyConfig.addFilter("familiaEstilo", (estilos) => {

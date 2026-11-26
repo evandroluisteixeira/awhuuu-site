@@ -138,3 +138,15 @@ O carrossel do Instagram e o vídeo do TikTok saem da matéria já pronta, não 
 - **Legenda:** duas ou três frases que contam algo que não está nos cards, mais a pergunta. Hashtags no máximo cinco, específicas (#rockinrio #queen), nunca genéricas (#rock #music).
 - **Quem assina a matéria assina o post:** se é do Lobo, a legenda tem a voz do Lobo.
 - **Vídeo:** quando houver disco do acervo, o Evandro mostra o disco tocando por 15 a 30 segundos e o texto do carrossel vira legenda na tela.
+
+## Produtos e playlists em toda publicação
+
+Toda publicação que puder levar link leva produto: matéria do site, texto do Substack, carrossel, vídeo. O produto sai do próprio texto (o disco de que se fala, o livro que serviu de fonte, o instrumento do guia), nunca de um catálogo genérico.
+
+- **No site:** os produtos vão no campo Achados da matéria, com o tipo no começo do nome ("Vinil: ...", "Livro: ...", "CD: ..."). Assim eles aparecem também na Loja do lobo, no filtro certo.
+- **No Substack:** seção "Para levar pra casa" antes das Fontes, com 2 a 5 itens e uma frase dizendo por que cada um está ali. Embaixo, em itálico, o aviso de afiliados.
+- **Nas redes:** o link vai na bio ou no primeiro comentário, apontando para a matéria ou para a Loja, nunca direto para a loja do produto.
+- **Links:** Amazon com a tag `awhuuu-20`; Mercado Livre e Magalu com os links de afiliado do Awhuuu!. Conferir se o produto está disponível e tem preço antes de pôr o link.
+- **Aviso:** onde houver link de afiliado, o aviso de comissão aparece no mesmo lugar.
+
+Toda publicação sobre música também ganha playlist: no Spotify (perfil do Evandro, pública) e no YouTube (canal @awhuuurock, pública), só com vídeos de canais oficiais. As duas vão no fim do texto, em "Para ouvir".

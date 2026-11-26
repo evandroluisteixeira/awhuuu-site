@@ -576,3 +576,27 @@ a.patch:focus-visible{outline-color:var(--sangue)}
 .figura-materia figcaption{font-size:.9rem;line-height:1.45;color:var(--cinza);margin-top:10px;padding-left:12px;border-left:3px solid var(--sepia)}
 .figura-materia figcaption span{display:block;font-size:.76rem;color:#8a8475;margin-top:2px}
 .figura-materia figcaption a{color:inherit}
+
+/* loja do lobo */
+.loja-filtro{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 28px}
+.loja-filtro button{font:inherit;font-size:14px;color:var(--osso);background:transparent;border:1px solid var(--linha);padding:10px 14px;min-height:44px;cursor:pointer}
+.loja-filtro button span{color:var(--apagado);margin-left:4px}
+.loja-filtro button[aria-pressed="true"]{border-color:var(--sangue);background:var(--sangue);color:var(--noite)}
+.loja-filtro button[aria-pressed="true"] span{color:var(--noite)}
+.loja-filtro button:focus-visible{outline:2px solid var(--osso);outline-offset:2px}
+.loja-grade{list-style:none;margin:0 0 32px;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1px;background:var(--linha);border:1px solid var(--linha)}
+.loja-item{background:var(--noite);padding:18px;display:flex;flex-direction:column;gap:8px}
+.loja-item[hidden]{display:none}
+.loja-item img{width:100%;aspect-ratio:1;object-fit:contain;background:#fff;padding:8px}
+.loja-sem-foto{aspect-ratio:1;display:flex;align-items:center;justify-content:center;border:1px dashed var(--linha);font-family:var(--stencil);font-size:22px;color:var(--apagado);text-align:center;padding:12px}
+.loja-cat{margin:4px 0 0;font-size:12px;color:var(--sepia)}
+.loja-item h3{font-family:var(--titulo);font-weight:400;font-size:22px;line-height:1.1;margin:0}
+.loja-item p{margin:0;color:var(--cinza);font-size:14px}
+.loja-preco{font-family:var(--stencil);font-size:24px;color:var(--sangue)!important}
+.loja-lojas{display:flex;flex-direction:column;gap:6px;margin-top:auto;padding-top:8px}
+.loja-botao{display:block;text-align:center;font-weight:700;font-size:14px;text-decoration:none;color:var(--noite);background:var(--osso);padding:10px 12px;min-height:44px;line-height:24px}
+.loja-botao:hover{background:var(--sangue);color:var(--noite)}
+.loja-origem{font-size:13px!important;color:var(--apagado)!important}
+.loja-origem a{color:var(--cinza)}
+.loja-proprios{border:1px solid var(--sepia);padding:24px;margin:0 0 40px}
+.aviso-loja{font-size:12px;color:var(--apagado);max-width:70ch}
