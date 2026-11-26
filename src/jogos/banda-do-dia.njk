@@ -44,7 +44,7 @@ window.BD_INICIO={{ BD.inicio | dump | safe }};
   var pessoa=alvo.tipo==='artista';
   var pistas=[
     'Estilo: '+alvo.estilos.slice(0,3).join(', '),
-    (pessoa?'Artista solo':'Banda')+' de '+alvo.pais,
+    (pessoa?'Artista solo':'Banda')+' '+({'Inglaterra':'da','Suécia':'da','Austrália':'da','França':'da','Nova Zelândia':'da','Alemanha':'da','Estados Unidos':'dos'}[alvo.pais]||'do')+' '+alvo.pais,
     (pessoa?'Nasceu':'Começou')+' nos anos '+ano.slice(2,3)+'0'+(ano<'1900'?'':''),
     alvo.cidade?'Cidade: '+alvo.cidade:'O nome tem '+alvo.nome.replace(/\s/g,'').length+' letras',
     (pessoa?'Nascimento':'Formação')+': '+ano,
