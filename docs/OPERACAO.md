@@ -16,9 +16,9 @@ Produzir aos pouquinhos, todo dia, gasta mais do que produzir de uma vez. Cada c
 |---|---|---|
 | Todo dia | O site publica a matéria do dia (a data fica no cabeçalho da matéria) | GitHub Actions |
 | Segunda, 7h23 | Agenda de shows, casas novas, vídeos e fotos das matérias da semana, relatório do Clube | Tarefa agendada "Último Bonde" |
-| No horário marcado | Posts do Instagram e do TikTok | Buffer (plano grátis: até 10 agendados por rede) |
+| No horário marcado | Posts do Instagram e do TikTok | Buffer até 7/12 (grátis: 10 agendados por rede) e Metricool de 8/12 em diante (grátis: cerca de 20 por rede por mês) |
 
-O limite de 10 agendados por rede no Buffer é o gargalo: os rascunhos precisam ser agendados aos poucos, conforme as vagas abrem. Uma tarefa automática para isso foi barrada (publicaria sem supervisão). Combinado: o agendamento é feito numa conversa, com o Evandro autorizando na hora; a tag "segurar" marca rascunho que não deve sair. Rodadas fixas de agendamento: **segunda e quinta de manhã** (lembretes marcados na conversa de operação).
+Desde 26/11 os posts estão divididos: o Buffer guarda a fila curta (até 7/12) e o Metricool (marca AWHUUU!, Instagram, TikTok e YouTube conectados) recebeu todos os posts de 8 a 30/12, já agendados e automáticos. Como o Metricool não tem o limite de 10, os posts novos de cada mês vão direto para lá, e as rodadas de segunda e quinta servem só para revisar e encaixar o Último Bonde. O agendamento continua sendo feito numa conversa, com o Evandro autorizando na hora.
 
 No TikTok todos os posts saem sozinhos (modo automático, desde 26/11). O "Notify Me" foi abandonado porque a confirmação pelo celular falhou no primeiro dia e nada foi publicado. O som entra depois: abrir o post publicado no app do TikTok e adicionar a música. Os três posts que ficaram presos (manifesto, Uivos e Krig-ha) foram refeitos no automático para 26/11 21h15, 27/11 e 28/11 às 20h30.
 
@@ -56,7 +56,7 @@ Abrir uma conversa nova e pedir: "Produção do mês de <mês>: leia docs/OPERAC
 
 1. **Pauta do mês** (8 a 12 matérias), equilibrando as editorias e seguindo `PAUTAS-DIVERSIDADE.md`. O Evandro aprova a lista antes de escrever.
 2. **As matérias**, com data de publicação, achados (produtos) e fontes.
-3. **Os posts das redes** de cada matéria, como rascunho no Buffer, com a data e o horário.
+3. **Os posts das redes** de cada matéria, agendados no Metricool, com a data e o horário.
 4. **Dois textos longos do Substack** (um aberto, um pago), como rascunho.
 5. **Playlists** no Spotify e no YouTube para os textos sobre música.
 6. **Um lançamento da loja**, quando houver produto novo.
