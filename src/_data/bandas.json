@@ -30,7 +30,195 @@
       "musicbrainz": "66c662b6-6e2f-4930-8610-912e24c63ed1",
       "wikidata": "Q27593",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Angus Young",
+          "funcao": "guitarra",
+          "desde": "1973",
+          "ate": ""
+        },
+        {
+          "nome": "Colin Burgess",
+          "funcao": "bateria",
+          "desde": "1973",
+          "ate": "1974"
+        },
+        {
+          "nome": "Dave Evans",
+          "funcao": "voz",
+          "desde": "1973",
+          "ate": "1974"
+        },
+        {
+          "nome": "Larry van Kriedt",
+          "funcao": "baixo",
+          "desde": "1973",
+          "ate": "1975"
+        },
+        {
+          "nome": "Malcolm Young",
+          "funcao": "backing vocal, guitarra",
+          "desde": "1973",
+          "ate": "2014"
+        },
+        {
+          "nome": "Bon Scott",
+          "funcao": "voz",
+          "desde": "1974",
+          "ate": "1980"
+        },
+        {
+          "nome": "Neil Smith",
+          "funcao": "baixo",
+          "desde": "1974",
+          "ate": "1974"
+        },
+        {
+          "nome": "Noel Taylor",
+          "funcao": "bateria",
+          "desde": "1974",
+          "ate": "1974"
+        },
+        {
+          "nome": "Peter Clack",
+          "funcao": "bateria",
+          "desde": "1974",
+          "ate": "1975"
+        },
+        {
+          "nome": "Rob Bailey",
+          "funcao": "baixo",
+          "desde": "1974",
+          "ate": "1975"
+        },
+        {
+          "nome": "Mark Evans",
+          "funcao": "baixo",
+          "desde": "1975",
+          "ate": "1977"
+        },
+        {
+          "nome": "Paul Matters",
+          "funcao": "baixo",
+          "desde": "1975",
+          "ate": "1975"
+        },
+        {
+          "nome": "Phil Rudd",
+          "funcao": "bateria",
+          "desde": "1975",
+          "ate": ""
+        },
+        {
+          "nome": "Cliff Williams",
+          "funcao": "backing vocal, baixo",
+          "desde": "1977",
+          "ate": ""
+        },
+        {
+          "nome": "Brian Johnson",
+          "funcao": "voz",
+          "desde": "1980",
+          "ate": ""
+        },
+        {
+          "nome": "Simon Wright",
+          "funcao": "bateria",
+          "desde": "1983",
+          "ate": "1989"
+        },
+        {
+          "nome": "Chris Slade",
+          "funcao": "bateria",
+          "desde": "1989",
+          "ate": "2016"
+        },
+        {
+          "nome": "Stevie Young",
+          "funcao": "guitarra, backing vocal",
+          "desde": "2014",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "High Voltage",
+          "ano": "1975"
+        },
+        {
+          "titulo": "T.N.T.",
+          "ano": "1975"
+        },
+        {
+          "titulo": "Dirty Deeds Done Dirt Cheap",
+          "ano": "1976"
+        },
+        {
+          "titulo": "Let There Be Rock",
+          "ano": "1977"
+        },
+        {
+          "titulo": "Powerage",
+          "ano": "1978"
+        },
+        {
+          "titulo": "Highway to Hell",
+          "ano": "1979"
+        },
+        {
+          "titulo": "Back in Black",
+          "ano": "1980"
+        },
+        {
+          "titulo": "For Those About to Rock (We Salute You)",
+          "ano": "1981"
+        },
+        {
+          "titulo": "Flick of the Switch",
+          "ano": "1983"
+        },
+        {
+          "titulo": "Fly on the Wall",
+          "ano": "1985"
+        },
+        {
+          "titulo": "Blow Up Your Video",
+          "ano": "1988"
+        },
+        {
+          "titulo": "The Razors Edge",
+          "ano": "1990"
+        },
+        {
+          "titulo": "Fire Your Guns",
+          "ano": "1991"
+        },
+        {
+          "titulo": "Ballbreaker",
+          "ano": "1995"
+        },
+        {
+          "titulo": "Stiff Upper Lip",
+          "ano": "2000"
+        },
+        {
+          "titulo": "Black Ice",
+          "ano": "2008"
+        },
+        {
+          "titulo": "Rock or Bust",
+          "ano": "2014"
+        },
+        {
+          "titulo": "Power Up",
+          "ano": "2020"
+        }
+      ],
+      "logo": "/img/bandas/logos/ac-dc.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Logo_ACDC_pwrup.svg",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "escuro"
     },
     {
       "nome": "Against Me!",
@@ -60,7 +248,97 @@
       "musicbrainz": "a66ebddc-ff04-46b8-820a-15c63e80dba1",
       "wikidata": "Q181684",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Laura Jane Grace",
+          "funcao": "guitarra, voz",
+          "desde": "1997",
+          "ate": ""
+        },
+        {
+          "nome": "Dustin Fridkin",
+          "funcao": "baixo",
+          "desde": "1998",
+          "ate": "2002"
+        },
+        {
+          "nome": "Kevin Mahon",
+          "funcao": "bateria",
+          "desde": "1998",
+          "ate": "2001"
+        },
+        {
+          "nome": "James Bowman",
+          "funcao": "backing vocal, guitarra",
+          "desde": "2000",
+          "ate": ""
+        },
+        {
+          "nome": "Warren Oakes",
+          "funcao": "bateria",
+          "desde": "2001",
+          "ate": "2009"
+        },
+        {
+          "nome": "Andrew Seward",
+          "funcao": "baixo",
+          "desde": "2002",
+          "ate": ""
+        },
+        {
+          "nome": "Jay Weinberg",
+          "funcao": "bateria",
+          "desde": "2011",
+          "ate": "2012"
+        },
+        {
+          "nome": "Atom",
+          "funcao": "bateria",
+          "desde": "2013",
+          "ate": ""
+        },
+        {
+          "nome": "Inge Johansson",
+          "funcao": "baixo",
+          "desde": "2013",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Reinventing Axl Rose",
+          "ano": "2002"
+        },
+        {
+          "titulo": "As the Eternal Cowboy",
+          "ano": "2003"
+        },
+        {
+          "titulo": "Searching for a Former Clarity",
+          "ano": "2005"
+        },
+        {
+          "titulo": "New Wave",
+          "ano": "2007"
+        },
+        {
+          "titulo": "White Crosses",
+          "ano": "2010"
+        },
+        {
+          "titulo": "Transgender Dysphoria Blues",
+          "ano": "2014"
+        },
+        {
+          "titulo": "Shape Shift With Me",
+          "ano": "2016"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Alice in Chains",
@@ -90,7 +368,87 @@
       "musicbrainz": "4bd95eea-b9f6-4d70-a36c-cfea77431553",
       "wikidata": "Q484255",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Jerry Cantrell",
+          "funcao": "backing vocal, guitarra, voz",
+          "desde": "1987",
+          "ate": ""
+        },
+        {
+          "nome": "Layne Staley",
+          "funcao": "voz",
+          "desde": "1987",
+          "ate": "2002"
+        },
+        {
+          "nome": "Mike Starr",
+          "funcao": "baixo",
+          "desde": "1987",
+          "ate": "1993"
+        },
+        {
+          "nome": "Sean Kinney",
+          "funcao": "bateria",
+          "desde": "1987",
+          "ate": ""
+        },
+        {
+          "nome": "Mike Inez",
+          "funcao": "baixo",
+          "desde": "1993",
+          "ate": ""
+        },
+        {
+          "nome": "William DuVall",
+          "funcao": "backing vocal, guitarra, voz",
+          "desde": "2006",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Alice in Chains",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Facelift",
+          "ano": "1990"
+        },
+        {
+          "titulo": "Dirt",
+          "ano": "1992"
+        },
+        {
+          "titulo": "Them Bones",
+          "ano": "1993"
+        },
+        {
+          "titulo": "Savage Messiah",
+          "ano": "1993"
+        },
+        {
+          "titulo": "Alice in Chains",
+          "ano": "1995"
+        },
+        {
+          "titulo": "Black Gives Way to Blue",
+          "ano": "2009"
+        },
+        {
+          "titulo": "The Devil Put Dinosaurs Here",
+          "ano": "2013"
+        },
+        {
+          "titulo": "Rainier Fog",
+          "ano": "2018"
+        }
+      ],
+      "logo": "/img/bandas/logos/alice-in-chains.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Aiclogowhite.png",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "claro"
     },
     {
       "nome": "Alien Weaponry",
@@ -119,7 +477,45 @@
       "musicbrainz": "d3112057-2475-4eb7-8853-503204761d15",
       "wikidata": "Q24914793",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Ethan Trembath",
+          "funcao": "backing vocal, baixo",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Henry de Jong",
+          "funcao": "backing vocal, bateria",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Lewis de Jong",
+          "funcao": "guitarra, voz",
+          "desde": "",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Tū",
+          "ano": "2018"
+        },
+        {
+          "titulo": "Tangaroa",
+          "ano": "2021"
+        },
+        {
+          "titulo": "Te Rā",
+          "ano": "2025"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Angra",
@@ -149,7 +545,127 @@
       "musicbrainz": "b0fe8ef0-d59b-4d41-afee-2d21b59112ab",
       "wikidata": "Q542745",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Andre Matos",
+          "funcao": "teclados, voz",
+          "desde": "1991",
+          "ate": "2000"
+        },
+        {
+          "nome": "Luis Mariutti",
+          "funcao": "baixo",
+          "desde": "1991",
+          "ate": "2000"
+        },
+        {
+          "nome": "Rafael Bittencourt",
+          "funcao": "guitarra",
+          "desde": "1991",
+          "ate": ""
+        },
+        {
+          "nome": "Kiko Loureiro",
+          "funcao": "guitarra",
+          "desde": "1992",
+          "ate": "2015"
+        },
+        {
+          "nome": "Ricardo Confessori",
+          "funcao": "bateria",
+          "desde": "1993",
+          "ate": "2014"
+        },
+        {
+          "nome": "Eduardo Falaschi",
+          "funcao": "voz",
+          "desde": "2000",
+          "ate": "2012"
+        },
+        {
+          "nome": "Aquiles Priester",
+          "funcao": "bateria",
+          "desde": "2001",
+          "ate": "2008"
+        },
+        {
+          "nome": "Felipe Andreoli",
+          "funcao": "baixo",
+          "desde": "2001",
+          "ate": ""
+        },
+        {
+          "nome": "Fábio Laguna",
+          "funcao": "teclados",
+          "desde": "2001",
+          "ate": "2008"
+        },
+        {
+          "nome": "Fabio Lione",
+          "funcao": "voz",
+          "desde": "2013",
+          "ate": ""
+        },
+        {
+          "nome": "Bruno Valverde",
+          "funcao": "bateria",
+          "desde": "2014",
+          "ate": ""
+        },
+        {
+          "nome": "Marcelo Barbosa",
+          "funcao": "guitarra",
+          "desde": "2015",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Angels Cry",
+          "ano": "1993"
+        },
+        {
+          "titulo": "Holy Land",
+          "ano": "1996"
+        },
+        {
+          "titulo": "Fireworks",
+          "ano": "1998"
+        },
+        {
+          "titulo": "Rebirth",
+          "ano": "2001"
+        },
+        {
+          "titulo": "Temple of Shadows",
+          "ano": "2004"
+        },
+        {
+          "titulo": "Aurora Consurgens",
+          "ano": "2006"
+        },
+        {
+          "titulo": "Aqua",
+          "ano": "2010"
+        },
+        {
+          "titulo": "Secret Garden",
+          "ano": "2014"
+        },
+        {
+          "titulo": "ØMNI",
+          "ano": "2018"
+        },
+        {
+          "titulo": "Cycles of Pain",
+          "ano": "2023"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Arandu Arakuaa",
@@ -176,7 +692,26 @@
       "musicbrainz": "5147f448-03d2-408b-b02b-20a27ec98030",
       "wikidata": "",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "Kó Yby Oré",
+          "ano": "2013"
+        },
+        {
+          "titulo": "Wdê Nnãkrda",
+          "ano": "2015"
+        },
+        {
+          "titulo": "Mrã Waze",
+          "ano": "2018"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Arch Enemy",
@@ -205,7 +740,151 @@
       "musicbrainz": "e631bb92-3e2b-43e3-a2cb-b605e2fb53bd",
       "wikidata": "Q163989",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Christopher Amott",
+          "funcao": "guitarra",
+          "desde": "1996",
+          "ate": "2012"
+        },
+        {
+          "nome": "Daniel Erlandsson",
+          "funcao": "bateria",
+          "desde": "1996",
+          "ate": ""
+        },
+        {
+          "nome": "Johan Liiva",
+          "funcao": "voz",
+          "desde": "1996",
+          "ate": "2001"
+        },
+        {
+          "nome": "Michael Amott",
+          "funcao": "baixo, guitarra, teclados",
+          "desde": "1996",
+          "ate": ""
+        },
+        {
+          "nome": "Martin Bengtsson",
+          "funcao": "baixo",
+          "desde": "1997",
+          "ate": "1998"
+        },
+        {
+          "nome": "Peter Wildoer",
+          "funcao": "bateria",
+          "desde": "1997",
+          "ate": "1997"
+        },
+        {
+          "nome": "Sharlee D’Angelo",
+          "funcao": "baixo",
+          "desde": "1999",
+          "ate": ""
+        },
+        {
+          "nome": "Angela Gossow",
+          "funcao": "voz",
+          "desde": "2001",
+          "ate": "2014"
+        },
+        {
+          "nome": "Fredrik Åkesson",
+          "funcao": "guitarra",
+          "desde": "2005",
+          "ate": "2007"
+        },
+        {
+          "nome": "Nick Cordle",
+          "funcao": "guitarra",
+          "desde": "2012",
+          "ate": "2014"
+        },
+        {
+          "nome": "Alissa White‐Gluz",
+          "funcao": "voz",
+          "desde": "2014",
+          "ate": "2025"
+        },
+        {
+          "nome": "Jeff Loomis",
+          "funcao": "guitarra",
+          "desde": "2014",
+          "ate": "2023"
+        },
+        {
+          "nome": "Joey Concepcion",
+          "funcao": "guitarra",
+          "desde": "2023",
+          "ate": ""
+        },
+        {
+          "nome": "Lauren Hart",
+          "funcao": "voz",
+          "desde": "2026",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Black Earth",
+          "ano": "1996"
+        },
+        {
+          "titulo": "Stigmata",
+          "ano": "1998"
+        },
+        {
+          "titulo": "Burning Bridges",
+          "ano": "1999"
+        },
+        {
+          "titulo": "Wages of Sin",
+          "ano": "2001"
+        },
+        {
+          "titulo": "Anthems of Rebellion",
+          "ano": "2003"
+        },
+        {
+          "titulo": "Doomsday Machine",
+          "ano": "2005"
+        },
+        {
+          "titulo": "Rise of the Tyrant",
+          "ano": "2007"
+        },
+        {
+          "titulo": "The Root of All Evil",
+          "ano": "2009"
+        },
+        {
+          "titulo": "Khaos Legions",
+          "ano": "2011"
+        },
+        {
+          "titulo": "War Eternal",
+          "ano": "2014"
+        },
+        {
+          "titulo": "Will to Power",
+          "ano": "2017"
+        },
+        {
+          "titulo": "Deceivers",
+          "ano": "2022"
+        },
+        {
+          "titulo": "Blood Dynasty",
+          "ano": "2025"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Bad Brains",
@@ -235,7 +914,107 @@
       "musicbrainz": "e919b253-da5b-4aae-a444-6a368376a2d6",
       "wikidata": "Q798671",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Darryl Jenifer",
+          "funcao": "baixo",
+          "desde": "1977",
+          "ate": ""
+        },
+        {
+          "nome": "Dr. Know",
+          "funcao": "guitarra",
+          "desde": "1977",
+          "ate": ""
+        },
+        {
+          "nome": "Earl Hudson",
+          "funcao": "bateria",
+          "desde": "1977",
+          "ate": ""
+        },
+        {
+          "nome": "H.R.",
+          "funcao": "voz",
+          "desde": "1977",
+          "ate": ""
+        },
+        {
+          "nome": "Sid McCray",
+          "funcao": "voz",
+          "desde": "1977",
+          "ate": "1978"
+        },
+        {
+          "nome": "Chuck Mosley",
+          "funcao": "voz",
+          "desde": "1990",
+          "ate": "1991"
+        },
+        {
+          "nome": "Israel Joseph I",
+          "funcao": "voz",
+          "desde": "1991",
+          "ate": "1994"
+        },
+        {
+          "nome": "Mackie Jayson",
+          "funcao": "bateria",
+          "desde": "1991",
+          "ate": "1994"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Bad Brains",
+          "ano": "1982"
+        },
+        {
+          "titulo": "Rock for Light",
+          "ano": "1983"
+        },
+        {
+          "titulo": "I Against I",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Quickness",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Rise",
+          "ano": "1993"
+        },
+        {
+          "titulo": "God of Love",
+          "ano": "1995"
+        },
+        {
+          "titulo": "Black Dots",
+          "ano": "1996"
+        },
+        {
+          "titulo": "I & I Survived (dub)",
+          "ano": "2002"
+        },
+        {
+          "titulo": "Build a Nation",
+          "ano": "2007"
+        },
+        {
+          "titulo": "Into the Future",
+          "ano": "2012"
+        },
+        {
+          "titulo": "Old Waldorf, San Francisco '82",
+          "ano": "2015"
+        }
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Bad_Brains.png",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Bad_Brains.png",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "escuro"
     },
     {
       "nome": "Barão Vermelho",
@@ -260,7 +1039,119 @@
       "musicbrainz": "84ac395b-482b-48cb-b381-b9bc420b2dd3",
       "wikidata": "Q38361",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Cazuza",
+          "funcao": "voz",
+          "desde": "1981",
+          "ate": "1985"
+        },
+        {
+          "nome": "Dé Palmeira",
+          "funcao": "",
+          "desde": "1981",
+          "ate": "1990"
+        },
+        {
+          "nome": "Frejat",
+          "funcao": "guitarra",
+          "desde": "1981",
+          "ate": ""
+        },
+        {
+          "nome": "Dadi",
+          "funcao": "",
+          "desde": "1989",
+          "ate": "1992"
+        },
+        {
+          "nome": "Rodrigo Santos",
+          "funcao": "baixo",
+          "desde": "1992",
+          "ate": ""
+        },
+        {
+          "nome": "Fernando Magalhães",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Guto Goffi",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Maurício Barros",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Barão Vermelho",
+          "ano": "1982"
+        },
+        {
+          "titulo": "Barão Vermelho 2",
+          "ano": "1983"
+        },
+        {
+          "titulo": "Maior abandonado",
+          "ano": "1984"
+        },
+        {
+          "titulo": "Declare guerra",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Rock'n geral",
+          "ano": "1987"
+        },
+        {
+          "titulo": "Carnaval",
+          "ano": "1988"
+        },
+        {
+          "titulo": "Na calada da noite",
+          "ano": "1990"
+        },
+        {
+          "titulo": "Supermercados da vida",
+          "ano": "1992"
+        },
+        {
+          "titulo": "Carne crua",
+          "ano": "1994"
+        },
+        {
+          "titulo": "Puro êxtase",
+          "ano": "1998"
+        },
+        {
+          "titulo": "Barão Vermelho",
+          "ano": "2004"
+        },
+        {
+          "titulo": "MTV Ao Vivo - Dose Dupla",
+          "ano": "2006"
+        },
+        {
+          "titulo": "Barão pra sempre",
+          "ano": "2018"
+        },
+        {
+          "titulo": "VIVA",
+          "ano": "2019"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "The Beatles",
@@ -290,7 +1181,141 @@
       "musicbrainz": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d",
       "wikidata": "Q1299",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Chas Newby",
+          "funcao": "baixo",
+          "desde": "1960",
+          "ate": "1961"
+        },
+        {
+          "nome": "George Harrison",
+          "funcao": "guitarra, voz",
+          "desde": "1960",
+          "ate": "1970"
+        },
+        {
+          "nome": "John Lennon",
+          "funcao": "guitarra, voz",
+          "desde": "1960",
+          "ate": "1969"
+        },
+        {
+          "nome": "Norman Chapman",
+          "funcao": "bateria",
+          "desde": "1960",
+          "ate": "1960"
+        },
+        {
+          "nome": "Paul McCartney",
+          "funcao": "baixo, voz",
+          "desde": "1960",
+          "ate": "1970"
+        },
+        {
+          "nome": "Pete Best",
+          "funcao": "bateria",
+          "desde": "1960",
+          "ate": "1962"
+        },
+        {
+          "nome": "Stuart Sutcliffe",
+          "funcao": "baixo",
+          "desde": "1960",
+          "ate": "1961"
+        },
+        {
+          "nome": "Tommy Moore",
+          "funcao": "bateria",
+          "desde": "1960",
+          "ate": "1960"
+        },
+        {
+          "nome": "Ringo Starr",
+          "funcao": "bateria",
+          "desde": "1962",
+          "ate": "1970"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "With The Beatles",
+          "ano": "1963"
+        },
+        {
+          "titulo": "Please Please Me",
+          "ano": "1963"
+        },
+        {
+          "titulo": "Beatles ’65",
+          "ano": "1964"
+        },
+        {
+          "titulo": "Twist and Shout",
+          "ano": "1964"
+        },
+        {
+          "titulo": "The Beatles’ Second Album",
+          "ano": "1964"
+        },
+        {
+          "titulo": "Something New",
+          "ano": "1964"
+        },
+        {
+          "titulo": "Introducing… The Beatles",
+          "ano": "1964"
+        },
+        {
+          "titulo": "Meet The Beatles!",
+          "ano": "1964"
+        },
+        {
+          "titulo": "The Beatles’ Long Tall Sally",
+          "ano": "1964"
+        },
+        {
+          "titulo": "Beatles for Sale",
+          "ano": "1964"
+        },
+        {
+          "titulo": "Beatles VI",
+          "ano": "1965"
+        },
+        {
+          "titulo": "Rubber Soul",
+          "ano": "1965"
+        },
+        {
+          "titulo": "Yesterday and Today",
+          "ano": "1966"
+        },
+        {
+          "titulo": "Revolver",
+          "ano": "1966"
+        },
+        {
+          "titulo": "Sgt. Pepper’s Lonely Hearts Club Band",
+          "ano": "1967"
+        },
+        {
+          "titulo": "The Beatles",
+          "ano": "1968"
+        },
+        {
+          "titulo": "Abbey Road",
+          "ano": "1969"
+        },
+        {
+          "titulo": "Let It Be",
+          "ano": "1970"
+        }
+      ],
+      "logo": "/img/bandas/logos/the-beatles.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Beatles_logo.svg",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "claro"
     },
     {
       "nome": "Big Mama Thornton",
@@ -318,7 +1343,42 @@
       "musicbrainz": "2993f855-403f-4c6a-bea9-088cd5d354dc",
       "wikidata": "Q237527",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "Big Mama Thornton and the Chicago Blues Band",
+          "ano": "1966"
+        },
+        {
+          "titulo": "In Europe",
+          "ano": "1966"
+        },
+        {
+          "titulo": "Big Mama the Queen at Monterey",
+          "ano": "1967"
+        },
+        {
+          "titulo": "Stronger Than Dirt",
+          "ano": "1969"
+        },
+        {
+          "titulo": "The Way It Is",
+          "ano": "1970"
+        },
+        {
+          "titulo": "Saved",
+          "ano": "1971"
+        },
+        {
+          "titulo": "Sassy Mama!",
+          "ano": "1975"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Bikini Kill",
@@ -348,7 +1408,51 @@
       "musicbrainz": "1397d045-1603-41fc-80b9-712c18360145",
       "wikidata": "Q860153",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Kathleen Hanna",
+          "funcao": "",
+          "desde": "1990",
+          "ate": ""
+        },
+        {
+          "nome": "Tobi Vail",
+          "funcao": "",
+          "desde": "1990",
+          "ate": ""
+        },
+        {
+          "nome": "Billy Karren",
+          "funcao": "",
+          "desde": "1991",
+          "ate": "1997"
+        },
+        {
+          "nome": "Kathi Wilcox",
+          "funcao": "",
+          "desde": "1991",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Yeah Yeah Yeah Yeah / Our Troubled Youth",
+          "ano": "1992"
+        },
+        {
+          "titulo": "Pussy Whipped",
+          "ano": "1993"
+        },
+        {
+          "titulo": "Reject All American",
+          "ano": "1996"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Black Sabbath",
@@ -378,7 +1482,247 @@
       "musicbrainz": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8",
       "wikidata": "Q47670",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Bill Ward",
+          "funcao": "backing vocal, bateria, percussão",
+          "desde": "1968",
+          "ate": "2012"
+        },
+        {
+          "nome": "Geezer Butler",
+          "funcao": "baixo, sintetizador",
+          "desde": "1968",
+          "ate": "2025"
+        },
+        {
+          "nome": "Ozzy Osbourne",
+          "funcao": "voz, gaita",
+          "desde": "1968",
+          "ate": "1977"
+        },
+        {
+          "nome": "Tony Iommi",
+          "funcao": "guitarra",
+          "desde": "1968",
+          "ate": "2017"
+        },
+        {
+          "nome": "Dave Walker",
+          "funcao": "voz",
+          "desde": "1977",
+          "ate": "1978"
+        },
+        {
+          "nome": "Geoff Nicholls",
+          "funcao": "teclados",
+          "desde": "1979",
+          "ate": "2004"
+        },
+        {
+          "nome": "Ronnie James Dio",
+          "funcao": "voz",
+          "desde": "1979",
+          "ate": "1992"
+        },
+        {
+          "nome": "Vinny Appice",
+          "funcao": "bateria",
+          "desde": "1980",
+          "ate": "2007"
+        },
+        {
+          "nome": "Ian Gillan",
+          "funcao": "voz",
+          "desde": "1982",
+          "ate": "1984"
+        },
+        {
+          "nome": "Bev Bevan",
+          "funcao": "bateria, percussão",
+          "desde": "1983",
+          "ate": "1987"
+        },
+        {
+          "nome": "David Donato",
+          "funcao": "voz",
+          "desde": "1984",
+          "ate": "1985"
+        },
+        {
+          "nome": "Ron Keel",
+          "funcao": "voz",
+          "desde": "1984",
+          "ate": "1984"
+        },
+        {
+          "nome": "David Spitz",
+          "funcao": "baixo",
+          "desde": "1985",
+          "ate": "1987"
+        },
+        {
+          "nome": "Eric Singer",
+          "funcao": "bateria",
+          "desde": "1985",
+          "ate": "1987"
+        },
+        {
+          "nome": "Glenn Hughes",
+          "funcao": "voz",
+          "desde": "1985",
+          "ate": "1986"
+        },
+        {
+          "nome": "Bob Daisley",
+          "funcao": "baixo",
+          "desde": "1986",
+          "ate": "1986"
+        },
+        {
+          "nome": "Ray Gillen",
+          "funcao": "voz",
+          "desde": "1986",
+          "ate": "1987"
+        },
+        {
+          "nome": "Jo Burt",
+          "funcao": "baixo",
+          "desde": "1987",
+          "ate": "1988"
+        },
+        {
+          "nome": "Terry Chimes",
+          "funcao": "bateria",
+          "desde": "1987",
+          "ate": "1988"
+        },
+        {
+          "nome": "Tony Martin",
+          "funcao": "voz",
+          "desde": "1987",
+          "ate": "1996"
+        },
+        {
+          "nome": "Cozy Powell",
+          "funcao": "bateria",
+          "desde": "1988",
+          "ate": "1995"
+        },
+        {
+          "nome": "Neil Murray",
+          "funcao": "baixo",
+          "desde": "1989",
+          "ate": "1995"
+        },
+        {
+          "nome": "Bob Rondinelli",
+          "funcao": "bateria",
+          "desde": "1993",
+          "ate": "1996"
+        },
+        {
+          "nome": "Mike Bordin",
+          "funcao": "bateria",
+          "desde": "1997",
+          "ate": "1997"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Black Sabbath",
+          "ano": "1970"
+        },
+        {
+          "titulo": "Paranoid",
+          "ano": "1970"
+        },
+        {
+          "titulo": "Master of Reality",
+          "ano": "1971"
+        },
+        {
+          "titulo": "Vol 4",
+          "ano": "1972"
+        },
+        {
+          "titulo": "Sabbath Bloody Sabbath",
+          "ano": "1973"
+        },
+        {
+          "titulo": "Sabotage",
+          "ano": "1975"
+        },
+        {
+          "titulo": "Technical Ecstasy",
+          "ano": "1976"
+        },
+        {
+          "titulo": "Never Say Die!",
+          "ano": "1978"
+        },
+        {
+          "titulo": "Heaven and Hell",
+          "ano": "1980"
+        },
+        {
+          "titulo": "Mob Rules",
+          "ano": "1981"
+        },
+        {
+          "titulo": "Born Again",
+          "ano": "1983"
+        },
+        {
+          "titulo": "Seventh Star",
+          "ano": "1986"
+        },
+        {
+          "titulo": "The Eternal Idol",
+          "ano": "1987"
+        },
+        {
+          "titulo": "Headless Cross",
+          "ano": "1989"
+        },
+        {
+          "titulo": "TYR",
+          "ano": "1990"
+        },
+        {
+          "titulo": "Come To The Sabbath",
+          "ano": "1990"
+        },
+        {
+          "titulo": "Dehumanizer",
+          "ano": "1992"
+        },
+        {
+          "titulo": "Cross Purposes",
+          "ano": "1994"
+        },
+        {
+          "titulo": "Forbidden",
+          "ano": "1995"
+        },
+        {
+          "titulo": "13",
+          "ano": "2013"
+        },
+        {
+          "titulo": "Studio Outtakes 1969",
+          "ano": "2024"
+        },
+        {
+          "titulo": "The Lost 1970 Avro Sessions",
+          "ano": "2026"
+        }
+      ],
+      "logo": "/img/bandas/logos/black-sabbath.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Black_Sabbath_logo.svg",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "claro"
     },
     {
       "nome": "Bo Diddley",
@@ -408,7 +1752,130 @@
       "musicbrainz": "bf659d74-0b61-488c-8a7d-594f43bed9e0",
       "wikidata": "Q208881",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "Bo Diddley",
+          "ano": "1958"
+        },
+        {
+          "titulo": "Go Bo Diddley",
+          "ano": "1959"
+        },
+        {
+          "titulo": "Have Guitar Will Travel",
+          "ano": "1960"
+        },
+        {
+          "titulo": "Bo Diddley in the Spotlight",
+          "ano": "1960"
+        },
+        {
+          "titulo": "Bo Diddley Is a Lover",
+          "ano": "1961"
+        },
+        {
+          "titulo": "Bo Diddley Is a Gunslinger",
+          "ano": "1961"
+        },
+        {
+          "titulo": "Bo Diddley & Company",
+          "ano": "1962"
+        },
+        {
+          "titulo": "Bo Diddley's a Twister",
+          "ano": "1962"
+        },
+        {
+          "titulo": "Bo Diddley",
+          "ano": "1962"
+        },
+        {
+          "titulo": "Surfin' With Bo Diddley",
+          "ano": "1963"
+        },
+        {
+          "titulo": "Bo Diddley Rides Again",
+          "ano": "1963"
+        },
+        {
+          "titulo": "Two Great Guitars",
+          "ano": "1964"
+        },
+        {
+          "titulo": "Hey! Good Lookin'",
+          "ano": "1965"
+        },
+        {
+          "titulo": "500% More Man",
+          "ano": "1965"
+        },
+        {
+          "titulo": "The Originator",
+          "ano": "1966"
+        },
+        {
+          "titulo": "Super Blues",
+          "ano": "1967"
+        },
+        {
+          "titulo": "The Super Super Blues Band",
+          "ano": "1967"
+        },
+        {
+          "titulo": "The Black Gladiator",
+          "ano": "1970"
+        },
+        {
+          "titulo": "Another Dimension",
+          "ano": "1971"
+        },
+        {
+          "titulo": "Where It All Began",
+          "ano": "1972"
+        },
+        {
+          "titulo": "The London Bo Diddley Sessions",
+          "ano": "1973"
+        },
+        {
+          "titulo": "Big Bad Bo",
+          "ano": "1974"
+        },
+        {
+          "titulo": "The 20th Anniversary of Rock 'n' Roll",
+          "ano": "1976"
+        },
+        {
+          "titulo": "Ain’t It Good to Be Free",
+          "ano": "1984"
+        },
+        {
+          "titulo": "Living Legend",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Breakin' Through the B.S.",
+          "ano": "1989"
+        },
+        {
+          "titulo": "This Should Not Be",
+          "ano": "1993"
+        },
+        {
+          "titulo": "A Man Amongst Men",
+          "ano": "1996"
+        },
+        {
+          "titulo": "Spring Weekend 1959",
+          "ano": "2010"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Cazuza",
@@ -437,7 +1904,46 @@
       "musicbrainz": "e554daf4-4ad0-438f-a7f9-832519451fd2",
       "wikidata": "Q731775",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "Exagerado",
+          "ano": "1985"
+        },
+        {
+          "titulo": "Só se for a 2",
+          "ano": "1987"
+        },
+        {
+          "titulo": "Ideologia",
+          "ano": "1988"
+        },
+        {
+          "titulo": "Burguesia",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Por aí",
+          "ano": "1991"
+        },
+        {
+          "titulo": "Coleção obras-primas",
+          "ano": "1995"
+        },
+        {
+          "titulo": "Exagerado",
+          "ano": "1998"
+        },
+        {
+          "titulo": "Exagerado (Remasterizado - 40 Anos)",
+          "ano": "2025"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Chuck Berry",
@@ -467,7 +1973,114 @@
       "musicbrainz": "592a3b6d-c42b-4567-99c9-ecf63bd66499",
       "wikidata": "Q5921",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "After School Session",
+          "ano": "1957"
+        },
+        {
+          "titulo": "One Dozen Berrys",
+          "ano": "1958"
+        },
+        {
+          "titulo": "Chuck Berry Is on Top",
+          "ano": "1959"
+        },
+        {
+          "titulo": "Rockin’ at the Hops",
+          "ano": "1960"
+        },
+        {
+          "titulo": "New Juke Box Hits",
+          "ano": "1961"
+        },
+        {
+          "titulo": "St. Louis to Liverpool",
+          "ano": "1964"
+        },
+        {
+          "titulo": "Two Great Guitars",
+          "ano": "1964"
+        },
+        {
+          "titulo": "Chuck Berry in London",
+          "ano": "1965"
+        },
+        {
+          "titulo": "Fresh Berry’s",
+          "ano": "1965"
+        },
+        {
+          "titulo": "Chuck Berry in Memphis",
+          "ano": "1967"
+        },
+        {
+          "titulo": "Chuck Berry’s Golden Hits",
+          "ano": "1967"
+        },
+        {
+          "titulo": "From St. Louie to Frisco",
+          "ano": "1968"
+        },
+        {
+          "titulo": "Concerto in “B Goode”",
+          "ano": "1969"
+        },
+        {
+          "titulo": "Back Home",
+          "ano": "1970"
+        },
+        {
+          "titulo": "San Francisco Dues",
+          "ano": "1971"
+        },
+        {
+          "titulo": "Bio",
+          "ano": "1973"
+        },
+        {
+          "titulo": "Chuck Berry '75",
+          "ano": "1975"
+        },
+        {
+          "titulo": "Rockit",
+          "ano": "1979"
+        },
+        {
+          "titulo": "In Concert",
+          "ano": "1997"
+        },
+        {
+          "titulo": "Live On Stage",
+          "ano": "2000"
+        },
+        {
+          "titulo": "Icon",
+          "ano": "2011"
+        },
+        {
+          "titulo": "CHUCK BERRY - Rock 'N' Roll Great",
+          "ano": "2017"
+        },
+        {
+          "titulo": "Chuck",
+          "ano": "2017"
+        },
+        {
+          "titulo": "Live: The Palladium New York ‘88 + Bonus Track",
+          "ano": "2017"
+        },
+        {
+          "titulo": "Reelin' And Rockin' - 60 Essential Recordings",
+          "ano": "2021"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "The Clash",
@@ -497,7 +2110,101 @@
       "musicbrainz": "8f92558c-2baa-4758-8c38-615519e9deda",
       "wikidata": "Q125603",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Joe Strummer",
+          "funcao": "",
+          "desde": "1976",
+          "ate": "1986"
+        },
+        {
+          "nome": "Mick Jones",
+          "funcao": "",
+          "desde": "1976",
+          "ate": "1983"
+        },
+        {
+          "nome": "Paul Simonon",
+          "funcao": "",
+          "desde": "1976",
+          "ate": "1986"
+        },
+        {
+          "nome": "Terry Chimes",
+          "funcao": "",
+          "desde": "1976",
+          "ate": "1983"
+        },
+        {
+          "nome": "Topper Headon",
+          "funcao": "",
+          "desde": "1977",
+          "ate": "1982"
+        },
+        {
+          "nome": "Nick Sheppard",
+          "funcao": "guitarra",
+          "desde": "1983",
+          "ate": "1986"
+        },
+        {
+          "nome": "Pete Howard",
+          "funcao": "",
+          "desde": "1983",
+          "ate": "1985"
+        },
+        {
+          "nome": "Keith Levene",
+          "funcao": "",
+          "desde": "",
+          "ate": "1986"
+        },
+        {
+          "nome": "Vince White",
+          "funcao": "",
+          "desde": "",
+          "ate": "1986"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "The Clash",
+          "ano": "1977"
+        },
+        {
+          "titulo": "Give ’Em Enough Rope",
+          "ano": "1978"
+        },
+        {
+          "titulo": "London Calling",
+          "ano": "1979"
+        },
+        {
+          "titulo": "Sandinista Now!",
+          "ano": "1980"
+        },
+        {
+          "titulo": "Sandinista!",
+          "ano": "1980"
+        },
+        {
+          "titulo": "Combat Rock",
+          "ano": "1982"
+        },
+        {
+          "titulo": "Cut the Crap",
+          "ano": "1985"
+        },
+        {
+          "titulo": "Rat Patrol From Fort Bragg",
+          "ano": "2003"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Crypta",
@@ -525,7 +2232,59 @@
       "musicbrainz": "3b5bc4eb-d60e-406c-a5e4-f08197d4c9de",
       "wikidata": "Q106617728",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Jéssica di Falchi",
+          "funcao": "guitarra",
+          "desde": "2022",
+          "ate": "2025"
+        },
+        {
+          "nome": "Victoria Villarreal",
+          "funcao": "guitarra",
+          "desde": "2026",
+          "ate": ""
+        },
+        {
+          "nome": "Fernanda Lira",
+          "funcao": "voz, baixo",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Luana Dametto",
+          "funcao": "bateria",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Sonia Anubis",
+          "funcao": "guitarra",
+          "desde": "",
+          "ate": "2022"
+        },
+        {
+          "nome": "Tainá Bergamaschi",
+          "funcao": "guitarra",
+          "desde": "",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Echoes of the Soul",
+          "ano": "2021"
+        },
+        {
+          "titulo": "Shades of Sorrow",
+          "ano": "2023"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "The Cure",
@@ -555,7 +2314,155 @@
       "musicbrainz": "69ee3720-a7cb-4402-b48d-a02c366f2bcf",
       "wikidata": "Q484427",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Porl Thompson",
+          "funcao": "",
+          "desde": "1976",
+          "ate": "2009"
+        },
+        {
+          "nome": "Robert Smith",
+          "funcao": "voz, guitarra",
+          "desde": "1976",
+          "ate": ""
+        },
+        {
+          "nome": "Lol Tolhurst",
+          "funcao": "",
+          "desde": "1977",
+          "ate": "1989"
+        },
+        {
+          "nome": "Michael Dempsey",
+          "funcao": "",
+          "desde": "1977",
+          "ate": "1979"
+        },
+        {
+          "nome": "Matthieu Hartley",
+          "funcao": "",
+          "desde": "1979",
+          "ate": "1980"
+        },
+        {
+          "nome": "Simon Gallup",
+          "funcao": "",
+          "desde": "1979",
+          "ate": ""
+        },
+        {
+          "nome": "Andy Anderson",
+          "funcao": "bateria",
+          "desde": "1983",
+          "ate": "1984"
+        },
+        {
+          "nome": "Phil Thornalley",
+          "funcao": "",
+          "desde": "1983",
+          "ate": "1984"
+        },
+        {
+          "nome": "Boris Williams",
+          "funcao": "",
+          "desde": "1985",
+          "ate": "1993"
+        },
+        {
+          "nome": "Roger O’Donnell",
+          "funcao": "",
+          "desde": "1987",
+          "ate": ""
+        },
+        {
+          "nome": "Perry Bamonte",
+          "funcao": "",
+          "desde": "1990",
+          "ate": "2025"
+        },
+        {
+          "nome": "Jason Cooper",
+          "funcao": "",
+          "desde": "1995",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Three Imaginary Boys",
+          "ano": "1979"
+        },
+        {
+          "titulo": "Seventeen Seconds",
+          "ano": "1980"
+        },
+        {
+          "titulo": "Faith",
+          "ano": "1981"
+        },
+        {
+          "titulo": "Pornography",
+          "ano": "1982"
+        },
+        {
+          "titulo": "The Top",
+          "ano": "1984"
+        },
+        {
+          "titulo": "The Head on the Door",
+          "ano": "1985"
+        },
+        {
+          "titulo": "Kiss Me Kiss Me Kiss Me",
+          "ano": "1987"
+        },
+        {
+          "titulo": "Disintegration",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Wish",
+          "ano": "1992"
+        },
+        {
+          "titulo": "Wild Mood Swings",
+          "ano": "1996"
+        },
+        {
+          "titulo": "Bloodflowers",
+          "ano": "2000"
+        },
+        {
+          "titulo": "The Cure",
+          "ano": "2004"
+        },
+        {
+          "titulo": "4:13 Dream",
+          "ano": "2008"
+        },
+        {
+          "titulo": "All Is Yellow, Hot, Hot, Hot.",
+          "ano": "2021"
+        },
+        {
+          "titulo": "Songs of a Lost World",
+          "ano": "2024"
+        },
+        {
+          "titulo": "The Broadcast Collection 1979–1996",
+          "ano": "2024"
+        },
+        {
+          "titulo": "A Night Like This 2005 & 2008",
+          "ano": "2025"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Cólera",
@@ -583,7 +2490,46 @@
       "musicbrainz": "2df823c6-a100-489b-b670-59ebbfb4e0e3",
       "wikidata": "Q3391253",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "SUB",
+          "ano": "1983"
+        },
+        {
+          "titulo": "Tente mudar o amanhã",
+          "ano": "1985"
+        },
+        {
+          "titulo": "Pela paz em todo mundo",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Verde, não devaste!",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Mundo mecânico, mundo eletrônico",
+          "ano": "1992"
+        },
+        {
+          "titulo": "Caos mental geral",
+          "ano": "1998"
+        },
+        {
+          "titulo": "Deixe a terra em paz!",
+          "ano": "2004"
+        },
+        {
+          "titulo": "Acorde! Acorde! Acorde!",
+          "ano": "2018"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "David Bowie",
@@ -613,7 +2559,126 @@
       "musicbrainz": "5441c29d-3602-4898-b1a1-b77fa23b8e50",
       "wikidata": "Q5383",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "David Bowie",
+          "ano": "1967"
+        },
+        {
+          "titulo": "David Bowie",
+          "ano": "1969"
+        },
+        {
+          "titulo": "The Man Who Sold the World",
+          "ano": "1970"
+        },
+        {
+          "titulo": "Hunky Dory",
+          "ano": "1971"
+        },
+        {
+          "titulo": "The Rise and Fall of Ziggy Stardust and the Spiders From Mars",
+          "ano": "1972"
+        },
+        {
+          "titulo": "Aladdin Sane",
+          "ano": "1973"
+        },
+        {
+          "titulo": "Pin Ups",
+          "ano": "1973"
+        },
+        {
+          "titulo": "Diamond Dogs",
+          "ano": "1974"
+        },
+        {
+          "titulo": "Young Americans",
+          "ano": "1975"
+        },
+        {
+          "titulo": "Station to Station",
+          "ano": "1976"
+        },
+        {
+          "titulo": "“Heroes”",
+          "ano": "1977"
+        },
+        {
+          "titulo": "Low",
+          "ano": "1977"
+        },
+        {
+          "titulo": "David Bowie Narrates Prokofiev’s Peter and the Wolf",
+          "ano": "1978"
+        },
+        {
+          "titulo": "Lodger",
+          "ano": "1979"
+        },
+        {
+          "titulo": "Scary Monsters… and Super Creeps",
+          "ano": "1980"
+        },
+        {
+          "titulo": "Let’s Dance",
+          "ano": "1983"
+        },
+        {
+          "titulo": "Tonight",
+          "ano": "1984"
+        },
+        {
+          "titulo": "Never Let Me Down",
+          "ano": "1987"
+        },
+        {
+          "titulo": "Black Tie White Noise",
+          "ano": "1993"
+        },
+        {
+          "titulo": "1.Outside: The Nathan Adler Diaries: A Hyper Cycle",
+          "ano": "1995"
+        },
+        {
+          "titulo": "Earthling",
+          "ano": "1997"
+        },
+        {
+          "titulo": "‘hours…’",
+          "ano": "1999"
+        },
+        {
+          "titulo": "Heathen",
+          "ano": "2002"
+        },
+        {
+          "titulo": "Reality",
+          "ano": "2003"
+        },
+        {
+          "titulo": "Toy",
+          "ano": "2011"
+        },
+        {
+          "titulo": "The Next Day",
+          "ano": "2013"
+        },
+        {
+          "titulo": "★",
+          "ano": "2016"
+        },
+        {
+          "titulo": "ChangesNowBowie",
+          "ano": "2020"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Deep Purple",
@@ -643,7 +2708,201 @@
       "musicbrainz": "79491354-3d83-40e3-9d8e-7592d58d790a",
       "wikidata": "Q101505",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Ian Paice",
+          "funcao": "bateria, percussão",
+          "desde": "1968",
+          "ate": ""
+        },
+        {
+          "nome": "Jon Lord",
+          "funcao": "backing vocal, teclados, órgão",
+          "desde": "1968",
+          "ate": "2002"
+        },
+        {
+          "nome": "Nick Simper",
+          "funcao": "backing vocal, baixo",
+          "desde": "1968",
+          "ate": "1969"
+        },
+        {
+          "nome": "Ritchie Blackmore",
+          "funcao": "guitarra",
+          "desde": "1968",
+          "ate": "1993"
+        },
+        {
+          "nome": "Rod Evans",
+          "funcao": "voz",
+          "desde": "1968",
+          "ate": "1969"
+        },
+        {
+          "nome": "Ian Gillan",
+          "funcao": "gaita, voz, percussão",
+          "desde": "1969",
+          "ate": ""
+        },
+        {
+          "nome": "Roger Glover",
+          "funcao": "baixo",
+          "desde": "1969",
+          "ate": ""
+        },
+        {
+          "nome": "David Coverdale",
+          "funcao": "voz",
+          "desde": "1973",
+          "ate": "1976"
+        },
+        {
+          "nome": "Glenn Hughes",
+          "funcao": "baixo, voz",
+          "desde": "1973",
+          "ate": "1976"
+        },
+        {
+          "nome": "Tommy Bolin",
+          "funcao": "baixo, guitarra, voz",
+          "desde": "1975",
+          "ate": "1976"
+        },
+        {
+          "nome": "Joe Lynn Turner",
+          "funcao": "voz",
+          "desde": "1989",
+          "ate": "1992"
+        },
+        {
+          "nome": "Joe Satriani",
+          "funcao": "guitarra",
+          "desde": "1993",
+          "ate": "1994"
+        },
+        {
+          "nome": "Steve Morse",
+          "funcao": "guitarra",
+          "desde": "1994",
+          "ate": "2022"
+        },
+        {
+          "nome": "Don Airey",
+          "funcao": "teclados, órgão",
+          "desde": "2002",
+          "ate": ""
+        },
+        {
+          "nome": "Simon McBride",
+          "funcao": "guitarra",
+          "desde": "2022",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "The Book of Taliesyn",
+          "ano": "1968"
+        },
+        {
+          "titulo": "Shades of Deep Purple",
+          "ano": "1968"
+        },
+        {
+          "titulo": "Deep Purple",
+          "ano": "1969"
+        },
+        {
+          "titulo": "Deep Purple in Rock",
+          "ano": "1970"
+        },
+        {
+          "titulo": "Fireball",
+          "ano": "1971"
+        },
+        {
+          "titulo": "Machine Head",
+          "ano": "1972"
+        },
+        {
+          "titulo": "Who Do We Think We Are",
+          "ano": "1973"
+        },
+        {
+          "titulo": "Stormbringer",
+          "ano": "1974"
+        },
+        {
+          "titulo": "Burn",
+          "ano": "1974"
+        },
+        {
+          "titulo": "Come Taste the Band",
+          "ano": "1975"
+        },
+        {
+          "titulo": "Perfect Strangers",
+          "ano": "1984"
+        },
+        {
+          "titulo": "The House of Blue Light",
+          "ano": "1987"
+        },
+        {
+          "titulo": "Slaves and Masters",
+          "ano": "1990"
+        },
+        {
+          "titulo": "The Battle Rages On…",
+          "ano": "1993"
+        },
+        {
+          "titulo": "Purpendicular",
+          "ano": "1996"
+        },
+        {
+          "titulo": "Abandon",
+          "ano": "1998"
+        },
+        {
+          "titulo": "Bananas",
+          "ano": "2003"
+        },
+        {
+          "titulo": "Rapture of the Deep",
+          "ano": "2005"
+        },
+        {
+          "titulo": "Now What?!",
+          "ano": "2013"
+        },
+        {
+          "titulo": "Infinite",
+          "ano": "2017"
+        },
+        {
+          "titulo": "Whoosh!",
+          "ano": "2020"
+        },
+        {
+          "titulo": "Turning to Crime",
+          "ano": "2021"
+        },
+        {
+          "titulo": "=1",
+          "ano": "2024"
+        },
+        {
+          "titulo": "SPLAT!",
+          "ano": "2026"
+        }
+      ],
+      "logo": "/img/bandas/logos/deep-purple.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Deep-Purple-logo.svg",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "claro"
     },
     {
       "nome": "Elvis Presley",
@@ -673,7 +2932,118 @@
       "musicbrainz": "01809552-4f87-45b0-afff-2c6f0730a3be",
       "wikidata": "Q303",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "Elvis Presley",
+          "ano": "1956"
+        },
+        {
+          "titulo": "Elvis",
+          "ano": "1956"
+        },
+        {
+          "titulo": "Elvis’ Christmas Album",
+          "ano": "1957"
+        },
+        {
+          "titulo": "Elvis Is Back!",
+          "ano": "1960"
+        },
+        {
+          "titulo": "His Hand in Mine",
+          "ano": "1960"
+        },
+        {
+          "titulo": "Something for Everybody",
+          "ano": "1961"
+        },
+        {
+          "titulo": "Pot Luck",
+          "ano": "1962"
+        },
+        {
+          "titulo": "Elvis for Everyone!",
+          "ano": "1965"
+        },
+        {
+          "titulo": "How Great Thou Art",
+          "ano": "1967"
+        },
+        {
+          "titulo": "From Elvis in Memphis",
+          "ano": "1969"
+        },
+        {
+          "titulo": "Back in Memphis",
+          "ano": "1969"
+        },
+        {
+          "titulo": "That’s the Way It Is",
+          "ano": "1970"
+        },
+        {
+          "titulo": "Elvis Country: I’m 10,000 Years Old",
+          "ano": "1971"
+        },
+        {
+          "titulo": "Elvis Sings the Wonderful World of Christmas",
+          "ano": "1971"
+        },
+        {
+          "titulo": "Love Letters From Elvis",
+          "ano": "1971"
+        },
+        {
+          "titulo": "Elvis Now",
+          "ano": "1972"
+        },
+        {
+          "titulo": "He Touched Me",
+          "ano": "1972"
+        },
+        {
+          "titulo": "Elvis",
+          "ano": "1973"
+        },
+        {
+          "titulo": "Raised on Rock / For Ol’ Times Sake",
+          "ano": "1973"
+        },
+        {
+          "titulo": "Good Times",
+          "ano": "1974"
+        },
+        {
+          "titulo": "Promised Land",
+          "ano": "1975"
+        },
+        {
+          "titulo": "Today",
+          "ano": "1975"
+        },
+        {
+          "titulo": "From Elvis Presley Boulevard, Memphis, Tennessee",
+          "ano": "1976"
+        },
+        {
+          "titulo": "Elvis in Demand",
+          "ano": "1977"
+        },
+        {
+          "titulo": "Moody Blue",
+          "ano": "1977"
+        },
+        {
+          "titulo": "The Last Tours Volume 3",
+          "ano": "2025"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Europe",
@@ -703,7 +3073,105 @@
       "musicbrainz": "ccfe7a3c-1a45-4984-a8d0-644549cefe61",
       "wikidata": "Q185144",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "John Norum",
+          "funcao": "guitarra",
+          "desde": "1979",
+          "ate": ""
+        },
+        {
+          "nome": "Joey Tempest",
+          "funcao": "voz",
+          "desde": "1982",
+          "ate": ""
+        },
+        {
+          "nome": "John Levén",
+          "funcao": "",
+          "desde": "1982",
+          "ate": ""
+        },
+        {
+          "nome": "Tony Reno",
+          "funcao": "",
+          "desde": "1982",
+          "ate": "1984"
+        },
+        {
+          "nome": "Ian Haugland",
+          "funcao": "",
+          "desde": "1984",
+          "ate": ""
+        },
+        {
+          "nome": "Mic Michaeli",
+          "funcao": "",
+          "desde": "1984",
+          "ate": ""
+        },
+        {
+          "nome": "Kee Marcello",
+          "funcao": "",
+          "desde": "1986",
+          "ate": "1992"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Europe",
+          "ano": "1983"
+        },
+        {
+          "titulo": "Wings of Tomorrow",
+          "ano": "1984"
+        },
+        {
+          "titulo": "The Final Countdown",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Out of This World",
+          "ano": "1988"
+        },
+        {
+          "titulo": "Prisoners in Paradise",
+          "ano": "1991"
+        },
+        {
+          "titulo": "Start From the Dark",
+          "ano": "2004"
+        },
+        {
+          "titulo": "Secret Society",
+          "ano": "2006"
+        },
+        {
+          "titulo": "Last Look at Eden",
+          "ano": "2009"
+        },
+        {
+          "titulo": "Bag of Bones",
+          "ano": "2012"
+        },
+        {
+          "titulo": "War of Kings",
+          "ano": "2015"
+        },
+        {
+          "titulo": "Walk the Earth",
+          "ano": "2017"
+        },
+        {
+          "titulo": "Come This Madness",
+          "ano": "2026"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Fishbone",
@@ -733,7 +3201,143 @@
       "musicbrainz": "9f3764c0-c9f4-4e20-b7a8-9993124fb1b2",
       "wikidata": "Q902881",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Angelo Moore",
+          "funcao": "",
+          "desde": "1979",
+          "ate": ""
+        },
+        {
+          "nome": "Christopher Dowd",
+          "funcao": "",
+          "desde": "1979",
+          "ate": ""
+        },
+        {
+          "nome": "Fish",
+          "funcao": "",
+          "desde": "1979",
+          "ate": "1998"
+        },
+        {
+          "nome": "John Norwood Fisher",
+          "funcao": "",
+          "desde": "1979",
+          "ate": ""
+        },
+        {
+          "nome": "Kendall Jones",
+          "funcao": "",
+          "desde": "1979",
+          "ate": "1993"
+        },
+        {
+          "nome": "Walter Adam Kibby II",
+          "funcao": "",
+          "desde": "1979",
+          "ate": "2003"
+        },
+        {
+          "nome": "John Bigham",
+          "funcao": "",
+          "desde": "1989",
+          "ate": "1997"
+        },
+        {
+          "nome": "André Holmes",
+          "funcao": "trompete",
+          "desde": "2004",
+          "ate": "2011"
+        },
+        {
+          "nome": "Anthony Brewster",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Cheyenne Star Forever Moore",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Drè Gipson",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Joe McCreary",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Marlon Williams",
+          "funcao": "",
+          "desde": "",
+          "ate": "1988"
+        },
+        {
+          "nome": "Paul Hampton",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Rocky George",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Spacey T.",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "In Your Face",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Truth and Soul",
+          "ano": "1988"
+        },
+        {
+          "titulo": "The Reality of My Surroundings",
+          "ano": "1991"
+        },
+        {
+          "titulo": "Give a Monkey a Brain... And He’ll Swear He’s the Center of the Universe",
+          "ano": "1993"
+        },
+        {
+          "titulo": "Chim Chim's Badass Revenge",
+          "ano": "1996"
+        },
+        {
+          "titulo": "The Psychotic Friends Nuttwerx",
+          "ano": "2000"
+        },
+        {
+          "titulo": "Still Stuck in Your Throat",
+          "ano": "2006"
+        },
+        {
+          "titulo": "Stockholm Syndrome",
+          "ano": "2025"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Foo Fighters",
@@ -763,7 +3367,121 @@
       "musicbrainz": "67f66c07-6e61-4026-ade5-7e782fad3a5d",
       "wikidata": "Q483718",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Dave Grohl",
+          "funcao": "guitarra, voz",
+          "desde": "1994",
+          "ate": ""
+        },
+        {
+          "nome": "Nate Mendel",
+          "funcao": "baixo",
+          "desde": "1995",
+          "ate": ""
+        },
+        {
+          "nome": "Pat Smear",
+          "funcao": "guitarra",
+          "desde": "1995",
+          "ate": ""
+        },
+        {
+          "nome": "William Goldsmith",
+          "funcao": "bateria",
+          "desde": "1995",
+          "ate": "1997"
+        },
+        {
+          "nome": "Franz Stahl",
+          "funcao": "backing vocal, guitarra",
+          "desde": "1997",
+          "ate": "1999"
+        },
+        {
+          "nome": "Taylor Hawkins",
+          "funcao": "backing vocal, bateria",
+          "desde": "1997",
+          "ate": "2022"
+        },
+        {
+          "nome": "Chris Shiflett",
+          "funcao": "backing vocal, guitarra",
+          "desde": "1999",
+          "ate": ""
+        },
+        {
+          "nome": "Rami Jaffee",
+          "funcao": "teclados",
+          "desde": "2017",
+          "ate": ""
+        },
+        {
+          "nome": "Josh Freese",
+          "funcao": "bateria",
+          "desde": "2023",
+          "ate": "2025"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Foo Fighters",
+          "ano": "1995"
+        },
+        {
+          "titulo": "The Colour and the Shape",
+          "ano": "1997"
+        },
+        {
+          "titulo": "There Is Nothing Left to Lose",
+          "ano": "1999"
+        },
+        {
+          "titulo": "One by One",
+          "ano": "2002"
+        },
+        {
+          "titulo": "In Your Honor",
+          "ano": "2005"
+        },
+        {
+          "titulo": "Echoes, Silence, Patience & Grace",
+          "ano": "2007"
+        },
+        {
+          "titulo": "Wasting Light",
+          "ano": "2011"
+        },
+        {
+          "titulo": "Sonic Highways",
+          "ano": "2014"
+        },
+        {
+          "titulo": "Concrete and Gold",
+          "ano": "2017"
+        },
+        {
+          "titulo": "Hail Satin",
+          "ano": "2021"
+        },
+        {
+          "titulo": "Medicine at Midnight",
+          "ano": "2021"
+        },
+        {
+          "titulo": "But Here We Are",
+          "ano": "2023"
+        },
+        {
+          "titulo": "Your Favorite Toy",
+          "ano": "2026"
+        }
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Foo_Fighters_%28Logo%29.png",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Foo_Fighters_(Logo).png",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "claro"
     },
     {
       "nome": "Gilberto Gil",
@@ -793,7 +3511,178 @@
       "musicbrainz": "cf6b70f6-2616-481c-912c-0263cabfc974",
       "wikidata": "Q221479",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "Louvação",
+          "ano": "1967"
+        },
+        {
+          "titulo": "Gilberto Gil",
+          "ano": "1968"
+        },
+        {
+          "titulo": "Gilberto Gil",
+          "ano": "1969"
+        },
+        {
+          "titulo": "Gilberto Gil",
+          "ano": "1971"
+        },
+        {
+          "titulo": "Expresso 2222",
+          "ano": "1972"
+        },
+        {
+          "titulo": "Cidade do Salvador, Vol. 1",
+          "ano": "1973"
+        },
+        {
+          "titulo": "Gil e Jorge",
+          "ano": "1975"
+        },
+        {
+          "titulo": "Refazenda",
+          "ano": "1975"
+        },
+        {
+          "titulo": "Satisfação - Raras & Inéditas",
+          "ano": "1977"
+        },
+        {
+          "titulo": "Refavela",
+          "ano": "1977"
+        },
+        {
+          "titulo": "Nightingale",
+          "ano": "1978"
+        },
+        {
+          "titulo": "Antologia do samba-choro",
+          "ano": "1978"
+        },
+        {
+          "titulo": "Realce",
+          "ano": "1979"
+        },
+        {
+          "titulo": "Brasil",
+          "ano": "1981"
+        },
+        {
+          "titulo": "Luar",
+          "ano": "1981"
+        },
+        {
+          "titulo": "Um Banda Um",
+          "ano": "1982"
+        },
+        {
+          "titulo": "Extra",
+          "ano": "1983"
+        },
+        {
+          "titulo": "Raça humana",
+          "ano": "1984"
+        },
+        {
+          "titulo": "Dia Dorim Noite Neon",
+          "ano": "1985"
+        },
+        {
+          "titulo": "Soy loco por ti, América",
+          "ano": "1987"
+        },
+        {
+          "titulo": "O eterno Deus Mu dança",
+          "ano": "1989"
+        },
+        {
+          "titulo": "The Eternal God of Change",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Parabolicamará",
+          "ano": "1991"
+        },
+        {
+          "titulo": "Tropicália 2",
+          "ano": "1993"
+        },
+        {
+          "titulo": "Este É O Gil Que Eu Gosto",
+          "ano": "1995"
+        },
+        {
+          "titulo": "Les incontournables du Jazz - Gilberto Gil",
+          "ano": "1996"
+        },
+        {
+          "titulo": "Quanta",
+          "ano": "1997"
+        },
+        {
+          "titulo": "Gil & Milton",
+          "ano": "2000"
+        },
+        {
+          "titulo": "Vira Mundo",
+          "ano": "2001"
+        },
+        {
+          "titulo": "Kaya N’gan Daya",
+          "ano": "2002"
+        },
+        {
+          "titulo": "Gold",
+          "ano": "2002"
+        },
+        {
+          "titulo": "Aquarela Do Brasil - 16 Grandes Éxitos",
+          "ano": "2003"
+        },
+        {
+          "titulo": "Cidade do Salvador",
+          "ano": "2003"
+        },
+        {
+          "titulo": "Gil Luminoso",
+          "ano": "2006"
+        },
+        {
+          "titulo": "Banda larga cordel",
+          "ano": "2008"
+        },
+        {
+          "titulo": "Fé na Festa",
+          "ano": "2010"
+        },
+        {
+          "titulo": "Retirante (Vol. 1)",
+          "ano": "2010"
+        },
+        {
+          "titulo": "The South African Meeting of Viramundo",
+          "ano": "2013"
+        },
+        {
+          "titulo": "The Other Side",
+          "ano": "2014"
+        },
+        {
+          "titulo": "Gilbertos Samba",
+          "ano": "2014"
+        },
+        {
+          "titulo": "OK OK OK",
+          "ano": "2018"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Gojira",
@@ -823,7 +3712,67 @@
       "musicbrainz": "1c5efd53-d6b6-4d63-9d22-a15025cf5f07",
       "wikidata": "Q1011412",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Christian Andreu",
+          "funcao": "guitarra",
+          "desde": "1996",
+          "ate": ""
+        },
+        {
+          "nome": "Jean‐Michel Labadie",
+          "funcao": "baixo",
+          "desde": "1996",
+          "ate": ""
+        },
+        {
+          "nome": "Joe Duplantier",
+          "funcao": "guitarra, voz",
+          "desde": "1996",
+          "ate": ""
+        },
+        {
+          "nome": "Mario Duplantier",
+          "funcao": "bateria",
+          "desde": "1996",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Terra incognita",
+          "ano": "2001"
+        },
+        {
+          "titulo": "The Link",
+          "ano": "2003"
+        },
+        {
+          "titulo": "From Mars to Sirius",
+          "ano": "2005"
+        },
+        {
+          "titulo": "The Way of All Flesh",
+          "ano": "2008"
+        },
+        {
+          "titulo": "L’Enfant sauvage",
+          "ano": "2012"
+        },
+        {
+          "titulo": "Magma",
+          "ano": "2016"
+        },
+        {
+          "titulo": "Fortitude",
+          "ano": "2021"
+        }
+      ],
+      "logo": "/img/bandas/logos/gojira.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Gojira_logo.svg",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "claro"
     },
     {
       "nome": "Inocentes",
@@ -851,7 +3800,65 @@
       "musicbrainz": "bf479f8a-dc2d-4549-8025-cee854805b4f",
       "wikidata": "Q2619080",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Clemente",
+          "funcao": "",
+          "desde": "1981",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Pânico em S. P.",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Adeus Carne",
+          "ano": "1987"
+        },
+        {
+          "titulo": "Miséria e fome",
+          "ano": "1988"
+        },
+        {
+          "titulo": "Inocentes",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Estilhaços",
+          "ano": "1992"
+        },
+        {
+          "titulo": "Subterrâneos",
+          "ano": "1994"
+        },
+        {
+          "titulo": "Ruas",
+          "ano": "1996"
+        },
+        {
+          "titulo": "Embalado A Vácuo",
+          "ano": "1998"
+        },
+        {
+          "titulo": "O Barulho dos Inocentes",
+          "ano": "2000"
+        },
+        {
+          "titulo": "Labirinto",
+          "ano": "2004"
+        },
+        {
+          "titulo": "Sob Controle",
+          "ano": "2013"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Ira!",
@@ -879,7 +3886,105 @@
       "musicbrainz": "1ccd14d3-c66e-4949-9308-655b8df1a523",
       "wikidata": "Q10303521",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Edgard Scandurra",
+          "funcao": "backing vocal, guitarra, teclados",
+          "desde": "1981",
+          "ate": ""
+        },
+        {
+          "nome": "Nasi",
+          "funcao": "voz",
+          "desde": "1981",
+          "ate": ""
+        },
+        {
+          "nome": "Charles Gavin",
+          "funcao": "bateria",
+          "desde": "1983",
+          "ate": "1984"
+        },
+        {
+          "nome": "André Jung",
+          "funcao": "backing vocal, bateria",
+          "desde": "1985",
+          "ate": "2007"
+        },
+        {
+          "nome": "Ricardo Gaspa",
+          "funcao": "backing vocal, baixo",
+          "desde": "1985",
+          "ate": "2007"
+        },
+        {
+          "nome": "Johnny Boy",
+          "funcao": "violão, teclados, backing vocal, baixo",
+          "desde": "2014",
+          "ate": ""
+        },
+        {
+          "nome": "Thiago Castanho",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Mudança de comportamento",
+          "ano": "1985"
+        },
+        {
+          "titulo": "Vivendo e não aprendendo",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Psicoacústica",
+          "ano": "1988"
+        },
+        {
+          "titulo": "Clandestino",
+          "ano": "1990"
+        },
+        {
+          "titulo": "Meninos da Rua Paulo",
+          "ano": "1991"
+        },
+        {
+          "titulo": "Musica calma para pessoas nervosas",
+          "ano": "1993"
+        },
+        {
+          "titulo": "7",
+          "ano": "1996"
+        },
+        {
+          "titulo": "Você não sabe quem eu sou",
+          "ano": "1998"
+        },
+        {
+          "titulo": "Isso é amor",
+          "ano": "1999"
+        },
+        {
+          "titulo": "Entre seus rins",
+          "ano": "2001"
+        },
+        {
+          "titulo": "Invisível DJ",
+          "ano": "2007"
+        },
+        {
+          "titulo": "IRA",
+          "ano": "2020"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Iron Maiden",
@@ -908,7 +4013,235 @@
       "musicbrainz": "ca891d65-d9b0-4258-89f7-e6ba29d83767",
       "wikidata": "Q42482",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Dave Sullivan",
+          "funcao": "guitarra",
+          "desde": "1975",
+          "ate": "1976"
+        },
+        {
+          "nome": "Paul Day",
+          "funcao": "voz",
+          "desde": "1975",
+          "ate": "1976"
+        },
+        {
+          "nome": "Ron \"Rebel\" Matthews",
+          "funcao": "bateria",
+          "desde": "1975",
+          "ate": "1977"
+        },
+        {
+          "nome": "Steve Harris",
+          "funcao": "backing vocal, baixo, teclados",
+          "desde": "1975",
+          "ate": ""
+        },
+        {
+          "nome": "Terry Rance",
+          "funcao": "guitarra",
+          "desde": "1975",
+          "ate": "1976"
+        },
+        {
+          "nome": "Dave Murray",
+          "funcao": "guitarra",
+          "desde": "1976",
+          "ate": ""
+        },
+        {
+          "nome": "Dennis Wilcock",
+          "funcao": "voz",
+          "desde": "1976",
+          "ate": "1978"
+        },
+        {
+          "nome": "Bob Sawyer",
+          "funcao": "guitarra",
+          "desde": "1977",
+          "ate": "1977"
+        },
+        {
+          "nome": "Doug Sampson",
+          "funcao": "bateria, percussão",
+          "desde": "1977",
+          "ate": "1979"
+        },
+        {
+          "nome": "Terry Wapram",
+          "funcao": "guitarra",
+          "desde": "1977",
+          "ate": "1978"
+        },
+        {
+          "nome": "Thunderstick",
+          "funcao": "bateria, percussão",
+          "desde": "1977",
+          "ate": "1977"
+        },
+        {
+          "nome": "Tony Moore",
+          "funcao": "teclados",
+          "desde": "1977",
+          "ate": "1977"
+        },
+        {
+          "nome": "Paul Di’Anno",
+          "funcao": "voz",
+          "desde": "1978",
+          "ate": "1981"
+        },
+        {
+          "nome": "Clive Burr",
+          "funcao": "bateria, percussão",
+          "desde": "1979",
+          "ate": "1982"
+        },
+        {
+          "nome": "Dennis Stratton",
+          "funcao": "backing vocal, guitarra",
+          "desde": "1979",
+          "ate": "1980"
+        },
+        {
+          "nome": "Paul Cairns",
+          "funcao": "guitarra",
+          "desde": "1979",
+          "ate": "1979"
+        },
+        {
+          "nome": "Paul Todd",
+          "funcao": "guitarra",
+          "desde": "1979",
+          "ate": "1979"
+        },
+        {
+          "nome": "Tony Parsons",
+          "funcao": "guitarra",
+          "desde": "1979",
+          "ate": "1979"
+        },
+        {
+          "nome": "Adrian Smith",
+          "funcao": "backing vocal, guitarra, teclados, baixo",
+          "desde": "1980",
+          "ate": ""
+        },
+        {
+          "nome": "Bruce Dickinson",
+          "funcao": "voz",
+          "desde": "1981",
+          "ate": ""
+        },
+        {
+          "nome": "Nicko McBrain",
+          "funcao": "bateria, percussão",
+          "desde": "1982",
+          "ate": "2024"
+        },
+        {
+          "nome": "Janick Gers",
+          "funcao": "guitarra",
+          "desde": "1990",
+          "ate": ""
+        },
+        {
+          "nome": "Blaze Bayley",
+          "funcao": "voz",
+          "desde": "1994",
+          "ate": "1999"
+        },
+        {
+          "nome": "Simon Dawson",
+          "funcao": "bateria",
+          "desde": "2024",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Iron Maiden",
+          "ano": "1980"
+        },
+        {
+          "titulo": "Killers",
+          "ano": "1981"
+        },
+        {
+          "titulo": "The Number of the Beast",
+          "ano": "1982"
+        },
+        {
+          "titulo": "Piece of Mind",
+          "ano": "1983"
+        },
+        {
+          "titulo": "Powerslave",
+          "ano": "1984"
+        },
+        {
+          "titulo": "Somewhere in Time",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Seventh Son of a Seventh Son",
+          "ano": "1988"
+        },
+        {
+          "titulo": "No Prayer for the Dying",
+          "ano": "1990"
+        },
+        {
+          "titulo": "Fear of the Dark",
+          "ano": "1992"
+        },
+        {
+          "titulo": "The X Factor",
+          "ano": "1995"
+        },
+        {
+          "titulo": "Virtual XI",
+          "ano": "1998"
+        },
+        {
+          "titulo": "Brave New World",
+          "ano": "2000"
+        },
+        {
+          "titulo": "Dance of Death",
+          "ano": "2003"
+        },
+        {
+          "titulo": "A Matter of Life and Death",
+          "ano": "2006"
+        },
+        {
+          "titulo": "The Final Frontier",
+          "ano": "2010"
+        },
+        {
+          "titulo": "The Book of Souls",
+          "ano": "2015"
+        },
+        {
+          "titulo": "A Quiet Night In",
+          "ano": "2020"
+        },
+        {
+          "titulo": "Senjutsu",
+          "ano": "2021"
+        },
+        {
+          "titulo": "The Beat Sessions",
+          "ano": "2023"
+        }
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/7/72/Logo_iron_maiden.png",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Logo_iron_maiden.png",
+      "logo_licenca": "CC BY 3.0, Valencia222",
+      "logo_fundo": "escuro"
     },
     {
       "nome": "Jimi Hendrix",
@@ -938,7 +4271,54 @@
       "musicbrainz": "06fb1c8b-566e-4cb2-985b-b467c90781d4",
       "wikidata": "Q5928",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "Strange Things",
+          "ano": "1968"
+        },
+        {
+          "titulo": "Flashing",
+          "ano": "1968"
+        },
+        {
+          "titulo": "Rainbow Bridge",
+          "ano": "1971"
+        },
+        {
+          "titulo": "The Cry of Love",
+          "ano": "1971"
+        },
+        {
+          "titulo": "War Heroes",
+          "ano": "1972"
+        },
+        {
+          "titulo": "Midnight Lightning",
+          "ano": "1975"
+        },
+        {
+          "titulo": "Crash Landing",
+          "ano": "1975"
+        },
+        {
+          "titulo": "Nine to the Universe",
+          "ano": "1980"
+        },
+        {
+          "titulo": "Welcome to the Electric Circus",
+          "ano": "1994"
+        },
+        {
+          "titulo": "Both Sides of the Sky",
+          "ano": "2018"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Joan Jett",
@@ -967,7 +4347,22 @@
       "musicbrainz": "f376828a-b438-4fda-bb2e-dcd5fbe81f83",
       "wikidata": "Q231106",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "Bad Reputation",
+          "ano": "1980"
+        },
+        {
+          "titulo": "The Hit List",
+          "ano": "1990"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Joy Division",
@@ -997,7 +4392,47 @@
       "musicbrainz": "9a58fda3-f4ed-4080-a3a5-f457aac9fcdd",
       "wikidata": "Q172763",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Bernard Sumner",
+          "funcao": "sintetizador, guitarra",
+          "desde": "",
+          "ate": "1980"
+        },
+        {
+          "nome": "Ian Curtis",
+          "funcao": "voz, guitarra",
+          "desde": "",
+          "ate": "1980"
+        },
+        {
+          "nome": "Peter Hook",
+          "funcao": "backing vocal, baixo",
+          "desde": "",
+          "ate": "1980"
+        },
+        {
+          "nome": "Stephen Morris",
+          "funcao": "bateria",
+          "desde": "",
+          "ate": "1980"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Unknown Pleasures",
+          "ano": "1979"
+        },
+        {
+          "titulo": "Closer",
+          "ano": "1980"
+        }
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e8/JoyDivision_logo.png",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:JoyDivision_logo.png",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "claro"
     },
     {
       "nome": "Judas Priest",
@@ -1027,7 +4462,205 @@
       "musicbrainz": "6b335658-22c8-485d-93de-0bc29a1d0349",
       "wikidata": "Q83468",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Al Atkins",
+          "funcao": "voz",
+          "desde": "1969",
+          "ate": "1972"
+        },
+        {
+          "nome": "Bruno Stapenhill",
+          "funcao": "baixo",
+          "desde": "1969",
+          "ate": "1970"
+        },
+        {
+          "nome": "Ernie Chataway",
+          "funcao": "guitarra",
+          "desde": "1969",
+          "ate": "1970"
+        },
+        {
+          "nome": "John Partridge",
+          "funcao": "bateria, percussão",
+          "desde": "1969",
+          "ate": "1970"
+        },
+        {
+          "nome": "Ian Hill",
+          "funcao": "baixo",
+          "desde": "1970",
+          "ate": "2026"
+        },
+        {
+          "nome": "Kenneth Downing",
+          "funcao": "guitarra",
+          "desde": "1970",
+          "ate": "2011"
+        },
+        {
+          "nome": "Alan Moore",
+          "funcao": "bateria, percussão",
+          "desde": "1971",
+          "ate": "1977"
+        },
+        {
+          "nome": "Chris Campbell",
+          "funcao": "bateria, percussão",
+          "desde": "1971",
+          "ate": "1972"
+        },
+        {
+          "nome": "John Ellis",
+          "funcao": "bateria, percussão",
+          "desde": "1971",
+          "ate": "1971"
+        },
+        {
+          "nome": "John Hinch",
+          "funcao": "bateria, percussão",
+          "desde": "1973",
+          "ate": "1975"
+        },
+        {
+          "nome": "Rob Halford",
+          "funcao": "voz",
+          "desde": "1973",
+          "ate": ""
+        },
+        {
+          "nome": "Glenn Tipton",
+          "funcao": "guitarra, teclados, sintetizador",
+          "desde": "1974",
+          "ate": ""
+        },
+        {
+          "nome": "Les Binks",
+          "funcao": "bateria, percussão",
+          "desde": "1977",
+          "ate": "1979"
+        },
+        {
+          "nome": "Simon Phillips",
+          "funcao": "bateria, percussão",
+          "desde": "1977",
+          "ate": "1977"
+        },
+        {
+          "nome": "Dave Holland",
+          "funcao": "bateria, percussão",
+          "desde": "1979",
+          "ate": "1989"
+        },
+        {
+          "nome": "Scott Travis",
+          "funcao": "bateria, percussão",
+          "desde": "1989",
+          "ate": ""
+        },
+        {
+          "nome": "Tim “Ripper” Owens",
+          "funcao": "voz",
+          "desde": "1996",
+          "ate": "2003"
+        },
+        {
+          "nome": "Richie Faulkner",
+          "funcao": "guitarra",
+          "desde": "2011",
+          "ate": ""
+        },
+        {
+          "nome": "Davey Rimmer",
+          "funcao": "baixo",
+          "desde": "2026",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Rocka Rolla",
+          "ano": "1974"
+        },
+        {
+          "titulo": "Sad Wings of Destiny",
+          "ano": "1976"
+        },
+        {
+          "titulo": "Sin After Sin",
+          "ano": "1977"
+        },
+        {
+          "titulo": "Killing Machine",
+          "ano": "1978"
+        },
+        {
+          "titulo": "Stained Class",
+          "ano": "1978"
+        },
+        {
+          "titulo": "British Steel",
+          "ano": "1980"
+        },
+        {
+          "titulo": "Point of Entry",
+          "ano": "1981"
+        },
+        {
+          "titulo": "Screaming for Vengeance",
+          "ano": "1982"
+        },
+        {
+          "titulo": "Defenders of the Faith",
+          "ano": "1984"
+        },
+        {
+          "titulo": "Turbo",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Ram It Down",
+          "ano": "1988"
+        },
+        {
+          "titulo": "Painkiller",
+          "ano": "1990"
+        },
+        {
+          "titulo": "Jugulator",
+          "ano": "1997"
+        },
+        {
+          "titulo": "Demolition",
+          "ano": "2001"
+        },
+        {
+          "titulo": "Angel of Retribution",
+          "ano": "2005"
+        },
+        {
+          "titulo": "Nostradamus",
+          "ano": "2008"
+        },
+        {
+          "titulo": "Redeemer of Souls",
+          "ano": "2014"
+        },
+        {
+          "titulo": "Firepower",
+          "ano": "2018"
+        },
+        {
+          "titulo": "Invincible Shield",
+          "ano": "2024"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Kiss",
@@ -1057,7 +4690,159 @@
       "musicbrainz": "e1f1e33e-2e4c-4d43-b91b-7064068d3283",
       "wikidata": "Q124179",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Ace Frehley",
+          "funcao": "backing vocal, guitarra",
+          "desde": "1973",
+          "ate": "2002"
+        },
+        {
+          "nome": "Gene Simmons",
+          "funcao": "baixo, voz",
+          "desde": "1973",
+          "ate": "2023"
+        },
+        {
+          "nome": "Paul Stanley",
+          "funcao": "guitarra, voz",
+          "desde": "1973",
+          "ate": "2023"
+        },
+        {
+          "nome": "Peter Criss",
+          "funcao": "backing vocal, bateria, percussão",
+          "desde": "1973",
+          "ate": "2004"
+        },
+        {
+          "nome": "Eric Carr",
+          "funcao": "backing vocal, bateria, percussão",
+          "desde": "1980",
+          "ate": "1991"
+        },
+        {
+          "nome": "Vinnie Vincent",
+          "funcao": "backing vocal, guitarra",
+          "desde": "1982",
+          "ate": "1984"
+        },
+        {
+          "nome": "Bruce Kulick",
+          "funcao": "backing vocal, guitarra",
+          "desde": "1984",
+          "ate": "1996"
+        },
+        {
+          "nome": "Mark St. John",
+          "funcao": "guitarra",
+          "desde": "1984",
+          "ate": "1984"
+        },
+        {
+          "nome": "Eric Singer",
+          "funcao": "backing vocal, bateria, percussão",
+          "desde": "1991",
+          "ate": "2023"
+        },
+        {
+          "nome": "Tommy Thayer",
+          "funcao": "backing vocal, guitarra",
+          "desde": "2002",
+          "ate": "2023"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Hotter Than Hell",
+          "ano": "1974"
+        },
+        {
+          "titulo": "KISS",
+          "ano": "1974"
+        },
+        {
+          "titulo": "Dressed to Kill",
+          "ano": "1975"
+        },
+        {
+          "titulo": "Destroyer",
+          "ano": "1976"
+        },
+        {
+          "titulo": "Rock and Roll Over",
+          "ano": "1976"
+        },
+        {
+          "titulo": "Love Gun",
+          "ano": "1977"
+        },
+        {
+          "titulo": "Dynasty",
+          "ano": "1979"
+        },
+        {
+          "titulo": "Unmasked",
+          "ano": "1980"
+        },
+        {
+          "titulo": "Music From “The Elder”",
+          "ano": "1981"
+        },
+        {
+          "titulo": "Creatures of the Night",
+          "ano": "1982"
+        },
+        {
+          "titulo": "Lick It Up",
+          "ano": "1983"
+        },
+        {
+          "titulo": "Animalize",
+          "ano": "1984"
+        },
+        {
+          "titulo": "Asylum",
+          "ano": "1985"
+        },
+        {
+          "titulo": "Crazy Nights",
+          "ano": "1987"
+        },
+        {
+          "titulo": "Hot in the Shade",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Revenge",
+          "ano": "1992"
+        },
+        {
+          "titulo": "Uncut & Completely Unplugged",
+          "ano": "1996"
+        },
+        {
+          "titulo": "Carnival of Souls: The Final Sessions",
+          "ano": "1997"
+        },
+        {
+          "titulo": "Psycho Circus",
+          "ano": "1998"
+        },
+        {
+          "titulo": "Sonic Boom",
+          "ano": "2009"
+        },
+        {
+          "titulo": "Monster",
+          "ano": "2012"
+        }
+      ],
+      "logo": "/img/bandas/logos/kiss.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Kiss_Logo.svg",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "escuro"
     },
     {
       "nome": "Led Zeppelin",
@@ -1087,7 +4872,99 @@
       "musicbrainz": "678d88b2-87b0-403b-b63d-5da7465aecc3",
       "wikidata": "Q2331",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Jimmy Page",
+          "funcao": "guitarra",
+          "desde": "1968",
+          "ate": "1980"
+        },
+        {
+          "nome": "John Bonham",
+          "funcao": "bateria",
+          "desde": "1968",
+          "ate": "1980"
+        },
+        {
+          "nome": "John Paul Jones",
+          "funcao": "baixo, teclados",
+          "desde": "1968",
+          "ate": "1980"
+        },
+        {
+          "nome": "Robert Plant",
+          "funcao": "voz",
+          "desde": "1968",
+          "ate": "1980"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Led Zeppelin",
+          "ano": "1969"
+        },
+        {
+          "titulo": "Led Zeppelin II",
+          "ano": "1969"
+        },
+        {
+          "titulo": "Led Zeppelin III",
+          "ano": "1970"
+        },
+        {
+          "titulo": "[Led Zeppelin IV]",
+          "ano": "1971"
+        },
+        {
+          "titulo": "Houses of the Holy",
+          "ano": "1973"
+        },
+        {
+          "titulo": "Physical Graffiti",
+          "ano": "1975"
+        },
+        {
+          "titulo": "Presence",
+          "ano": "1976"
+        },
+        {
+          "titulo": "In Through the Out Door",
+          "ano": "1979"
+        },
+        {
+          "titulo": "Coda",
+          "ano": "1982"
+        },
+        {
+          "titulo": "The Lost Sessions, Vol. 4",
+          "ano": "2004"
+        },
+        {
+          "titulo": "The Lost Sessions, Vol. 5",
+          "ano": "2005"
+        },
+        {
+          "titulo": "The Lost Sessions, Vol. 8",
+          "ano": "2005"
+        },
+        {
+          "titulo": "The Lost Sessions, Vol. 10: All Roads Lead to Headley Grange II",
+          "ano": "2007"
+        },
+        {
+          "titulo": "The Lost Sessions, Vol. 12: All Roads Lead to Headley Grange III",
+          "ano": "2008"
+        },
+        {
+          "titulo": "Led Zeppelin II Multi Track Mixdowns",
+          "ano": "2012"
+        }
+      ],
+      "logo": "/img/bandas/logos/led-zeppelin.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Led_Zeppelin_logo.svg",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "claro"
     },
     {
       "nome": "Legião Urbana",
@@ -1116,7 +4993,71 @@
       "musicbrainz": "47685be0-926f-4be9-b1ae-e32da47a3b99",
       "wikidata": "Q738110",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Marcelo Bonfá",
+          "funcao": "bateria",
+          "desde": "1982",
+          "ate": "1996"
+        },
+        {
+          "nome": "Renato Russo",
+          "funcao": "voz",
+          "desde": "1982",
+          "ate": "1996"
+        },
+        {
+          "nome": "Dado Villa‐Lobos",
+          "funcao": "guitarra",
+          "desde": "1983",
+          "ate": "1996"
+        },
+        {
+          "nome": "Renato Rocha",
+          "funcao": "baixo",
+          "desde": "1984",
+          "ate": "1989"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Legião Urbana",
+          "ano": "1985"
+        },
+        {
+          "titulo": "Dois",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Que país é este: 1978/1987",
+          "ano": "1987"
+        },
+        {
+          "titulo": "As Quatro Estações",
+          "ano": "1989"
+        },
+        {
+          "titulo": "V",
+          "ano": "1991"
+        },
+        {
+          "titulo": "O Descobrimento do Brasil",
+          "ano": "1993"
+        },
+        {
+          "titulo": "A Tempestade",
+          "ano": "1996"
+        },
+        {
+          "titulo": "Uma Outra Estação",
+          "ano": "1997"
+        }
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Legi%C3%A3o_Urbana_logo.png",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Legi%C3%A3o_Urbana_logo.png",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "claro"
     },
     {
       "nome": "Little Richard",
@@ -1146,7 +5087,118 @@
       "musicbrainz": "95c2339b-8277-49a6-9aaf-08d8eeeaa0be",
       "wikidata": "Q82222",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "Here’s Little Richard",
+          "ano": "1957"
+        },
+        {
+          "titulo": "Little Richard",
+          "ano": "1958"
+        },
+        {
+          "titulo": "Little Richard",
+          "ano": "1958"
+        },
+        {
+          "titulo": "The Fabulous Little Richard",
+          "ano": "1958"
+        },
+        {
+          "titulo": "Pray Along With Little Richard Vol. 2: I Believe...",
+          "ano": "1960"
+        },
+        {
+          "titulo": "Pray Along With Little Richard Vol. 1: I’ll Never Walk Alone",
+          "ano": "1960"
+        },
+        {
+          "titulo": "It's Real: The King of the Gospel Singers",
+          "ano": "1961"
+        },
+        {
+          "titulo": "Little Richard Is Back (and There’s a Whole Lotta Shakin’ Goin’ On!)",
+          "ano": "1964"
+        },
+        {
+          "titulo": "Little Richard Sings",
+          "ano": "1964"
+        },
+        {
+          "titulo": "Little Richard, the Most Dynamic Entertainer of the Generation: His Greatest Hits",
+          "ano": "1965"
+        },
+        {
+          "titulo": "The Wild & Frantic Little Richard",
+          "ano": "1966"
+        },
+        {
+          "titulo": "The Explosive Little Richard",
+          "ano": "1967"
+        },
+        {
+          "titulo": "The Rill Thing",
+          "ano": "1970"
+        },
+        {
+          "titulo": "Mr. Big",
+          "ano": "1971"
+        },
+        {
+          "titulo": "Well Alright!",
+          "ano": "1971"
+        },
+        {
+          "titulo": "King of Rock and Roll",
+          "ano": "1971"
+        },
+        {
+          "titulo": "The Second Coming",
+          "ano": "1972"
+        },
+        {
+          "titulo": "Right Now!",
+          "ano": "1973"
+        },
+        {
+          "titulo": "20 Super Hits",
+          "ano": "1976"
+        },
+        {
+          "titulo": "God’s Beautiful City",
+          "ano": "1979"
+        },
+        {
+          "titulo": "Lifetime Friend",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Little Richard Meets Masayoshi Takanaka",
+          "ano": "1992"
+        },
+        {
+          "titulo": "Shake It All About",
+          "ano": "1992"
+        },
+        {
+          "titulo": "The Wildest!",
+          "ano": "1992"
+        },
+        {
+          "titulo": "Tutti Frutti Reloaded",
+          "ano": "2009"
+        },
+        {
+          "titulo": "Southern Child",
+          "ano": "2020"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Living Colour",
@@ -1176,7 +5228,75 @@
       "musicbrainz": "dc6f8c1f-626b-42b0-9115-7e66ae4cecd6",
       "wikidata": "Q1478077",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "J.T. Lewis",
+          "funcao": "bateria",
+          "desde": "1983",
+          "ate": ""
+        },
+        {
+          "nome": "Vernon Reid",
+          "funcao": "guitarra",
+          "desde": "1983",
+          "ate": ""
+        },
+        {
+          "nome": "Muzz Skillings",
+          "funcao": "baixo",
+          "desde": "1986",
+          "ate": "1991"
+        },
+        {
+          "nome": "Doug Wimbish",
+          "funcao": "baixo",
+          "desde": "1992",
+          "ate": ""
+        },
+        {
+          "nome": "Corey Glover",
+          "funcao": "voz",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Will Calhoun",
+          "funcao": "bateria",
+          "desde": "",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Vivid",
+          "ano": "1988"
+        },
+        {
+          "titulo": "Time’s Up",
+          "ano": "1990"
+        },
+        {
+          "titulo": "Stain",
+          "ano": "1993"
+        },
+        {
+          "titulo": "Collideøscope",
+          "ano": "2003"
+        },
+        {
+          "titulo": "The Chair in the Doorway",
+          "ano": "2009"
+        },
+        {
+          "titulo": "Shade",
+          "ano": "2017"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Mamonas Assassinas",
@@ -1201,7 +5321,49 @@
       "musicbrainz": "3abca171-d700-4a1f-aa0f-d683c37ef74d",
       "wikidata": "Q2740228",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Bento Hinoto",
+          "funcao": "guitarra, backing vocal",
+          "desde": "1995",
+          "ate": "1996"
+        },
+        {
+          "nome": "Dinho",
+          "funcao": "voz",
+          "desde": "1995",
+          "ate": "1996"
+        },
+        {
+          "nome": "Júlio Rasec",
+          "funcao": "teclados, backing vocal",
+          "desde": "1995",
+          "ate": "1996"
+        },
+        {
+          "nome": "Samuel Reoli",
+          "funcao": "baixo, backing vocal",
+          "desde": "1995",
+          "ate": "1996"
+        },
+        {
+          "nome": "Sérgio Reoli",
+          "funcao": "bateria, backing vocal",
+          "desde": "1995",
+          "ate": "1996"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Mamonas Assassinas",
+          "ano": "1995"
+        }
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Mamonas_Assassinas_logo.jpg",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Mamonas_Assassinas_logo.jpg",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "escuro"
     },
     {
       "nome": "As Mercenárias",
@@ -1228,7 +5390,47 @@
       "musicbrainz": "b067ec4f-201e-4414-9c12-aec57113d4ed",
       "wikidata": "Q15279732",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Ana Maria Machado",
+          "funcao": "guitarra",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Lourdes Helena",
+          "funcao": "bateria",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Rosália Munhoz",
+          "funcao": "voz",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Sandra Coutinho",
+          "funcao": "baixo",
+          "desde": "",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Cadê as Armas?",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Trashland",
+          "ano": "1987"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Metallica",
@@ -1258,7 +5460,111 @@
       "musicbrainz": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab",
       "wikidata": "Q15920",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Dave Mustaine",
+          "funcao": "backing vocal, guitarra",
+          "desde": "1981",
+          "ate": "1983"
+        },
+        {
+          "nome": "James Hetfield",
+          "funcao": "guitarra, voz",
+          "desde": "1981",
+          "ate": ""
+        },
+        {
+          "nome": "Lars Ulrich",
+          "funcao": "bateria, percussão",
+          "desde": "1981",
+          "ate": ""
+        },
+        {
+          "nome": "Cliff Burton",
+          "funcao": "backing vocal, baixo",
+          "desde": "1982",
+          "ate": "1986"
+        },
+        {
+          "nome": "Ron McGovney",
+          "funcao": "baixo",
+          "desde": "1982",
+          "ate": "1982"
+        },
+        {
+          "nome": "Kirk Hammett",
+          "funcao": "backing vocal, guitarra",
+          "desde": "1983",
+          "ate": ""
+        },
+        {
+          "nome": "Jason Newsted",
+          "funcao": "backing vocal, baixo",
+          "desde": "1986",
+          "ate": "2001"
+        },
+        {
+          "nome": "Robert Trujillo",
+          "funcao": "backing vocal, baixo",
+          "desde": "2003",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Kill ’Em All",
+          "ano": "1983"
+        },
+        {
+          "titulo": "Ride the Lightning",
+          "ano": "1984"
+        },
+        {
+          "titulo": "Master of Puppets",
+          "ano": "1986"
+        },
+        {
+          "titulo": "…And Justice for All",
+          "ano": "1988"
+        },
+        {
+          "titulo": "Metallica",
+          "ano": "1991"
+        },
+        {
+          "titulo": "Load",
+          "ano": "1996"
+        },
+        {
+          "titulo": "Reload",
+          "ano": "1997"
+        },
+        {
+          "titulo": "St. Anger",
+          "ano": "2003"
+        },
+        {
+          "titulo": "Death Magnetic",
+          "ano": "2008"
+        },
+        {
+          "titulo": "Lulu",
+          "ano": "2011"
+        },
+        {
+          "titulo": "Hardwired… to Self‐Destruct",
+          "ano": "2016"
+        },
+        {
+          "titulo": "72 Seasons",
+          "ano": "2023"
+        }
+      ],
+      "logo": "/img/bandas/logos/metallica.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Metallica_wordmark.svg",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "claro"
     },
     {
       "nome": "Motörhead",
@@ -1288,7 +5594,167 @@
       "musicbrainz": "57961a97-3796-4bf7-9f02-a985a8979ae9",
       "wikidata": "Q19697",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Larry Wallis",
+          "funcao": "guitarra",
+          "desde": "1975",
+          "ate": "1976"
+        },
+        {
+          "nome": "Lemmy Kilmister",
+          "funcao": "baixo, voz",
+          "desde": "1975",
+          "ate": "2015"
+        },
+        {
+          "nome": "Lucas Fox",
+          "funcao": "bateria",
+          "desde": "1975",
+          "ate": "1975"
+        },
+        {
+          "nome": "Phil “Philthy Animal” Taylor",
+          "funcao": "bateria",
+          "desde": "1975",
+          "ate": "1992"
+        },
+        {
+          "nome": "Eddie Clarke",
+          "funcao": "guitarra",
+          "desde": "1976",
+          "ate": "1982"
+        },
+        {
+          "nome": "Brian Robertson",
+          "funcao": "guitarra",
+          "desde": "1982",
+          "ate": "1983"
+        },
+        {
+          "nome": "Pete Gill",
+          "funcao": "bateria",
+          "desde": "1984",
+          "ate": "1987"
+        },
+        {
+          "nome": "Phil Campbell",
+          "funcao": "guitarra",
+          "desde": "1984",
+          "ate": "2015"
+        },
+        {
+          "nome": "Würzel",
+          "funcao": "guitarra",
+          "desde": "1984",
+          "ate": "1995"
+        },
+        {
+          "nome": "Mikkey Dee",
+          "funcao": "bateria",
+          "desde": "1992",
+          "ate": "2015"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Motörhead",
+          "ano": "1977"
+        },
+        {
+          "titulo": "Bomber",
+          "ano": "1979"
+        },
+        {
+          "titulo": "Overkill",
+          "ano": "1979"
+        },
+        {
+          "titulo": "On Parole",
+          "ano": "1979"
+        },
+        {
+          "titulo": "Ace of Spades",
+          "ano": "1980"
+        },
+        {
+          "titulo": "Iron Fist",
+          "ano": "1982"
+        },
+        {
+          "titulo": "Another Perfect Day",
+          "ano": "1983"
+        },
+        {
+          "titulo": "Orgasmatron",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Rock ’n’ Roll",
+          "ano": "1987"
+        },
+        {
+          "titulo": "1916",
+          "ano": "1991"
+        },
+        {
+          "titulo": "March ör Die",
+          "ano": "1992"
+        },
+        {
+          "titulo": "Bastards",
+          "ano": "1993"
+        },
+        {
+          "titulo": "Sacrifice",
+          "ano": "1995"
+        },
+        {
+          "titulo": "Overnight Sensation",
+          "ano": "1996"
+        },
+        {
+          "titulo": "Snake Bite Love",
+          "ano": "1998"
+        },
+        {
+          "titulo": "We Are Motörhead",
+          "ano": "2000"
+        },
+        {
+          "titulo": "Hammered",
+          "ano": "2002"
+        },
+        {
+          "titulo": "Inferno",
+          "ano": "2004"
+        },
+        {
+          "titulo": "Kiss of Death",
+          "ano": "2006"
+        },
+        {
+          "titulo": "Motörizer",
+          "ano": "2008"
+        },
+        {
+          "titulo": "The Wörld Is Yours",
+          "ano": "2010"
+        },
+        {
+          "titulo": "Aftershock",
+          "ano": "2013"
+        },
+        {
+          "titulo": "Bad Magic",
+          "ano": "2015"
+        }
+      ],
+      "logo": "/img/bandas/logos/motorhead.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Mot%C3%B6rhead_Logo.svg",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "claro"
     },
     {
       "nome": "Os Mutantes",
@@ -1318,7 +5784,167 @@
       "musicbrainz": "a3212186-5da5-4e84-a935-6952b3e14921",
       "wikidata": "Q1325248",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Arnaldo Baptista",
+          "funcao": "baixo, teclados",
+          "desde": "1966",
+          "ate": "2007"
+        },
+        {
+          "nome": "Rita Lee",
+          "funcao": "voz, percussão",
+          "desde": "1966",
+          "ate": "1972"
+        },
+        {
+          "nome": "Sérgio Dias",
+          "funcao": "guitarra, voz",
+          "desde": "1966",
+          "ate": ""
+        },
+        {
+          "nome": "Liminha",
+          "funcao": "baixo",
+          "desde": "1969",
+          "ate": "1974"
+        },
+        {
+          "nome": "Dinho Leme",
+          "funcao": "bateria",
+          "desde": "1971",
+          "ate": ""
+        },
+        {
+          "nome": "Rui Motta",
+          "funcao": "bateria",
+          "desde": "1973",
+          "ate": "1978"
+        },
+        {
+          "nome": "Túlio Mourão",
+          "funcao": "",
+          "desde": "1973",
+          "ate": "1976"
+        },
+        {
+          "nome": "Antônio Pedro de Medeiros",
+          "funcao": "baixo",
+          "desde": "1974",
+          "ate": "1976"
+        },
+        {
+          "nome": "Paulo de Castro",
+          "funcao": "baixo",
+          "desde": "1976",
+          "ate": "1978"
+        },
+        {
+          "nome": "Fernando Gama",
+          "funcao": "baixo",
+          "desde": "1978",
+          "ate": "1978"
+        },
+        {
+          "nome": "Zélia Duncan",
+          "funcao": "voz",
+          "desde": "2006",
+          "ate": "2007"
+        },
+        {
+          "nome": "Bia Mendes",
+          "funcao": "voz",
+          "desde": "2008",
+          "ate": "2013"
+        },
+        {
+          "nome": "Esmeria Bulgari",
+          "funcao": "voz",
+          "desde": "2008",
+          "ate": ""
+        },
+        {
+          "nome": "Fábio Recco",
+          "funcao": "voz",
+          "desde": "2008",
+          "ate": "2013"
+        },
+        {
+          "nome": "Simone Soul",
+          "funcao": "percussão",
+          "desde": "2008",
+          "ate": "2013"
+        },
+        {
+          "nome": "Vinícius Junqueira",
+          "funcao": "baixo",
+          "desde": "2008",
+          "ate": ""
+        },
+        {
+          "nome": "Vitor Trida",
+          "funcao": "guitarra, teclados",
+          "desde": "2008",
+          "ate": ""
+        },
+        {
+          "nome": "Claudio Tchernev",
+          "funcao": "bateria",
+          "desde": "2013",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Os Mutantes",
+          "ano": "1968"
+        },
+        {
+          "titulo": "Mutantes",
+          "ano": "1969"
+        },
+        {
+          "titulo": "A divina comédia ou ando meio desligado",
+          "ano": "1970"
+        },
+        {
+          "titulo": "Jardim elétrico",
+          "ano": "1971"
+        },
+        {
+          "titulo": "Mutantes e seus cometas no país do baurets",
+          "ano": "1972"
+        },
+        {
+          "titulo": "Tudo foi feito pelo sol",
+          "ano": "1974"
+        },
+        {
+          "titulo": "\"A\" e o \"Z\"",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Tecnicolor",
+          "ano": "1999"
+        },
+        {
+          "titulo": "Haih or amortecedor",
+          "ano": "2009"
+        },
+        {
+          "titulo": "Fool Metal Jack",
+          "ano": "2013"
+        },
+        {
+          "titulo": "Zzyzx",
+          "ano": "2020"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Nação Zumbi",
@@ -1345,7 +5971,109 @@
       "musicbrainz": "e3954b21-0d05-45ea-a057-e8cc4c9b1ab5",
       "wikidata": "Q6983583",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Chico Science",
+          "funcao": "",
+          "desde": "1991",
+          "ate": "1997"
+        },
+        {
+          "nome": "Pupillo",
+          "funcao": "",
+          "desde": "1995",
+          "ate": ""
+        },
+        {
+          "nome": "Dengue",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Gilmar Bolla Oito",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Gira",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Jorge Du Peixe",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Lúcio Maia",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Marcos Matias",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Toca Ogan",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Da lama ao caos",
+          "ano": "1994"
+        },
+        {
+          "titulo": "Afrociberdelia",
+          "ano": "1996"
+        },
+        {
+          "titulo": "CSNZ",
+          "ano": "1998"
+        },
+        {
+          "titulo": "Rádio S.Amb.A",
+          "ano": "2000"
+        },
+        {
+          "titulo": "Nação Zumbi",
+          "ano": "2002"
+        },
+        {
+          "titulo": "Futura",
+          "ano": "2005"
+        },
+        {
+          "titulo": "Fome de tudo",
+          "ano": "2007"
+        },
+        {
+          "titulo": "Mundo Livre S.A. vs Nação Zumbi",
+          "ano": "2013"
+        },
+        {
+          "titulo": "Nação Zumbi",
+          "ano": "2014"
+        },
+        {
+          "titulo": "Radiola NZ, Vol. 1",
+          "ano": "2017"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Nervosa",
@@ -1372,7 +6100,129 @@
       "musicbrainz": "ea01b409-1ffc-4cd2-94a6-50c9a8a08a26",
       "wikidata": "Q10336372",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Fernanda Terra",
+          "funcao": "bateria",
+          "desde": "2010",
+          "ate": "2012"
+        },
+        {
+          "nome": "Fernanda Lira",
+          "funcao": "baixo, voz",
+          "desde": "2011",
+          "ate": "2020"
+        },
+        {
+          "nome": "Karen Ramos",
+          "funcao": "guitarra",
+          "desde": "2011",
+          "ate": "2012"
+        },
+        {
+          "nome": "Jully Lee",
+          "funcao": "bateria",
+          "desde": "2012",
+          "ate": "2013"
+        },
+        {
+          "nome": "Pitchu Ferraz",
+          "funcao": "bateria",
+          "desde": "2013",
+          "ate": "2016"
+        },
+        {
+          "nome": "Luana Dametto",
+          "funcao": "bateria",
+          "desde": "2017",
+          "ate": "2020"
+        },
+        {
+          "nome": "Diva Satánica",
+          "funcao": "voz",
+          "desde": "2020",
+          "ate": "2022"
+        },
+        {
+          "nome": "Eleni Nota",
+          "funcao": "bateria",
+          "desde": "2020",
+          "ate": "2022"
+        },
+        {
+          "nome": "Mia Wallace",
+          "funcao": "baixo",
+          "desde": "2020",
+          "ate": "2023"
+        },
+        {
+          "nome": "Helena Kotina",
+          "funcao": "guitarra",
+          "desde": "2022",
+          "ate": ""
+        },
+        {
+          "nome": "Nanu Villalba",
+          "funcao": "bateria",
+          "desde": "2022",
+          "ate": "2022"
+        },
+        {
+          "nome": "Hel Pyre",
+          "funcao": "baixo",
+          "desde": "2023",
+          "ate": ""
+        },
+        {
+          "nome": "Mihaela Naydenova",
+          "funcao": "bateria",
+          "desde": "2023",
+          "ate": "2024"
+        },
+        {
+          "nome": "Gabriela Abud",
+          "funcao": "bateria",
+          "desde": "2024",
+          "ate": ""
+        },
+        {
+          "nome": "Prika Amaral",
+          "funcao": "guitarra, voz",
+          "desde": "",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Victim of Yourself",
+          "ano": "2014"
+        },
+        {
+          "titulo": "Agony",
+          "ano": "2016"
+        },
+        {
+          "titulo": "Downfall of Mankind",
+          "ano": "2018"
+        },
+        {
+          "titulo": "Perpetual Chaos",
+          "ano": "2021"
+        },
+        {
+          "titulo": "Jailbreak",
+          "ano": "2023"
+        },
+        {
+          "titulo": "Slave Machine",
+          "ano": "2026"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Nirvana",
@@ -1402,7 +6252,85 @@
       "musicbrainz": "5b11f4ce-a62d-471e-81fc-a69a8278c7da",
       "wikidata": "Q11649",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Aaron Burckhard",
+          "funcao": "bateria",
+          "desde": "1987",
+          "ate": "1987"
+        },
+        {
+          "nome": "Dale Crover",
+          "funcao": "bateria",
+          "desde": "1987",
+          "ate": "1990"
+        },
+        {
+          "nome": "Krist Novoselic",
+          "funcao": "acordeão, vozes, baixo",
+          "desde": "1987",
+          "ate": "1994"
+        },
+        {
+          "nome": "Kurt Cobain",
+          "funcao": "voz, backing vocal, guitarra",
+          "desde": "1987",
+          "ate": "1994"
+        },
+        {
+          "nome": "Chad Channing",
+          "funcao": "bateria",
+          "desde": "1988",
+          "ate": "1990"
+        },
+        {
+          "nome": "Dave Foster",
+          "funcao": "bateria",
+          "desde": "1988",
+          "ate": "1988"
+        },
+        {
+          "nome": "Jason Everman",
+          "funcao": "backing vocal, guitarra",
+          "desde": "1989",
+          "ate": "1989"
+        },
+        {
+          "nome": "Dan Peters",
+          "funcao": "bateria",
+          "desde": "1990",
+          "ate": "1990"
+        },
+        {
+          "nome": "Dave Grohl",
+          "funcao": "backing vocal, bateria",
+          "desde": "1990",
+          "ate": "1994"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Bleach",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Nevermind",
+          "ano": "1991"
+        },
+        {
+          "titulo": "In Utero",
+          "ano": "1993"
+        },
+        {
+          "titulo": "Trust No One",
+          "ano": "2002"
+        }
+      ],
+      "logo": "/img/bandas/logos/nirvana.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Nirvana_logo_yellow.svg",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "escuro"
     },
     {
       "nome": "Ozzy Osbourne",
@@ -1432,7 +6360,86 @@
       "musicbrainz": "8aa5b65a-5b3c-4029-92bf-47a544356934",
       "wikidata": "Q133151",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "Blizzard of Ozz",
+          "ano": "1980"
+        },
+        {
+          "titulo": "Diary of a Madman",
+          "ano": "1981"
+        },
+        {
+          "titulo": "Bark at the Moon",
+          "ano": "1983"
+        },
+        {
+          "titulo": "The Ultimate Sin",
+          "ano": "1986"
+        },
+        {
+          "titulo": "No Rest for the Wicked",
+          "ano": "1988"
+        },
+        {
+          "titulo": "No More Tears",
+          "ano": "1991"
+        },
+        {
+          "titulo": "No More Tears Demo Sessions",
+          "ano": "1992"
+        },
+        {
+          "titulo": "Ozzmosis",
+          "ano": "1995"
+        },
+        {
+          "titulo": "The Very Best of Ozzy",
+          "ano": "1997"
+        },
+        {
+          "titulo": "One Up the B‐Sides",
+          "ano": "1997"
+        },
+        {
+          "titulo": "Down to Earth",
+          "ano": "2001"
+        },
+        {
+          "titulo": "Under Cover",
+          "ano": "2005"
+        },
+        {
+          "titulo": "Black Rain",
+          "ano": "2007"
+        },
+        {
+          "titulo": "Scream",
+          "ano": "2010"
+        },
+        {
+          "titulo": "Live Montreal '81 King Biscuit Flower Hour",
+          "ano": "2018"
+        },
+        {
+          "titulo": "Ordinary Man",
+          "ano": "2020"
+        },
+        {
+          "titulo": "Patient Number 9",
+          "ano": "2022"
+        },
+        {
+          "titulo": "Kansas City 1986: The Classic Missouri Broadcast",
+          "ano": "2022"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Parafuso Silvestre",
@@ -1461,7 +6468,13 @@
       "musicbrainz": "",
       "wikidata": "",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Os Paralamas do Sucesso",
@@ -1490,7 +6503,101 @@
       "musicbrainz": "f197a8df-ac2b-4e78-9913-4abf13741f12",
       "wikidata": "Q2701611",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "João Barone",
+          "funcao": "bateria",
+          "desde": "1982",
+          "ate": ""
+        },
+        {
+          "nome": "Bi Ribeiro",
+          "funcao": "baixo",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Herbert Vianna",
+          "funcao": "guitarra, voz",
+          "desde": "",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Cinema mudo",
+          "ano": "1983"
+        },
+        {
+          "titulo": "O passo do Lui",
+          "ano": "1984"
+        },
+        {
+          "titulo": "Selvagem?",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Bora-bora",
+          "ano": "1988"
+        },
+        {
+          "titulo": "Big Bang",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Cinema Mudo",
+          "ano": "1990"
+        },
+        {
+          "titulo": "Os grãos",
+          "ano": "1991"
+        },
+        {
+          "titulo": "Paralamas",
+          "ano": "1991"
+        },
+        {
+          "titulo": "Paralamas Em Espanhol",
+          "ano": "1993"
+        },
+        {
+          "titulo": "Severino",
+          "ano": "1994"
+        },
+        {
+          "titulo": "Dos margaritas",
+          "ano": "1994"
+        },
+        {
+          "titulo": "9 luas",
+          "ano": "1996"
+        },
+        {
+          "titulo": "Hey na na",
+          "ano": "1998"
+        },
+        {
+          "titulo": "Longo caminho",
+          "ano": "2002"
+        },
+        {
+          "titulo": "Hoje",
+          "ano": "2005"
+        },
+        {
+          "titulo": "Brasil afora",
+          "ano": "2009"
+        },
+        {
+          "titulo": "Sinais do sim",
+          "ano": "2017"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Patti Smith",
@@ -1520,7 +6627,90 @@
       "musicbrainz": "d135874d-9cae-4fef-97e3-36acbd9f5a26",
       "wikidata": "Q557",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "Horses",
+          "ano": "1975"
+        },
+        {
+          "titulo": "Superbunny",
+          "ano": "1976"
+        },
+        {
+          "titulo": "Dream of Life",
+          "ano": "1988"
+        },
+        {
+          "titulo": "Gone Again",
+          "ano": "1996"
+        },
+        {
+          "titulo": "Tell It Like It Is",
+          "ano": "1997"
+        },
+        {
+          "titulo": "Peace and Noise",
+          "ano": "1997"
+        },
+        {
+          "titulo": "Ask The Angels",
+          "ano": "1998"
+        },
+        {
+          "titulo": "Gung Ho",
+          "ano": "2000"
+        },
+        {
+          "titulo": "Trampin’",
+          "ano": "2003"
+        },
+        {
+          "titulo": "February 10, 1971",
+          "ano": "2006"
+        },
+        {
+          "titulo": "Twelve",
+          "ano": "2007"
+        },
+        {
+          "titulo": "Covers The Rolling Stones",
+          "ano": "2007"
+        },
+        {
+          "titulo": "Banga",
+          "ano": "2012"
+        },
+        {
+          "titulo": "Killer Road",
+          "ano": "2016"
+        },
+        {
+          "titulo": "Mummer Love",
+          "ano": "2019"
+        },
+        {
+          "titulo": "The Peyote Dance",
+          "ano": "2019"
+        },
+        {
+          "titulo": "Peradam",
+          "ano": "2020"
+        },
+        {
+          "titulo": "Correspondences, Vol. 1",
+          "ano": "2024"
+        },
+        {
+          "titulo": "Correspondences, Volume Two",
+          "ano": "2025"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Pearl Jam",
@@ -1550,7 +6740,117 @@
       "musicbrainz": "83b9cbe7-9857-49e2-ab8e-b57b01038103",
       "wikidata": "Q142701",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Dave Krusen",
+          "funcao": "bateria",
+          "desde": "1990",
+          "ate": "1991"
+        },
+        {
+          "nome": "Eddie Vedder",
+          "funcao": "acordeão, guitarra, gaita, voz, pandeiro",
+          "desde": "1990",
+          "ate": ""
+        },
+        {
+          "nome": "Jeff Ament",
+          "funcao": "backing vocal, baixo, contrabaixo",
+          "desde": "1990",
+          "ate": ""
+        },
+        {
+          "nome": "Mike McCready",
+          "funcao": "backing vocal, guitarra",
+          "desde": "1990",
+          "ate": ""
+        },
+        {
+          "nome": "Stone Gossard",
+          "funcao": "backing vocal, baixo, guitarra",
+          "desde": "1990",
+          "ate": ""
+        },
+        {
+          "nome": "Dave Abbruzzese",
+          "funcao": "bateria",
+          "desde": "1991",
+          "ate": "1994"
+        },
+        {
+          "nome": "Matt Chamberlain",
+          "funcao": "bateria",
+          "desde": "1991",
+          "ate": "1991"
+        },
+        {
+          "nome": "Jack Irons",
+          "funcao": "bateria",
+          "desde": "1994",
+          "ate": "1998"
+        },
+        {
+          "nome": "Matt Cameron",
+          "funcao": "backing vocal, bateria",
+          "desde": "1998",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Ten",
+          "ano": "1991"
+        },
+        {
+          "titulo": "Vs.",
+          "ano": "1993"
+        },
+        {
+          "titulo": "Vitalogy",
+          "ano": "1994"
+        },
+        {
+          "titulo": "No Code",
+          "ano": "1996"
+        },
+        {
+          "titulo": "Yield",
+          "ano": "1998"
+        },
+        {
+          "titulo": "Binaural",
+          "ano": "2000"
+        },
+        {
+          "titulo": "Riot Act",
+          "ano": "2002"
+        },
+        {
+          "titulo": "Pearl Jam",
+          "ano": "2006"
+        },
+        {
+          "titulo": "Backspacer",
+          "ano": "2009"
+        },
+        {
+          "titulo": "Lightning Bolt",
+          "ano": "2013"
+        },
+        {
+          "titulo": "Gigaton",
+          "ano": "2020"
+        },
+        {
+          "titulo": "Dark Matter",
+          "ano": "2024"
+        }
+      ],
+      "logo": "/img/bandas/logos/pearl-jam.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:PJTITRE.svg",
+      "logo_licenca": "CC BY-SA 2.5, Redmosquito e Crisneda2000",
+      "logo_fundo": "claro"
     },
     {
       "nome": "Pink Floyd",
@@ -1580,7 +6880,97 @@
       "musicbrainz": "83d91898-7763-47d7-b03b-b92132375c47",
       "wikidata": "Q2306",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Nick Mason",
+          "funcao": "bateria, percussão",
+          "desde": "1965",
+          "ate": "2014"
+        },
+        {
+          "nome": "Richard Wright",
+          "funcao": "teclados, voz",
+          "desde": "1965",
+          "ate": "2008"
+        },
+        {
+          "nome": "Roger Waters",
+          "funcao": "baixo, voz",
+          "desde": "1965",
+          "ate": "1985"
+        },
+        {
+          "nome": "Syd Barrett",
+          "funcao": "guitarra, voz",
+          "desde": "1965",
+          "ate": "1968"
+        },
+        {
+          "nome": "David Gilmour",
+          "funcao": "guitarra, voz, guitarra slide",
+          "desde": "1968",
+          "ate": "2014"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "The Piper at the Gates of Dawn",
+          "ano": "1967"
+        },
+        {
+          "titulo": "A Saucerful of Secrets",
+          "ano": "1968"
+        },
+        {
+          "titulo": "Ummagumma",
+          "ano": "1969"
+        },
+        {
+          "titulo": "Atom Heart Mother",
+          "ano": "1970"
+        },
+        {
+          "titulo": "Meddle",
+          "ano": "1971"
+        },
+        {
+          "titulo": "The Dark Side of the Moon",
+          "ano": "1973"
+        },
+        {
+          "titulo": "Wish You Were Here",
+          "ano": "1975"
+        },
+        {
+          "titulo": "Animals",
+          "ano": "1977"
+        },
+        {
+          "titulo": "The Wall",
+          "ano": "1979"
+        },
+        {
+          "titulo": "The Final Cut",
+          "ano": "1983"
+        },
+        {
+          "titulo": "A Momentary Lapse of Reason",
+          "ano": "1987"
+        },
+        {
+          "titulo": "The Division Bell",
+          "ano": "1994"
+        },
+        {
+          "titulo": "The Endless River",
+          "ano": "2014"
+        }
+      ],
+      "logo": "/img/bandas/logos/pink-floyd.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Pink_Floyd_logo_since_1994.svg",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "claro"
     },
     {
       "nome": "Pitty",
@@ -1607,7 +6997,38 @@
       "musicbrainz": "ce1509b1-fc1a-4b0a-aeb3-36cbf9cc11fb",
       "wikidata": "Q462102",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "Admirável chip novo",
+          "ano": "2003"
+        },
+        {
+          "titulo": "Anacrônico",
+          "ano": "2005"
+        },
+        {
+          "titulo": "Chiaroscuro",
+          "ano": "2009"
+        },
+        {
+          "titulo": "SETEVIDAS",
+          "ano": "2014"
+        },
+        {
+          "titulo": "MATRIZ",
+          "ano": "2019"
+        },
+        {
+          "titulo": "Pitty",
+          "ano": "2026"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Pixies",
@@ -1637,7 +7058,101 @@
       "musicbrainz": "b6b2bb8d-54a9-491f-9607-7b546023b433",
       "wikidata": "Q188464",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Black Francis",
+          "funcao": "guitarra, voz",
+          "desde": "1986",
+          "ate": ""
+        },
+        {
+          "nome": "Dave Lovering",
+          "funcao": "bateria",
+          "desde": "1986",
+          "ate": ""
+        },
+        {
+          "nome": "Joey Santiago",
+          "funcao": "guitarra",
+          "desde": "1986",
+          "ate": ""
+        },
+        {
+          "nome": "Kim Deal",
+          "funcao": "backing vocal, baixo",
+          "desde": "1986",
+          "ate": "2013"
+        },
+        {
+          "nome": "Kim Shattuck",
+          "funcao": "backing vocal, baixo",
+          "desde": "2013",
+          "ate": "2013"
+        },
+        {
+          "nome": "Paz Lenchantin",
+          "funcao": "backing vocal, baixo",
+          "desde": "2013",
+          "ate": "2024"
+        },
+        {
+          "nome": "Emma Richardson",
+          "funcao": "backing vocal, baixo",
+          "desde": "2024",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Surfer Rosa",
+          "ano": "1988"
+        },
+        {
+          "titulo": "Doolittle",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Bossanova",
+          "ano": "1990"
+        },
+        {
+          "titulo": "Trompe le Monde",
+          "ano": "1991"
+        },
+        {
+          "titulo": "Return of the Fat Man",
+          "ano": "1998"
+        },
+        {
+          "titulo": "Indie Cindy",
+          "ano": "2014"
+        },
+        {
+          "titulo": "Head Carrier",
+          "ano": "2016"
+        },
+        {
+          "titulo": "Doolittle Demos",
+          "ano": "2017"
+        },
+        {
+          "titulo": "Beneath the Eyrie",
+          "ano": "2019"
+        },
+        {
+          "titulo": "Doggerel",
+          "ano": "2022"
+        },
+        {
+          "titulo": "The Night the Zombies Came",
+          "ano": "2024"
+        }
+      ],
+      "logo": "/img/bandas/logos/pixies.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:PixiesLogo3.svg",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "claro"
     },
     {
       "nome": "Plebe Rude",
@@ -1662,7 +7177,53 @@
       "musicbrainz": "465a30ad-9523-4949-93fb-78df96e0bd0d",
       "wikidata": "Q7204339",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Clemente",
+          "funcao": "",
+          "desde": "2004",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Nunca Fomos Tão Brasileiros",
+          "ano": "1987"
+        },
+        {
+          "titulo": "Plebe Rude III",
+          "ano": "1988"
+        },
+        {
+          "titulo": "Mais Raiva Do Que Medo",
+          "ano": "1993"
+        },
+        {
+          "titulo": "O Concreto Já Rachou",
+          "ano": "1999"
+        },
+        {
+          "titulo": "R ao Contrário",
+          "ano": "2006"
+        },
+        {
+          "titulo": "Nação Daltônica",
+          "ano": "2014"
+        },
+        {
+          "titulo": "Evolução, Vol. 1",
+          "ano": "2019"
+        },
+        {
+          "titulo": "Evolução, Vol. 2",
+          "ano": "2023"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Queen",
@@ -1692,7 +7253,113 @@
       "musicbrainz": "0383dadf-2a4e-4d10-a46a-e9e041da8eb3",
       "wikidata": "Q15862",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Barry Mitchell",
+          "funcao": "baixo",
+          "desde": "1970",
+          "ate": "1971"
+        },
+        {
+          "nome": "Brian May",
+          "funcao": "backing vocal, guitarra",
+          "desde": "1970",
+          "ate": ""
+        },
+        {
+          "nome": "Freddie Mercury",
+          "funcao": "voz",
+          "desde": "1970",
+          "ate": "1991"
+        },
+        {
+          "nome": "Mike Grose",
+          "funcao": "baixo",
+          "desde": "1970",
+          "ate": "1970"
+        },
+        {
+          "nome": "Roger Taylor",
+          "funcao": "backing vocal, bateria",
+          "desde": "1970",
+          "ate": ""
+        },
+        {
+          "nome": "Doug Bogie",
+          "funcao": "baixo",
+          "desde": "1971",
+          "ate": "1971"
+        },
+        {
+          "nome": "John Deacon",
+          "funcao": "baixo",
+          "desde": "1971",
+          "ate": "1997"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Queen",
+          "ano": "1973"
+        },
+        {
+          "titulo": "Sheer Heart Attack",
+          "ano": "1974"
+        },
+        {
+          "titulo": "Queen II",
+          "ano": "1974"
+        },
+        {
+          "titulo": "A Night at the Opera",
+          "ano": "1975"
+        },
+        {
+          "titulo": "A Day at the Races",
+          "ano": "1976"
+        },
+        {
+          "titulo": "News of the World",
+          "ano": "1977"
+        },
+        {
+          "titulo": "Jazz",
+          "ano": "1978"
+        },
+        {
+          "titulo": "The Game",
+          "ano": "1980"
+        },
+        {
+          "titulo": "Hot Space",
+          "ano": "1982"
+        },
+        {
+          "titulo": "The Works",
+          "ano": "1984"
+        },
+        {
+          "titulo": "A Kind of Magic",
+          "ano": "1986"
+        },
+        {
+          "titulo": "The Miracle",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Innuendo",
+          "ano": "1991"
+        },
+        {
+          "titulo": "Made in Heaven",
+          "ano": "1995"
+        }
+      ],
+      "logo": "/img/bandas/logos/queen.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Queen_Logo.png",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "escuro"
     },
     {
       "nome": "Radiohead",
@@ -1722,7 +7389,85 @@
       "musicbrainz": "a74b1b7f-71a5-4011-9441-d0b5e4122711",
       "wikidata": "Q44190",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Colin Greenwood",
+          "funcao": "contrabaixo, baixo, sampler, sintetizador",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Ed O’Brien",
+          "funcao": "backing vocal, guitarra, efeitos",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Jonny Greenwood",
+          "funcao": "guitarra, ondes Martenot, glockenspiel, piano de brinquedo, sintetizador",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Philip Selway",
+          "funcao": "percussão, bateria",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Thom Yorke",
+          "funcao": "voz, violão, guitarra, sintetizador, piano",
+          "desde": "",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Pablo Honey",
+          "ano": "1993"
+        },
+        {
+          "titulo": "The Bends",
+          "ano": "1994"
+        },
+        {
+          "titulo": "Radiotick Tracks 2",
+          "ano": "1997"
+        },
+        {
+          "titulo": "OK Computer",
+          "ano": "1997"
+        },
+        {
+          "titulo": "Kid A",
+          "ano": "2000"
+        },
+        {
+          "titulo": "Amnesiac",
+          "ano": "2001"
+        },
+        {
+          "titulo": "Hail to the Thief",
+          "ano": "2003"
+        },
+        {
+          "titulo": "In Rainbows",
+          "ano": "2007"
+        },
+        {
+          "titulo": "The King of Limbs",
+          "ano": "2011"
+        },
+        {
+          "titulo": "A Moon Shaped Pool",
+          "ano": "2016"
+        }
+      ],
+      "logo": "/img/bandas/logos/radiohead.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Radiohead_wordmark.svg",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "claro"
     },
     {
       "nome": "Rage Against the Machine",
@@ -1752,7 +7497,55 @@
       "musicbrainz": "3798b104-01cb-484c-a3b0-56adc6399b80",
       "wikidata": "Q72092",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Brad Wilk",
+          "funcao": "bateria",
+          "desde": "",
+          "ate": "2024"
+        },
+        {
+          "nome": "Tim Commerford",
+          "funcao": "baixo",
+          "desde": "",
+          "ate": "2024"
+        },
+        {
+          "nome": "Tom Morello",
+          "funcao": "guitarra",
+          "desde": "",
+          "ate": "2024"
+        },
+        {
+          "nome": "Zack de la Rocha",
+          "funcao": "voz",
+          "desde": "",
+          "ate": "2024"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Rage Against the Machine",
+          "ano": "1992"
+        },
+        {
+          "titulo": "Evil Empire",
+          "ano": "1996"
+        },
+        {
+          "titulo": "The Battle of Los Angeles",
+          "ano": "1999"
+        },
+        {
+          "titulo": "Renegades",
+          "ano": "2000"
+        }
+      ],
+      "logo": "/img/bandas/logos/rage-against-the-machine.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Rage_Against_the_Machine_%28Logo%29.png",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "claro"
     },
     {
       "nome": "Raimundos",
@@ -1782,7 +7575,85 @@
       "musicbrainz": "1c80f885-e832-4b84-864b-5deeda6a1248",
       "wikidata": "Q474218",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Canisso",
+          "funcao": "backing vocal, baixo",
+          "desde": "1987",
+          "ate": "2023"
+        },
+        {
+          "nome": "Digão",
+          "funcao": "bateria, backing vocal, guitarra, voz",
+          "desde": "1987",
+          "ate": ""
+        },
+        {
+          "nome": "Rodolfo Abrantes",
+          "funcao": "guitarra, voz",
+          "desde": "1987",
+          "ate": "2001"
+        },
+        {
+          "nome": "Fred Castro",
+          "funcao": "bateria",
+          "desde": "1992",
+          "ate": "2020"
+        },
+        {
+          "nome": "Alf Sá",
+          "funcao": "baixo",
+          "desde": "2003",
+          "ate": "2006"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Raimundos",
+          "ano": "1994"
+        },
+        {
+          "titulo": "Lavô tá novo",
+          "ano": "1995"
+        },
+        {
+          "titulo": "Lapadas do povo",
+          "ano": "1997"
+        },
+        {
+          "titulo": "Só No Forevis",
+          "ano": "1999"
+        },
+        {
+          "titulo": "Éramos 4",
+          "ano": "2001"
+        },
+        {
+          "titulo": "Kavookavala",
+          "ano": "2002"
+        },
+        {
+          "titulo": "O embate do século: Ultraje a rigor vs. Raimundos",
+          "ano": "2012"
+        },
+        {
+          "titulo": "Cantigas de roda",
+          "ano": "2014"
+        },
+        {
+          "titulo": "Cantigas de garagem",
+          "ano": "2014"
+        },
+        {
+          "titulo": "XXX",
+          "ano": "2025"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Ramones",
@@ -1812,7 +7683,119 @@
       "musicbrainz": "d6ed7887-a401-47a8-893c-34b967444d26",
       "wikidata": "Q483407",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Dee Dee Ramone",
+          "funcao": "baixo, voz",
+          "desde": "1974",
+          "ate": "1989"
+        },
+        {
+          "nome": "Joey Ramone",
+          "funcao": "voz",
+          "desde": "1974",
+          "ate": "1996"
+        },
+        {
+          "nome": "Johnny Ramone",
+          "funcao": "guitarra",
+          "desde": "1974",
+          "ate": "1996"
+        },
+        {
+          "nome": "Tommy Ramone",
+          "funcao": "bateria",
+          "desde": "1974",
+          "ate": "1978"
+        },
+        {
+          "nome": "Marky Ramone",
+          "funcao": "bateria",
+          "desde": "1978",
+          "ate": "1996"
+        },
+        {
+          "nome": "Richie Ramone",
+          "funcao": "backing vocal, bateria",
+          "desde": "1983",
+          "ate": "1987"
+        },
+        {
+          "nome": "Elvis Ramone",
+          "funcao": "bateria",
+          "desde": "1987",
+          "ate": "1987"
+        },
+        {
+          "nome": "C.J. Ramone",
+          "funcao": "backing vocal, baixo",
+          "desde": "1989",
+          "ate": "1996"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Ramones",
+          "ano": "1976"
+        },
+        {
+          "titulo": "Leave Home",
+          "ano": "1977"
+        },
+        {
+          "titulo": "Rocket to Russia",
+          "ano": "1977"
+        },
+        {
+          "titulo": "Road to Ruin",
+          "ano": "1978"
+        },
+        {
+          "titulo": "End of the Century",
+          "ano": "1980"
+        },
+        {
+          "titulo": "Pleasant Dreams",
+          "ano": "1981"
+        },
+        {
+          "titulo": "Subterranean Jungle",
+          "ano": "1983"
+        },
+        {
+          "titulo": "Too Tough to Die",
+          "ano": "1984"
+        },
+        {
+          "titulo": "Animal Boy",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Halfway to Sanity",
+          "ano": "1987"
+        },
+        {
+          "titulo": "Brain Drain",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Mondo Bizarro",
+          "ano": "1992"
+        },
+        {
+          "titulo": "Acid Eaters",
+          "ano": "1993"
+        },
+        {
+          "titulo": "¡Adios Amigos!",
+          "ano": "1995"
+        }
+      ],
+      "logo": "/img/bandas/logos/ramones.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Ramones_Black_Logo.svg",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "claro"
     },
     {
       "nome": "Ratos de Porão",
@@ -1842,7 +7825,101 @@
       "musicbrainz": "0a61f71a-92e8-4d3e-adc0-e44469aba069",
       "wikidata": "Q1534282",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Jabá",
+          "funcao": "baixo",
+          "desde": "1981",
+          "ate": "1992"
+        },
+        {
+          "nome": "João Gordo",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Jão",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "SUB",
+          "ano": "1983"
+        },
+        {
+          "titulo": "Crucificados pelo sistema",
+          "ano": "1984"
+        },
+        {
+          "titulo": "Descanse em paz",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Cada dia mais sujo e agressivo",
+          "ano": "1987"
+        },
+        {
+          "titulo": "Brasil",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Anarkophobia",
+          "ano": "1991"
+        },
+        {
+          "titulo": "Just Another Crime in... Massacreland",
+          "ano": "1994"
+        },
+        {
+          "titulo": "Feijoada acidente? - Brasil",
+          "ano": "1995"
+        },
+        {
+          "titulo": "Feijoada acidente? - International",
+          "ano": "1995"
+        },
+        {
+          "titulo": "Carniceria Tropical",
+          "ano": "1997"
+        },
+        {
+          "titulo": "Sistemados pelo crucifa",
+          "ano": "2000"
+        },
+        {
+          "titulo": "Onisciente Coletivo",
+          "ano": "2002"
+        },
+        {
+          "titulo": "Homem inimigo do homem",
+          "ano": "2006"
+        },
+        {
+          "titulo": "Ratos de Porão / Looking for an Answer",
+          "ano": "2010"
+        },
+        {
+          "titulo": "Século Sinistro",
+          "ano": "2014"
+        },
+        {
+          "titulo": "Necropolítica",
+          "ano": "2022"
+        },
+        {
+          "titulo": "Isentön Päunokü",
+          "ano": "2023"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Raul Seixas",
@@ -1869,7 +7946,78 @@
       "musicbrainz": "c4efd92a-5692-41d5-91bb-b23d4b75e735",
       "wikidata": "Q1392583",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "Os 24 maiores sucessos da era do rock",
+          "ano": "1973"
+        },
+        {
+          "titulo": "Krig-ha, Bandolo!",
+          "ano": "1973"
+        },
+        {
+          "titulo": "Gita",
+          "ano": "1974"
+        },
+        {
+          "titulo": "Novo Aeon",
+          "ano": "1975"
+        },
+        {
+          "titulo": "Há 10 Mil Anos Atrás",
+          "ano": "1976"
+        },
+        {
+          "titulo": "Raul Rock Seixas",
+          "ano": "1977"
+        },
+        {
+          "titulo": "O dia em que a Terra parou",
+          "ano": "1977"
+        },
+        {
+          "titulo": "Mata virgem",
+          "ano": "1978"
+        },
+        {
+          "titulo": "Por quem os sinos dobram",
+          "ano": "1979"
+        },
+        {
+          "titulo": "Abre-te Sésamo",
+          "ano": "1980"
+        },
+        {
+          "titulo": "Raul Seixas",
+          "ano": "1983"
+        },
+        {
+          "titulo": "Metrô linha 743",
+          "ano": "1984"
+        },
+        {
+          "titulo": "Uah-Bap-Lu-Bap-Lah-Béin-Bum!",
+          "ano": "1987"
+        },
+        {
+          "titulo": "A pedra do Gênesis",
+          "ano": "1988"
+        },
+        {
+          "titulo": "A panela do Diabo",
+          "ano": "1989"
+        },
+        {
+          "titulo": "20 Anos Sem Raul",
+          "ano": "2009"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Rita Lee",
@@ -1898,7 +8046,106 @@
       "musicbrainz": "3f962bf0-42a0-45a0-830f-07b66301d35f",
       "wikidata": "Q265179",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "Build Up",
+          "ano": "1970"
+        },
+        {
+          "titulo": "Hoje é o primeiro dia do resto da sua vida",
+          "ano": "1972"
+        },
+        {
+          "titulo": "Atrás do porto tem uma cidade",
+          "ano": "1974"
+        },
+        {
+          "titulo": "Fruto proibido",
+          "ano": "1975"
+        },
+        {
+          "titulo": "Entradas e bandeiras",
+          "ano": "1976"
+        },
+        {
+          "titulo": "Babilônia",
+          "ano": "1978"
+        },
+        {
+          "titulo": "Rita Lee",
+          "ano": "1979"
+        },
+        {
+          "titulo": "Rita Lee",
+          "ano": "1980"
+        },
+        {
+          "titulo": "Saúde",
+          "ano": "1981"
+        },
+        {
+          "titulo": "Rita Lee & Roberto de Carvalho",
+          "ano": "1982"
+        },
+        {
+          "titulo": "Baila Conmigo",
+          "ano": "1983"
+        },
+        {
+          "titulo": "Bombom",
+          "ano": "1983"
+        },
+        {
+          "titulo": "Rita e Roberto",
+          "ano": "1985"
+        },
+        {
+          "titulo": "Flerte fatal",
+          "ano": "1987"
+        },
+        {
+          "titulo": "Zona zen",
+          "ano": "1988"
+        },
+        {
+          "titulo": "Rita Lee e Roberto de Carvalho",
+          "ano": "1990"
+        },
+        {
+          "titulo": "Rita Lee",
+          "ano": "1993"
+        },
+        {
+          "titulo": "Santa Rita de Sampa",
+          "ano": "1998"
+        },
+        {
+          "titulo": "3001",
+          "ano": "2000"
+        },
+        {
+          "titulo": "Aqui, ali, em qualquer lugar",
+          "ano": "2001"
+        },
+        {
+          "titulo": "Balacobaco",
+          "ano": "2003"
+        },
+        {
+          "titulo": "Reza",
+          "ano": "2012"
+        },
+        {
+          "titulo": "Rock Your Babies",
+          "ano": "2015"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "The Rolling Stones",
@@ -1928,7 +8175,211 @@
       "musicbrainz": "b071f9fa-14b0-4217-8e97-eb41da73f598",
       "wikidata": "Q11036",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Bill Wyman",
+          "funcao": "backing vocal, baixo, teclados, marimba, percussão",
+          "desde": "1962",
+          "ate": "1993"
+        },
+        {
+          "nome": "Brian Jones",
+          "funcao": "acordeão, violão, autoharp, backing vocal, baixo, violoncelo, guitarra, saltério, gaita, teclados, bandolim, marimba, percussão, flauta doce, saxofone, sitar, guitarra slide",
+          "desde": "1962",
+          "ate": "1969"
+        },
+        {
+          "nome": "Dick Taylor",
+          "funcao": "baixo",
+          "desde": "1962",
+          "ate": "1962"
+        },
+        {
+          "nome": "Ian Stewart",
+          "funcao": "teclados, percussão",
+          "desde": "1962",
+          "ate": "1985"
+        },
+        {
+          "nome": "Keith Richards",
+          "funcao": "violão, backing vocal, baixo, guitarra, teclados, voz",
+          "desde": "1962",
+          "ate": ""
+        },
+        {
+          "nome": "Mick Avory",
+          "funcao": "bateria",
+          "desde": "1962",
+          "ate": "1962"
+        },
+        {
+          "nome": "Mick Jagger",
+          "funcao": "violão, backing vocal, baixo, guitarra, gaita, teclados, voz, percussão",
+          "desde": "1962",
+          "ate": ""
+        },
+        {
+          "nome": "Tony Chapman",
+          "funcao": "bateria",
+          "desde": "1962",
+          "ate": "1963"
+        },
+        {
+          "nome": "Charlie Watts",
+          "funcao": "bateria, percussão",
+          "desde": "1963",
+          "ate": "2021"
+        },
+        {
+          "nome": "Mick Taylor",
+          "funcao": "violão, backing vocal, baixo, guitarra, guitarra slide",
+          "desde": "1969",
+          "ate": "1974"
+        },
+        {
+          "nome": "Ronnie Wood",
+          "funcao": "violão, backing vocal, baixo, guitarra, lap steel guitar, bateria, pedal steel guitar, saxofone, guitarra slide",
+          "desde": "1975",
+          "ate": ""
+        },
+        {
+          "nome": "Darryl Jones",
+          "funcao": "baixo",
+          "desde": "1994",
+          "ate": ""
+        },
+        {
+          "nome": "Steve Jordan",
+          "funcao": "bateria",
+          "desde": "2021",
+          "ate": ""
+        },
+        {
+          "nome": "Chanel Haynes",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "12 × 5",
+          "ano": "1964"
+        },
+        {
+          "titulo": "England’s Newest Hit Makers",
+          "ano": "1964"
+        },
+        {
+          "titulo": "The Rolling Stones, Now!",
+          "ano": "1965"
+        },
+        {
+          "titulo": "Out of Our Heads",
+          "ano": "1965"
+        },
+        {
+          "titulo": "The Rolling Stones No. 2",
+          "ano": "1965"
+        },
+        {
+          "titulo": "December’s Children (and Everybody’s)",
+          "ano": "1965"
+        },
+        {
+          "titulo": "Aftermath",
+          "ano": "1966"
+        },
+        {
+          "titulo": "Their Satanic Majesties Request",
+          "ano": "1967"
+        },
+        {
+          "titulo": "Between the Buttons",
+          "ano": "1967"
+        },
+        {
+          "titulo": "Beggars Banquet",
+          "ano": "1968"
+        },
+        {
+          "titulo": "Let It Bleed",
+          "ano": "1969"
+        },
+        {
+          "titulo": "Sticky Fingers",
+          "ano": "1971"
+        },
+        {
+          "titulo": "Exile on Main St.",
+          "ano": "1972"
+        },
+        {
+          "titulo": "Goats Head Soup",
+          "ano": "1973"
+        },
+        {
+          "titulo": "It’s Only Rock ’n Roll",
+          "ano": "1974"
+        },
+        {
+          "titulo": "Black and Blue",
+          "ano": "1976"
+        },
+        {
+          "titulo": "Some Girls",
+          "ano": "1978"
+        },
+        {
+          "titulo": "Emotional Rescue",
+          "ano": "1980"
+        },
+        {
+          "titulo": "Tattoo You",
+          "ano": "1981"
+        },
+        {
+          "titulo": "Undercover",
+          "ano": "1983"
+        },
+        {
+          "titulo": "Dirty Work",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Steel Wheels",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Voodoo Lounge",
+          "ano": "1994"
+        },
+        {
+          "titulo": "Bridges to Babylon",
+          "ano": "1997"
+        },
+        {
+          "titulo": "A Bigger Bang",
+          "ano": "2005"
+        },
+        {
+          "titulo": "Blue & Lonesome",
+          "ano": "2016"
+        },
+        {
+          "titulo": "Hackney Diamonds",
+          "ano": "2023"
+        },
+        {
+          "titulo": "Foreign Tongues",
+          "ano": "2026"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "The Runaways",
@@ -1958,7 +8409,71 @@
       "musicbrainz": "ded0d67a-eb71-4fe9-83c0-1d18b8ed497e",
       "wikidata": "Q908458",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Cherie Currie",
+          "funcao": "",
+          "desde": "",
+          "ate": "1979"
+        },
+        {
+          "nome": "Jackie Fox",
+          "funcao": "baixo",
+          "desde": "",
+          "ate": "1979"
+        },
+        {
+          "nome": "Joan Jett",
+          "funcao": "",
+          "desde": "",
+          "ate": "1979"
+        },
+        {
+          "nome": "Lita Ford",
+          "funcao": "",
+          "desde": "",
+          "ate": "1979"
+        },
+        {
+          "nome": "Sandy West",
+          "funcao": "",
+          "desde": "",
+          "ate": "1979"
+        },
+        {
+          "nome": "Vicki Blue",
+          "funcao": "",
+          "desde": "",
+          "ate": "1979"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "The Runaways",
+          "ano": "1976"
+        },
+        {
+          "titulo": "Waitin’ for the Night",
+          "ano": "1977"
+        },
+        {
+          "titulo": "Queens of Noise",
+          "ano": "1977"
+        },
+        {
+          "titulo": "And Now... The Runaways",
+          "ano": "1979"
+        },
+        {
+          "titulo": "Young and Fast",
+          "ano": "1985"
+        }
+      ],
+      "logo": "/img/bandas/logos/the-runaways.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:The_Runaways_logo.jpg",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "escuro"
     },
     {
       "nome": "Rush",
@@ -1988,7 +8503,129 @@
       "musicbrainz": "534ee493-bfac-4575-a44a-0ae41e2c3fe4",
       "wikidata": "Q203871",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Alex Lifeson",
+          "funcao": "backing vocal, guitarra",
+          "desde": "1968",
+          "ate": ""
+        },
+        {
+          "nome": "Geddy Lee",
+          "funcao": "baixo, teclados, voz",
+          "desde": "1968",
+          "ate": ""
+        },
+        {
+          "nome": "Jeff Jones",
+          "funcao": "baixo, voz",
+          "desde": "1968",
+          "ate": "1968"
+        },
+        {
+          "nome": "John Rutsey",
+          "funcao": "bateria",
+          "desde": "1968",
+          "ate": "1974"
+        },
+        {
+          "nome": "Neil Peart",
+          "funcao": "bateria, percussão",
+          "desde": "1974",
+          "ate": "2018"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Rush",
+          "ano": "1974"
+        },
+        {
+          "titulo": "Fly by Night",
+          "ano": "1975"
+        },
+        {
+          "titulo": "Caress of Steel",
+          "ano": "1975"
+        },
+        {
+          "titulo": "2112",
+          "ano": "1976"
+        },
+        {
+          "titulo": "A Farewell to Kings",
+          "ano": "1977"
+        },
+        {
+          "titulo": "Hemispheres",
+          "ano": "1978"
+        },
+        {
+          "titulo": "Permanent Waves",
+          "ano": "1980"
+        },
+        {
+          "titulo": "Moving Pictures",
+          "ano": "1981"
+        },
+        {
+          "titulo": "Signals",
+          "ano": "1982"
+        },
+        {
+          "titulo": "Grace Under Pressure",
+          "ano": "1984"
+        },
+        {
+          "titulo": "Power Windows",
+          "ano": "1985"
+        },
+        {
+          "titulo": "Hold Your Fire",
+          "ano": "1987"
+        },
+        {
+          "titulo": "Presto",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Roll the Bones",
+          "ano": "1991"
+        },
+        {
+          "titulo": "Counterparts",
+          "ano": "1993"
+        },
+        {
+          "titulo": "Test for Echo",
+          "ano": "1996"
+        },
+        {
+          "titulo": "Vapor Trails",
+          "ano": "2002"
+        },
+        {
+          "titulo": "See You Again Sometime",
+          "ano": "2003"
+        },
+        {
+          "titulo": "Snakes & Arrows",
+          "ano": "2007"
+        },
+        {
+          "titulo": "Clockwork Angels",
+          "ano": "2012"
+        },
+        {
+          "titulo": "Roll Of The Dice",
+          "ano": "2024"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Secos & Molhados",
@@ -2018,7 +8655,63 @@
       "musicbrainz": "6840dcbe-3aca-4057-8d16-4799c3730e3a",
       "wikidata": "Q7443916",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "João Ricardo",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Ney Matogrosso",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Secos & Molhados",
+          "ano": "1973"
+        },
+        {
+          "titulo": "Secos & Molhados",
+          "ano": "1974"
+        },
+        {
+          "titulo": "A Volta dos Secos & Molhados",
+          "ano": "1978"
+        },
+        {
+          "titulo": "Que fim levaram todas as flores ?",
+          "ano": "1978"
+        },
+        {
+          "titulo": "Secos e Molhados",
+          "ano": "1980"
+        },
+        {
+          "titulo": "A Volta do Gato Preto",
+          "ano": "1988"
+        },
+        {
+          "titulo": "Teatro?",
+          "ano": "1999"
+        },
+        {
+          "titulo": "Memória Velha",
+          "ano": "2000"
+        },
+        {
+          "titulo": "Barulho de Rock e Gesta",
+          "ano": "2020"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Sepultura",
@@ -2048,7 +8741,139 @@
       "musicbrainz": "1d93c839-22e7-4f76-ad84-d27039efc048",
       "wikidata": "Q239074",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Igor Cavalera",
+          "funcao": "bateria",
+          "desde": "1984",
+          "ate": "2006"
+        },
+        {
+          "nome": "Jairo Guedz",
+          "funcao": "guitarra",
+          "desde": "1984",
+          "ate": "1986"
+        },
+        {
+          "nome": "Max Cavalera",
+          "funcao": "voz, guitarra",
+          "desde": "1984",
+          "ate": "1997"
+        },
+        {
+          "nome": "Paulo Jr.",
+          "funcao": "baixo",
+          "desde": "1984",
+          "ate": "2026"
+        },
+        {
+          "nome": "Wagner Lamounier",
+          "funcao": "voz",
+          "desde": "1984",
+          "ate": "1985"
+        },
+        {
+          "nome": "Andreas Kisser",
+          "funcao": "guitarra",
+          "desde": "1986",
+          "ate": "2026"
+        },
+        {
+          "nome": "Derrick Green",
+          "funcao": "voz",
+          "desde": "1997",
+          "ate": "2026"
+        },
+        {
+          "nome": "Jean Dolabella",
+          "funcao": "bateria",
+          "desde": "2006",
+          "ate": "2011"
+        },
+        {
+          "nome": "Eloy Casagrande",
+          "funcao": "bateria",
+          "desde": "2011",
+          "ate": "2024"
+        },
+        {
+          "nome": "Greyson Nekrutman",
+          "funcao": "bateria",
+          "desde": "2024",
+          "ate": "2026"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Século X.X. / Bestial Devastation",
+          "ano": "1985"
+        },
+        {
+          "titulo": "Morbid Visions",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Schizophrenia",
+          "ano": "1987"
+        },
+        {
+          "titulo": "Beneath the Remains",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Arise",
+          "ano": "1991"
+        },
+        {
+          "titulo": "Chaos A.D.",
+          "ano": "1993"
+        },
+        {
+          "titulo": "Roots",
+          "ano": "1996"
+        },
+        {
+          "titulo": "Against",
+          "ano": "1998"
+        },
+        {
+          "titulo": "Nation",
+          "ano": "2001"
+        },
+        {
+          "titulo": "Roorback",
+          "ano": "2003"
+        },
+        {
+          "titulo": "Dante XXI",
+          "ano": "2006"
+        },
+        {
+          "titulo": "A-Lex",
+          "ano": "2009"
+        },
+        {
+          "titulo": "Kairos",
+          "ano": "2011"
+        },
+        {
+          "titulo": "The Mediator Between Head and Hands Must Be the Heart",
+          "ano": "2013"
+        },
+        {
+          "titulo": "Machine Messiah",
+          "ano": "2017"
+        },
+        {
+          "titulo": "Quadra",
+          "ano": "2020"
+        }
+      ],
+      "logo": "/img/bandas/logos/sepultura.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Sepultura_logo.png",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "claro"
     },
     {
       "nome": "Sex Pistols",
@@ -2076,7 +8901,71 @@
       "musicbrainz": "e5db18cb-4b1f-496d-a308-548b611090d3",
       "wikidata": "Q82545",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Glen Matlock",
+          "funcao": "",
+          "desde": "1975",
+          "ate": "1977"
+        },
+        {
+          "nome": "John Lydon",
+          "funcao": "",
+          "desde": "1975",
+          "ate": "1978"
+        },
+        {
+          "nome": "Paul Cook",
+          "funcao": "",
+          "desde": "1975",
+          "ate": "1978"
+        },
+        {
+          "nome": "Steve Jones",
+          "funcao": "",
+          "desde": "1975",
+          "ate": "1978"
+        },
+        {
+          "nome": "Sid Vicious",
+          "funcao": "",
+          "desde": "1977",
+          "ate": "1978"
+        },
+        {
+          "nome": "Sex Pistols feat. Frank Carter",
+          "funcao": "",
+          "desde": "",
+          "ate": "1978"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Never Mind the Bollocks Here’s the Sex Pistols",
+          "ano": "1977"
+        },
+        {
+          "titulo": "The Mini Album",
+          "ano": "1988"
+        },
+        {
+          "titulo": "Anarchy in the UK",
+          "ano": "2001"
+        },
+        {
+          "titulo": "More Product",
+          "ano": "2017"
+        },
+        {
+          "titulo": "76–77",
+          "ano": "2021"
+        }
+      ],
+      "logo": "/img/bandas/logos/sex-pistols.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Thesexpistols-logo.svg",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "escuro"
     },
     {
       "nome": "Simple Plan",
@@ -2104,7 +8993,69 @@
       "musicbrainz": "b345af35-205e-4eca-8006-029e5c20127e",
       "wikidata": "Q485825",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Chuck Comeau",
+          "funcao": "bateria, percussão",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "David Desrosiers",
+          "funcao": "backing vocal, baixo",
+          "desde": "",
+          "ate": "2020"
+        },
+        {
+          "nome": "Jean-François Stinco",
+          "funcao": "guitarra",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Pierre Bouvier",
+          "funcao": "guitarra, voz",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Sebastien Lefebvre",
+          "funcao": "backing vocal, guitarra",
+          "desde": "",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "No Pads, No Helmets…Just Balls",
+          "ano": "2002"
+        },
+        {
+          "titulo": "Still Not Getting Any…",
+          "ano": "2004"
+        },
+        {
+          "titulo": "Simple Plan",
+          "ano": "2008"
+        },
+        {
+          "titulo": "Get Your Heart On!",
+          "ano": "2011"
+        },
+        {
+          "titulo": "Taking One for the Team",
+          "ano": "2016"
+        },
+        {
+          "titulo": "Harder Than It Looks",
+          "ano": "2022"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Siouxsie and the Banshees",
@@ -2134,7 +9085,155 @@
       "musicbrainz": "78ea5ea1-3c4d-4b7e-ac5d-68900319ebe2",
       "wikidata": "Q323834",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Marco Pirroni",
+          "funcao": "guitarra",
+          "desde": "1976",
+          "ate": "1976"
+        },
+        {
+          "nome": "Peter Fenton",
+          "funcao": "guitarra",
+          "desde": "1976",
+          "ate": "1977"
+        },
+        {
+          "nome": "Sid Vicious",
+          "funcao": "bateria",
+          "desde": "1976",
+          "ate": "1976"
+        },
+        {
+          "nome": "Siouxsie Sioux",
+          "funcao": "voz",
+          "desde": "1976",
+          "ate": "1996"
+        },
+        {
+          "nome": "Steven Severin",
+          "funcao": "baixo",
+          "desde": "1976",
+          "ate": "1996"
+        },
+        {
+          "nome": "John McKay",
+          "funcao": "guitarra",
+          "desde": "1977",
+          "ate": "1979"
+        },
+        {
+          "nome": "Kenny Morris",
+          "funcao": "bateria",
+          "desde": "1977",
+          "ate": "1979"
+        },
+        {
+          "nome": "Budgie",
+          "funcao": "bateria",
+          "desde": "1979",
+          "ate": "1996"
+        },
+        {
+          "nome": "John McGeoch",
+          "funcao": "guitarra",
+          "desde": "1979",
+          "ate": "1982"
+        },
+        {
+          "nome": "Robert Smith",
+          "funcao": "guitarra",
+          "desde": "1979",
+          "ate": "1984"
+        },
+        {
+          "nome": "John Valentine Carruthers",
+          "funcao": "guitarra",
+          "desde": "1984",
+          "ate": "1987"
+        },
+        {
+          "nome": "Jon Klein",
+          "funcao": "guitarra",
+          "desde": "1987",
+          "ate": "1995"
+        },
+        {
+          "nome": "Martin McCarrick",
+          "funcao": "teclados",
+          "desde": "1987",
+          "ate": "1995"
+        },
+        {
+          "nome": "Knox Chandler",
+          "funcao": "guitarra",
+          "desde": "1995",
+          "ate": "1996"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "The Scream",
+          "ano": "1978"
+        },
+        {
+          "titulo": "Join Hands",
+          "ano": "1979"
+        },
+        {
+          "titulo": "Kaleidoscope",
+          "ano": "1980"
+        },
+        {
+          "titulo": "Juju",
+          "ano": "1981"
+        },
+        {
+          "titulo": "A Kiss in the Dreamhouse",
+          "ano": "1982"
+        },
+        {
+          "titulo": "Hyæna",
+          "ano": "1984"
+        },
+        {
+          "titulo": "Tinderbox",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Through the Looking Glass",
+          "ano": "1987"
+        },
+        {
+          "titulo": "Peepshow",
+          "ano": "1988"
+        },
+        {
+          "titulo": "Break Up",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Overground",
+          "ano": "1991"
+        },
+        {
+          "titulo": "Superstition",
+          "ano": "1991"
+        },
+        {
+          "titulo": "Cascade",
+          "ano": "1992"
+        },
+        {
+          "titulo": "The Rapture",
+          "ano": "1995"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Sister Rosetta Tharpe",
@@ -2164,7 +9263,82 @@
       "musicbrainz": "f5625c87-5a62-4b3b-a375-fe08a71acddc",
       "wikidata": "Q438106",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "The Lonesome Road",
+          "ano": "1939"
+        },
+        {
+          "titulo": "Gospel Hymns",
+          "ano": "1947"
+        },
+        {
+          "titulo": "Gospel Songs",
+          "ano": "1947"
+        },
+        {
+          "titulo": "Blessed Assurance",
+          "ano": "1951"
+        },
+        {
+          "titulo": "Gospel Train",
+          "ano": "1956"
+        },
+        {
+          "titulo": "The Gospel Truth",
+          "ano": "1959"
+        },
+        {
+          "titulo": "Sister Rosetta Tharpe",
+          "ano": "1960"
+        },
+        {
+          "titulo": "Gospels In Rhythm",
+          "ano": "1960"
+        },
+        {
+          "titulo": "Spirituals In Rhythm",
+          "ano": "1961"
+        },
+        {
+          "titulo": "Sister On Tour",
+          "ano": "1961"
+        },
+        {
+          "titulo": "The Gospel Truth",
+          "ano": "1962"
+        },
+        {
+          "titulo": "Famous Negro Spirituals And Gospel Songs",
+          "ano": "1967"
+        },
+        {
+          "titulo": "Singing In My Soul",
+          "ano": "1969"
+        },
+        {
+          "titulo": "Mamy Blue",
+          "ano": "1971"
+        },
+        {
+          "titulo": "Precious Memories",
+          "ano": "1997"
+        },
+        {
+          "titulo": "Gospel Feeling",
+          "ano": "1999"
+        },
+        {
+          "titulo": "Shout Sister Shout",
+          "ano": "2019"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Slash",
@@ -2196,7 +9370,26 @@
       "musicbrainz": "5e7a7026-dfc5-4aba-8496-95140716f3db",
       "wikidata": "Q34166",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "Thunder",
+          "ano": "1995"
+        },
+        {
+          "titulo": "Slash",
+          "ano": "2010"
+        },
+        {
+          "titulo": "Orgy of the Damned",
+          "ano": "2024"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Soundgarden",
@@ -2226,7 +9419,79 @@
       "musicbrainz": "153c9281-268f-4cf3-8938-f5a4593e5df4",
       "wikidata": "Q174817",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Chris Cornell",
+          "funcao": "voz, guitarra",
+          "desde": "1984",
+          "ate": "2017"
+        },
+        {
+          "nome": "Hiro Yamamoto",
+          "funcao": "baixo",
+          "desde": "1984",
+          "ate": "1989"
+        },
+        {
+          "nome": "Kim Thayil",
+          "funcao": "guitarra",
+          "desde": "1984",
+          "ate": "2017"
+        },
+        {
+          "nome": "Matt Cameron",
+          "funcao": "bateria",
+          "desde": "1986",
+          "ate": "2017"
+        },
+        {
+          "nome": "Jason Everman",
+          "funcao": "",
+          "desde": "1989",
+          "ate": "1990"
+        },
+        {
+          "nome": "Ben Shepherd",
+          "funcao": "baixo",
+          "desde": "1990",
+          "ate": "2017"
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Ultramega OK",
+          "ano": "1988"
+        },
+        {
+          "titulo": "Louder Than Love",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Badmotorfinger",
+          "ano": "1991"
+        },
+        {
+          "titulo": "Superunknown",
+          "ano": "1994"
+        },
+        {
+          "titulo": "Gardenheads",
+          "ano": "1994"
+        },
+        {
+          "titulo": "Down on the Upside",
+          "ano": "1996"
+        },
+        {
+          "titulo": "King Animal",
+          "ano": "2012"
+        }
+      ],
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/10/Soundlogo.png",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Soundlogo.png",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "escuro"
     },
     {
       "nome": "System of a Down",
@@ -2256,7 +9521,71 @@
       "musicbrainz": "cc0b7089-c08d-4c10-b6b0-873582c17fd6",
       "wikidata": "Q45165",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Andy Khatchaturian",
+          "funcao": "bateria",
+          "desde": "1994",
+          "ate": "1997"
+        },
+        {
+          "nome": "Daron Malakian",
+          "funcao": "guitarra, voz",
+          "desde": "1994",
+          "ate": ""
+        },
+        {
+          "nome": "Ontronik Khachaturian",
+          "funcao": "bateria",
+          "desde": "1994",
+          "ate": "1997"
+        },
+        {
+          "nome": "Serj Tankian",
+          "funcao": "voz",
+          "desde": "1994",
+          "ate": ""
+        },
+        {
+          "nome": "Shavo Odadjian",
+          "funcao": "backing vocal, baixo",
+          "desde": "1994",
+          "ate": ""
+        },
+        {
+          "nome": "John Dolmayan",
+          "funcao": "bateria, percussão",
+          "desde": "1997",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "System of a Down",
+          "ano": "1998"
+        },
+        {
+          "titulo": "Toxicity",
+          "ano": "2001"
+        },
+        {
+          "titulo": "Steal This Album!",
+          "ano": "2002"
+        },
+        {
+          "titulo": "Hypnotize",
+          "ano": "2005"
+        },
+        {
+          "titulo": "Mezmerize",
+          "ano": "2005"
+        }
+      ],
+      "logo": "/img/bandas/logos/system-of-a-down.webp",
+      "logo_fonte": "https://commons.wikimedia.org/wiki/File:Soad_logo.png",
+      "logo_licenca": "domínio público",
+      "logo_fundo": "claro"
     },
     {
       "nome": "Titãs",
@@ -2284,7 +9613,119 @@
       "musicbrainz": "c1a669b9-30f4-4171-a2a9-a15d9461ca04",
       "wikidata": "Q1808409",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Arnaldo Antunes",
+          "funcao": "",
+          "desde": "1981",
+          "ate": "1992"
+        },
+        {
+          "nome": "Marcelo Fromer",
+          "funcao": "",
+          "desde": "1981",
+          "ate": "2001"
+        },
+        {
+          "nome": "Nando Reis",
+          "funcao": "",
+          "desde": "1981",
+          "ate": "2002"
+        },
+        {
+          "nome": "Paulo Miklos",
+          "funcao": "",
+          "desde": "1981",
+          "ate": ""
+        },
+        {
+          "nome": "Charles Gavin",
+          "funcao": "bateria",
+          "desde": "1985",
+          "ate": "2010"
+        },
+        {
+          "nome": "Branco Mello",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "Titãs",
+          "ano": "1984"
+        },
+        {
+          "titulo": "Televisão",
+          "ano": "1985"
+        },
+        {
+          "titulo": "Cabeça dinossauro",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Cabeça Dinossauro",
+          "ano": "1986"
+        },
+        {
+          "titulo": "Jesus não tem dentes no país dos banguelas",
+          "ano": "1987"
+        },
+        {
+          "titulo": "Õ Blésq Blom",
+          "ano": "1989"
+        },
+        {
+          "titulo": "Tudo ao mesmo tempo agora",
+          "ano": "1991"
+        },
+        {
+          "titulo": "Titanomaquia",
+          "ano": "1993"
+        },
+        {
+          "titulo": "Domingo",
+          "ano": "1995"
+        },
+        {
+          "titulo": "As dez mais",
+          "ano": "1999"
+        },
+        {
+          "titulo": "A melhor banda de todos os tempos da última semana",
+          "ano": "2001"
+        },
+        {
+          "titulo": "Como estão vocês?",
+          "ano": "2003"
+        },
+        {
+          "titulo": "Sacos plásticos",
+          "ano": "2009"
+        },
+        {
+          "titulo": "Nheengatu",
+          "ano": "2014"
+        },
+        {
+          "titulo": "Doze flores amarelas",
+          "ano": "2018"
+        },
+        {
+          "titulo": "Titãs Trio Acústico",
+          "ano": "2021"
+        },
+        {
+          "titulo": "Olho furta-cor",
+          "ano": "2022"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "Tom Zé",
@@ -2309,7 +9750,98 @@
       "musicbrainz": "9f284484-c949-4199-8741-aba416a497a8",
       "wikidata": "Q1375576",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [],
+      "discografia": [
+        {
+          "titulo": "Tom Zé",
+          "ano": "1968"
+        },
+        {
+          "titulo": "Tom Zé",
+          "ano": "1970"
+        },
+        {
+          "titulo": "Tom Zé",
+          "ano": "1972"
+        },
+        {
+          "titulo": "Todos os olhos",
+          "ano": "1973"
+        },
+        {
+          "titulo": "Estudando o samba",
+          "ano": "1976"
+        },
+        {
+          "titulo": "Correio da Estação do Brás",
+          "ano": "1978"
+        },
+        {
+          "titulo": "Nave Maria",
+          "ano": "1984"
+        },
+        {
+          "titulo": "Brazil Classics 5: The Hips of Tradition",
+          "ano": "1992"
+        },
+        {
+          "titulo": "Com defeito de fabricação",
+          "ano": "1998"
+        },
+        {
+          "titulo": "Vaia de Bêbado Não Vale",
+          "ano": "1999"
+        },
+        {
+          "titulo": "Jogos de armar - Faça você mesmo",
+          "ano": "2001"
+        },
+        {
+          "titulo": "Imprensa cantada",
+          "ano": "2003"
+        },
+        {
+          "titulo": "Estudando o Pagode: Na Opereta Segregamulher e Amor",
+          "ano": "2006"
+        },
+        {
+          "titulo": "Danç-Êh-Sá: Dança dos Herdeiros do Sacrifício",
+          "ano": "2006"
+        },
+        {
+          "titulo": "Estudando a bossa",
+          "ano": "2010"
+        },
+        {
+          "titulo": "Tropicália lixo lógico",
+          "ano": "2012"
+        },
+        {
+          "titulo": "Tribunal do Feicebuqui",
+          "ano": "2013"
+        },
+        {
+          "titulo": "Vira Lata na Via Láctea",
+          "ano": "2014"
+        },
+        {
+          "titulo": "Canções eróticas de ninar",
+          "ano": "2016"
+        },
+        {
+          "titulo": "Sem você não A",
+          "ano": "2017"
+        },
+        {
+          "titulo": "Língua Brasileira",
+          "ano": "2022"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "The Warning",
@@ -2338,7 +9870,53 @@
       "musicbrainz": "7f625f35-7e53-4f08-9201-16643979484b",
       "wikidata": "Q20687358",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Alejandra Villarreal",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Daniela Villarreal",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        },
+        {
+          "nome": "Paulina Villarreal",
+          "funcao": "",
+          "desde": "",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "XXI Century Blood",
+          "ano": "2017"
+        },
+        {
+          "titulo": "Queen of the Murder Scene",
+          "ano": "2018"
+        },
+        {
+          "titulo": "ERROR",
+          "ano": "2022"
+        },
+        {
+          "titulo": "Keep Me Fed",
+          "ano": "2024"
+        },
+        {
+          "titulo": "Everything’s Falling",
+          "ano": "2026"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     },
     {
       "nome": "The Who",
@@ -2368,7 +9946,141 @@
       "musicbrainz": "9fdaa16b-a6c4-4831-b87c-bc9ca8ce7eaa",
       "wikidata": "Q93346",
       "ativa": true,
-      "foto_url": ""
+      "foto_url": "",
+      "integrantes": [
+        {
+          "nome": "Doug Sandom",
+          "funcao": "bateria",
+          "desde": "1964",
+          "ate": "1964"
+        },
+        {
+          "nome": "John Entwistle",
+          "funcao": "baixo, trompa, teclados, voz, sintetizador, trompete",
+          "desde": "1964",
+          "ate": "2002"
+        },
+        {
+          "nome": "Keith Moon",
+          "funcao": "bateria",
+          "desde": "1964",
+          "ate": "1978"
+        },
+        {
+          "nome": "Pete Townshend",
+          "funcao": "guitarra, teclados, voz, sintetizador",
+          "desde": "1964",
+          "ate": ""
+        },
+        {
+          "nome": "Roger Daltrey",
+          "funcao": "guitarra, gaita, voz, percussão",
+          "desde": "1964",
+          "ate": ""
+        },
+        {
+          "nome": "Kenney Jones",
+          "funcao": "bateria",
+          "desde": "1978",
+          "ate": "1985"
+        },
+        {
+          "nome": "John “Rabbit” Bundrick",
+          "funcao": "teclados",
+          "desde": "1979",
+          "ate": "2011"
+        },
+        {
+          "nome": "Simon Townshend",
+          "funcao": "backing vocal, guitarra, bandolim",
+          "desde": "1996",
+          "ate": ""
+        },
+        {
+          "nome": "Zak Starkey",
+          "funcao": "bateria",
+          "desde": "1996",
+          "ate": "2025"
+        },
+        {
+          "nome": "Pino Palladino",
+          "funcao": "baixo",
+          "desde": "2002",
+          "ate": ""
+        },
+        {
+          "nome": "Chris Stainton",
+          "funcao": "teclados",
+          "desde": "2012",
+          "ate": ""
+        },
+        {
+          "nome": "Frank Simes",
+          "funcao": "teclados",
+          "desde": "2012",
+          "ate": ""
+        },
+        {
+          "nome": "Loren Gold",
+          "funcao": "teclados",
+          "desde": "2012",
+          "ate": ""
+        }
+      ],
+      "discografia": [
+        {
+          "titulo": "My Generation",
+          "ano": "1965"
+        },
+        {
+          "titulo": "A Quick One",
+          "ano": "1966"
+        },
+        {
+          "titulo": "The Who Sell Out",
+          "ano": "1967"
+        },
+        {
+          "titulo": "Tommy",
+          "ano": "1969"
+        },
+        {
+          "titulo": "Who’s Next",
+          "ano": "1971"
+        },
+        {
+          "titulo": "Quadrophenia",
+          "ano": "1973"
+        },
+        {
+          "titulo": "The Who by Numbers",
+          "ano": "1975"
+        },
+        {
+          "titulo": "Who Are You",
+          "ano": "1978"
+        },
+        {
+          "titulo": "Face Dances",
+          "ano": "1981"
+        },
+        {
+          "titulo": "It’s Hard",
+          "ano": "1982"
+        },
+        {
+          "titulo": "Endless Wire",
+          "ano": "2006"
+        },
+        {
+          "titulo": "WHO",
+          "ano": "2019"
+        }
+      ],
+      "logo": "",
+      "logo_fonte": "",
+      "logo_licenca": "",
+      "logo_fundo": ""
     }
   ]
 }

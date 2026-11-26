@@ -22,16 +22,17 @@
 <article class="casa-pagina banda-pagina">
   {%- set img = banda.foto or banda.foto_url %}
   <header class="faixa cab-banda">
-    <div class="patch grande patch-{{ banda.estilos | familiaEstilo }}{% if banda.cena == 'cena local' %} patch-local{% endif %}{% if img %} com-foto{% endif %}">
-      {% if img %}<img class="patch-foto" src="{{ img }}" alt="Imagem oficial: {{ banda.nome }}" referrerpolicy="no-referrer">{% endif %}
-      <strong aria-hidden="true">{{ banda.nome }}</strong>
+    <div class="patch grande patch-{{ banda.estilos | familiaEstilo }}{% if banda.cena == 'cena local' %} patch-local{% endif %}{% if img %} com-foto{% elif banda.logo %} com-logo{% endif %}">
+      {% if img %}<img class="patch-foto" src="{{ img }}" alt="Imagem oficial: {{ banda.nome }}" referrerpolicy="no-referrer">
+      {% elif banda.logo %}<span class="patch-logo fundo-{{ banda.logo_fundo or 'escuro' }}"><img src="{{ banda.logo }}" alt="Logotipo de {{ banda.nome }}"></span>
+      {% else %}<strong aria-hidden="true">{{ banda.nome }}</strong>{% endif %}
     </div>
     <div class="cab-banda-texto">
       <p class="rotulo"><a href="/bandas/">Bandas e artistas</a></p>
       <h1>{{ banda.nome }}</h1>
       <p class="linha-fina">{{ [banda.cidade, banda.pais] | select | join(", ") }}</p>
       {% if banda.estilos.length %}<ul class="estilos-lista">{% for e in banda.estilos %}<li>{{ e }}</li>{% endfor %}</ul>{% endif %}
-      {% if banda.foto_credito %}<p class="miudo">Imagem: {{ banda.foto_credito }}</p>{% endif %}
+      {% if banda.foto_credito %}<p class="miudo">Imagem: {{ banda.foto_credito }}</p>{% elif banda.logo and not img and banda.logo_fonte %}<p class="miudo">Logotipo: <a href="{{ banda.logo_fonte }}" target="_blank" rel="noopener">Wikimedia Commons</a>, {{ banda.logo_licenca }}.</p>{% endif %}
     </div>
   </header>
 
@@ -44,6 +45,38 @@
         {% if banda.fim %}<div><dt>{{ "Morte" if pessoa else "Fim" }}</dt><dd>{{ banda.fim | dataParcial }}</dd></div>{% endif %}
         {% if banda.cidade or banda.pais %}<div><dt>Origem</dt><dd>{{ [banda.cidade, banda.pais] | select | join(", ") }}</dd></div>{% endif %}
       </dl>
+
+      {%- set lt = banda | linhaDoTempo %}
+      {% if lt and (lt.membros.length or lt.discos.length) %}
+      <section class="linha-tempo" aria-labelledby="lt-tit">
+        <h2 id="lt-tit">{% if lt.membros.length %}Formação e discos{% else %}Discos{% endif %}</h2>
+        <p class="miudo">{{ lt.ini }} a {{ lt.fim }}.{% if lt.membros.length %} Cada barra é o tempo de um integrante na banda.{% endif %} Os pontos são os discos de estúdio.</p>
+        <div class="lt-grade" style="--anos:{{ lt.fim - lt.ini + 1 }}">
+          <div class="lt-eixo" aria-hidden="true">{% for m in lt.marcas %}<span style="left:{{ m.pos }}%">{{ m.ano }}</span>{% endfor %}</div>
+          {% if lt.discos.length %}
+          <div class="lt-linha lt-discos">
+            <span class="lt-nome">Discos</span>
+            <div class="lt-trilho">{% for d in lt.discos %}<span class="lt-disco" style="left:{{ d.pos }}%" title="{{ d.titulo }} ({{ d.ano }})"></span>{% endfor %}</div>
+          </div>
+          {% endif %}
+          {% for m in lt.membros %}
+          <div class="lt-linha{% if m.atual %} atual{% endif %}">
+            <span class="lt-nome">{{ m.nome }}<small>{{ m.funcao }}</small></span>
+            <div class="lt-trilho"><span class="lt-barra" style="left:{{ m.esq }}%;width:{{ m.larg }}%" title="{{ m.nome }}: {{ m.periodo }}"></span></div>
+          </div>
+          {% endfor %}
+        </div>
+        {% if lt.membros.length %}
+        <ul class="lt-lista">{% for m in lt.membros %}<li><strong>{{ m.nome }}</strong> {{ m.funcao }}<span>{{ m.periodo }}</span></li>{% endfor %}{% for i in lt.semData %}<li><strong>{{ i.nome }}</strong> {{ i.funcao }}</li>{% endfor %}</ul>
+        {% endif %}
+        {% if lt.discos.length %}
+        <ol class="discografia">{% for d in lt.discos %}<li><span>{{ d.ano }}</span>{{ d.titulo }}</li>{% endfor %}</ol>
+        {% endif %}
+      </section>
+      {% elif banda.integrantes.length %}
+      <h2>Formação</h2>
+      <ul class="lt-lista">{% for i in banda.integrantes %}<li><strong>{{ i.nome }}</strong> {{ i.funcao }}</li>{% endfor %}</ul>
+      {% endif %}
 
       <h2>Próximos shows</h2>
       {% if shows.length %}

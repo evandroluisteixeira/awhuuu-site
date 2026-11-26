@@ -25,10 +25,11 @@ descricao: Bandas e artistas do rock, das lendas à cena de Santa Catarina. Link
       {%- set nShows = (agenda.shows | futuros | showsDaBanda(b)).length %}
       {%- set img = b.foto or b.foto_url %}
       <li data-busca="{{ [b.nome, b.cidade, b.pais, b.estilos | join(' '), b.cena] | join(' ') | lower }}" data-cena="{{ b.cena }}" data-pais="{{ b.pais }}">
-        <a class="patch patch-{{ b.estilos | familiaEstilo }}{% if b.cena == 'cena local' %} patch-local{% endif %}{% if img %} com-foto{% endif %}" href="/bandas/{{ b.slug }}/">
+        <a class="patch patch-{{ b.estilos | familiaEstilo }}{% if b.cena == 'cena local' %} patch-local{% endif %}{% if img %} com-foto{% elif b.logo %} com-logo{% endif %}" href="/bandas/{{ b.slug }}/">
           {% if img %}<img class="patch-foto" src="{{ img }}" alt="" loading="lazy" referrerpolicy="no-referrer">{% endif %}
           {% if b.cena == 'cena local' %}<span class="patch-tag">cena local</span>{% endif %}
-          <strong>{{ b.nome }}</strong>
+          {% if b.logo and not img %}<span class="patch-logo fundo-{{ b.logo_fundo or 'escuro' }}"><img src="{{ b.logo }}" alt="" loading="lazy"></span>{% endif %}
+          <strong{% if b.logo and not img %} class="nome-pequeno"{% endif %}>{{ b.nome }}</strong>
           <span class="origem">{{ [b.cidade, b.pais, (b.inicio | string | truncate(4, true, ""))] | select | join(", ") }}</span>
           {% if nShows %}<span class="tem-show">{{ nShows }} show{% if nShows > 1 %}s{% endif %} na agenda</span>{% endif %}
         </a>

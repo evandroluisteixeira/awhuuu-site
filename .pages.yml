@@ -258,6 +258,27 @@ content:
           - { name: foto, label: Imagem de perfil (envie a imagem oficial), type: image, options: { path: src/img/bandas }, description: "Foto ou logotipo oficial, de divulgação da própria banda. Sem imagem, o site mostra um patch com o nome." }
           - { name: foto_url, label: Ou cole o link da imagem oficial, type: string, description: "Ex.: a foto de divulgação do site oficial. Use o link direto da imagem (termina em .jpg, .png ou .webp)." }
           - { name: foto_credito, label: Crédito da foto, type: string }
+          - { name: logo, label: Logotipo, type: image, options: { path: src/img/bandas/logos }, description: "Aparece no patch quando não há foto. Use o logo oficial ou um de licença livre." }
+          - { name: logo_fundo, label: Fundo do logotipo, type: string, description: "claro (para logo escuro) ou escuro (para logo claro ou colorido)." }
+          - { name: logo_fonte, label: Fonte do logotipo (link), type: string }
+          - { name: logo_licenca, label: Licença do logotipo, type: string }
+          - name: integrantes
+            label: Integrantes
+            description: "Viram barras na linha do tempo. Deixe Até vazio para quem ainda está na banda."
+            type: object
+            list: true
+            fields:
+              - { name: nome, label: Nome, type: string }
+              - { name: funcao, label: Função, type: string, description: "Ex.: voz, guitarra" }
+              - { name: desde, label: Desde (ano), type: string }
+              - { name: ate, label: Até (ano), type: string }
+          - name: discografia
+            label: Discos de estúdio
+            type: object
+            list: true
+            fields:
+              - { name: titulo, label: Título, type: string }
+              - { name: ano, label: Ano, type: string }
           - { name: nomes_na_agenda, label: Como o nome aparece na agenda, type: string, list: true, description: "Os shows da agenda com um destes nomes aparecem na página da banda." }
           - { name: musicbrainz, label: Código no MusicBrainz, type: string, description: "Com ele, os lançamentos aparecem sozinhos." }
           - { name: wikidata, label: Código no Wikidata, type: string }

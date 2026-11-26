@@ -127,6 +127,31 @@ export default function (eleventyConfig) {
     if (/grunge|alternative|indie|post-punk|gothic|new wave|shoegaze|noise/.test(t)) return "alt";
     return "rock";
   });
+  // linha do tempo da banda: barras dos integrantes e discos num mesmo eixo de anos
+  eleventyConfig.addFilter("linhaDoTempo", (b) => {
+    const ano = (v) => parseInt(String(v || "").slice(0, 4), 10) || null;
+    const hoje = new Date().getFullYear();
+    const mem = (b.integrantes || []).filter((i) => ano(i.desde));
+    const discos = (b.discografia || []).filter((d) => ano(d.ano));
+    const ini = Math.min(...[ano(b.inicio), ...mem.map((i) => ano(i.desde)), ...discos.map((d) => ano(d.ano))].filter(Boolean));
+    if (!isFinite(ini)) return null;
+    const fim = Math.max(ano(b.fim) || hoje, ...mem.map((i) => ano(i.ate) || 0), ...discos.map((d) => ano(d.ano)));
+    const total = fim - ini + 1;
+    const pos = (a) => ((a - ini) / total) * 100;
+    const marcas = [];
+    const passo = total > 45 ? 10 : total > 20 ? 5 : total > 8 ? 2 : 1;
+    for (let a = Math.ceil(ini / passo) * passo; a <= fim; a += passo) marcas.push({ ano: a, pos: pos(a) });
+    return {
+      ini, fim,
+      marcas,
+      membros: mem.map((i) => {
+        const d = ano(i.desde), a = ano(i.ate) || (ano(b.fim) || hoje);
+        return { nome: i.nome, funcao: i.funcao, esq: pos(d), larg: Math.max(((a - d + 1) / total) * 100, 1.2), periodo: d + (i.ate ? (ano(i.ate) === d ? "" : "–" + ano(i.ate)) : (b.fim ? "–" + ano(b.fim) : " até hoje")), atual: !i.ate && !b.fim };
+      }),
+      semData: (b.integrantes || []).filter((i) => !ano(i.desde)),
+      discos: discos.map((d) => ({ titulo: d.titulo, ano: ano(d.ano), pos: pos(ano(d.ano)) + 50 / total }))
+    };
+  });
   eleventyConfig.addFilter("hojeISO", () => new Date().toISOString().slice(0, 10));
   eleventyConfig.addFilter("casasAtivas", (casas) => ((casas && casas.casas) || []).filter((c) => c.ativa !== false));
 

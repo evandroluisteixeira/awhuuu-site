@@ -497,3 +497,35 @@ a.patch:focus-visible{outline-color:var(--sangue)}
 @media (max-width:760px){.jogo-cab{grid-template-columns:1fr;gap:20px;padding-top:32px}.jogo-cartaz{order:-1;transform:none;border-width:4px}.jogo-cartaz img{aspect-ratio:16/9}}
 @media (prefers-reduced-motion:reduce){.card-jogo,.jogo-cartaz{transition:none;transform:none}}
 .destaque .card-jogo img{object-position:50% 30%}
+/* logotipo dentro do patch */
+.patch-logo{display:flex;align-items:center;justify-content:center;padding:10px 12px;border-radius:6px;min-height:64px}
+.patch-logo img{display:block;max-width:100%;max-height:72px;width:auto;height:auto;object-fit:contain}
+.patch-logo.fundo-claro{background:var(--osso)}
+.patch-logo.fundo-escuro{background:rgba(0,0,0,.55)}
+.patch.com-logo{justify-content:flex-start;gap:10px}
+.patch .nome-pequeno{font-size:1rem}
+.patch.grande.com-logo{padding:34px 28px}
+.patch.grande .patch-logo{min-height:200px;padding:24px}
+.patch.grande .patch-logo img{max-height:180px}
+@media (max-width:640px){.patch-logo{min-height:48px;padding:8px}.patch-logo img{max-height:48px}.patch .nome-pequeno{font-size:.85rem}.patch.grande .patch-logo{min-height:120px}.patch.grande .patch-logo img{max-height:110px}}
+/* linha do tempo: integrantes e discos no mesmo eixo */
+.linha-tempo{margin:34px 0 10px}
+.lt-grade{position:relative;margin:22px 0 18px;padding-top:26px}
+.lt-eixo{position:absolute;left:var(--rotulo,170px);right:0;top:0;bottom:0;pointer-events:none}
+.lt-eixo span{position:absolute;top:0;bottom:0;font-size:.7rem;line-height:1;color:var(--cinza);border-left:1px dashed #34312e;padding-left:4px}
+.lt-linha{display:grid;grid-template-columns:var(--rotulo,170px) 1fr;align-items:center;min-height:34px;border-bottom:1px solid #1e1d1c}
+.lt-nome{font-size:.82rem;line-height:1.15;padding-right:10px;color:var(--osso)}
+.lt-nome small{display:block;font-size:.68rem;color:var(--cinza);margin-top:2px}
+.lt-trilho{position:relative;height:16px}
+.lt-barra{position:absolute;top:2px;height:12px;background:var(--sepia);border-radius:2px}
+.lt-linha.atual .lt-barra{background:var(--sangue)}
+.lt-discos .lt-trilho{height:22px}
+.lt-disco{position:absolute;top:3px;width:16px;height:16px;margin-left:-8px;border-radius:50%;background:radial-gradient(circle,var(--sangue) 0 22%,#050505 24% 100%);box-shadow:0 0 0 1px #3a3734}
+.lt-lista{list-style:none;padding:0;margin:0 0 18px;columns:2 240px;column-gap:28px}
+.lt-lista li{break-inside:avoid;padding:6px 0;border-bottom:1px solid #1e1d1c;font-size:.88rem;color:var(--cinza)}
+.lt-lista strong{color:var(--osso);font-weight:700;margin-right:6px}
+.lt-lista span{display:block;font-size:.74rem;color:var(--sepia)}
+.discografia{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:4px 24px;counter-reset:none}
+.discografia li{display:flex;gap:12px;align-items:baseline;padding:6px 0;border-bottom:1px solid #1e1d1c;font-size:.9rem}
+.discografia span{font:400 1.05rem var(--titulo);color:var(--sangue);min-width:3ch}
+@media (max-width:640px){.lt-grade{--rotulo:96px}.lt-nome{font-size:.7rem}.lt-nome small{display:none}.lt-eixo span{font-size:.6rem}}
