@@ -326,3 +326,6 @@ footer a{color:var(--cinza)}
 .casa .foto-show{aspect-ratio:16/7;background:radial-gradient(circle at 80% 20%,rgba(213,6,12,.28),transparent 55%),var(--noite)}
 .casa .sem-foto{color:var(--sepia);opacity:.55;font-size:44px}
 .casa .quando{text-transform:none}
+.casa .foto-show img.inteira{object-fit:contain;padding:18px 24px;background:var(--noite)}
+.casa-foto.inteira{background:var(--noite);border:1px solid var(--linha);padding:24px;text-align:center}
+.casa-foto.inteira img{width:auto;max-width:100%;max-height:200px;display:inline-block}

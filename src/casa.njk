@@ -26,10 +26,12 @@
 
   <div class="faixa casa-grade">
     <div>
-      {% if casa.foto %}
-      <figure class="casa-foto">
-        <img src="{{ casa.foto }}" alt="{{ casa.foto_alt or casa.nome }}">
-        {% if casa.credito %}<figcaption>{{ casa.credito }}</figcaption>{% endif %}
+      {%- set fotoCasa = casa.foto or casa.foto_url or previews[casa.pagina_foto] %}
+      {%- set creditoCasa = casa.credito or ("Divulgação" if (fotoCasa and not casa.foto and not casa.foto_url) else "") %}
+      {% if fotoCasa %}
+      <figure class="casa-foto{% if casa.foto_inteira %} inteira{% endif %}">
+        <img src="{{ fotoCasa }}" alt="{{ casa.foto_alt or ('Imagem de divulgação: ' + casa.nome) }}" referrerpolicy="no-referrer">
+        {% if creditoCasa %}<figcaption>{{ creditoCasa }}</figcaption>{% endif %}
       </figure>
       {% endif %}
       {% if casa.texto %}<p class="casa-texto">{{ casa.texto }}</p>{% endif %}

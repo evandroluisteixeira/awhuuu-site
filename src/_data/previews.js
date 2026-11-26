@@ -1,6 +1,7 @@
 // Busca, na hora do build, a imagem de divulgação que a própria página do evento publica
 // (a mesma prévia que aparece quando se cola o link no WhatsApp ou no Instagram).
 // Só para shows sem foto no CMS e com link para a página do evento (não para a home de um site).
+// Também para as casas de rock sem foto no CMS: aí vale a página oficial da casa (campo pagina_foto).
 import { readFile } from "node:fs/promises";
 
 const UA = "Mozilla/5.0 (compatible; AwhuuuBot/1.0; +https://awhuuu.com.br)";
@@ -27,7 +28,11 @@ function achaImagem(html, base) {
     }
   }
   if (!img) return null;
-  try { const u = new URL(img.replace(/&amp;/g, "&"), base); return u.protocol === "https:" ? u.href : null; } catch { return null; }
+  try {
+    const u = new URL(img.replace(/&amp;/g, "&"), base);
+    if (u.protocol === "http:") u.protocol = "https:"; // o site é https: imagem http não carregaria
+    return u.protocol === "https:" ? u.href : null;
+  } catch { return null; }
 }
 
 export default async function () {
@@ -39,6 +44,11 @@ export default async function () {
     .filter((s) => !s.cartaz && !s.cartaz_url && String(s.data || "").slice(0, 10) >= hoje)
     .map((s) => s.link_evento || s.link_ingresso)
     .filter((l) => l && paginaDeEvento(l)))];
+  let casas = [];
+  try { casas = JSON.parse(await readFile(new URL("./casas.json", import.meta.url), "utf8")).casas || []; } catch {}
+  for (const c of casas) {
+    if (c.ativa !== false && !c.foto && !c.foto_url && c.pagina_foto && !links.includes(c.pagina_foto)) links.push(c.pagina_foto);
+  }
   const out = {};
   await Promise.all(links.map(async (link) => {
     try {

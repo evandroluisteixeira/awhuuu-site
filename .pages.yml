@@ -210,6 +210,9 @@ content:
           - { name: instagram, label: Instagram (link), type: string }
           - { name: site, label: Site ou página de ingressos, type: string }
           - { name: foto, label: Foto, type: image, options: { path: src/img/casas } }
+          - { name: foto_url, label: Foto (ou cole o link da imagem), type: string }
+          - { name: pagina_foto, label: Página oficial de onde vem a foto automática, type: string, description: "Sem foto acima, o site usa a imagem de divulgação que esta página publica (a mesma que aparece ao colar o link no WhatsApp). Instagram não funciona: use o site da casa." }
+          - { name: foto_inteira, label: Mostrar a imagem inteira (bom para logotipos), type: boolean }
           - { name: foto_alt, label: Descrição da foto (para leitores de tela), type: string }
           - { name: credito, label: Crédito da foto, type: string }
           - { name: nomes_na_agenda, label: Como o nome aparece na agenda, type: string, list: true, description: "Os shows da agenda cujo local contém um destes nomes aparecem na página da casa." }

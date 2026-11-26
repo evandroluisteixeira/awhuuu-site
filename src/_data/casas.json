@@ -15,12 +15,18 @@
       "aproximado": false,
       "estilos": "metal, punk, tributos, rock autoral",
       "texto": "Casa do bairro João Paulo tocada pela Célula Cultural. A programação vai de tributos a noites de metal extremo, como a turnê Verão do Caos, e de festivais de bandas locais a showcases autorais.",
-      "instagram": "",
+      "instagram": "https://www.instagram.com/celulashowcase/",
       "site": "",
       "foto": "",
+      "foto_url": "",
+      "pagina_foto": "",
+      "foto_inteira": false,
       "foto_alt": "",
       "credito": "",
-      "nomes_na_agenda": ["Célula Showcase", "Célula"],
+      "nomes_na_agenda": [
+        "Célula Showcase",
+        "Célula"
+      ],
       "ativa": true
     },
     {
@@ -36,12 +42,17 @@
       "aproximado": true,
       "estilos": "independente, punk, indie",
       "texto": "Palco no Centro de Florianópolis onde passam bandas independentes e as noites de coletivos da cena, como as da Birra.",
-      "instagram": "",
+      "instagram": "https://www.instagram.com/desgostobar/",
       "site": "",
       "foto": "",
+      "foto_url": "",
+      "pagina_foto": "",
+      "foto_inteira": false,
       "foto_alt": "",
       "credito": "",
-      "nomes_na_agenda": ["Desgosto"],
+      "nomes_na_agenda": [
+        "Desgosto"
+      ],
       "ativa": true
     },
     {
@@ -57,12 +68,18 @@
       "aproximado": true,
       "estilos": "rock autoral, emo, indie",
       "texto": "Pub no Centro de Florianópolis com noites de bandas autorais da cena local e de fora.",
-      "instagram": "",
+      "instagram": "https://www.instagram.com/the_frostbier_pub/",
       "site": "",
       "foto": "",
+      "foto_url": "",
+      "pagina_foto": "",
+      "foto_inteira": false,
       "foto_alt": "",
       "credito": "",
-      "nomes_na_agenda": ["Frostbier", "The Frostbier Pub"],
+      "nomes_na_agenda": [
+        "Frostbier",
+        "The Frostbier Pub"
+      ],
       "ativa": true
     },
     {
@@ -78,12 +95,18 @@
       "aproximado": true,
       "estilos": "indie rock, rock alternativo",
       "texto": "Pub no calçadão da João Pinto, no Centro, que recebe noites de indie e rock alternativo com bandas da cena brasileira.",
-      "instagram": "",
+      "instagram": "https://www.instagram.com/brocavepub/",
       "site": "",
       "foto": "",
+      "foto_url": "",
+      "pagina_foto": "",
+      "foto_inteira": false,
       "foto_alt": "",
       "credito": "",
-      "nomes_na_agenda": ["Bro Cave", "Brocave"],
+      "nomes_na_agenda": [
+        "Bro Cave",
+        "Brocave"
+      ],
       "ativa": true
     },
     {
@@ -99,12 +122,17 @@
       "aproximado": false,
       "estilos": "pop rock, noites temáticas",
       "texto": "Pub na Avenida das Rendeiras, na Lagoa da Conceição, com shows e noites temáticas.",
-      "instagram": "",
-      "site": "",
+      "instagram": "https://www.instagram.com/johnbullfloripa/",
+      "site": "https://johnbullfloripa.com.br/",
       "foto": "",
+      "foto_url": "",
+      "pagina_foto": "https://johnbullfloripa.com.br/",
+      "foto_inteira": false,
       "foto_alt": "",
       "credito": "",
-      "nomes_na_agenda": ["John Bull"],
+      "nomes_na_agenda": [
+        "John Bull"
+      ],
       "ativa": true
     },
     {
@@ -123,9 +151,14 @@
       "instagram": "https://www.instagram.com/bobrockfestival/",
       "site": "",
       "foto": "",
+      "foto_url": "",
+      "pagina_foto": "",
+      "foto_inteira": false,
       "foto_alt": "",
       "credito": "",
-      "nomes_na_agenda": ["Bob Rock"],
+      "nomes_na_agenda": [
+        "Bob Rock"
+      ],
       "ativa": true
     },
     {
@@ -141,12 +174,18 @@
       "aproximado": true,
       "estilos": "turnês nacionais de rock (e de outros estilos)",
       "texto": "Complexo de shows de quase 60 mil m² em Balneário Camboriú. Não é casa só de rock, mas é por onde passam as grandes turnês do rock nacional no litoral de SC.",
-      "instagram": "",
-      "site": "",
+      "instagram": "https://www.instagram.com/musicparkbc/",
+      "site": "https://musicparkbc.com.br/",
       "foto": "",
+      "foto_url": "",
+      "pagina_foto": "https://musicparkbc.com.br/",
+      "foto_inteira": true,
       "foto_alt": "",
       "credito": "",
-      "nomes_na_agenda": ["Music Park BC", "Music Park"],
+      "nomes_na_agenda": [
+        "Music Park BC",
+        "Music Park"
+      ],
       "ativa": true
     },
     {
@@ -162,12 +201,18 @@
       "aproximado": true,
       "estilos": "rock alternativo, hardcore, metal, rock nacional",
       "texto": "Casa no Centro de Balneário Camboriú que já recebeu de Terno Rei e Dance of Days a noites de metal gótico e de rock nacional.",
-      "instagram": "",
+      "instagram": "https://www.instagram.com/bunker.663/",
       "site": "",
       "foto": "",
+      "foto_url": "",
+      "pagina_foto": "",
+      "foto_inteira": false,
       "foto_alt": "",
       "credito": "",
-      "nomes_na_agenda": ["Bunker 663", "The Bunker"],
+      "nomes_na_agenda": [
+        "Bunker 663",
+        "The Bunker"
+      ],
       "ativa": true
     },
     {
@@ -183,12 +228,17 @@
       "aproximado": true,
       "estilos": "rock, pop rock, bandas cover",
       "texto": "Rock bar aberto desde 1996 na Praia dos Amores, com bandas ao vivo de quarta a sábado.",
-      "instagram": "",
-      "site": "https://www.sympla.com.br/produtor/tribusbarbc",
+      "instagram": "https://www.instagram.com/tribusbarbc/",
+      "site": "https://www.tribusbar.com.br/",
       "foto": "",
+      "foto_url": "https://www.tribusbar.com.br/wp-content/themes/tribus-uebi/imagens/jpg/twitter-og.jpg",
+      "pagina_foto": "https://www.tribusbar.com.br/",
+      "foto_inteira": true,
       "foto_alt": "",
-      "credito": "",
-      "nomes_na_agenda": ["Tribus"],
+      "credito": "Divulgação",
+      "nomes_na_agenda": [
+        "Tribus"
+      ],
       "ativa": true
     },
     {
@@ -204,12 +254,19 @@
       "aproximado": false,
       "estilos": "metal, punk, hard rock, classic rock, tributos",
       "texto": "Ponto de encontro do rock em Curitiba, com palco, lojas e estúdio de tatuagem. Já recebeu nomes como Amon Amarth, Sebastian Bach e Lacuna Coil.",
-      "instagram": "",
-      "site": "",
+      "instagram": "https://www.instagram.com/torkandroll/",
+      "site": "https://torkandroll.com.br/",
       "foto": "",
+      "foto_url": "",
+      "pagina_foto": "https://torkandroll.com.br/",
+      "foto_inteira": true,
       "foto_alt": "",
       "credito": "",
-      "nomes_na_agenda": ["Tork n Roll", "Tork n' Roll", "Tork 'n' Roll"],
+      "nomes_na_agenda": [
+        "Tork n Roll",
+        "Tork n' Roll",
+        "Tork 'n' Roll"
+      ],
       "ativa": true
     }
   ]

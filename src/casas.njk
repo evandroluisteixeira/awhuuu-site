@@ -34,7 +34,9 @@ descricao: "Bares, porões e casas de show onde o rock acontece em Santa Catarin
       {%- set n = (proximos | showsDaCasa(c)).length %}
       <li class="show casa" data-i="{{ loop.index0 }}" data-cidade="{{ c.cidade }}" data-busca="{{ c.nome }} {{ c.endereco }} {{ c.estilos }} {{ c.tipo }}">
         <a class="foto-show" href="/casas/{{ c.slug }}/" tabindex="-1" aria-hidden="true">
-          {% if c.foto %}<img src="{{ c.foto }}" alt="" loading="lazy">{% if c.credito %}<span class="credito">{{ c.credito }}</span>{% endif %}
+          {%- set fotoCasa = c.foto or c.foto_url or previews[c.pagina_foto] %}
+          {%- set creditoCasa = c.credito or ("Divulgação" if (fotoCasa and not c.foto and not c.foto_url) else "") %}
+          {% if fotoCasa %}<img src="{{ fotoCasa }}" alt="" loading="lazy" referrerpolicy="no-referrer"{% if c.foto_inteira %} class="inteira"{% endif %}>{% if creditoCasa %}<span class="credito">{{ creditoCasa }}</span>{% endif %}
           {% else %}<span class="sem-foto">{{ c.nome }}</span>{% endif %}
         </a>
         <div class="info-show">
