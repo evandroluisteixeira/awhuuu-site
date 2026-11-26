@@ -345,6 +345,15 @@ footer a{color:var(--cinza)}
 .yt-lite span{width:72px;height:72px;border-radius:50%;background:var(--sangue);color:var(--osso);display:grid;place-items:center;font-size:28px;box-shadow:0 0 24px rgba(213,6,12,.6)}
 .yt-lite:hover span{transform:scale(1.08)}
 .grade-videos{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px;margin:16px 0}
+.sub-canal{font-family:var(--titulo);font-weight:400;font-size:26px;margin:28px 0 4px}.sub-canal span{color:var(--apagado);font-size:18px}
+.grade-playlists{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:20px;margin:16px 0}
+.playlist{display:flex;flex-direction:column;gap:6px;text-decoration:none;color:var(--osso)}
+.playlist .capa{position:relative;aspect-ratio:16/9;overflow:hidden;background:#151514;border:1px solid var(--linha)}
+.playlist img{width:100%;height:100%;object-fit:cover;filter:saturate(.9);transition:transform .5s ease}
+.playlist:hover img{transform:scale(1.04)}
+.playlist .faixas{position:absolute;right:0;bottom:0;background:rgba(10,10,9,.85);color:var(--osso);font-size:12px;padding:3px 8px;font-family:var(--mono,monospace)}
+.playlist .nome{font-size:16px;line-height:1.25}
+.playlist .obs{font-size:13px;color:var(--sangue)}
 .grade-videos figure{margin:0}.grade-videos figcaption{color:var(--cinza);font-size:14px;margin-top:6px}
 .videos{margin:40px 0}
 .tiktok-embed,.instagram-media{margin:16px 0 !important}

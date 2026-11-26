@@ -263,6 +263,22 @@ export default function (eleventyConfig) {
   );
   eleventyConfig.addFilter("dataISO", (d) => new Date(d).toISOString());
   eleventyConfig.addFilter("limite", (arr, n) => (arr || []).slice(0, n));
+
+  // playlists do canal na ordem da home: as das matérias já no ar (mais nova primeiro),
+  // depois as avulsas (cartas, especiais), depois as das matérias que ainda vão sair
+  eleventyConfig.addFilter("playlistsDaHome", (playlists, materias) => {
+    const noAr = new Map((materias || []).filter((m) => m.data.youtube_playlist).map((m) => [m.data.youtube_playlist, m]));
+    const lista = (playlists || []).map((p, i) => {
+      const m = noAr.get(p.id);
+      if (m) return { ...p, url_materia: m.url, grupo: 0, ordem: -m.date.getTime() };
+      if (p.data_materia && new Date(p.data_materia) > new Date()) return { ...p, em_breve: true, grupo: 2, ordem: new Date(p.data_materia).getTime() };
+      return { ...p, grupo: 1, ordem: i };
+    });
+    return lista.sort((a, b) => a.grupo - b.grupo || a.ordem - b.ordem);
+  });
+  eleventyConfig.addFilter("diaMes", (d) =>
+    new Date(d).toLocaleDateString("pt-BR", { day: "2-digit", month: "2-digit", timeZone: "America/Sao_Paulo" })
+  );
   eleventyConfig.addFilter("absoluta", (url, base) => new URL(url, base).href);
 
   return {

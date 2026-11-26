@@ -39,9 +39,13 @@
   "youtube": {
     "mostrar": true,
     "titulo": "No canal",
-    "texto": "Os vídeos mais novos do canal do lobo.",
+    "texto": "Os vídeos e as playlists do canal do lobo. Cada matéria de música ganha a sua.",
     "canal_id": "UCXIneTLfn7ZVEI1UjPI5Gpg",
     "quantos": 4,
-    "playlist_reserva": "PLWFVBrzM-44o"
+    "playlist_reserva": "PLWFVBrzM-44o",
+    "titulo_playlists": "Playlists",
+    "quantas_playlists": 8,
+    "playlists_extras": [],
+    "playlists_ocultas": []
   }
 }

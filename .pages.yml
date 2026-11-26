@@ -606,6 +606,21 @@ content:
           - { name: canal_id, label: Código do canal (começa com UC), type: string }
           - { name: quantos, label: Quantos vídeos mostrar, type: number }
           - { name: playlist_reserva, label: Playlist mostrada enquanto o canal não tem vídeos, type: string }
+          - { name: titulo_playlists, label: Título do bloco de playlists, type: string }
+          - { name: quantas_playlists, label: Quantas playlists mostrar na home, type: number }
+          - name: playlists_extras
+            label: Playlists a mais
+            description: "As playlists da aba Playlists do canal e as das matérias entram sozinhas. Use aqui só para pôr uma que não apareceu, ou para trocar o título que o site mostra."
+            type: object
+            list: true
+            fields:
+              - { name: id, label: Código da playlist (depois de list=), type: string }
+              - { name: titulo, label: Título no site (opcional), type: string }
+          - name: playlists_ocultas
+            label: Playlists que não devem aparecer
+            description: O código da playlist (depois de list=).
+            type: string
+            list: true
       - { name: afiliados_ativos, label: Mostrar os Achados (afiliados), type: boolean }
       - { name: aviso_afiliados, label: Aviso de afiliados, type: text }
       - name: analytics

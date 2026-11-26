@@ -29,7 +29,7 @@ layout: base.njk
 </section>
 {% endif %}
 
-{% if site.youtube and site.youtube.mostrar and (youtube.videos.length or site.youtube.playlist_reserva) %}
+{% if site.youtube and site.youtube.mostrar and (youtube.videos.length or youtube.playlists.length or site.youtube.playlist_reserva) %}
 <section class="secao" aria-labelledby="titulo-canal">
   <div class="faixa">
     <p class="rotulo">YouTube</p>
@@ -44,10 +44,23 @@ layout: base.njk
       </figure>
       {% endfor %}
     </div>
-    {% else %}
+    {% elif not youtube.playlists.length %}
     <div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list={{ site.youtube.playlist_reserva }}" title="Playlist no YouTube" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
     {% endif %}
-    <p class="botoes"><a class="botao contorno" href="https://www.youtube.com/@awhuuurock" target="_blank" rel="noopener">Inscreva-se no canal</a></p>
+    {% if youtube.playlists.length %}
+    {% set pls = youtube.playlists | playlistsDaHome(collections.materias) %}
+    <h3 class="sub-canal">{{ site.youtube.titulo_playlists or "Playlists" }} <span>({{ pls.length }})</span></h3>
+    <div class="grade-playlists">
+      {% for p in pls | limite(site.youtube.quantas_playlists or 8) %}
+      <a class="playlist" href="{{ p.url_materia or ('https://www.youtube.com/playlist?list=' + p.id) }}"{% if not p.url_materia %} target="_blank" rel="noopener"{% endif %}>
+        <span class="capa">{% if p.capa %}<img src="{{ p.capa }}" alt="" loading="lazy" width="480" height="360">{% endif %}<span class="faixas">{{ p.faixas }} faixas</span></span>
+        <span class="nome">{{ p.titulo }}</span>
+        {% if p.url_materia %}<span class="obs">Leia a matéria e ouça</span>{% elif p.em_breve %}<span class="obs">Matéria chega em {{ p.data_materia | diaMes }}</span>{% else %}<span class="obs">Ouça no YouTube</span>{% endif %}
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+    <p class="botoes"><a class="botao contorno" href="https://www.youtube.com/@awhuuurock" target="_blank" rel="noopener">Inscreva-se no canal</a> <a class="botao contorno" href="https://www.youtube.com/@awhuuurock/playlists" target="_blank" rel="noopener">Todas as playlists</a></p>
   </div>
 </section>
 {% endif %}
