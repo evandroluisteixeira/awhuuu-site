@@ -14,4 +14,4 @@ window.CAPAS={{ capas | dump | safe }};
 window.COPA_DB={{ {url: f.supabase_url, chave: f.chave_publica} | dump | safe }};
 window.FICHAS={{ bandas | bandasAtivas | dump | safe }}.reduce(function(o,b){o[b.nome.toLowerCase()]=b.slug;return o;},{});
 </script>
-<script src="/js/copa.js"></script>
+<script src="/js/copa.js?v={{ versao }}"></script>

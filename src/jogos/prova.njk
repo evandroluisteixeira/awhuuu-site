@@ -18,7 +18,7 @@ descricao: Cinco perguntas sobre as matérias da semana do Awhuuu!. Toda semana 
 </section>
 {% if prova %}
 <script>window.PROVA={{ prova | dump | safe }};window.MATS={{ collections.materias | mapaMaterias | dump | safe }};</script>
-<script src="/js/cartao.js"></script>
+<script src="/js/cartao.js?v={{ versao }}"></script>
 <script>
 (function(){
   var P=window.PROVA, box=document.getElementById('pq'), i=0, certas=0;
