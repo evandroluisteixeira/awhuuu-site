@@ -243,6 +243,16 @@ content:
           - { name: url, label: Endereço, type: string, description: "Do site (ex.: /agenda/) ou de fora (https://...)" }
           - { name: destaque, label: Botão em destaque (vermelho), type: boolean }
 
+  - name: pra-quem
+    label: Página "Pra quem é o Awhuuu!"
+    type: file
+    path: src/pra-quem.md
+    fields:
+      - { name: title, label: Título, type: string }
+      - { name: rotulo, label: Rótulo acima do título, type: string }
+      - { name: descricao, label: Descrição para o Google, type: text }
+      - { name: body, label: Texto, type: rich-text }
+
   - name: clube
     label: Clube (assinaturas e caixas)
     type: file

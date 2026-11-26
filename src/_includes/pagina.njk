@@ -1,0 +1,10 @@
+---
+layout: base.njk
+---
+<section class="secao" style="border-top:0">
+  <div class="faixa texto-corrido" style="max-width:68ch">
+    {% if rotulo %}<p class="rotulo">{{ rotulo }}</p>{% endif %}
+    <h1 class="titulo-pag">{{ title }}</h1>
+    {{ content | safe }}
+  </div>
+</section>
