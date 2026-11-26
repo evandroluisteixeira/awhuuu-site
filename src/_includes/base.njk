@@ -43,6 +43,7 @@
       <a href="/materias/"{% if page.url == "/materias/" %} aria-current="page"{% endif %}>Matérias</a>
       <a href="/#editorias">Editorias</a>
       <a href="/agenda/"{% if page.url == "/agenda/" %} aria-current="page"{% endif %}>Agenda</a>
+      <a href="/casas/"{% if (page.url or "") is string and "/casas/" in (page.url or "") %} aria-current="page"{% endif %}>Casas</a>
       <a href="/mapa/"{% if page.url == "/mapa/" %} aria-current="page"{% endif %}>Mapa</a>
       <a href="/clube/"{% if page.url == "/clube/" %} aria-current="page"{% endif %}>Clube</a>
     </nav>

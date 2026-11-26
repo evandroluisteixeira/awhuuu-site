@@ -10,7 +10,7 @@ descricao: "Os lugares das histórias do Awhuuu!: clubes, palcos e esquinas onde
 <header class="cab-mapa faixa">
   <p class="rotulo">Rota 666</p>
   <h1>Mapa do rock</h1>
-  <p>Cada pino é um lugar onde o rock aconteceu e virou matéria aqui. Clube, palco, estrada, esquina. O mapa cresce a cada história publicada.</p>
+  <p>Cada pino numerado é um lugar onde o rock aconteceu e virou matéria aqui. Os pinos com nota musical são as <a href="/casas/">casas de rock</a> de hoje, com os próximos shows.</p>
 </header>
 
 <div class="mapa-moldura">
@@ -47,6 +47,7 @@ descricao: "Os lugares das histórias do Awhuuu!: clubes, palcos e esquinas onde
 <script>
 (function () {
   var lugares = {{ lugares | dump | safe }};
+  var casasRock = {{ casas | casasAtivas | dump | safe }};
   var mapa = L.map('mapa', { scrollWheelZoom: false, worldCopyJump: true }).setView([10, -30], 2);
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18,
@@ -73,6 +74,15 @@ descricao: "Os lugares das histórias do Awhuuu!: clubes, palcos e esquinas onde
     var a = document.createElement('a'); a.href = l.url; a.textContent = 'Ler a matéria →';
     caixa.appendChild(a);
     return L.marker([l.lat, l.lng], { icon: icone, title: l.nome }).addTo(mapa).bindPopup(caixa);
+  });
+
+  var pinosCasas = casasRock.filter(function (c) { return c.lat !== '' && c.lat != null; }).map(function (c) {
+    var caixa = document.createElement('div'); caixa.className = 'balao';
+    var ed = document.createElement('p'); ed.className = 'ed'; ed.textContent = 'Casa de rock · ' + c.cidade;
+    var h = document.createElement('h3'); h.textContent = c.nome;
+    var a = document.createElement('a'); a.href = '/casas/' + c.slug + '/'; a.textContent = 'Ver a casa e os shows →';
+    [ed, h, a].forEach(function (x) { caixa.appendChild(x); });
+    return L.marker([+c.lat, +c.lng], { icon: L.divIcon({ className: 'pino casa', html: '<span>♪</span>', iconSize: [34, 34], iconAnchor: [17, 17], popupAnchor: [0, -18] }), title: c.nome }).addTo(mapa).bindPopup(caixa);
   });
 
   if (pinos.length === 1) {

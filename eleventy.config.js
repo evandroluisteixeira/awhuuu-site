@@ -61,6 +61,23 @@ export default function (eleventyConfig) {
       .filter((s) => s.data && String(s.data).slice(0, 10) >= hoje)
       .sort((a, b) => (b.destaque ? 1 : 0) - (a.destaque ? 1 : 0) || String(a.data).localeCompare(String(b.data)));
   });
+  // casas de rock: liga o "local" de cada show à casa cadastrada (sem acento, sem caixa)
+  const norm = (t) => String(t || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+  const casaBate = (casa, local) => {
+    const l = norm(local);
+    if (!l) return false;
+    return [casa.nome, ...(casa.nomes_na_agenda || [])].some((n) => norm(n) && l.includes(norm(n)));
+  };
+  eleventyConfig.addFilter("casaDoLocal", (local, casas) =>
+    ((casas && casas.casas) || []).find((c) => c.ativa !== false && casaBate(c, local)) || null
+  );
+  eleventyConfig.addFilter("showsDaCasa", (shows, casa) => (shows || []).filter((s) => casaBate(casa, s.local)));
+  eleventyConfig.addFilter("mapsLink", (casa) =>
+    "https://www.google.com/maps/search/?api=1&query=" +
+      encodeURIComponent([casa.nome, String(casa.endereco || "").replace(/ · /g, ", ")].filter(Boolean).join(", "))
+  );
+  eleventyConfig.addFilter("casasAtivas", (casas) => ((casas && casas.casas) || []).filter((c) => c.ativa !== false));
+
   eleventyConfig.addFilter("diaShow", (d) => {
     const dt = new Date(String(d).slice(0, 10) + "T12:00:00Z");
     return dt.toLocaleDateString("pt-BR", { weekday: "short", day: "2-digit", month: "short", timeZone: "UTC" });

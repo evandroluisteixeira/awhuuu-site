@@ -182,6 +182,39 @@ content:
           - { name: destaque, label: Em destaque (pacote pago), type: boolean }
           - { name: publicidade, label: Marcar como publicidade, type: boolean }
 
+  - name: casas
+    label: Casas de rock
+    type: file
+    path: src/_data/casas.json
+    fields:
+      - { name: chamada, label: Texto de abertura, type: text }
+      - { name: aviso_vazio, label: Texto quando o filtro não acha nada, type: text }
+      - name: casas
+        label: Casas
+        description: "Arraste para mudar a ordem. Para tirar uma casa do site sem apagar, desmarque Ativa."
+        type: object
+        list: true
+        fields:
+          - { name: nome, label: Nome, type: string }
+          - { name: slug, label: Endereço da página (sem acento nem espaço), type: string, description: "Ex.: celula-showcase. A página fica em /casas/celula-showcase/" }
+          - { name: tipo, label: Tipo, type: string, description: "Escreva livre. Ex.: Casa de shows, Bar com palco, Pub, Porão" }
+          - { name: cidade, label: Cidade, type: string }
+          - { name: estado, label: Estado ou região, type: string }
+          - { name: pais, label: País, type: string }
+          - { name: endereco, label: Endereço, type: string, description: "É ele que o botão do Google Maps usa para a rota." }
+          - { name: lat, label: Latitude (pino no mapa), type: number, description: "No Google Maps, clique com o botão direito no lugar: o primeiro número é a latitude." }
+          - { name: lng, label: Longitude (pino no mapa), type: number, description: "O segundo número." }
+          - { name: aproximado, label: Pino aproximado, type: boolean }
+          - { name: estilos, label: Estilos, type: string, description: "Escreva livre. Ex.: metal, punk, tributos" }
+          - { name: texto, label: Texto curto, type: text }
+          - { name: instagram, label: Instagram (link), type: string }
+          - { name: site, label: Site ou página de ingressos, type: string }
+          - { name: foto, label: Foto, type: image, options: { path: src/img/casas } }
+          - { name: foto_alt, label: Descrição da foto (para leitores de tela), type: string }
+          - { name: credito, label: Crédito da foto, type: string }
+          - { name: nomes_na_agenda, label: Como o nome aparece na agenda, type: string, list: true, description: "Os shows da agenda cujo local contém um destes nomes aparecem na página da casa." }
+          - { name: ativa, label: Ativa (aparece no site), type: boolean }
+
   - name: clube
     label: Clube (assinaturas e caixas)
     type: file

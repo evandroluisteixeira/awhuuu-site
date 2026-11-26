@@ -1,0 +1,109 @@
+---
+layout: base.njk
+permalink: /casas/
+title: "Casas de rock"
+descricao: "Bares, porões e casas de show onde o rock acontece em Santa Catarina e arredores: endereço, rota no Google Maps e os próximos shows."
+---
+{%- set lista = casas | casasAtivas %}
+{%- set proximos = agenda.shows | futuros %}
+<link rel="stylesheet" href="/vendor/leaflet/leaflet.css">
+
+<header class="cab-mapa faixa">
+  <p class="rotulo">A cena</p>
+  <h1>Casas de rock</h1>
+  <p>{{ casas.chamada }}</p>
+</header>
+
+<div class="mapa-moldura">
+  <div id="mapa" class="mapa" role="region" aria-label="Mapa das casas de rock"></div>
+</div>
+
+<section class="secao" style="border-top:0">
+  <div class="faixa">
+    <form class="filtro" id="filtro-casas" onsubmit="return false">
+      <label>Cidade
+        <select id="f-cidade"><option value="">Todas</option></select>
+      </label>
+      <label>Procurar
+        <input type="search" id="f-busca" placeholder="nome, bairro, estilo">
+      </label>
+    </form>
+
+    <ol class="agenda casas-lista" id="lista-casas">
+      {% for c in lista %}
+      {%- set n = (proximos | showsDaCasa(c)).length %}
+      <li class="show casa" data-i="{{ loop.index0 }}" data-cidade="{{ c.cidade }}" data-busca="{{ c.nome }} {{ c.endereco }} {{ c.estilos }} {{ c.tipo }}">
+        <a class="foto-show" href="/casas/{{ c.slug }}/" tabindex="-1" aria-hidden="true">
+          {% if c.foto %}<img src="{{ c.foto }}" alt="" loading="lazy">{% if c.credito %}<span class="credito">{{ c.credito }}</span>{% endif %}
+          {% else %}<span class="sem-foto">{{ c.nome }}</span>{% endif %}
+        </a>
+        <div class="info-show">
+          <p class="quando">{{ c.tipo }}{% if c.tipo and c.cidade %} · {% endif %}{{ c.cidade }}</p>
+          <h2><a href="/casas/{{ c.slug }}/">{{ c.nome }}</a></h2>
+          {% if c.estilos %}<p class="onde">{{ c.estilos }}</p>{% endif %}
+          {% if c.texto %}<p>{{ c.texto }}</p>{% endif %}
+          {% if n %}<p class="selo-shows">{{ n }} {{ "show" if n == 1 else "shows" }} na agenda</p>{% endif %}
+          <p class="botoes">
+            <a class="botao" href="/casas/{{ c.slug }}/">Ver a casa</a>
+            <a class="botao contorno" href="{{ c | mapsLink }}" target="_blank" rel="noopener">Rota no Google Maps</a>
+          </p>
+        </div>
+      </li>
+      {% endfor %}
+    </ol>
+    <p class="vazio" id="vazio-casas" hidden>{{ casas.aviso_vazio }}</p>
+    <p style="margin-top:32px">Conhece uma casa de rock que falta aqui? <a href="https://ig.me/m/awhuuu.rock" target="_blank" rel="noopener">Manda pelo direct</a>.</p>
+  </div>
+</section>
+
+<script src="/vendor/leaflet/leaflet.js"></script>
+<script>
+(function () {
+  var casas = {{ lista | dump | safe }};
+  var mapa = L.map('mapa', { scrollWheelZoom: false }).setView([-27.2, -49], 7);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(mapa);
+  mapa.on('click', function () { mapa.scrollWheelZoom.enable(); });
+
+  var pinos = casas.map(function (c) {
+    if (c.lat == null || c.lng == null || c.lat === '' || c.lng === '') return null;
+    var icone = L.divIcon({ className: 'pino casa' + (c.aproximado ? ' aprox' : ''), html: '<span>♪</span>', iconSize: [34, 34], iconAnchor: [17, 17], popupAnchor: [0, -18] });
+    var caixa = document.createElement('div'); caixa.className = 'balao';
+    var ed = document.createElement('p'); ed.className = 'ed'; ed.textContent = [c.tipo, c.cidade].filter(Boolean).join(' · ');
+    var h = document.createElement('h3'); h.textContent = c.nome;
+    var e = document.createElement('p'); e.className = 'end'; e.textContent = (c.endereco || '') + (c.aproximado ? ' · pino aproximado' : '');
+    var a = document.createElement('a'); a.href = '/casas/' + c.slug + '/'; a.textContent = 'Ver a casa →';
+    [ed, h, e, a].forEach(function (x) { caixa.appendChild(x); });
+    return L.marker([+c.lat, +c.lng], { icon: icone, title: c.nome }).addTo(mapa).bindPopup(caixa);
+  });
+  var validos = pinos.filter(Boolean);
+  if (validos.length > 1) mapa.fitBounds(L.featureGroup(validos).getBounds(), { padding: [40, 40], maxZoom: 12 });
+
+  // filtro por cidade e busca livre; lembra a última cidade escolhida
+  var itens = [].slice.call(document.querySelectorAll('#lista-casas .casa'));
+  var selCidade = document.getElementById('f-cidade'), busca = document.getElementById('f-busca');
+  var cidades = {}; itens.forEach(function (li) { if (li.dataset.cidade) cidades[li.dataset.cidade] = 1; });
+  Object.keys(cidades).sort().forEach(function (c) { var o = document.createElement('option'); o.value = o.textContent = c; selCidade.appendChild(o); });
+  var CHAVE = 'awhuuu-casas';
+  try { var salvo = localStorage.getItem(CHAVE); if (salvo && cidades[salvo]) selCidade.value = salvo; } catch (e) {}
+  function sem(t) { return String(t || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
+  function aplicar() {
+    var cid = selCidade.value, q = sem(busca.value), vis = [];
+    itens.forEach(function (li) {
+      var ok = (!cid || li.dataset.cidade === cid) && (!q || sem(li.dataset.busca + ' ' + li.dataset.cidade).indexOf(q) > -1);
+      li.hidden = !ok;
+      var p = pinos[+li.dataset.i];
+      if (p) { if (ok) { p.addTo(mapa); vis.push(p); } else { mapa.removeLayer(p); } }
+    });
+    document.getElementById('vazio-casas').hidden = vis.length > 0 || itens.some(function (li) { return !li.hidden; });
+    if (vis.length > 1) mapa.fitBounds(L.featureGroup(vis).getBounds(), { padding: [40, 40], maxZoom: 13 });
+    else if (vis.length === 1) mapa.setView(vis[0].getLatLng(), 14);
+    try { localStorage.setItem(CHAVE, cid); } catch (e) {}
+  }
+  selCidade.addEventListener('change', aplicar);
+  busca.addEventListener('input', aplicar);
+  if (selCidade.value) aplicar();
+})();
+</script>

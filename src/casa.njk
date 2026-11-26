@@ -1,0 +1,79 @@
+---js
+{
+  layout: "base.njk",
+  pagination: {
+    data: "casas.casas",
+    size: 1,
+    alias: "casa",
+    before: (lista) => lista.filter((c) => c.ativa !== false && c.slug)
+  },
+  permalink: (data) => `/casas/${data.casa.slug}/`,
+  eleventyComputed: {
+    title: (data) => `${data.casa.nome}: casa de rock em ${data.casa.cidade}`,
+    descricao: (data) => data.casa.texto || `${data.casa.nome}, ${data.casa.cidade}: endereço, rota e próximos shows.`
+  }
+}
+---
+{%- set shows = agenda.shows | futuros | showsDaCasa(casa) %}
+<link rel="stylesheet" href="/vendor/leaflet/leaflet.css">
+
+<article class="casa-pagina">
+  <header class="faixa cab-casa">
+    <p class="rotulo"><a href="/casas/">Casas de rock</a> · {{ casa.cidade }}{% if casa.estado %} ({{ casa.estado }}){% endif %}</p>
+    <h1>{{ casa.nome }}</h1>
+    {% if casa.tipo or casa.estilos %}<p class="linha-fina">{{ casa.tipo }}{% if casa.tipo and casa.estilos %} · {% endif %}{{ casa.estilos }}</p>{% endif %}
+  </header>
+
+  <div class="faixa casa-grade">
+    <div>
+      {% if casa.foto %}
+      <figure class="casa-foto">
+        <img src="{{ casa.foto }}" alt="{{ casa.foto_alt or casa.nome }}">
+        {% if casa.credito %}<figcaption>{{ casa.credito }}</figcaption>{% endif %}
+      </figure>
+      {% endif %}
+      {% if casa.texto %}<p class="casa-texto">{{ casa.texto }}</p>{% endif %}
+
+      <h2>Próximos shows</h2>
+      {% if shows.length %}
+      <ol class="casa-shows">
+        {% for s in shows %}
+        <li>
+          <p class="quando"><time datetime="{{ s.data }}">{{ s.data | diaShow }}</time>{% if s.hora %} · {{ s.hora }}{% endif %}</p>
+          <h3>{{ s.banda }}</h3>
+          {% if s.texto %}<p>{{ s.texto }}</p>{% endif %}
+          {% if s.link_ingresso %}<a class="botao" href="{{ s.link_ingresso }}" target="_blank" rel="noopener">Ingresso</a>{% endif %}
+        </li>
+        {% endfor %}
+      </ol>
+      {% else %}
+      <p class="vazio">Nenhum show desta casa na agenda agora. A agenda é atualizada toda segunda.</p>
+      {% endif %}
+      <p><a href="/agenda/">Ver a agenda completa →</a></p>
+    </div>
+
+    <aside class="casa-lado">
+      <div id="mapa" class="mapa mapa-pequeno" role="region" aria-label="Mapa: {{ casa.nome }}"></div>
+      <p class="end">{{ casa.endereco }}{% if casa.aproximado %}<br><small>O pino é aproximado; a rota do Google Maps leva ao endereço.</small>{% endif %}</p>
+      <p class="botoes">
+        <a class="botao" href="{{ casa | mapsLink }}" target="_blank" rel="noopener">Rota no Google Maps</a>
+        {% if casa.instagram %}<a class="botao contorno" href="{{ casa.instagram }}" target="_blank" rel="noopener">Instagram</a>{% endif %}
+        {% if casa.site %}<a class="botao contorno" href="{{ casa.site }}" target="_blank" rel="noopener">Site</a>{% endif %}
+      </p>
+    </aside>
+  </div>
+</article>
+
+<script src="/vendor/leaflet/leaflet.js"></script>
+<script>
+(function () {
+  var c = {{ casa | dump | safe }};
+  if (c.lat == null || c.lng == null || c.lat === '' || c.lng === '') { document.getElementById('mapa').hidden = true; return; }
+  var mapa = L.map('mapa', { scrollWheelZoom: false }).setView([+c.lat, +c.lng], c.aproximado ? 14 : 16);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  }).addTo(mapa);
+  L.marker([+c.lat, +c.lng], { icon: L.divIcon({ className: 'pino casa' + (c.aproximado ? ' aprox' : ''), html: '<span>♪</span>', iconSize: [34, 34], iconAnchor: [17, 17] }), title: c.nome }).addTo(mapa);
+})();
+</script>
