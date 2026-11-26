@@ -9,7 +9,7 @@ Site do Awhuuu! (awhuuu.com.br), feito com [Eleventy](https://www.11ty.dev/) e p
 4. Salve. O site se atualiza sozinho em um ou dois minutos.
 
 ## Regras que o site segue
-- Matéria com data futura só aparece no dia e hora marcados. O site é reconstruído todo dia às 20h05 (Brasília).
+- Matéria com data futura só aparece no dia e hora marcados. O site é reconstruído de hora em hora (no minuto 5): a matéria entra no ar poucos minutos depois do horário marcado.
 - Marque **Rascunho** para guardar uma matéria sem publicar.
 - Os **Achados** (links de afiliado) só aparecem quando "Mostrar os Achados" estiver ligado nas configurações.
 - Sem capa própria, a matéria usa a capa da editoria.

@@ -1,13 +1,15 @@
 # Publica o site no GitHub Pages.
-# Roda a cada mudança no main e todo dia às 20h05 de Brasília (23h05 UTC),
-# para liberar as matérias agendadas no horário dos posts.
+# Roda a cada mudança no main e de hora em hora (no minuto 5), para liberar
+# as matérias agendadas. O agendamento do GitHub às vezes atrasa horas
+# (em 25/11 a rodada das 20h05 só saiu à 1h57): rodando toda hora, a matéria
+# das 20h entra no ar logo depois do post.
 name: Publicar site
 
 on:
   push:
     branches: [main]
   schedule:
-    - cron: "5 23 * * *"
+    - cron: "5 * * * *"
   workflow_dispatch:
 
 permissions:
