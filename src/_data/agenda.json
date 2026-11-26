@@ -433,6 +433,42 @@
       "publicidade": false,
       "cartaz": "",
       "link_evento": ""
+    },
+    {
+      "banda": "Rock Hour Classic 70s: ZepDoor e Another Side",
+      "data": "2026-11-28",
+      "hora": "21h",
+      "local": "Sinners Pub",
+      "cidade": "Jaraguá do Sul",
+      "estado": "SC",
+      "pais": "Brasil",
+      "preco": "",
+      "link_ingresso": "https://www.sympla.com.br/evento/rock-hour-classic-70-s/3645991",
+      "cartaz_url": "",
+      "credito": "",
+      "texto": "Noite de rock dos anos 1970 com duas bandas de Jaraguá do Sul: a ZepDoor, de classic rock, e o trio Another Side, de rock dos anos 60 e 70. Ingressos na Sympla.",
+      "destaque": false,
+      "publicidade": false,
+      "cartaz": "",
+      "link_evento": ""
+    },
+    {
+      "banda": "Budang",
+      "data": "2026-11-29",
+      "hora": "16h (casa); 19h30 (Budang)",
+      "local": "Sinners Pub",
+      "cidade": "Jaraguá do Sul",
+      "estado": "SC",
+      "pais": "Brasil",
+      "preco": "",
+      "link_ingresso": "https://www.sympla.com.br/evento/budang-no-sinners-pub-jaragua-do-sul/3647440",
+      "cartaz_url": "",
+      "credito": "",
+      "texto": "Show de hardcore do Budang, com abertura da banda Spoils às 18h e discotecagem de Gab Barg. Ingressos na Sympla e na loja O Limbo Bazar do Rock. Para maiores de 18 anos.",
+      "destaque": false,
+      "publicidade": false,
+      "cartaz": "",
+      "link_evento": ""
     }
   ]
 }

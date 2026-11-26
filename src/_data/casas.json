@@ -310,6 +310,36 @@
       "videos": []
     },
     {
+      "nome": "Balbúrdia Floripa",
+      "slug": "balburdia-floripa",
+      "tipo": "Bar cervejeiro com palco",
+      "cidade": "Florianópolis",
+      "estado": "SC",
+      "pais": "Brasil",
+      "endereco": "Rua Almirante Lamego, 425 · Centro, Florianópolis (SC)",
+      "lat": -27.5882,
+      "lng": -48.5552,
+      "aproximado": true,
+      "estilos": "tributos, rock clássico, rock nacional, outros estilos",
+      "texto": "Bar da Cervejaria Balbúrdia no Centro de Florianópolis, perto da ponte. A programação mistura estilos, e o rock aparece na série Balbúrdia Rock Classics, com noites de tributo a Queen, Metallica, Guns N' Roses e Charlie Brown Jr., e em shows como os do Snake Sun e da Supersonora.",
+      "instagram": "",
+      "site": "",
+      "foto": "",
+      "foto_url": "",
+      "pagina_foto": "",
+      "foto_inteira": false,
+      "foto_alt": "",
+      "credito": "",
+      "nomes_na_agenda": [
+        "Balbúrdia Floripa",
+        "Balbúrdia Florianópolis",
+        "Balbúrdia Cervejeira Florianópolis",
+        "Balbúrdia Cervejaria Florianópolis"
+      ],
+      "ativa": true,
+      "videos": []
+    },
+    {
       "nome": "Balbúrdia Blumenau",
       "slug": "balburdia-blumenau",
       "tipo": "Bar cervejeiro com palco",
