@@ -20,7 +20,7 @@ Produzir aos pouquinhos, todo dia, gasta mais do que produzir de uma vez. Cada c
 
 O limite de 10 agendados por rede no Buffer é o gargalo: os rascunhos precisam ser agendados aos poucos, conforme as vagas abrem. Uma tarefa automática para isso foi barrada (publicaria sem supervisão). Combinado: o agendamento é feito numa conversa, com o Evandro autorizando na hora; a tag "segurar" marca rascunho que não deve sair. Rodadas fixas de agendamento: **segunda e quinta de manhã** (lembretes marcados na conversa de operação).
 
-O TikTok está no modo "Notify Me": cada post do TikTok só sai quando o Evandro abre a notificação do Buffer no celular, escolhe o som e publica (20h30 nos dias de post).
+No TikTok há dois modos: os posts de 26/11 a 2/12 estão em "Notify Me" (o Buffer avisa às 20h30, o Evandro escolhe o som e publica pelo celular); os de 3/12 em diante, e todos os novos, saem sozinhos. Para pôr som num post automático, trocar o modo no Buffer antes da hora.
 
 ## Produtos: adequar ao cliente
 
