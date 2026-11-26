@@ -496,3 +496,4 @@ a.patch:focus-visible{outline-color:var(--sangue)}
 .jogo-palco{border-top:0;padding-top:40px}
 @media (max-width:760px){.jogo-cab{grid-template-columns:1fr;gap:20px;padding-top:32px}.jogo-cartaz{order:-1;transform:none;border-width:4px}.jogo-cartaz img{aspect-ratio:16/9}}
 @media (prefers-reduced-motion:reduce){.card-jogo,.jogo-cartaz{transition:none;transform:none}}
+.destaque .card-jogo img{object-position:50% 30%}
