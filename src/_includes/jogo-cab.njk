@@ -6,5 +6,6 @@
     <p class="chamada-pag">{{ jcTexto }}</p>
     {% if jcQuando %}<p class="jogo-quando">{{ jcQuando }}</p>{% endif %}
   </div>
-  {% if jcImagem %}<figure class="jogo-cartaz"><img src="{{ jcImagem }}" alt="" width="800" height="1000"></figure>{% endif %}
+  {% if jcCapas and jcCapas.length %}<figure class="jogo-cartaz capas-cartaz">{% for u in jcCapas %}<img src="{{ u }}" alt="" width="300" height="300">{% endfor %}</figure>
+  {% elif jcImagem %}<figure class="jogo-cartaz"><img src="{{ jcImagem }}" alt="" width="800" height="1000"></figure>{% endif %}
 </header>

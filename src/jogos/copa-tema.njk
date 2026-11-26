@@ -6,7 +6,7 @@
   eleventyComputed: { title: (data) => data.C.titulo, descricao: (data) => data.C.texto }
 }
 ---
-{%- set jcTitulo = C.titulo %}{% set jcTexto = C.texto %}{% set jcImagem = jogos.imagens.copa %}{% set jcQuando = C.tema %}
+{%- set jcTitulo = C.titulo %}{% set jcTexto = C.texto %}{% set jcImagem = jogos.imagens.copa %}{% set jcCapas = [] %}{% for d in C.discos | limite(4) %}{% if capas[d.spotify] %}{% set jcCapas = (jcCapas.push(capas[d.spotify]), jcCapas) %}{% endif %}{% endfor %}{% set jcQuando = C.tema %}
 {% include "jogo-cab.njk" %}
 <section class="secao jogo-palco">
   <div class="faixa jogo">

@@ -5,7 +5,7 @@ permalink: /jogos/copa-do-rock/
 descricao: Mata-mata de discos de rock com votação dos leitores do Awhuuu!. Ouça as capas no Spotify, vote e leve o disco pra casa.
 ---
 {%- set C = jogos.copas | copaAtual %}
-{%- set jcTitulo = C.titulo %}{% set jcTexto = C.texto %}{% set jcImagem = jogos.imagens.copa %}{% set jcQuando = "" %}
+{%- set jcTitulo = C.titulo %}{% set jcTexto = C.texto %}{% set jcImagem = jogos.imagens.copa %}{% set jcCapas = [] %}{% for d in C.discos | limite(4) %}{% if capas[d.spotify] %}{% set jcCapas = (jcCapas.push(capas[d.spotify]), jcCapas) %}{% endif %}{% endfor %}{% set jcQuando = "" %}
 {% include "jogo-cab.njk" %}
 <section class="secao jogo-palco">
   <div class="faixa jogo">
