@@ -61,7 +61,26 @@
   "proprios": {
     "ativo": false,
     "titulo": "Coisas do Awhuuu!",
-    "texto": "Camisetas, adesivos e outras coisas com a marca do lobo. Em breve.",
-    "itens": []
+    "texto": "Camisetas e canecas com a marca do lobo, feitas sob demanda pela Uma Penca e enviadas para todo o Brasil. Cada compra ajuda a manter o site no ar.",
+    "itens": [
+      {
+        "nome": "Camiseta Lobo da Lua Cheia",
+        "preco": "R$ 79,90",
+        "texto": "Camiseta preta com o lobisomem tocando guitarra diante da lua cheia.",
+        "imagem": "/img/loja-lobo-da-lua-cheia.webp",
+        "imagem_alt": "Estampa do lobisomem com guitarra diante da lua cheia e o letreiro Awhuuu! em creme e vermelho, sobre fundo preto",
+        "link": "https://umapenca.com/awhuuu/",
+        "ativo": true
+      },
+      {
+        "nome": "Caneca Awhuuu!",
+        "preco": "R$ 59,90",
+        "texto": "Caneca branca com o letreiro do lobo dos dois lados.",
+        "imagem": "/img/loja-caneca-awhuuu.webp",
+        "imagem_alt": "Letreiro Awhuuu! em creme com contorno vermelho e preto, sobre fundo branco",
+        "link": "https://umapenca.com/awhuuu/",
+        "ativo": true
+      }
+    ]
   }
 }
