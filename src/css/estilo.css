@@ -360,14 +360,6 @@ footer a{color:var(--cinza)}
 .filtros-bandas input,.filtros-bandas select{background:#141414;border:1px solid #333;color:var(--osso,#F4D49A);padding:10px 12px;font:1rem "Space Mono",monospace;min-width:180px}
 .contagem{font:.85rem "Space Mono",monospace;color:#9a8a6a;margin:6px 0 18px}
 .grade-bandas{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}
-.card-banda{display:flex;flex-direction:column;justify-content:flex-end;gap:6px;min-height:170px;padding:18px;background:#121212 center/cover no-repeat;border:1px solid #262626;text-decoration:none;color:var(--osso,#F4D49A);transition:border-color .2s,transform .2s;position:relative;overflow:hidden}
-.card-banda::before{content:"";position:absolute;right:-30px;top:-30px;width:110px;height:110px;border-radius:50%;background:radial-gradient(circle,#D5060C 0 9%,#1d1d1d 10% 100%);opacity:.55}
-.card-banda.com-foto::before{display:none}
-.card-banda:hover,.card-banda:focus{border-color:var(--sangue,#D5060C);transform:translateY(-2px)}
-.card-banda strong{font:400 1.7rem/1.02 Anton,Impact,sans-serif;text-transform:uppercase;position:relative}
-.card-banda .cena{font:700 .68rem "Space Mono",monospace;text-transform:uppercase;letter-spacing:.1em;color:var(--sangue,#D5060C);position:relative}
-.card-banda .origem,.card-banda .estilos{font:.8rem "Space Mono",monospace;color:#bda57a;position:relative}
-.card-banda .tem-show{font:700 .75rem "Space Mono",monospace;color:#0A0A0A;background:var(--osso,#F4D49A);align-self:flex-start;padding:3px 8px;position:relative}
 .lancamentos{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px}
 .lancamentos ol,.lista-simples{list-style:none;padding:0}
 .lancamentos li,.lista-simples li{padding:10px 0;border-bottom:1px solid #222}
@@ -395,12 +387,6 @@ footer a{color:var(--cinza)}
 .nd-fonte{font:.72rem "Space Mono",monospace;color:#7d6c50}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 /* ===== Jogos ===== */
-.grade-jogos{list-style:none;padding:0;margin:30px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
-.card-jogo{display:flex;flex-direction:column;justify-content:flex-end;gap:8px;min-height:280px;padding:22px;text-decoration:none;color:var(--osso);border:1px solid #262626;background:linear-gradient(180deg,rgba(10,10,10,.1),rgba(10,10,10,.95) 70%),var(--fundo,radial-gradient(circle at 70% 20%,#5a0b06,#0A0A0A 60%)) center/cover;transition:border-color .2s,transform .2s}
-.card-jogo:hover,.card-jogo:focus{border-color:var(--sangue);transform:translateY(-3px)}
-.card-jogo .tag{align-self:flex-start;background:var(--sangue);color:var(--noite);font:700 .7rem var(--mono);text-transform:uppercase;letter-spacing:.1em;padding:3px 8px}
-.card-jogo strong{font:400 2rem/1 var(--titulo);text-transform:uppercase}
-.card-jogo span:last-child{font-size:.9rem;color:#d7c39b}
 .jogo .quiz,.bd{max-width:760px;margin-top:26px}
 .passo{font:700 .78rem var(--mono);text-transform:uppercase;letter-spacing:.15em;color:var(--sepia)}
 .quiz h2{font:400 clamp(1.7rem,4.5vw,2.6rem)/1.1 var(--titulo);margin:6px 0 20px}
@@ -447,4 +433,66 @@ footer a{color:var(--cinza)}
 .a-definir{color:#6d665a}
 .e6-moldura{max-width:540px;margin:20px auto 0;border:1px solid #2a2a2a;box-shadow:0 0 60px rgba(213,6,12,.18)}
 .e6-moldura canvas{display:block;width:100%;height:auto;max-height:82vh;aspect-ratio:9/16;margin:0 auto;touch-action:none;cursor:pointer}
-@media (max-width:640px){.grade-bandas{grid-template-columns:1fr 1fr;gap:10px}.card-banda{min-height:128px;padding:14px;gap:4px}.card-banda strong{font-size:1.2rem}.card-banda::before{width:70px;height:70px;right:-20px;top:-20px}.card-banda .origem,.card-banda .estilos{font-size:.7rem}}
+
+/* ===== Patches das bandas: cada banda vira um patch de jaqueta, cor pelo estilo ===== */
+.grade-bandas{grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:18px 16px}
+.patch{--fundo:#121212;--tinta:var(--osso);--ponto:var(--osso);position:relative;display:flex;flex-direction:column;justify-content:center;gap:6px;min-height:150px;padding:22px 20px;background:var(--fundo);color:var(--tinta);text-decoration:none;border-radius:10px;outline:2px dashed var(--ponto);outline-offset:-9px;box-shadow:0 0 0 3px var(--fundo),0 10px 24px rgba(0,0,0,.45);overflow:hidden}
+.patch::after{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(45deg,rgba(255,255,255,.035) 0 2px,transparent 2px 5px)}
+.patch strong{font:400 1.75rem/.98 var(--titulo);text-transform:uppercase;letter-spacing:.01em;overflow-wrap:anywhere}
+.patch .origem{font-size:.78rem;line-height:1.35;opacity:.8}
+.patch-metal{--fundo:#2a0605;--tinta:var(--osso);--ponto:var(--sangue)}
+.patch-metal strong{color:var(--osso);text-shadow:2px 2px 0 var(--sangue)}
+.patch-punk{--fundo:var(--osso);--tinta:var(--noite);--ponto:var(--noite);border-radius:2px;transform:rotate(-1.2deg)}
+.patch-punk strong{font-family:var(--stencil);font-size:1.6rem}
+.patch-raiz{--fundo:var(--sepia);--tinta:var(--noite);--ponto:#5a3a1c;border-radius:40px 40px 10px 10px}
+.patch-alt{--fundo:#161414;--tinta:var(--sepia);--ponto:var(--sepia)}
+.patch-rock{--fundo:#121212;--tinta:var(--osso);--ponto:var(--osso)}
+.patch-local{--fundo:#0d1a16;--tinta:var(--osso);--ponto:#6fbf9a}
+.patch-local strong{font-family:var(--stencil);font-size:1.7rem}
+.patch-tag{align-self:flex-start;font-size:.68rem;letter-spacing:.08em;background:#6fbf9a;color:var(--noite);padding:2px 8px;border-radius:20px}
+.patch .tem-show{align-self:flex-start;font-size:.72rem;font-weight:700;color:var(--noite);background:var(--sangue);color:var(--osso);padding:3px 9px;border-radius:20px;margin-top:4px}
+.patch.com-foto{justify-content:flex-end;padding-top:0}
+.patch-foto{display:block;width:calc(100% + 40px);margin:0 -20px 10px;aspect-ratio:1;object-fit:cover}
+a.patch{transition:transform .18s ease,box-shadow .18s ease}
+a.patch:hover,a.patch:focus-visible{transform:translateY(-3px) rotate(0deg);box-shadow:0 0 0 3px var(--fundo),0 16px 30px rgba(0,0,0,.6),0 0 0 5px var(--sangue)}
+a.patch:focus-visible{outline-color:var(--sangue)}
+/* cabeçalho da página da banda */
+.cab-banda{display:grid;grid-template-columns:minmax(0,300px) 1fr;gap:40px;align-items:center;padding-top:48px;padding-bottom:40px}
+.cab-banda h1{font-family:var(--titulo);font-weight:400;font-size:clamp(48px,8vw,92px);line-height:.95;margin:6px 0 10px}
+.cab-banda .rotulo a{color:inherit}
+.patch.grande{min-height:300px;padding:34px 28px;justify-content:center}
+.patch.grande strong{font-size:clamp(2.2rem,5vw,3.4rem)}
+.patch.grande.com-foto{padding:0;min-height:0}
+.patch.grande.com-foto .patch-foto{width:100%;margin:0}
+.patch.grande.com-foto strong{display:none}
+.estilos-lista{list-style:none;padding:0;margin:14px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+.estilos-lista li{font-size:.82rem;border:1px solid var(--linha);padding:4px 12px;border-radius:20px;color:var(--cinza)}
+@media (max-width:720px){.cab-banda{grid-template-columns:1fr;gap:24px}.patch.grande{min-height:180px;max-width:360px}}
+@media (max-width:640px){.grade-bandas{grid-template-columns:1fr 1fr;gap:14px 10px}.patch{min-height:118px;padding:16px 14px;outline-offset:-7px}.patch strong,.patch-punk strong,.patch-local strong{font-size:1.15rem}.patch .origem{font-size:.68rem}.patch-foto{width:calc(100% + 28px);margin:0 -14px 8px}}
+@media (prefers-reduced-motion:reduce){a.patch,.patch-punk{transition:none;transform:none}}
+
+/* ===== Jogos: cada jogo é um cartaz, com etiqueta embaixo ===== */
+.grade-jogos{list-style:none;padding:0;margin:36px 0 0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+.grade-jogos li{min-width:0}
+.grade-jogos .destaque{grid-column:span 2;grid-row:span 2}
+.card-jogo{display:flex;flex-direction:column;height:100%;text-decoration:none;color:var(--osso);background:#141313;border:1px solid #2a2828;transition:transform .18s ease,border-color .18s ease}
+.card-jogo img{width:100%;aspect-ratio:4/5;object-fit:cover;border-bottom:3px solid var(--sangue)}
+.card-jogo .tag{align-self:flex-start;margin:14px 16px 0;font-size:.72rem;letter-spacing:.06em;color:var(--sangue);font-weight:700}
+.card-jogo strong{font:400 1.55rem/1.02 var(--titulo);margin:4px 16px 6px}
+.card-jogo .desc{font-size:.86rem;line-height:1.45;color:var(--cinza);margin:0 16px 18px}
+.destaque .card-jogo strong{font-size:clamp(2rem,4vw,3.2rem)}
+.destaque .card-jogo .desc{font-size:1rem}
+.card-jogo:hover,.card-jogo:focus-visible{border-color:var(--sangue);transform:translateY(-4px)}
+.card-jogo:focus-visible{outline:3px solid var(--osso);outline-offset:3px}
+@media (max-width:980px){.grade-jogos{grid-template-columns:repeat(2,minmax(0,1fr))}.grade-jogos .destaque{grid-column:span 2;grid-row:auto}.destaque .card-jogo{display:grid;grid-template-columns:1fr 1fr}.destaque .card-jogo img{grid-row:span 4;height:100%;border-bottom:0;border-right:3px solid var(--sangue)}}
+@media (max-width:560px){.grade-jogos{gap:14px}.destaque .card-jogo{display:flex}.destaque .card-jogo img{border-right:0;border-bottom:3px solid var(--sangue);aspect-ratio:16/11}.card-jogo strong{font-size:1.2rem;margin:4px 12px 4px}.card-jogo .desc{display:none}.card-jogo .tag{margin:10px 12px 0}.destaque .card-jogo .desc{display:block;margin:0 12px 14px}}
+/* topo de cada jogo */
+.jogo-cab{display:grid;grid-template-columns:1fr minmax(0,340px);gap:48px;align-items:end;padding-top:56px;padding-bottom:8px}
+.jogo-cab .rotulo a{color:inherit}
+.jogo-cab .chamada-pag{margin-bottom:16px}
+.jogo-quando{display:inline-block;font-size:.85rem;color:var(--osso);border-left:3px solid var(--sangue);padding:2px 0 2px 12px;margin:0}
+.jogo-cartaz{margin:0;transform:rotate(2deg);box-shadow:0 24px 50px rgba(0,0,0,.6);border:6px solid var(--osso)}
+.jogo-cartaz img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover}
+.jogo-palco{border-top:0;padding-top:40px}
+@media (max-width:760px){.jogo-cab{grid-template-columns:1fr;gap:20px;padding-top:32px}.jogo-cartaz{order:-1;transform:none;border-width:4px}.jogo-cartaz img{aspect-ratio:16/9}}
+@media (prefers-reduced-motion:reduce){.card-jogo,.jogo-cartaz{transition:none;transform:none}}

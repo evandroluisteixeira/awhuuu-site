@@ -118,6 +118,15 @@ export default function (eleventyConfig) {
     return out;
   });
   eleventyConfig.addFilter("mapaMaterias", (materias) => Object.fromEntries((materias || []).map((m) => [m.fileSlug, { url: m.url, titulo: m.data.title }])));
+  // família visual do patch da banda, pelo estilo (só muda a cor do patch; não aparece escrita)
+  eleventyConfig.addFilter("familiaEstilo", (estilos) => {
+    const t = (estilos || []).join(" ").toLowerCase();
+    if (/metal|thrash|grind|doom/.test(t)) return "metal";
+    if (/punk|hardcore|riot|ska|oi!/.test(t)) return "punk";
+    if (/blues|gospel|rock and roll|rockabilly|r&b|soul|merseybeat/.test(t)) return "raiz";
+    if (/grunge|alternative|indie|post-punk|gothic|new wave|shoegaze|noise/.test(t)) return "alt";
+    return "rock";
+  });
   eleventyConfig.addFilter("hojeISO", () => new Date().toISOString().slice(0, 10));
   eleventyConfig.addFilter("casasAtivas", (casas) => ((casas && casas.casas) || []).filter((c) => c.ativa !== false));
 

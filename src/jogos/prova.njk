@@ -7,16 +7,13 @@ descricao: Cinco perguntas sobre as matérias da semana do Awhuuu!. Toda semana 
 {%- set hoje = "" | hojeISO %}
 {%- set liberadas = [] %}{% for p in jogos.provas %}{% if p.data <= hoje %}{% set liberadas = (liberadas.push(p), liberadas) %}{% endif %}{% endfor %}
 {%- set prova = (liberadas | sort(true, false, "data"))[0] %}
-<section class="secao" style="border-top:0">
+{%- set jcTitulo = "Prova do Lobo" %}{% set jcImagem = jogos.imagens.prova %}
+{%- if prova %}{% set jcTexto = "Cinco perguntas sobre as matérias que saíram no Awhuuu!. Errou? A resposta leva pra matéria." %}{% set jcQuando = prova.titulo + ", liberada em " + (prova.data | dataParcial) %}
+{%- else %}{% set jcTexto = "Cinco perguntas por semana sobre as matérias do Awhuuu!. Leu? Prova." %}{% set jcQuando = "A primeira prova sai em " + ((jogos.provas | sort(false, false, "data"))[0].data | dataParcial) + "." %}{% endif %}
+{% include "jogo-cab.njk" %}
+<section class="secao jogo-palco">
   <div class="faixa jogo">
-    <p class="rotulo"><a href="/jogos/">Jogos</a> · Toda semana</p>
-    <h1 class="titulo-pag">Prova do Lobo</h1>
-    {% if prova %}
-    <p class="chamada-pag">{{ prova.titulo }}. Cinco perguntas sobre as matérias que saíram no Awhuuu!. Errou? A resposta leva pra matéria.</p>
-    <div id="pq" class="quiz"></div>
-    {% else %}
-    <p class="chamada-pag">A primeira prova sai no domingo, {{ (jogos.provas | sort(false, false, "data"))[0].data | dataParcial }}, com as matérias da primeira semana. Enquanto isso, <a href="/materias/">vai estudando</a>.</p>
-    {% endif %}
+    {% if prova %}<div id="pq" class="quiz"></div>{% else %}<p class="chamada-pag">Enquanto isso, <a href="/materias/">vai lendo as matérias</a>: a prova cai em cima delas.</p>{% endif %}
   </div>
 </section>
 {% if prova %}

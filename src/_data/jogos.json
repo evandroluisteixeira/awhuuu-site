@@ -420,5 +420,12 @@
     "titulo": "Estrada 666",
     "texto": "O lobo pegou a moto. Junte discos, desvie do que aparecer na estrada e veja até onde a lua deixa você ir.",
     "trilha": ""
+  },
+  "imagens": {
+    "banda_do_dia": "/img/jogos/banda-do-dia.svg",
+    "monstro": "/img/jogos/qual-monstro.svg",
+    "prova": "/img/jogos/prova-do-lobo.svg",
+    "copa": "/img/jogos/copa-do-rock.svg",
+    "estrada": "/img/jogos/estrada-666.svg"
   }
 }

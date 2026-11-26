@@ -6,11 +6,10 @@ eleventyComputed:
 descricao: Adivinhe a banda do dia em seis chances. Cada erro abre uma pista nova. Uma banda nova todo dia.
 ---
 {%- set BD = jogos.banda_do_dia %}
-<section class="secao" style="border-top:0">
+{%- set jcTitulo = BD.titulo %}{% set jcTexto = BD.texto %}{% set jcImagem = jogos.imagens.banda_do_dia %}{% set jcQuando = "Uma banda nova todo dia, à meia-noite" %}
+{% include "jogo-cab.njk" %}
+<section class="secao jogo-palco">
   <div class="faixa jogo">
-    <p class="rotulo"><a href="/jogos/">Jogos</a> · Todo dia</p>
-    <h1 class="titulo-pag">{{ BD.titulo }}</h1>
-    <p class="chamada-pag">{{ BD.texto }} A banda muda à meia-noite.</p>
     <div class="bd">
       <p class="passo" id="bd-num"></p>
       <ol class="bd-pistas" id="bd-pistas"></ol>

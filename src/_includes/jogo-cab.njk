@@ -1,0 +1,10 @@
+{#- Topo de cada jogo: texto à esquerda, ilustração do jogo à direita (trocável no CMS, em Jogos > Imagens) -#}
+<header class="faixa jogo-cab">
+  <div class="jogo-cab-texto">
+    <p class="rotulo"><a href="/jogos/">Jogos</a></p>
+    <h1 class="titulo-pag">{{ jcTitulo }}</h1>
+    <p class="chamada-pag">{{ jcTexto }}</p>
+    {% if jcQuando %}<p class="jogo-quando">{{ jcQuando }}</p>{% endif %}
+  </div>
+  {% if jcImagem %}<figure class="jogo-cartaz"><img src="{{ jcImagem }}" alt="" width="800" height="1000"></figure>{% endif %}
+</header>

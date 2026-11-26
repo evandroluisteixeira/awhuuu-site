@@ -20,20 +20,23 @@
 {%- set vids = novidades.porBanda[banda.slug] or [] %}
 {%- set pessoa = banda.tipo == "artista" %}
 <article class="casa-pagina banda-pagina">
-  <header class="faixa cab-casa">
-    <p class="rotulo"><a href="/bandas/">Bandas e artistas</a> · {{ banda.cena }}</p>
-    <h1>{{ banda.nome }}</h1>
-    <p class="linha-fina">{{ [banda.cidade, banda.pais] | select | join(", ") }}{% if banda.estilos.length %} · {{ banda.estilos | join(" · ") }}{% endif %}</p>
+  {%- set img = banda.foto or banda.foto_url %}
+  <header class="faixa cab-banda">
+    <div class="patch grande patch-{{ banda.estilos | familiaEstilo }}{% if banda.cena == 'cena local' %} patch-local{% endif %}{% if img %} com-foto{% endif %}">
+      {% if img %}<img class="patch-foto" src="{{ img }}" alt="Imagem oficial: {{ banda.nome }}" referrerpolicy="no-referrer">{% endif %}
+      <strong aria-hidden="true">{{ banda.nome }}</strong>
+    </div>
+    <div class="cab-banda-texto">
+      <p class="rotulo"><a href="/bandas/">Bandas e artistas</a></p>
+      <h1>{{ banda.nome }}</h1>
+      <p class="linha-fina">{{ [banda.cidade, banda.pais] | select | join(", ") }}</p>
+      {% if banda.estilos.length %}<ul class="estilos-lista">{% for e in banda.estilos %}<li>{{ e }}</li>{% endfor %}</ul>{% endif %}
+      {% if banda.foto_credito %}<p class="miudo">Imagem: {{ banda.foto_credito }}</p>{% endif %}
+    </div>
   </header>
 
   <div class="faixa casa-grade">
     <div>
-      {% if banda.foto %}
-      <figure class="casa-foto">
-        <img src="{{ banda.foto }}" alt="{{ banda.nome }}" referrerpolicy="no-referrer">
-        {% if banda.foto_credito %}<figcaption>{{ banda.foto_credito }}</figcaption>{% endif %}
-      </figure>
-      {% endif %}
       {% if banda.texto %}<p class="casa-texto">{{ banda.texto }}</p>{% endif %}
 
       <dl class="ficha ficha-banda">

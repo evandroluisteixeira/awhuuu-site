@@ -255,7 +255,8 @@ content:
           - { name: youtube_canal, label: Código do canal do YouTube, type: string, description: "O código que começa com UC (fica no link youtube.com/channel/UC...). Com ele, os vídeos novos aparecem sozinhos na página." }
           - { name: spotify, label: Spotify (link), type: string }
           - { name: bandcamp, label: Bandcamp (link), type: string }
-          - { name: foto, label: Foto (só com autorização da banda), type: image, options: { path: src/img/bandas } }
+          - { name: foto, label: Imagem de perfil (envie a imagem oficial), type: image, options: { path: src/img/bandas }, description: "Foto ou logotipo oficial, de divulgação da própria banda. Sem imagem, o site mostra um patch com o nome." }
+          - { name: foto_url, label: Ou cole o link da imagem oficial, type: string, description: "Ex.: a foto de divulgação do site oficial. Use o link direto da imagem (termina em .jpg, .png ou .webp)." }
           - { name: foto_credito, label: Crédito da foto, type: string }
           - { name: nomes_na_agenda, label: Como o nome aparece na agenda, type: string, list: true, description: "Os shows da agenda com um destes nomes aparecem na página da banda." }
           - { name: musicbrainz, label: Código no MusicBrainz, type: string, description: "Com ele, os lançamentos aparecem sozinhos." }
@@ -285,6 +286,15 @@ content:
     path: src/_data/jogos.json
     fields:
       - { name: titulo, label: Título da página de jogos, type: string }
+      - name: imagens
+        label: Imagens dos jogos (capa no menu de jogos e no topo de cada jogo)
+        type: object
+        fields:
+          - { name: banda_do_dia, label: Banda do Dia, type: image, options: { path: src/img/jogos } }
+          - { name: monstro, label: "Qual monstro é você?", type: image, options: { path: src/img/jogos } }
+          - { name: prova, label: Prova do Lobo, type: image, options: { path: src/img/jogos } }
+          - { name: copa, label: Copa do Rock, type: image, options: { path: src/img/jogos } }
+          - { name: estrada, label: Estrada 666, type: image, options: { path: src/img/jogos } }
       - { name: chamada, label: Texto de abertura, type: text }
       - name: provas
         label: Prova do Lobo

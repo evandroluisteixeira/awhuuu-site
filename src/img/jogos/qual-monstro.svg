@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice"><defs><filter id="g" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .96 0 0 0 0 .83 0 0 0 0 .6 0 0 0 .09 0"/></filter><radialGradient id="lua"><stop offset=".85" stop-color="#D5060C" stop-opacity=".35"/><stop offset="1" stop-color="#D5060C" stop-opacity="0"/></radialGradient><linearGradient id="chao" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0A0A0A" stop-opacity="0"/><stop offset=".6" stop-color="#0A0A0A"/></linearGradient></defs>
+<rect width="800" height="1000" fill="#0A0A0A"/>
+<circle cx="400" cy="420" r="330" fill="url(#lua)"/>
+<circle cx="400" cy="420" r="300" fill="#B3230F"/><rect y="760" width="800" height="240" fill="url(#chao)"/>
+<g fill="#8f1b0b" opacity=".6"><circle cx="300" cy="330" r="46"/><circle cx="500" cy="480" r="62"/><circle cx="460" cy="290" r="24"/><circle cx="330" cy="520" r="30"/></g>
+<g fill="#050505" stroke="#D5060C" stroke-width="3" stroke-opacity=".6">
+ <!-- lobo: perfil virado para a direita -->
+ <path d="M40 1000 L52 770 Q60 700 102 660 L92 520 L146 596 L176 498 L198 596 Q238 606 262 630 L304 646 Q318 658 302 668 L284 671 L286 684 L254 688 Q228 706 202 708 Q192 744 176 764 L250 1000Z"/>
+ <path d="M96 690 l-26 18 l28 8 l-24 22 l30 4 l-18 26 l34 -6Z"/>
+ <!-- vampira: de frente, gola alta -->
+ <path d="M296 1000 L316 830 L282 742 L356 788 L372 760 L428 760 L444 788 L518 742 L484 830 L504 1000Z"/>
+ <path d="M400 500 Q470 500 488 580 Q498 640 482 700 Q470 742 446 756 L354 756 Q330 742 318 700 Q302 640 312 580 Q330 500 400 500Z"/>
+ <circle cx="400" cy="486" r="30"/>
+ <!-- remendo: perfil virado para a esquerda, cabeça chata -->
+ <path d="M770 1000 L758 770 Q752 712 726 690 L724 596 Q722 562 692 560 L592 560 Q566 560 566 594 L566 626 L540 646 Q534 658 548 662 L566 666 L568 694 Q574 716 600 720 L604 764 L560 1000Z"/>
+</g>
+<!-- rosto da vampira -->
+<ellipse cx="400" cy="640" rx="44" ry="58" fill="#E9D3AE"/>
+<path d="M356 618 Q380 570 400 600 Q420 570 444 618 Q440 560 400 556 Q360 560 356 618Z" fill="#050505"/>
+<path d="M378 640 l14 4 M422 640 l-14 4" stroke="#050505" stroke-width="5" stroke-linecap="round"/>
+<path d="M386 672 Q400 682 414 672 Q400 690 386 672Z" fill="#D5060C"/>
+<path d="M393 680 l2 8 l2 -7 M403 680 l2 8 l2 -7" fill="#F4D49A"/>
+<!-- olho do lobo, pontos do remendo, parafuso -->
+<circle cx="228" cy="620" r="7" fill="#F4D49A"/>
+<g stroke="#D99E62" stroke-width="4" fill="none"><path d="M600 588 l70 -4"/><path d="M612 578 l4 18 M632 576 l4 18 M652 574 l4 18"/></g>
+<rect x="640" y="728" width="44" height="16" rx="3" fill="#7d7d7d"/>
+<circle cx="606" cy="612" r="6" fill="#F4D49A"/>
+<rect width="800" height="1000" filter="url(#g)"/></svg>

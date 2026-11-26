@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice"><defs><filter id="g" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .96 0 0 0 0 .83 0 0 0 0 .6 0 0 0 .09 0"/></filter><linearGradient id="luz" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4D49A" stop-opacity=".55"/><stop offset="1" stop-color="#F4D49A" stop-opacity=".05"/></linearGradient>
+<filter id="brilho" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="800" height="1000" fill="#0A0A0A"/>
+<polygon points="400,-20 120,820 680,820" fill="url(#luz)"/>
+<ellipse cx="400" cy="830" rx="300" ry="46" fill="#F4D49A" opacity=".16"/>
+<rect y="830" width="800" height="170" fill="#140806"/>
+<!-- amplificadores -->
+<g fill="#151515" stroke="#2a2a2a" stroke-width="3"><rect x="40" y="610" width="150" height="220"/><rect x="610" y="610" width="150" height="220"/></g>
+<g fill="none" stroke="#2c2c2c" stroke-width="2"><circle cx="115" cy="690" r="40"/><circle cx="115" cy="785" r="30"/><circle cx="685" cy="690" r="40"/><circle cx="685" cy="785" r="30"/></g>
+<!-- três silhuetas: baixista, vocalista no pedestal, guitarrista -->
+<g fill="#050505">
+ <circle cx="235" cy="560" r="32"/>
+ <path d="M180 830 L188 700 Q182 640 205 612 Q235 596 265 612 Q290 640 284 700 L292 830Z"/>
+ <path d="M150 600 L162 592 L300 740 L288 750Z"/>
+ <path d="M262 712 Q300 690 318 712 Q336 736 312 760 Q290 780 262 760 Q244 740 262 712Z"/>
+ <circle cx="400" cy="505" r="36"/>
+ <path d="M342 830 L350 690 Q342 610 368 582 Q400 566 432 582 Q458 610 450 690 L458 830Z"/>
+ <path d="M396 545 L404 545 L404 830 L396 830Z"/><rect x="370" y="826" width="60" height="6"/>
+ <path d="M388 538 L412 538 L410 560 L390 560Z"/>
+ <circle cx="565" cy="560" r="32"/>
+ <path d="M510 830 L518 700 Q512 640 535 612 Q565 596 595 612 Q620 640 614 700 L622 830Z"/>
+ <path d="M660 592 L672 600 L540 760 L528 752Z"/>
+ <path d="M498 716 Q530 694 552 716 Q570 742 548 764 Q524 786 498 764 Q480 742 498 716Z"/>
+</g>
+<g fill="#D5060C"><rect x="240" y="548" width="0" height="0"/></g>
+<!-- interrogação -->
+<g fill="none" stroke="#D5060C" stroke-width="34" stroke-linecap="round" filter="url(#brilho)">
+ <path d="M318 250 Q318 150 400 150 Q482 150 482 232 Q482 288 430 312 Q400 326 400 370 L400 392"/>
+</g>
+<circle cx="400" cy="452" r="22" fill="#D5060C" filter="url(#brilho)"/>
+<rect width="800" height="1000" filter="url(#g)"/></svg>
