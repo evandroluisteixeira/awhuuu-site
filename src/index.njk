@@ -82,7 +82,7 @@ layout: base.njk
         <div class="txt">
           <h3>{{ e.nome }}</h3>
           <p>{{ e.descricao }}</p>
-          {% if not e.ativa %}<span class="breve">em breve</span>{% endif %}
+          {% if not e.ativa and not (collections.materias | daEditoria(e.slug)).length %}<span class="breve">em breve</span>{% endif %}
         </div>
       </a>
       {% endfor %}
