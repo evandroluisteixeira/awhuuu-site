@@ -2,14 +2,27 @@
   "titulo": "Loja do lobo",
   "chamada": "Os discos, livros, instrumentos e roupas que aparecem nos textos do Awhuuu!, num lugar só. Cada item leva para a loja, e o texto de onde ele saiu explica por que vale a pena.",
   "aviso": "Os links são de afiliado: se você comprar por eles, o Awhuuu! ganha uma pequena comissão, sem custo extra para você. O preço e a entrega são os da loja. Como Associado Amazon, o Awhuuu! ganha com compras qualificadas.",
-  "categorias": ["Vinil", "CD", "Livro", "Instrumento e equipamento", "Roupa e acessório", "Vídeo", "Outros"],
+  "categorias": [
+    "Vinil",
+    "CD",
+    "Livro",
+    "Instrumento e equipamento",
+    "Roupa e acessório",
+    "Vídeo",
+    "Outros"
+  ],
   "destaques": [
     {
       "nome": "Krig-ha, Bandolo!, de Raul Seixas, em vinil",
       "categoria": "Vinil",
       "texto": "O disco de \"Mosca na Sopa\", o primeiro solo do Raul.",
-      "lojas": [{ "loja": "Amazon", "url": "https://www.amazon.com.br/dp/B0784F63ZT?tag=awhuuu-20" }],
-      "imagem": "",
+      "lojas": [
+        {
+          "loja": "Amazon",
+          "url": "https://www.amazon.com.br/dp/B0784F63ZT?tag=awhuuu-20"
+        }
+      ],
+      "imagem": "https://m.media-amazon.com/images/I/71Y6wpGYUHL._SL500_.jpg",
       "de_onde": "Raul, Exu e o rock de encruzilhada (Substack)",
       "de_onde_link": "https://awhuuu.substack.com/p/raul-exu-e-o-rock-de-encruzilhada",
       "ativo": true
@@ -18,8 +31,13 @@
       "nome": "Pedagogia das Encruzilhadas, de Luiz Rufino",
       "categoria": "Livro",
       "texto": "Para entender Exu sem a tradução do diabo.",
-      "lojas": [{ "loja": "Amazon", "url": "https://www.amazon.com.br/dp/8565679926?tag=awhuuu-20" }],
-      "imagem": "",
+      "lojas": [
+        {
+          "loja": "Amazon",
+          "url": "https://www.amazon.com.br/dp/8565679926?tag=awhuuu-20"
+        }
+      ],
+      "imagem": "https://m.media-amazon.com/images/I/A1PBeWWnGrL._SL500_.jpg",
       "de_onde": "Raul, Exu e o rock de encruzilhada (Substack)",
       "de_onde_link": "https://awhuuu.substack.com/p/raul-exu-e-o-rock-de-encruzilhada",
       "ativo": true
@@ -28,8 +46,13 @@
       "nome": "Beyond the Crossroads, de Adam Gussow (em inglês)",
       "categoria": "Livro",
       "texto": "O outro lado da lenda do bluesman na encruzilhada.",
-      "lojas": [{ "loja": "Amazon", "url": "https://www.amazon.com.br/dp/1469633663?tag=awhuuu-20" }],
-      "imagem": "",
+      "lojas": [
+        {
+          "loja": "Amazon",
+          "url": "https://www.amazon.com.br/dp/1469633663?tag=awhuuu-20"
+        }
+      ],
+      "imagem": "https://m.media-amazon.com/images/I/91RX9uM732L._SL500_.jpg",
       "de_onde": "Raul, Exu e o rock de encruzilhada (Substack)",
       "de_onde_link": "https://awhuuu.substack.com/p/raul-exu-e-o-rock-de-encruzilhada",
       "ativo": true
