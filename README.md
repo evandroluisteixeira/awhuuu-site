@@ -21,6 +21,7 @@ Site do Awhuuu! (awhuuu.com.br), feito com [Eleventy](https://www.11ty.dev/) e p
 - `src/_includes/` — o layout
 - `src/css/estilo.css` — cores e tipografia
 - `img/posts/` — artes dos posts agendados no Buffer (não mover)
+- `ferramentas/arte/` — o script que desenha os carrosséis
 
 ## Para quem mexe no código
 ```
