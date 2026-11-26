@@ -60,6 +60,9 @@ Moon contou a história à Rolling Stone, anos depois, e a contou muitas vezes. 
 
 Na versão dele, ficou sentado no banco do motorista debaixo d'água, esperou o carro encher e saiu boiando quando a pressão igualou. Contava isso rindo.
 
+
+{% video "TnfqJd0PIS8", "O The Who no programa dos Smothers Brothers, em 1967: no fim de \"My Generation\", a bateria de Keith Moon explode.", "canal oficial do The Smothers Brothers Comedy Hour" %}
+
 ## A versão dos outros
 
 John Entwistle, baixista do The Who, foi curto: Keith nunca jogou carro nenhum na piscina. Ele nem sabia dirigir. Peter Noone, vocalista do Herman's Hermits, que também estava lá, disse que aquilo nunca aconteceu, que o Keith contava histórias e esquecia o que tinha acontecido de verdade.

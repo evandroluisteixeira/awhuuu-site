@@ -56,6 +56,9 @@ Um estudante da Universidade de Michigan, Fred LaBour, estava ouvindo. Dois dias
 
 A capa de *Abbey Road* virou prova: os quatro atravessando a rua como num cortejo fúnebre, Paul descalço e fora do passo, um cigarro na mão direita, sendo ele canhoto. E a placa do Fusca estacionado, "28IF", lida como "teria 28 anos SE estivesse vivo". Paul tinha acabado de fazer 27.
 
+
+{% video "HtUH9z_Oey8", "\"Strawberry Fields Forever\", de 1967. No fim, fãs juravam ouvir John dizer \"I buried Paul\". Ele dizia \"cranberry sauce\".", "canal oficial dos Beatles" %}
+
 ## O morto dá entrevista
 
 A revista Life mandou repórteres até a fazenda onde Paul estava, na Escócia. Ele não gostou da visita, mas deu a entrevista. Saiu em 7 de novembro de 1969, com Paul na capa, vivo. O boato perdeu força, mas nunca morreu de vez.

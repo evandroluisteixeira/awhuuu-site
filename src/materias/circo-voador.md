@@ -59,11 +59,16 @@ Perfeito Fortuna, um dos mentores do projeto, repetia no começo dos anos 80 que
 
 Em 23 de outubro de 1982, o Circo baixou de vez num terreno em frente aos Arcos da Lapa, e o grupo plantou 54 palmeiras-imperiais em volta. A Lapa ainda não era o polo de bares e casas de samba de hoje, e a lona virou ponto de encontro de tudo o que a cidade tinha de novo.
 
+{% figura "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Arcos_da_Lapa_-_Rio_de_Janeiro.jpg/960px-Arcos_da_Lapa_-_Rio_de_Janeiro.jpg", "Os Arcos da Lapa, vizinhos da lona do Circo Voador.", "Solange Maria, CC BY-SA 3.0, via Wikimedia Commons", "https://commons.wikimedia.org/wiki/File:Arcos_da_Lapa_-_Rio_de_Janeiro.jpg" %}
+
 ## Para 50, depois para 3 mil
 
 Blitz, Barão Vermelho, Paralamas do Sucesso, Legião Urbana, Capital Inicial, Camisa de Vênus, Lobão. Muita gente da geração 80 subiu naquele palco quando ainda era ninguém. Vários desses primeiros shows foram para umas 50 pessoas. Pouco tempo depois, as mesmas bandas lotavam a mesma lona com 3 mil.
 
 E não era só rock. O Circo não fazia distinção de ritmo: teve domingueira com orquestra de baile, teve dança, teve teatro. Foi casa da Intrépida Trupe e de Débora Colker. Tinha até creche funcionando lá dentro.
+
+
+{% video "3oFOZ2dbY10", "\"Você Não Soube Me Amar\", da Blitz, uma das bandas da geração que passou pela lona.", "canal oficial da Blitz" %}
 
 ## A prefeitura derruba a lona
 

@@ -58,6 +58,9 @@ A gravação foi nos estúdios da Sony em Nova York, num dia tenso. O Nirvana to
 
 Terminado o show, a equipe já desmontava o cenário. No dia seguinte o estúdio receberia outra banda.
 
+
+{% video "fregObNcHC8", "\"The Man Who Sold the World\", de David Bowie, no Unplugged.", "canal oficial do Nirvana" %}
+
 ## No ar em 16 de dezembro
 
 O episódio foi ao ar na MTV em 16 de dezembro de 1993 e virou na hora um dos melhores da série. Era para ser só um bom programa de TV.

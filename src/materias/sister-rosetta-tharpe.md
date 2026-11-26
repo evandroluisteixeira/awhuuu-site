@@ -80,6 +80,11 @@ Sister Rosetta tocava uma Gibson elétrica com volume alto e o som sujo de prop�
 
 Em 7 de maio de 1964, a TV Granada montou um show de blues e gospel numa estação de trem desativada no sul de Manchester. Começou a chover. Sister Rosetta chegou de carruagem, pegou a guitarra e tocou "Didn't It Rain". Na plateia do outro lado dos trilhos estavam rapazes que depois seriam Eric Clapton, Jeff Beck, Keith Richards e Brian Jones. O programa foi ao ar em agosto daquele ano.
 
+{% figura "https://upload.wikimedia.org/wikipedia/commons/8/83/Wilbraham_road_railway_station_1937_OS_Map.jpg", "A estação Wilbraham Road, no sul de Manchester, num mapa de 1937.", "Ordnance Survey, domínio público, via Wikimedia Commons", "https://commons.wikimedia.org/wiki/File:Wilbraham_road_railway_station_1937_OS_Map.jpg" %}
+
+
+{% video "Y9a49oFalZE", "\"Didn't It Rain\", na estação de trem em Manchester, em 1964.", "arquivo Reelin' In The Years" %}
+
 ## Fora dos livros
 
 Sister Rosetta Tharpe morreu em 9 de outubro de 1973, na Filadélfia. A primeira biografia dela só saiu em 2007. O Hall da Fama do Rock, que recebeu Little Richard e Chuck Berry na primeira turma, em 1986, só a incluiu em 2018, como "influência inicial".

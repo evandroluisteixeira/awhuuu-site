@@ -55,6 +55,9 @@ Segundo o DJ da casa, Bob Wooler, os Beatles subiram ao palco do Cavern 292 veze
 
 Paul McCartney lembrou anos depois que aquilo era um inferno claustrofóbico. E um inferno ótimo.
 
+
+{% video "uJDNZ_aWxrQ", "\"Some Other Guy\", a música do filme da TV Granada no Cavern, aqui numa gravação dos Beatles para a BBC em 1963.", "canal oficial dos Beatles" %}
+
 ## Aterrado pelo metrô
 
 Em 1973, a companhia ferroviária britânica comprou os armazéns para abrir um duto de ventilação do novo metrô de Liverpool. O Cavern fechou, os prédios de cima foram demolidos e o porão foi enchido de entulho. O duto, segundo a placa que hoje conta a história no local, nunca foi construído.
@@ -62,5 +65,7 @@ Em 1973, a companhia ferroviária britânica comprou os armazéns para abrir um 
 ## Tijolo por tijolo
 
 Em 1984, um grupo que incluía o ex-jogador do Liverpool Tommy Smith reconstruiu o clube ao lado do lugar original, ocupando boa parte do terreno antigo e usando tijolos do Cavern de verdade nos arcos. A porta de entrada de 1957 hoje é a saída de emergência.
+
+{% figura "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/The_Cavern_Club_wall%2C_Mathew_Street%2C_Liverpool%2C_2011.jpg/960px-The_Cavern_Club_wall%2C_Mathew_Street%2C_Liverpool%2C_2011.jpg", "A parede com nomes de bandas no Cavern reconstruído, em 2011.", "Ian Ransley, CC BY 2.0, via Wikimedia Commons", "https://commons.wikimedia.org/wiki/File:The_Cavern_Club_wall,_Mathew_Street,_Liverpool,_2011.jpg" %}
 
 O Cavern continua aberto, com música ao vivo todo dia. A Rota 666 passou por um bar de country em Nova York e por uma lona no Rio. Desta vez, por um porão que foi enterrado e desenterrado.

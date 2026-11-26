@@ -43,6 +43,9 @@ A Legião Urbana nasceu em Brasília. Renato Russo, Dado Villa-Lobos e Marcelo B
 
 Em 18 de junho de 1988, cerca de 50 mil pessoas encheram o antigo Estádio Mané Garrincha. Era o maior público já reunido em Brasília para um show com ingresso pago. A expectativa era de festa de volta para casa.
 
+
+{% video "kFpkyT_KPpc", "\"Que País É Este\", a faixa-título do disco da turnê de 1988.", "canal oficial da Legião Urbana" %}
+
 ## Tudo dando errado
 
 Som ruim, atraso, superlotação, fila mal organizada pela polícia na entrada. Dado Villa-Lobos contou depois, em livro de memórias, que olhava para 48 mil pessoas enfurecidas e só pensava no que estava acontecendo ali. A raiva vinha da organização, mas também das provocações trocadas entre o palco e a plateia.

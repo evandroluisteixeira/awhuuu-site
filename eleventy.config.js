@@ -164,6 +164,19 @@ export default function (eleventyConfig) {
     const ini = c.rodadas[0].inicio, fim = c.rodadas[c.rodadas.length - 1].fim;
     return hoje < ini ? "em breve" : hoje > fim ? "encerrada" : "valendo";
   });
+  // vídeo do YouTube no meio do texto da matéria: {% video "link ou código", "legenda", "canal" %}
+  eleventyConfig.addShortcode("video", (link, legenda = "", canal = "") => {
+    const id = (String(link).match(/(?:v=|youtu\.be\/|shorts\/|embed\/|live\/)([\w-]{11})/) || [])[1] || (/^[\w-]{11}$/.test(link) ? link : "");
+    if (!id) return "";
+    const esc = (t) => String(t || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    return `<figure class="video-materia"><div class="embed video"><button type="button" class="yt-lite" data-id="${id}" aria-label="Tocar o vídeo${legenda ? ": " + esc(legenda) : ""}" style="background-image:url(https://i.ytimg.com/vi/${id}/hqdefault.jpg)"><span aria-hidden="true">▶</span></button></div>${legenda || canal ? `<figcaption>${esc(legenda)}${canal ? ` <span>Vídeo: ${esc(canal)}, no YouTube.</span>` : ""}</figcaption>` : ""}</figure>`;
+  });
+  // foto no meio do texto, com crédito: {% figura "url", "legenda", "crédito", "link da fonte" %}
+  eleventyConfig.addShortcode("figura", (src, legenda = "", credito = "", fonte = "") => {
+    const esc = (t) => String(t || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    const cred = credito ? (fonte ? `<a href="${esc(fonte)}" target="_blank" rel="noopener">${esc(credito)}</a>` : esc(credito)) : "";
+    return `<figure class="figura-materia"><img src="${esc(src)}" alt="${esc(legenda)}" loading="lazy" referrerpolicy="no-referrer">${legenda || cred ? `<figcaption>${esc(legenda)}${cred ? ` <span>Foto: ${cred}.</span>` : ""}</figcaption>` : ""}</figure>`;
+  });
   eleventyConfig.addFilter("hojeISO", () => new Date().toISOString().slice(0, 10));
   eleventyConfig.addFilter("casasAtivas", (casas) => ((casas && casas.casas) || []).filter((c) => c.ativa !== false));
 

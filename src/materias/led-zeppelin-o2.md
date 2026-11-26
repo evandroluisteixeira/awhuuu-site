@@ -67,6 +67,9 @@ O Zeppelin abriu com "Good Times Bad Times", a primeira faixa do primeiro disco,
 
 Jimmy Page resumiu depois quem tinha sido o herói da noite: Jason Bonham. Para Page, aquele show tinha sido sobre ele.
 
+
+{% video "PD-MdiUm1_Y", "\"Kashmir\", gravada naquela noite na O2 e lançada no filme Celebration Day.", "canal oficial do Led Zeppelin" %}
+
 ## E não teve mais
 
 Muita gente esperava uma turnê. Não aconteceu. Robert Plant falou mais tarde que tinha funcionado, tinha sido bom, e era isso. Foi a última vez que os três integrantes vivos tocaram juntos. Em 2012, o show saiu em filme e disco com o nome de *Celebration Day*, título tirado de uma faixa do *Led Zeppelin III*.

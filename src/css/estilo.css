@@ -561,3 +561,12 @@ a.patch:focus-visible{outline-color:var(--sangue)}
 .capas-cartaz{display:grid;grid-template-columns:1fr 1fr;background:var(--osso)}
 .capas-cartaz img{width:100%;height:auto;aspect-ratio:1;object-fit:cover;display:block}
 @media (max-width:760px){.capas-cartaz{grid-template-columns:repeat(4,1fr)}.capas-cartaz img{aspect-ratio:1}}
+.video-materia{margin:32px 0}
+.video-materia .embed.video{margin:0}
+.video-materia figcaption{font-size:.9rem;line-height:1.45;color:var(--cinza);margin-top:10px;padding-left:12px;border-left:3px solid var(--sangue)}
+.video-materia figcaption span{display:block;font-size:.76rem;color:#8a8475;margin-top:2px}
+.figura-materia{margin:32px 0}
+.figura-materia img{display:block;width:100%;height:auto;border:1px solid var(--linha)}
+.figura-materia figcaption{font-size:.9rem;line-height:1.45;color:var(--cinza);margin-top:10px;padding-left:12px;border-left:3px solid var(--sepia)}
+.figura-materia figcaption span{display:block;font-size:.76rem;color:#8a8475;margin-top:2px}
+.figura-materia figcaption a{color:inherit}

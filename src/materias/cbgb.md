@@ -57,6 +57,9 @@ A casa tinha uma regra: nada de covers. Parece manifesto artístico, mas o filho
 
 Em 16 de agosto de 1974, os Ramones fazem a primeira apresentação na casa. No mesmo mês chega o Angel and the Snake, banda que viraria o Blondie. Pouco depois, os Ramones bolam a ideia de tocar 20 músicas em 17 minutos.
 
+
+{% video "268C3N2dDYk", "\"Blitzkrieg Bop\", a faixa que abre o primeiro disco dos Ramones, de 1976.", "canal oficial dos Ramones" %}
+
 ## O festival dos sem-disco
 
 No verão de 1975, Hilly monta o *Festival of the Top 40 Unrecorded New York Rock Bands*, as 40 melhores bandas de Nova York sem disco gravado. A revista britânica Melody Maker foi ver o que estava acontecendo.
@@ -64,5 +67,7 @@ No verão de 1975, Hilly monta o *Festival of the Top 40 Unrecorded New York Roc
 ## Patti Smith apaga a luz
 
 O CBGB fechou em 15 de outubro de 2006, depois de perder a briga do aluguel. Patti Smith fez o último show, com mais de três horas. Em abril de 2008, o endereço virou uma loja de roupa de grife, que guardou paredes com adesivos e cartazes atrás de vidro.
+
+{% figura "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/CBGB_closed.JPG/960px-CBGB_closed.JPG", "A fachada do CBGB depois do fechamento, coberta de recados de fãs.", "Noeticsage, CC BY 2.5, via Wikimedia Commons", "https://commons.wikimedia.org/wiki/File:CBGB_closed.JPG" %}
 
 > O rock não morreu: foi despejado.

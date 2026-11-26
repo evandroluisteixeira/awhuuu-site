@@ -47,9 +47,14 @@ Turnê *Diary of a Madman*, 20 de janeiro de 1982, Des Moines, no estado america
 
 Mark Neal, 17 anos, contou tudo ao Des Moines Register. O irmão mais novo dele tinha levado o morcego da escola para casa, vivo, umas duas semanas antes. No dia do show, o bicho já estava morto.
 
+{% figura "https://upload.wikimedia.org/wikipedia/commons/b/bd/VetsAuditorium.jpg", "O Veterans Memorial Auditorium, em Des Moines, onde aconteceu o show.", "Iowahwyman, CC BY-SA 3.0, via Wikimedia Commons", "https://commons.wikimedia.org/wiki/File:VetsAuditorium.jpg" %}
+
 ## A versão do Ozzy
 
 Ozzy disse que achou que era de borracha. Pegou, pôs na boca e mordeu, "sendo o palhaço que eu sou". Anos depois, dizia ter sentido o bicho se mexer. Quem levou o morcego garante que ele estava morto. As duas versões seguem por aí.
+
+
+{% video "FVovq9TGBw0", "\"Crazy Train\", do primeiro disco solo de Ozzy, de 1980.", "canal oficial de Ozzy Osbourne" %}
 
 ## "Patient bit head off bat"
 

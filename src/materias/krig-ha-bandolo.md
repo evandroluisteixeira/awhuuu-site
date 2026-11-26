@@ -73,3 +73,5 @@ Foi o começo de uma parceria longa: o *Krig-ha* foi o primeiro de muitos discos
 ## O tamanho da pedra
 
 Em 2007, a Rolling Stone Brasil colocou o *Krig-ha, Bandolo!* em 12º lugar entre os maiores discos brasileiros. A revista também pôs "Ouro de Tolo" e "Metamorfose Ambulante" entre as maiores canções do país.
+
+{% video "7MSCzIxhFKI", "\"Ouro de Tolo\", uma das faixas do disco.", "canal oficial de Raul Seixas" %}

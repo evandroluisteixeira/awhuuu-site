@@ -41,6 +41,9 @@ Toda banda vende camiseta. O Kiss vendeu até caixão. Mas em 1977 a banda fez a
 
 O Kiss já se vestia como personagem de quadrinho, e Gene Simmons era fã de gibi desde criança. Em 1977, a Marvel publicou uma revista especial, em formato grande e papel brilhante, com os quatro como super-heróis. O roteiro era de Steve Gerber. Teve até o Kiss enfrentando o Doutor Destino.
 
+
+{% video "Ff9efKdyz84", "\"Rock and Roll All Nite\", no vídeo promocional de 1975.", "canal oficial do Kiss" %}
+
 ## A ideia
 
 Ninguém assume a autoria. Simmons contou que alguém teve a ideia de pôr sangue de verdade na tinta, e que não foi ele. Stan Lee, o homem da Marvel, achou um absurdo. E foi junto mesmo assim.

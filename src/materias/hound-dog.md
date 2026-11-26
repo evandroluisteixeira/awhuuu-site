@@ -64,6 +64,9 @@ A letra era de uma mulher mandando embora um homem aproveitador. Ela cantava ros
 
 Lançada em fevereiro de 1953, a gravação passou sete semanas em primeiro lugar na parada de R&B e vendeu mais de 500 mil cópias. Foi o único grande sucesso da carreira dela. Pelos relatos, Big Mama recebeu cerca de 500 dólares. Até os compositores tiveram o pagamento suspenso pela gravadora.
 
+
+{% video "pam1eUkWfFM", "\"Hound Dog\" na voz de Big Mama Thornton.", "canal do catálogo de Big Mama Thornton, gerado pelo YouTube" %}
+
 ## A versão do meio
 
 Em 1955, a banda Freddie Bell and the Bellboys regravou a música com outra letra. O "hound dog" deixou de ser um homem e virou um cachorro de verdade, e o tom de briga virou piada de cassino. Em abril de 1956, Elvis viu essa banda em Las Vegas e adorou.
@@ -73,6 +76,9 @@ Em 1955, a banda Freddie Bell and the Bellboys regravou a música com outra letr
 Em julho de 1956, Elvis gravou "Hound Dog" seguindo o arranjo e a letra dos Bellboys. A música chegou ao primeiro lugar das paradas de pop, country e R&B e passou 11 semanas no topo da parada pop. Foi aí que Leiber e Stoller começaram a ganhar direitos autorais de verdade.
 
 Stoller sempre disse que Elvis não roubou nada de Big Mama: ele cantou a versão dos Bellboys, não a dela. É verdade no detalhe. Mas a pergunta que fica é outra: quem ficou com a fama e o dinheiro de uma música que uma mulher negra levou ao topo primeiro?
+
+
+{% video "-eHJ12Vhpyc", "\"Hound Dog\" na voz de Elvis Presley, em 1956.", "canal oficial de Elvis Presley" %}
 
 ## O remendo que virou o original
 

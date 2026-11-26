@@ -52,3 +52,17 @@ Vale para tudo o que o site publica: matérias, legendas, carrosséis, agenda, c
 ## 7. Errou?
 
 Corrige no ato, com uma linha no fim da matéria dizendo o que mudou e quando. A página pública `/pra-quem/` convida o leitor a apontar os erros.
+
+## Vídeos e fotos no meio do texto
+
+Para pôr um vídeo do YouTube entre dois parágrafos, numa linha sozinha:
+
+    {% video "LINK-OU-CÓDIGO-DO-VÍDEO", "Legenda curta dizendo o que é", "canal oficial de Fulano" %}
+
+Prefira o canal oficial da banda, da gravadora ou do programa de TV. Upload de fã só quando não houver outro.
+
+Para pôr uma foto com crédito:
+
+    {% figura "LINK-DA-IMAGEM", "Legenda", "Autor, licença", "link da página da foto" %}
+
+Fotos de lugares, objetos e documentos de licença livre (Wikimedia Commons) entram sempre com autor e licença. Fotos de divulgação das bandas: só as que a própria banda distribui para imprensa, com o crédito que ela pede.
