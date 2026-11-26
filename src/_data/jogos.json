@@ -284,6 +284,138 @@
           "materia": "hound-dog"
         }
       ]
+    },
+    {
+      "titulo": "Prova do Lobo: semana 3",
+      "data": "2026-12-20",
+      "perguntas": [
+        {
+          "pergunta": "O que funcionava no porão do Cavern antes de virar clube?",
+          "opcoes": [
+            "Um armazém de frutas",
+            "Uma gráfica",
+            "Um abrigo antiaéreo",
+            "Uma adega de vinho"
+          ],
+          "certa": 0,
+          "explicacao": "Era o porão de um armazém de frutas na Mathew Street, em Liverpool. O clube abriu ali em 1957, só de jazz.",
+          "materia": "cavern-club"
+        },
+        {
+          "pergunta": "Quantas vezes os Beatles tocaram no Cavern, segundo o DJ da casa?",
+          "opcoes": [
+            "292",
+            "100",
+            "48",
+            "500"
+          ],
+          "certa": 0,
+          "explicacao": "A conta é de Bob Wooler: 292 vezes entre 1961 e 1963.",
+          "materia": "cavern-club"
+        },
+        {
+          "pergunta": "Por que o guia de toca-discos manda fugir da maleta retrô?",
+          "opcoes": [
+            "Por causa da agulha de cerâmica e do braço sem contrapeso",
+            "Porque ela não toca disco de 33 rotações",
+            "Porque só funciona com Bluetooth",
+            "Porque não tem tampa"
+          ],
+          "certa": 0,
+          "explicacao": "A cápsula de cerâmica apoia peso demais no sulco, e sem contrapeso não dá para regular. O estrago vem com o tempo.",
+          "materia": "toca-discos-para-comecar"
+        },
+        {
+          "pergunta": "Que música o Nirvana NÃO tocou no Unplugged de 1993?",
+          "opcoes": [
+            "Smells Like Teen Spirit",
+            "Come as You Are",
+            "All Apologies",
+            "Where Did You Sleep Last Night"
+          ],
+          "certa": 0,
+          "explicacao": "Ficou de fora. E das 14 músicas, nenhuma foi refeita.",
+          "materia": "nirvana-unplugged"
+        },
+        {
+          "pergunta": "Em 1977, o que o Kiss misturou na tinta vermelha do gibi da Marvel?",
+          "opcoes": [
+            "O próprio sangue",
+            "Purpurina",
+            "Tinta da maquiagem de palco",
+            "Cinzas de uma guitarra queimada"
+          ],
+          "certa": 0,
+          "explicacao": "Um tabelião assistiu e assinou: o sangue dos quatro foi para a tinta da primeira edição.",
+          "materia": "kiss-gibi-sangue"
+        }
+      ]
+    },
+    {
+      "titulo": "Prova do Lobo: semana 4",
+      "data": "2026-12-27",
+      "perguntas": [
+        {
+          "pergunta": "No kit do lobo, qual peça é a base de tudo?",
+          "opcoes": [
+            "O coturno de cano alto",
+            "A jaqueta de motoqueiro",
+            "O cinto de pirâmides",
+            "A corrente para calça"
+          ],
+          "certa": 0,
+          "explicacao": "Tudo começa no chão: se for gastar mais em uma peça só, gaste no coturno.",
+          "materia": "kit-do-lobo"
+        },
+        {
+          "pergunta": "Qual é a armadilha da tomada no guia de primeira guitarra?",
+          "opcoes": [
+            "Amplificador de 120V ligado direto em tomada de 220V",
+            "Cabo curto demais",
+            "Guitarra sem pilha",
+            "Tomada sem aterramento no palco"
+          ],
+          "certa": 0,
+          "explicacao": "Muito ampli vendido no Brasil é 120V. Procure 220V ou bivolt no anúncio, ou some um transformador ao orçamento.",
+          "materia": "guitarra-para-comecar"
+        },
+        {
+          "pergunta": "Por que \"Papai Noel, Velho Batuta\", dos Garotos Podres, tem esse nome?",
+          "opcoes": [
+            "O título original foi trocado para passar pela censura",
+            "Era o apelido de um avô da banda",
+            "Foi o nome escolhido num concurso de rádio",
+            "Veio de um gibi dos anos 50"
+          ],
+          "certa": 0,
+          "explicacao": "O nome original era bem menos educado. A música saiu em 1985, no primeiro disco da banda, Mais Podres do que Nunca.",
+          "materia": "noite-feliz-lua-cheia"
+        },
+        {
+          "pergunta": "Quando Jimi Hendrix gravou o pout-pourri de Natal da fita do lobo?",
+          "opcoes": [
+            "Em dezembro de 1969, num ensaio para o Fillmore East",
+            "No Natal de 1967, ao vivo em Londres",
+            "Em Woodstock, em 1969",
+            "Em 1970, no estúdio Electric Lady"
+          ],
+          "certa": 0,
+          "explicacao": "Foi num ensaio com Billy Cox e Buddy Miles. O disco só saiu em 1974.",
+          "materia": "noite-feliz-lua-cheia"
+        },
+        {
+          "pergunta": "Que guitarra o guia de primeira guitarra indica para quem quer distorção mais pesada?",
+          "opcoes": [
+            "Yamaha Pacifica 012, pelo humbucker da ponte",
+            "Tagima TG-530, pela alavanca",
+            "Squier Debut, pelo braço fino",
+            "Qualquer uma que venha com cubo no kit"
+          ],
+          "certa": 0,
+          "explicacao": "O captador duplo (humbucker) da ponte da Pacifica segura melhor a distorção do rock pesado.",
+          "materia": "guitarra-para-comecar"
+        }
+      ]
     }
   ],
   "banda_do_dia": {
