@@ -447,3 +447,4 @@ footer a{color:var(--cinza)}
 .a-definir{color:#6d665a}
 .e6-moldura{max-width:540px;margin:20px auto 0;border:1px solid #2a2a2a;box-shadow:0 0 60px rgba(213,6,12,.18)}
 .e6-moldura canvas{display:block;width:100%;height:auto;max-height:82vh;aspect-ratio:9/16;margin:0 auto;touch-action:none;cursor:pointer}
+@media (max-width:640px){.grade-bandas{grid-template-columns:1fr 1fr;gap:10px}.card-banda{min-height:128px;padding:14px;gap:4px}.card-banda strong{font-size:1.2rem}.card-banda::before{width:70px;height:70px;right:-20px;top:-20px}.card-banda .origem,.card-banda .estilos{font-size:.7rem}}
