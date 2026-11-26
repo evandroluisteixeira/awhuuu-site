@@ -38,6 +38,7 @@ lugares:
 achados:
   - nome: "Vinil: Please Please Me, o primeiro disco dos Beatles (1963), gravado na época do Cavern — Amazon"
     url: "https://www.amazon.com.br/dp/B0041KVX1K?tag=awhuuu-20"
+youtube_playlist: PLbmG2EGXmyyE
 ---
 Antes de ser templo dos Beatles, o Cavern era um porão. Um porão de armazém de frutas, em Liverpool, onde um rapaz chamado Alan Sytner resolveu abrir um clube de jazz inspirado nas caves de Paris.
 

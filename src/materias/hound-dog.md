@@ -47,6 +47,7 @@ achados:
     url: "https://www.amazon.com.br/dp/B07SZGSXJL?tag=awhuuu-20"
   - nome: "Vinil: The Best of Big Mama Thornton 1951-58 — Amazon"
     url: "https://www.amazon.com.br/dp/B0BXFD4SBL?tag=awhuuu-20"
+youtube_playlist: PLUH9cEgmTUq0
 ---
 Todo mundo conhece "Hound Dog" na voz de Elvis Presley. Pouca gente sabe que, quando ele gravou, a música já tinha sido número um, quatro anos antes, na voz de uma mulher negra do Alabama que quase ninguém lembra.
 

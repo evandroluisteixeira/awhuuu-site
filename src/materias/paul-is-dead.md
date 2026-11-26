@@ -37,6 +37,7 @@ lugares:
 achados:
   - nome: "Vinil: Abbey Road, edição de 50 anos — Amazon"
     url: "https://www.amazon.com.br/dp/B07VNS48HD?tag=awhuuu-20"
+youtube_playlist: PLNeaWzSP4JOo
 ---
 Paul McCartney segue vivo, compondo e fazendo turnê. Mas no fim de 1969 muita gente acreditou que ele tinha morrido três anos antes e que os Beatles tinham posto um sósia no lugar. A história de como isso aconteceu é melhor que a teoria.
 

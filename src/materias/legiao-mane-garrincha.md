@@ -36,6 +36,7 @@ lugares:
 achados:
   - nome: "Vinil: Que País É Este, o disco da turnê de 1988 — Amazon"
     url: "https://www.amazon.com.br/dp/B09L54HZBW?tag=awhuuu-20"
+youtube_playlist: PLSE84Sb_L8xY
 ---
 A Legião Urbana nasceu em Brasília. Renato Russo, Dado Villa-Lobos e Marcelo Bonfá aprenderam rock tocando em festa, em ginásio, em palco improvisado na capital. Em 1988, com o disco *Que País É Este* estourado no Brasil inteiro, voltaram para casa para o maior show da vida deles na cidade.
 

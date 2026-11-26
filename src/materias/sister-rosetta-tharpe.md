@@ -55,6 +55,7 @@ achados:
     url: "https://www.amazon.com.br/dp/B07XW6T82H?tag=awhuuu-20"
   - nome: "Livro: Shout, Sister, Shout!, a biografia de Gayle Wald (em inglês) — Amazon"
     url: "https://www.amazon.com.br/dp/0807011843?tag=awhuuu-20"
+youtube_playlist: PLNC8pHythzR0
 ---
 Antes de Chuck Berry, antes de Elvis, antes de alguém chamar aquilo de rock and roll, uma mulher negra do Arkansas subia ao palco com uma guitarra elétrica e tocava gospel como quem chama a igreja pra briga.
 

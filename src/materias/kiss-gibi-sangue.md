@@ -34,6 +34,7 @@ achados:
     url: "https://www.amazon.com.br/dp/B00IN69MK2?tag=awhuuu-20"
   - nome: "Livro: Kiss, por trás da máscara (biografia oficial) — Amazon"
     url: "https://www.amazon.com.br/dp/6555371390?tag=awhuuu-20"
+youtube_playlist: PLAOIsItQG98M
 ---
 Toda banda vende camiseta. O Kiss vendeu até caixão. Mas em 1977 a banda fez algo que nem o departamento de marketing mais ousado tinha pensado: misturou o próprio sangue na tinta de um gibi.
 

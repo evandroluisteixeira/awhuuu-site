@@ -44,6 +44,7 @@ achados:
     url: "https://www.amazon.com.br/dp/B009E3EY38?tag=awhuuu-20"
   - nome: "Vinil: Led Zeppelin, o primeiro disco (tem Good Times Bad Times, a faixa que abriu a noite) — Amazon"
     url: "https://www.amazon.com.br/dp/B00IXHBUG0?tag=awhuuu-20"
+youtube_playlist: PLKW97qfTVRlk
 ---
 O Led Zeppelin acabou em 1980, quando morreu o baterista John Bonham. Depois disso, os três que sobraram tocaram juntos só em ocasiões contadas, como o Live Aid, em 1985, e a festa de 40 anos da Atlantic, em 1988. Até a noite de 10 de dezembro de 2007, em Londres.
 

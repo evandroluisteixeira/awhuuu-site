@@ -48,6 +48,7 @@ achados:
     url: "https://www.amazon.com.br/dp/8591636007?tag=awhuuu-20"
   - nome: "E-book: Circo Voador, voos ousados da cultura e da democracia, 1982-1996 (Adam Tomy Vasques Vidal) — Amazon"
     url: "https://www.amazon.com.br/dp/B00EEELNM2?tag=awhuuu-20"
+youtube_playlist: PLEg-HUQmQIck
 ---
 Antes de ser endereço, o Circo Voador foi uma lona de circo armada na areia. No verão de 1982, um grupo de artistas e produtores esticou a tenda na praia do Arpoador, em Ipanema, para ter onde mostrar o que fazia. Teatro, música, poesia, dança. O que coubesse.
 

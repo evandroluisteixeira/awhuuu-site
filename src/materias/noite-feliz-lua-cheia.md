@@ -36,6 +36,7 @@ fontes:
     url: "https://jimihendrix.com/?p=38777"
   - nome: "O segredo dos Garotos Podres para lançar música sobre o Papai Noel (Diário do Litoral)"
     url: "https://www.diariodolitoral.com.br/variedades/o-segredo-dos-garotos-podres-para-lancar-musica-sobre-o-papai-noel-no/"
+youtube_playlist: PLa0f_4zRBlVo
 ---
 Na noite de 23 de dezembro, às 22h28 de Brasília, a lua ficou cheia. Foi a lua cheia mais perto da Terra em 2026: superlua na véspera do Natal. O lobo não ia deixar passar.
 

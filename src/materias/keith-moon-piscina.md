@@ -43,6 +43,7 @@ achados:
     url: "https://www.amazon.com.br/dp/655537151X?tag=awhuuu-20"
   - nome: "Vinil: The Who Sell Out, o disco que o The Who lançou no fim de 1967 — Amazon"
     url: "https://www.amazon.com.br/dp/B00AY0JCDW?tag=awhuuu-20"
+youtube_playlist: PLFcxc_kHgqRg
 ---
 É a imagem mais famosa do excesso no rock: um carro de luxo no fundo da piscina de um hotel. O dono da história é Keith Moon, baterista do The Who. O problema é que quase todo mundo que estava lá diz que não foi bem assim.
 

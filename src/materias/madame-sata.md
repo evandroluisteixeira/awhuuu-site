@@ -37,6 +37,7 @@ lugares:
     lng: -46.6433
     aproximado: true
 achados: []
+youtube_playlist: PLYX_DO6StQw8
 ---
 Nova York tinha o CBGB. Liverpool, o Cavern. O Rio, o Circo Voador. São Paulo, nos anos 80, tinha um casarão escuro no Bixiga com nome de malandro carioca.
 

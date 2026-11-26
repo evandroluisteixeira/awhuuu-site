@@ -62,6 +62,7 @@ lugares:
 achados:
   - nome: "Livro: Rock in Rio, a história (Luiz Felipe Carneiro) — Amazon"
     url: "https://www.amazon.com.br/dp/6555670592?tag=awhuuu-20"
+youtube_playlist: PLL4QgqC_vlyE
 ---
 Duas da manhã do dia 12 de janeiro de 1985. Choveu, o chão virou lama, e o Queen está duas horas atrasado. Quem ficou, ficou. Mais de 250 mil pessoas, 325 mil pelas contas da revista inglesa *Louder*, esperando a banda que fecha a primeira noite do primeiro Rock in Rio na Cidade do Rock, em Jacarepaguá.
 

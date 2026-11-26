@@ -41,6 +41,7 @@ achados:
     url: "https://www.amazon.com.br/dp/B07XQRHFR9?tag=awhuuu-20"
   - nome: "CD: MTV Unplugged in New York — Amazon"
     url: "https://www.amazon.com.br/dp/B0D5LD4STT?tag=awhuuu-20"
+youtube_playlist: PLIsx449wI5_w
 ---
 Em 1993, o MTV Unplugged era o lugar onde banda grande ia mostrar que sabia tocar sem tomada. Todo mundo queria o Nirvana lá. E quase todo mundo achava que ia dar errado.
 
