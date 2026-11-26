@@ -20,6 +20,10 @@ content:
         label: Título
         type: string
         required: true
+      - name: assina
+        label: Quem assina
+        type: string
+        description: "Código de quem assina, como está em Quem escreve: evandro, lobo, vampira, criatura ou um pseudônimo que você criar lá. Vazio: sai sem assinatura."
       - name: editoria
         label: Editoria
         type: select
@@ -609,3 +613,28 @@ content:
         type: object
         fields:
           - { name: umami_id, label: ID do site no Umami (vazio = desligado), type: string }
+  - name: assinaturas
+    label: Quem escreve
+    type: file
+    path: src/_data/assinaturas.json
+    format: json
+    fields:
+      - { name: chamada, label: Frase de abertura, type: string }
+      - { name: aviso, label: "Aviso sobre personagens e pseudônimos", type: text }
+      - name: pessoas
+        label: Quem assina
+        type: object
+        list: true
+        fields:
+          - { name: id, label: Código, type: string, description: "Sem acento nem espaço. É o que vai no campo Quem assina da matéria." }
+          - { name: nome, label: Nome, type: string }
+          - name: tipo
+            label: Tipo
+            type: select
+            options:
+              values:
+                - { value: pessoa, label: "Pessoa real" }
+                - { value: personagem, label: "Personagem ou pseudônimo" }
+          - { name: papel, label: Papel, type: string }
+          - { name: bio, label: Apresentação, type: text }
+          - { name: link, label: Link (opcional), type: string }

@@ -1,0 +1,17 @@
+---
+layout: pagina.njk
+permalink: /quem-escreve/
+title: "Quem escreve"
+rotulo: "A matilha"
+descricao: "Quem assina as matérias do Awhuuu!: o editor e os personagens da casa."
+---
+<p>{{ assinaturas.chamada }}</p>
+<p><strong>{{ assinaturas.aviso }}</strong></p>
+{% for a in assinaturas.pessoas %}
+<section class="quem" id="{{ a.id }}">
+  <h2>{{ a.nome }}</h2>
+  <p class="papel">{{ a.papel }}{% if a.tipo != "pessoa" %} · <span class="selo-personagem">personagem da casa</span>{% endif %}</p>
+  <p>{{ a.bio }}</p>
+  {% if a.link %}<p><a href="{{ a.link }}" target="_blank" rel="noopener">Perfil</a></p>{% endif %}
+</section>
+{% endfor %}

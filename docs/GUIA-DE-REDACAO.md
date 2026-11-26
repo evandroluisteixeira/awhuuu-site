@@ -53,6 +53,48 @@ Vale para tudo o que o site publica: matérias, legendas, carrosséis, agenda, c
 
 Corrige no ato, com uma linha no fim da matéria dizendo o que mudou e quando. A página pública `/pra-quem/` convida o leitor a apontar os erros.
 
+## Como escrever uma reportagem
+
+Vale para Rota 666, Hora do Lobo, Mondo Bizarro e As Imortais. Pedrada, Remendo, guias da Garagem e Fita Gasta seguem formatos próprios, mais curtos. Modelo: a matéria do Queen no Rock in Rio (`src/materias/queen-rock-in-rio-1985.md`).
+
+**Tamanho:** de 1.200 a 2.000 palavras. Menos que isso vira lista de fatos; mais que isso vai para o Substack.
+
+**Quem assina:** campo `assina` da matéria, com o código de `src/_data/assinaturas.json` (página pública `/quem-escreve/`). Pode ser o Evandro, o Lobo, a Vampira, a Criatura ou um pseudônimo novo criado lá. Regras para personagens e pseudônimos:
+- Aparecem sempre com o selo "personagem da casa" e estão listados em Quem escreve. Nunca se apresentam como jornalista real, nunca têm foto de pessoa real e nunca "entrevistam" ninguém.
+- Podem ter voz, manias e humor próprios. Os fatos, não: mesma apuração, mesmas fontes, mesma lista no fim.
+- Personagem não inventa lembrança de pessoa real nem põe fala na boca de ninguém. Citação é só a que tem fonte.
+- Bom uso: o Lobo nas crônicas de madrugada e na Pedrada, a Vampira em As Imortais, a Criatura no Remendo, um pseudônimo para um tom bem diferente (o colunista rabugento, a cronista da noite de Floripa).
+
+**Quem fala:** quando assina o Evandro, o repórter, em primeira pessoa. O "eu" serve para assumir leitura, dúvida e opinião ("o que me interessa nessa noite", "não vou fingir que sei"). Nunca para inventar lembrança ou presença: se o Evandro não estava lá, o texto não diz que estava.
+
+**Estrutura:**
+1. **Cena** no primeiro parágrafo: hora, lugar, clima, gente. Nada de "Em 1985, a banda X...".
+2. **Por que importa**, no segundo ou terceiro parágrafo: a pergunta ou a tese da matéria, numa frase que o leitor consiga repetir. Não basta "foi histórico".
+3. **Desenvolvimento** em 3 a 5 seções com intertítulo, cada uma com uma ideia (não um fato solto). Dentro da seção, parágrafos de 3 a 6 frases.
+4. **A informação que quase ninguém conta.** Toda reportagem precisa de pelo menos uma: um dado de época, uma contradição entre fontes, um bastidor. É o que diferencia a matéria do verbete.
+5. **Brasil e Sul no mapa**: quando a história permitir, o que ela tem a ver com o país, com SC, com quem lê aqui.
+6. **Fecho** que amarra a tese, sem moral da história.
+
+**Fontes:**
+- Wikipédia, Last.fm e sites de curiosidades servem para achar o caminho, não para sustentar a matéria. Cada fato importante precisa de uma fonte de imprensa, de livro, de entrevista ou do arquivo oficial da banda.
+- Procure pelo menos uma fonte **da época** (jornal, revista ou TV do ano do fato; capa de jornal citada já ajuda) e pelo menos uma fala **das pessoas envolvidas**, com quem disse, onde e quando.
+- Quando as fontes divergem (público, data, horário), diga que divergem e dê as duas.
+- Citação traduzida do inglês: traduza e diga onde a pessoa falou.
+- Interpretação de terceiro vem atribuída ("segundo a Louder"). Interpretação sua vem assumida ("eu fico com...").
+
+**Frase:**
+- Verbo concreto, imagem que dá para ver. Nada de "lendário", "icônico", "épico", "o maior de todos os tempos" sem número por trás.
+- Varie o tamanho das frases. Uma curta e seca depois de uma longa.
+- Gíria só quando a cena pede; o tom marginal vem da franqueza e do ponto de vista, não do palavrão.
+
+**Antes de publicar, além da lista da seção 6:**
+- [ ] O primeiro parágrafo é uma cena?
+- [ ] Dá para dizer a tese em uma frase?
+- [ ] Tem a informação que quase ninguém conta?
+- [ ] Cada número e cada citação têm fonte na lista?
+- [ ] Algum "eu" afirma algo que o Evandro não viveu?
+- [ ] Tem vídeo oficial ou foto de lugar no ponto certo do texto?
+
 ## Vídeos e fotos no meio do texto
 
 Para pôr um vídeo do YouTube entre dois parágrafos, numa linha sozinha:
@@ -66,3 +108,33 @@ Para pôr uma foto com crédito:
     {% figura "LINK-DA-IMAGEM", "Legenda", "Autor, licença", "link da página da foto" %}
 
 Fotos de lugares, objetos e documentos de licença livre (Wikimedia Commons) entram sempre com autor e licença. Fotos de divulgação das bandas: só as que a própria banda distribui para imprensa, com o crédito que ela pede.
+
+## Substack: textos longos exclusivos
+
+O Substack (awhuuu.substack.com) não repete o site. Lá saem ensaios e reportagens longas que só existem lá, e é isso que faz alguém assinar.
+
+- **Tamanho:** de 2.500 a 4.000 palavras. **Ritmo:** um a cada quinze dias, sempre no mesmo dia da semana.
+- **Assinatura:** quase sempre o Evandro, em primeira pessoa. É onde entra o que só ele tem: o ouvido de quem canta e dá aula de canto, a cena de Floripa vista de dentro, a experiência de tocar rock no Brasil e de viver na França.
+- **Estrutura:** a mesma das reportagens do site, com mais fôlego: mais de uma cena, mais vozes, e um argumento que se desenvolve.
+- **Ligação com o site:** cada texto termina com dois ou três links para matérias, a agenda ou a página da banda no site. No site, a caixa da newsletter anuncia o texto da quinzena.
+- **Fontes:** a lista de fontes no fim, como no site.
+- **Configuração a fazer pelo Evandro no Substack:** ligar a opção que deixa o Google encontrar a publicação (hoje ela está escondida dos buscadores) e escrever a página "Sobre" com o que o leitor recebe e com que frequência.
+
+Primeiras pautas (cada uma usa uma base que o Evandro já tem):
+1. **Como se grita sem se machucar.** O que acontece na garganta do growl, do drive e do grito, contado por quem ensina canto. (Base: pesquisa de drives vocais.)
+2. **Raul, Exu e o rock de encruzilhada.** O ponto de umbanda em "Mosca na Sopa" e o que o rock brasileiro fez com as religiões de matriz africana. (Seguir a seção 3 do guia: sem exotismo, com vozes de dentro.)
+3. **Téléphone e Legião Urbana: o tédio em duas línguas.** Duas gerações que cantaram a mesma falta de saída, em Paris e em Brasília. (Base: série rock França-Brasil.)
+4. **Floripa, 1983: rock numa ilha que ainda era vila.** A cena de *Nas Manhãs do Sul do Mundo* e os primeiros palcos de rock da cidade. (A apurar.)
+
+## Redes: o carrossel nasce da reportagem
+
+O carrossel do Instagram e o vídeo do TikTok saem da matéria já pronta, não o contrário.
+
+- **Card 1:** a cena do primeiro parágrafo, em uma frase e uma imagem. Nada de "Você sabia?".
+- **Card 2:** a tese, a pergunta que a matéria responde.
+- **Cards 3 a 7:** um fato por card, na ordem da história, com a informação que quase ninguém conta no meio, não no fim.
+- **Penúltimo card:** a fonte principal ("Fontes: Louder, Rolling Stone Brasil, arquivo oficial do Queen").
+- **Último card:** o convite ("A história inteira está no site, link na bio") e a pergunta da matéria.
+- **Legenda:** duas ou três frases que contam algo que não está nos cards, mais a pergunta. Hashtags no máximo cinco, específicas (#rockinrio #queen), nunca genéricas (#rock #music).
+- **Quem assina a matéria assina o post:** se é do Lobo, a legenda tem a voz do Lobo.
+- **Vídeo:** quando houver disco do acervo, o Evandro mostra o disco tocando por 15 a 30 segundos e o texto do carrossel vira legenda na tela.

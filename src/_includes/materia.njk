@@ -9,7 +9,8 @@ layout: base.njk
       <a class="ed" href="/editoria/{{ editoria }}/">{{ ed.nome }}{% if numero %} #{{ numero }}{% endif %}</a>
       <h1>{{ title }}</h1>
       {% if resumo %}<p class="linha-fina">{{ resumo }}</p>{% endif %}
-      <time datetime="{{ page.date | dataISO }}">{{ page.date | dataBR }}</time>
+      {%- set autor = assinaturas.pessoas | selectattr("id", "equalto", assina) | first if assina else null %}
+      <p class="assinatura">{% if autor %}Por <a href="/quem-escreve/#{{ autor.id }}">{{ autor.nome }}</a>{% if autor.tipo != "pessoa" %} <a class="selo-personagem" href="/quem-escreve/">personagem da casa</a>{% endif %} · {% endif %}<time datetime="{{ page.date | dataISO }}">{{ page.date | dataBR }}</time></p>
     </div>
   </header>
 

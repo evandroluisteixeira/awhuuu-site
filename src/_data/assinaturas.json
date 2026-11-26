@@ -1,0 +1,38 @@
+{
+  "chamada": "Quem escreve no Awhuuu!: uma pessoa de carne e osso e uma matilha de personagens.",
+  "aviso": "Os personagens e pseudônimos são vozes criadas pela redação, como um apresentador de programa ou um narrador de romance. Eles têm jeito próprio de contar, mas os fatos não: tudo o que assinam é apurado com as mesmas regras e tem as fontes no fim da matéria. Quem responde por todos os textos é Evandro Teixeira.",
+  "pessoas": [
+    {
+      "id": "evandro",
+      "nome": "Evandro Teixeira",
+      "tipo": "pessoa",
+      "papel": "Editor e repórter",
+      "bio": "Músico, professor de canto e doutor em artes cênicas pela UDESC. Escreve de Palhoça (SC) e assina as reportagens em primeira pessoa.",
+      "link": "https://www.linkedin.com/in/evandroluisteixeira/"
+    },
+    {
+      "id": "lobo",
+      "nome": "O Lobo",
+      "tipo": "personagem",
+      "papel": "Anfitrião da casa",
+      "bio": "O lobisomem que uiva na capa. Sai de madrugada, tem disco demais em casa e opinião sobre todos eles.",
+      "link": ""
+    },
+    {
+      "id": "vampira",
+      "nome": "A Vampira",
+      "tipo": "personagem",
+      "papel": "Apresenta As Imortais",
+      "bio": "Não envelhece e não esquece. Conta as histórias das mulheres que fizeram o rock e que os livros deixaram de fora.",
+      "link": ""
+    },
+    {
+      "id": "criatura",
+      "nome": "A Criatura",
+      "tipo": "personagem",
+      "papel": "Apresenta o Remendo",
+      "bio": "Feita de pedaços, entende de música feita de pedaços: covers, versões e canções que nasceram de outras.",
+      "link": ""
+    }
+  ]
+}
