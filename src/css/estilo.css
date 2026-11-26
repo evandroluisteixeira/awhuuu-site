@@ -352,3 +352,44 @@ footer a{color:var(--cinza)}
 .lista-links .botao{display:block;width:100%;text-align:center;padding:16px}
 .lista-links small{display:block;font-size:11px;letter-spacing:.15em;text-transform:uppercase;opacity:.75;margin-bottom:4px}
 .redes-bio a{color:var(--osso)}
+
+/* ===== Bandas ===== */
+.filtros-bandas{display:flex;flex-wrap:wrap;gap:14px;margin:28px 0 8px}
+.filtros-bandas label{display:flex;flex-direction:column;gap:6px;font:700 .72rem/1 "Space Mono",monospace;text-transform:uppercase;letter-spacing:.08em;color:var(--sepia,#D99E62)}
+.filtros-bandas input,.filtros-bandas select{background:#141414;border:1px solid #333;color:var(--osso,#F4D49A);padding:10px 12px;font:1rem "Space Mono",monospace;min-width:180px}
+.contagem{font:.85rem "Space Mono",monospace;color:#9a8a6a;margin:6px 0 18px}
+.grade-bandas{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px}
+.card-banda{display:flex;flex-direction:column;justify-content:flex-end;gap:6px;min-height:170px;padding:18px;background:#121212 center/cover no-repeat;border:1px solid #262626;text-decoration:none;color:var(--osso,#F4D49A);transition:border-color .2s,transform .2s;position:relative;overflow:hidden}
+.card-banda::before{content:"";position:absolute;right:-30px;top:-30px;width:110px;height:110px;border-radius:50%;background:radial-gradient(circle,#D5060C 0 9%,#1d1d1d 10% 100%);opacity:.55}
+.card-banda.com-foto::before{display:none}
+.card-banda:hover,.card-banda:focus{border-color:var(--sangue,#D5060C);transform:translateY(-2px)}
+.card-banda strong{font:400 1.7rem/1.02 Anton,Impact,sans-serif;text-transform:uppercase;position:relative}
+.card-banda .cena{font:700 .68rem "Space Mono",monospace;text-transform:uppercase;letter-spacing:.1em;color:var(--sangue,#D5060C);position:relative}
+.card-banda .origem,.card-banda .estilos{font:.8rem "Space Mono",monospace;color:#bda57a;position:relative}
+.card-banda .tem-show{font:700 .75rem "Space Mono",monospace;color:#0A0A0A;background:var(--osso,#F4D49A);align-self:flex-start;padding:3px 8px;position:relative}
+.lancamentos{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:30px}
+.lancamentos ol,.lista-simples{list-style:none;padding:0}
+.lancamentos li,.lista-simples li{padding:10px 0;border-bottom:1px solid #222}
+.lancamentos time,.lista-simples time{display:block;font:.78rem "Space Mono",monospace;color:var(--sepia,#D99E62)}
+.video-banda{margin:0}.video-banda figcaption{font:.8rem "Space Mono",monospace;margin-top:8px;color:#bda57a}
+.ficha-banda{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:20px 0}
+.ficha-banda div{border-left:2px solid var(--sangue,#D5060C);padding-left:12px}
+.ficha-banda dt{font:700 .7rem "Space Mono",monospace;text-transform:uppercase;color:var(--sepia,#D99E62)}
+.ficha-banda dd{margin:4px 0 0}
+.sub-lado{font:400 1.2rem Anton,Impact,sans-serif;text-transform:uppercase}
+.botoes.coluna{display:flex;flex-direction:column;align-items:stretch;gap:8px}
+.botoes.coluna .botao{text-align:center}
+/* ===== Neste dia ===== */
+.nd-controles{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:26px 0 10px}
+.nd-controles input{background:#141414;border:1px solid #333;color:var(--osso,#F4D49A);padding:10px;font:1rem "Space Mono",monospace;color-scheme:dark}
+.nd-titulo{font:400 clamp(2rem,6vw,3.4rem)/1 Anton,Impact,sans-serif;text-transform:uppercase;margin:22px 0}
+.nd-lista{list-style:none;padding:0;margin:0 0 24px}
+.nd-lista li{display:grid;grid-template-columns:72px 1fr;gap:4px 16px;padding:14px 0;border-bottom:1px solid #222;align-items:baseline}
+.nd-lista .nd-ano{font:400 1.6rem Anton,Impact,sans-serif;color:var(--sangue,#D5060C);grid-row:span 2}
+.nd-lista .nd-rot{font:700 .68rem "Space Mono",monospace;text-transform:uppercase;letter-spacing:.1em;color:var(--sepia,#D99E62)}
+.nd-lista p{margin:0}
+.nd-lista.curta li{grid-template-columns:64px 1fr}
+.nd-lista.curta .nd-ano{grid-row:auto}
+.nd-lista .nd-fato p{color:var(--osso,#F4D49A)}
+.nd-fonte{font:.72rem "Space Mono",monospace;color:#7d6c50}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}

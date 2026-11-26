@@ -1,0 +1,88 @@
+{
+  "itens": [
+    {
+      "data": "01-16",
+      "ano": 1957,
+      "texto": "Abre o Cavern Club, num porão de Liverpool. Ainda era um clube de jazz.",
+      "materia": "cavern-club"
+    },
+    {
+      "data": "12-10",
+      "ano": 1973,
+      "texto": "Abre o CBGB, em Nova York. O nome promete country, bluegrass e blues; o que veio foi o punk.",
+      "materia": "cbgb"
+    },
+    {
+      "data": "10-23",
+      "ano": 1982,
+      "texto": "O Circo Voador abre a lona na Lapa, no Rio de Janeiro.",
+      "materia": "circo-voador"
+    },
+    {
+      "data": "08-13",
+      "ano": 1952,
+      "texto": "Big Mama Thornton grava \"Hound Dog\" em Los Angeles, quatro anos antes de Elvis.",
+      "materia": "hound-dog"
+    },
+    {
+      "data": "10-31",
+      "ano": 1938,
+      "texto": "Sister Rosetta Tharpe grava pela primeira vez, para a Decca. Entre as faixas, \"Rock Me\".",
+      "materia": "sister-rosetta-tharpe"
+    },
+    {
+      "data": "05-07",
+      "ano": 1964,
+      "texto": "Sister Rosetta Tharpe toca na chuva numa estação de trem desativada em Manchester, para a TV.",
+      "materia": "sister-rosetta-tharpe"
+    },
+    {
+      "data": "02-21",
+      "ano": 1977,
+      "texto": "Os integrantes do Kiss doam o sangue que seria misturado à tinta do gibi da Marvel.",
+      "materia": "kiss-gibi-sangue"
+    },
+    {
+      "data": "07-21",
+      "ano": 1973,
+      "texto": "Sai Krig-ha, Bandolo!, o primeiro disco solo de Raul Seixas.",
+      "materia": "krig-ha-bandolo"
+    },
+    {
+      "data": "12-10",
+      "ano": 2007,
+      "texto": "Led Zeppelin volta ao palco por uma noite, na O2 Arena, em Londres.",
+      "materia": "led-zeppelin-o2"
+    },
+    {
+      "data": "06-18",
+      "ano": 1988,
+      "texto": "Show da Legião Urbana no estádio Mané Garrincha, em Brasília, termina em confusão.",
+      "materia": "legiao-mane-garrincha"
+    },
+    {
+      "data": "10-21",
+      "ano": 1983,
+      "texto": "Abre o Madame Satã, no Bixiga, em São Paulo.",
+      "materia": "madame-sata"
+    },
+    {
+      "data": "11-18",
+      "ano": 1993,
+      "texto": "Nirvana grava o MTV Unplugged em Nova York.",
+      "materia": "nirvana-unplugged"
+    },
+    {
+      "data": "01-20",
+      "ano": 1982,
+      "texto": "Ozzy Osbourne morde a cabeça de um morcego num show em Des Moines.",
+      "materia": "ozzy-e-o-morcego"
+    },
+    {
+      "data": "01-12",
+      "ano": 1985,
+      "texto": "Madrugada do primeiro show do Queen no Rock in Rio.",
+      "materia": "queen-rock-in-rio-1985"
+    }
+  ]
+}

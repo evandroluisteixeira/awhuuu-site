@@ -1,0 +1,125 @@
+---
+layout: base.njk
+title: Bandas e artistas
+permalink: /bandas/
+descricao: Bandas e artistas do rock, das lendas à cena de Santa Catarina. Links oficiais, próximos shows, lançamentos e as matérias do Awhuuu! sobre cada uma.
+---
+{%- set lista = bandas | bandasAtivas %}
+{%- set hoje = "" | hojeISO %}
+<section class="secao" style="border-top:0">
+  <div class="faixa">
+    <p class="rotulo">A matilha</p>
+    <h1 class="titulo-pag">Bandas e artistas</h1>
+    <p class="chamada-pag">{{ bandas.chamada }}</p>
+    <p class="botoes"><a class="botao contorno" href="/neste-dia/">Neste dia no rock →</a> <a class="botao contorno" href="#sua-banda">Cadastrar minha banda</a></p>
+
+    <div class="filtros-bandas">
+      <label>Buscar<input type="search" id="busca-banda" placeholder="Nome, cidade, estilo..." autocomplete="off"></label>
+      <label>Cena<select id="cena-banda"><option value="">Todas</option><option value="cena local">Cena local</option><option value="clássica">Clássicas</option></select></label>
+      <label>País<select id="pais-banda"><option value="">Todos</option>{% set paises = [] %}{% for b in lista %}{% if b.pais and not (b.pais in paises) %}{% set paises = (paises.push(b.pais), paises) %}{% endif %}{% endfor %}{% for p in paises | sort %}<option>{{ p }}</option>{% endfor %}</select></label>
+    </div>
+    <p class="contagem" id="contagem-bandas" aria-live="polite">{{ lista.length }} bandas e artistas</p>
+
+    <ul class="grade-bandas" id="grade-bandas">
+      {% for b in lista %}
+      {%- set nShows = (agenda.shows | futuros | showsDaBanda(b)).length %}
+      <li data-busca="{{ [b.nome, b.cidade, b.pais, b.estilos | join(' '), b.cena] | join(' ') | lower }}" data-cena="{{ b.cena }}" data-pais="{{ b.pais }}">
+        <a class="card-banda{% if b.foto %} com-foto{% endif %}" href="/bandas/{{ b.slug }}/"{% if b.foto %} style="background-image:linear-gradient(180deg,rgba(10,10,10,.15),rgba(10,10,10,.92)),url('{{ b.foto }}')"{% endif %}>
+          <span class="cena">{{ b.cena }}</span>
+          <strong>{{ b.nome }}</strong>
+          <span class="origem">{{ [b.cidade, b.pais] | select | join(", ") }}{% if b.inicio %} · {{ b.inicio | string | truncate(4, true, "") }}{% endif %}</span>
+          {% if b.estilos.length %}<span class="estilos">{{ b.estilos | limite(2) | join(" · ") }}</span>{% endif %}
+          {% if nShows %}<span class="tem-show">{{ nShows }} show{% if nShows > 1 %}s{% endif %} na agenda</span>{% endif %}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+{%- set saiu = [] %}{%- set vem = [] %}
+{%- for l in lancamentos.itens %}{% if l.data <= hoje %}{% set saiu = (saiu.push(l), saiu) %}{% else %}{% set vem = (vem.push(l), vem) %}{% endif %}{% endfor %}
+{% if saiu.length or vem.length %}
+<section class="secao" id="lancamentos">
+  <div class="faixa">
+    <p class="rotulo">Lançamentos</p>
+    <h2>Saiu agora, vem aí</h2>
+    <p class="chamada-pag">Discos e EPs das bandas desta página, puxados do MusicBrainz, uma base pública de discografias. Atualiza todo dia.</p>
+    <div class="lancamentos">
+      {% if vem.length %}<div><h3>Vem aí</h3><ol>{% for l in vem %}<li><time datetime="{{ l.data }}">{{ l.data | dataParcial }}</time> <a href="/bandas/{{ l.slug }}/">{{ l.banda }}</a>: <em>{{ l.titulo }}</em> <small>({{ l.tipo }})</small></li>{% endfor %}</ol></div>{% endif %}
+      {% if saiu.length %}<div><h3>Saiu agora</h3><ol>{% for l in saiu | reverse %}<li><time datetime="{{ l.data }}">{{ l.data | dataParcial }}</time> <a href="/bandas/{{ l.slug }}/">{{ l.banda }}</a>: <em>{{ l.titulo }}</em> <small>({{ l.tipo }})</small></li>{% endfor %}</ol></div>{% endif %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% if novidades.recentes.length %}
+<section class="secao" id="videos-bandas">
+  <div class="faixa">
+    <p class="rotulo">Direto dos canais oficiais</p>
+    <h2>Últimos vídeos</h2>
+    <div class="grade-videos">
+      {% for v in novidades.recentes %}
+      <figure class="video-banda">
+        <div class="video"><button type="button" class="yt-lite" data-id="{{ v.id }}" aria-label="Tocar o vídeo: {{ v.titulo }}" style="background-image:url(https://i.ytimg.com/vi/{{ v.id }}/hqdefault.jpg)"><span aria-hidden="true">▶</span></button></div>
+        <figcaption><a href="/bandas/{{ v.slug }}/">{{ v.banda }}</a> · {{ v.titulo }}</figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{%- set f = clube.formulario %}
+<section class="secao apoio" id="sua-banda">
+  <div class="faixa">
+    <h2>Sua banda na matilha</h2>
+    <p class="chamada-pag">{{ bandas.convite }} Tudo o que você mandar pode aparecer na página da banda, então só coloque o que é público.</p>
+    {% if f and f.supabase_url and f.chave_publica %}
+    <form class="form-clube" id="form-banda" data-url="{{ f.supabase_url }}" data-chave="{{ f.chave_publica }}">
+      <label>Nome da banda ou artista<input name="nome" required maxlength="120"></label>
+      <label>Cidade<input name="cidade" required maxlength="120" placeholder="Florianópolis (SC)"></label>
+      <label>Desde quando?<input name="inicio" maxlength="20" placeholder="2019"></label>
+      <label>Estilos<input name="estilos" maxlength="200" placeholder="punk, stoner, rock alternativo..."></label>
+      <label class="largo">Quem são vocês, em poucas linhas<textarea name="texto" rows="3" maxlength="1200" placeholder="Do jeito que vocês quiserem se apresentar."></textarea></label>
+      <label>Instagram<input name="instagram" maxlength="200" placeholder="@suabanda"></label>
+      <label>Onde ouvir<input name="onde_ouvir" maxlength="300" placeholder="Link do Spotify, Bandcamp, YouTube..."></label>
+      <label>Site<input name="site" maxlength="200"></label>
+      <label>Contato para shows (público)<input name="contato" maxlength="200" placeholder="E-mail ou perfil de contato da banda"></label>
+      <label class="largo marca"><input type="checkbox" name="consentimento" required> <span>Sou da banda (ou falo por ela) e autorizo o Awhuuu! a publicar estes dados. Para tirar a página do ar, é só pedir. <a href="/privacidade/">Privacidade</a>.</span></label>
+      <button class="botao" type="submit">Mandar</button>
+      <p class="retorno" role="status" aria-live="polite"></p>
+    </form>
+    {% else %}
+    <p>Manda os dados pelo <a href="{{ site.redes[0].url }}" target="_blank" rel="noopener">Instagram</a>.</p>
+    {% endif %}
+  </div>
+</section>
+
+<script>
+(function(){
+  var busca=document.getElementById('busca-banda'), cena=document.getElementById('cena-banda'), pais=document.getElementById('pais-banda');
+  var itens=[].slice.call(document.querySelectorAll('#grade-bandas > li')), cont=document.getElementById('contagem-bandas');
+  var sem=function(t){return (t||'').normalize('NFD').replace(/[̀-ͯ]/g,'').toLowerCase();};
+  function filtra(){
+    var q=sem(busca.value.trim()), n=0;
+    itens.forEach(function(li){
+      var ok=(!q||sem(li.dataset.busca).indexOf(q)>-1)&&(!cena.value||li.dataset.cena===cena.value)&&(!pais.value||li.dataset.pais===pais.value);
+      li.hidden=!ok; if(ok)n++;
+    });
+    cont.textContent=n+(n===1?' banda ou artista':' bandas e artistas');
+  }
+  [busca,cena,pais].forEach(function(el){el.addEventListener('input',filtra);});
+  var form=document.getElementById('form-banda'); if(!form) return;
+  var ret=form.querySelector('.retorno');
+  form.addEventListener('submit',function(e){
+    e.preventDefault(); var b=form.querySelector('button'); b.disabled=true; ret.textContent='Enviando...';
+    var d=Object.fromEntries(new FormData(form)); d.consentimento=!!form.consentimento.checked;
+    Object.keys(d).forEach(function(k){ if(d[k]==='') d[k]=null; });
+    fetch(form.dataset.url.replace(/\/$/,'')+'/rest/v1/bandas_enviadas',{method:'POST',headers:Object.assign({'apikey':form.dataset.chave,'Content-Type':'application/json','Prefer':'return=minimal'},/^sb_/.test(form.dataset.chave)?{}:{'Authorization':'Bearer '+form.dataset.chave}),body:JSON.stringify(d)})
+    .then(function(r){ if(r.ok){ form.reset(); ret.textContent='Recebido! A gente confere e avisa quando a página da banda estiver no ar.'; } else { ret.textContent='Não deu certo agora. Tente de novo em instantes.'; } })
+    .catch(function(){ ret.textContent='Sem conexão. Tente de novo.'; })
+    .finally(function(){ b.disabled=false; });
+  });
+})();
+</script>

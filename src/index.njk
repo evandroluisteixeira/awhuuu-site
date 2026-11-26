@@ -67,6 +67,32 @@ layout: base.njk
   </div>
 </section>
 
+<section class="secao" id="hoje-no-rock">
+  <div class="faixa">
+    <p class="rotulo">Neste dia no rock</p>
+    <h2 id="hr-titulo">Hoje no rock</h2>
+    <ol class="nd-lista curta" id="hr-lista"></ol>
+    <p><a class="botao contorno" href="/neste-dia/">Ver o dia inteiro e outros dias</a></p>
+  </div>
+</section>
+<script>
+(function(){
+  var d=new Date(Date.now()-3*3600e3), k=String(d.getUTCMonth()+1).padStart(2,'0')+'-'+String(d.getUTCDate()).padStart(2,'0');
+  var M=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
+  document.getElementById('hr-titulo').textContent='Hoje, '+d.getUTCDate()+' de '+M[d.getUTCMonth()];
+  var e_=function(t){return String(t||'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});};
+  fetch('/dados/neste-dia.json').then(function(r){return r.json();}).then(function(j){
+    var it=(j[k]||[]).slice().sort(function(a,b){return (b.tipo==='fato')-(a.tipo==='fato')||(b.br?1:0)-(a.br?1:0);}).slice(0,4);
+    if(!it.length){ document.getElementById('hoje-no-rock').hidden=true; return; }
+    document.getElementById('hr-lista').innerHTML=it.map(function(e){
+      var n=e.ficha?'<a href="'+e.ficha+'">'+e_(e.nome)+'</a>':e_(e.nome);
+      var t=e.tipo==='fato'?e_(e.texto)+(e.url?' <a href="'+e.url+'">Leia →</a>':''):e.tipo==='nasce'?'Nasce '+n+'.':e.tipo==='morre'?'Morre '+n+'.':e.tipo==='banda'?'Nasce a banda '+n+'.':'Sai o disco <em>'+e_(e.nome)+'</em>, de '+e_(e.de)+'.';
+      return '<li class="nd-'+e.tipo+'"><span class="nd-ano">'+e.ano+'</span><p>'+t+'</p></li>';
+    }).join('');
+  }).catch(function(){ document.getElementById('hoje-no-rock').hidden=true; });
+})();
+</script>
+
 <section class="secao" style="padding-top:0;border-top:0">
   <div class="faixa">{% include "newsletter.njk" %}</div>
 </section>

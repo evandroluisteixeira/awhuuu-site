@@ -1,0 +1,5 @@
+---
+permalink: /dados/neste-dia.json
+eleventyExcludeFromCollections: true
+---
+{{ nestedia | nesteDiaCompleto(nestedia_extra, collections.materias, bandas) | dump | safe }}

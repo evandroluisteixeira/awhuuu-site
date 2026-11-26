@@ -76,6 +76,47 @@ export default function (eleventyConfig) {
     "https://www.google.com/maps/search/?api=1&query=" +
       encodeURIComponent([casa.nome, String(casa.endereco || "").replace(/ · /g, ", ")].filter(Boolean).join(", "))
   );
+  // bandas: liga shows da agenda e matérias a cada banda cadastrada (palavra inteira, sem acento)
+  const bandaBate = (banda, texto) => {
+    const t = " " + norm(texto) + " ";
+    return [banda.nome, ...(banda.nomes_na_agenda || [])].some((n) => norm(n) && t.includes(" " + norm(n) + " "));
+  };
+  eleventyConfig.addFilter("bandasAtivas", (b) => ((b && b.bandas) || []).filter((x) => x.ativa !== false && x.slug));
+  // show de tributo/cover ("Led Zeppelin por Hermettica") não é show da banda original
+  const tributo = (nome) => /\b(por|tributo|tribute|cover|covers)\b/.test(norm(nome));
+  eleventyConfig.addFilter("showsDaBanda", (shows, banda) => (shows || []).filter((s) => !tributo(s.banda) && bandaBate(banda, s.banda)));
+  eleventyConfig.addFilter("bandaDoShow", (nome, bandas) =>
+    tributo(nome) ? null : ((bandas && bandas.bandas) || []).find((b) => b.ativa !== false && b.slug && bandaBate(b, nome)) || null
+  );
+  eleventyConfig.addFilter("materiasDaBanda", (materias, banda) =>
+    (materias || []).filter((m) => [].concat(m.data.bandas_relacionadas || []).includes(banda.slug) || bandaBate(banda, m.data.title + " " + (m.data.resumo || "")))
+  );
+  eleventyConfig.addFilter("lancamentosDe", (itens, slug) => (itens || []).filter((i) => i.slug === slug));
+  const MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
+  eleventyConfig.addFilter("dataParcial", (d) => {
+    const [a, m, dia] = String(d || "").split("-");
+    if (!a) return "";
+    if (!m) return a;
+    if (!dia) return `${MESES[+m - 1]} de ${a}`;
+    return `${+dia} de ${MESES[+m - 1]} de ${a}`;
+  });
+  // Neste dia no rock: junta a base (Wikidata/MusicBrainz) com os fatos das matérias do Awhuuu!
+  eleventyConfig.addFilter("nesteDiaCompleto", (base, extra, materias, bandas) => {
+    const porSlug = Object.fromEntries((materias || []).map((m) => [m.fileSlug, m]));
+    const fichas = Object.fromEntries(((bandas && bandas.bandas) || []).filter((b) => b.ativa !== false).flatMap((b) => [[b.musicbrainz, b.slug], [b.wikidata, b.slug]]).filter(([k]) => k));
+    const out = {};
+    for (const [dia, lista] of Object.entries(base || {})) {
+      out[dia] = lista.map((e) => ({ ...e, ...(fichas[e.mb] || fichas[e.wd] ? { ficha: "/bandas/" + (fichas[e.mb] || fichas[e.wd]) + "/" } : {}) }));
+    }
+    for (const e of (extra && extra.itens) || []) {
+      if (!e.data || !e.texto) continue;
+      const m = porSlug[e.materia];
+      (out[e.data] = out[e.data] || []).push({ tipo: "fato", ano: e.ano, texto: e.texto, ...(m ? { url: m.url, titulo: m.data.title } : {}), ...(e.link ? { url: e.link } : {}) });
+    }
+    for (const d in out) out[d].sort((a, b) => (a.tipo === "fato" ? -1 : 0) - (b.tipo === "fato" ? -1 : 0) || a.ano - b.ano);
+    return out;
+  });
+  eleventyConfig.addFilter("hojeISO", () => new Date().toISOString().slice(0, 10));
   eleventyConfig.addFilter("casasAtivas", (casas) => ((casas && casas.casas) || []).filter((c) => c.ativa !== false));
 
   // vídeo a partir do link colado no CMS

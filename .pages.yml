@@ -226,6 +226,59 @@ content:
           - { name: nomes_na_agenda, label: Como o nome aparece na agenda, type: string, list: true, description: "Os shows da agenda cujo local contém um destes nomes aparecem na página da casa." }
           - { name: ativa, label: Ativa (aparece no site), type: boolean }
 
+  - name: bandas
+    label: Bandas e artistas
+    type: file
+    path: src/_data/bandas.json
+    fields:
+      - { name: chamada, label: Texto de abertura, type: text }
+      - { name: convite, label: Convite para cadastrar banda, type: text }
+      - name: bandas
+        label: Bandas e artistas
+        description: "Para tirar do site sem apagar, desmarque Ativa. Bandas que chegam pelo formulário ficam na tabela bandas_enviadas do Supabase: copie para cá as que forem aprovadas."
+        type: object
+        list: true
+        fields:
+          - { name: nome, label: Nome, type: string }
+          - { name: slug, label: Endereço da página (sem acento nem espaço), type: string, description: "Ex.: parafuso-silvestre. A página fica em /bandas/parafuso-silvestre/" }
+          - { name: tipo, label: "Banda ou artista", type: string, description: "Escreva banda ou artista (artista muda os rótulos para Nascimento e Morte)." }
+          - { name: cena, label: Cena, type: string, description: "Escreva livre. O filtro do site usa: cena local, clássica." }
+          - { name: cidade, label: Cidade, type: string }
+          - { name: pais, label: País, type: string }
+          - { name: inicio, label: "Formação ou nascimento", type: string, description: "Ano (1984), ano e mês (1984-03) ou data completa (1984-03-20)." }
+          - { name: fim, label: "Fim ou morte", type: string }
+          - { name: estilos, label: Estilos, type: string, list: true }
+          - { name: texto, label: Texto curto, type: text }
+          - { name: site, label: Site oficial, type: string }
+          - { name: instagram, label: Instagram (link), type: string }
+          - { name: youtube, label: YouTube (link), type: string }
+          - { name: youtube_canal, label: Código do canal do YouTube, type: string, description: "O código que começa com UC (fica no link youtube.com/channel/UC...). Com ele, os vídeos novos aparecem sozinhos na página." }
+          - { name: spotify, label: Spotify (link), type: string }
+          - { name: bandcamp, label: Bandcamp (link), type: string }
+          - { name: foto, label: Foto (só com autorização da banda), type: image, options: { path: src/img/bandas } }
+          - { name: foto_credito, label: Crédito da foto, type: string }
+          - { name: nomes_na_agenda, label: Como o nome aparece na agenda, type: string, list: true, description: "Os shows da agenda com um destes nomes aparecem na página da banda." }
+          - { name: musicbrainz, label: Código no MusicBrainz, type: string, description: "Com ele, os lançamentos aparecem sozinhos." }
+          - { name: wikidata, label: Código no Wikidata, type: string }
+          - { name: ativa, label: Ativa (aparece no site), type: boolean }
+
+  - name: neste-dia
+    label: Neste dia no rock (datas do Awhuuu!)
+    type: file
+    path: src/_data/nestedia_extra.json
+    fields:
+      - name: itens
+        label: Datas
+        description: "Datas que aparecem no topo do dia, com link para a matéria. As outras datas vêm sozinhas do Wikidata e do MusicBrainz."
+        type: object
+        list: true
+        fields:
+          - { name: data, label: "Dia (mês-dia)", type: string, description: "Ex.: 03-20 para 20 de março." }
+          - { name: ano, label: Ano, type: number }
+          - { name: texto, label: Texto, type: text }
+          - { name: materia, label: Matéria (endereço curto), type: string, description: "O nome do arquivo da matéria, sem .md. Ex.: cbgb" }
+          - { name: link, label: Ou um link de fora, type: string }
+
   - name: links
     label: Página de links (bio do Instagram e TikTok)
     type: file

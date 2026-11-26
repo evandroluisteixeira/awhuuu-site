@@ -1,0 +1,101 @@
+---js
+{
+  layout: "base.njk",
+  pagination: {
+    data: "bandas.bandas",
+    size: 1,
+    alias: "banda",
+    before: (lista) => lista.filter((b) => b.ativa !== false && b.slug)
+  },
+  permalink: (data) => `/bandas/${data.banda.slug}/`,
+  eleventyComputed: {
+    title: (data) => `${data.banda.nome}: links oficiais, shows e lançamentos`,
+    descricao: (data) => data.banda.texto || `${data.banda.nome}${data.banda.pais ? " (" + data.banda.pais + ")" : ""}: links oficiais, próximos shows, lançamentos e matérias no Awhuuu!.`
+  }
+}
+---
+{%- set shows = agenda.shows | futuros | showsDaBanda(banda) %}
+{%- set mats = collections.materias | materiasDaBanda(banda) %}
+{%- set lanc = lancamentos.itens | lancamentosDe(banda.slug) %}
+{%- set vids = novidades.porBanda[banda.slug] or [] %}
+{%- set pessoa = banda.tipo == "artista" %}
+<article class="casa-pagina banda-pagina">
+  <header class="faixa cab-casa">
+    <p class="rotulo"><a href="/bandas/">Bandas e artistas</a> · {{ banda.cena }}</p>
+    <h1>{{ banda.nome }}</h1>
+    <p class="linha-fina">{{ [banda.cidade, banda.pais] | select | join(", ") }}{% if banda.estilos.length %} · {{ banda.estilos | join(" · ") }}{% endif %}</p>
+  </header>
+
+  <div class="faixa casa-grade">
+    <div>
+      {% if banda.foto %}
+      <figure class="casa-foto">
+        <img src="{{ banda.foto }}" alt="{{ banda.nome }}" referrerpolicy="no-referrer">
+        {% if banda.foto_credito %}<figcaption>{{ banda.foto_credito }}</figcaption>{% endif %}
+      </figure>
+      {% endif %}
+      {% if banda.texto %}<p class="casa-texto">{{ banda.texto }}</p>{% endif %}
+
+      <dl class="ficha ficha-banda">
+        {% if banda.inicio %}<div><dt>{{ "Nascimento" if pessoa else "Formação" }}</dt><dd>{{ banda.inicio | dataParcial }}</dd></div>{% endif %}
+        {% if banda.fim %}<div><dt>{{ "Morte" if pessoa else "Fim" }}</dt><dd>{{ banda.fim | dataParcial }}</dd></div>{% endif %}
+        {% if banda.cidade or banda.pais %}<div><dt>Origem</dt><dd>{{ [banda.cidade, banda.pais] | select | join(", ") }}</dd></div>{% endif %}
+      </dl>
+
+      <h2>Próximos shows</h2>
+      {% if shows.length %}
+      <ol class="casa-shows">
+        {% for s in shows %}
+        {%- set casaShow = s.local | casaDoLocal(casas) %}
+        <li>
+          <p class="quando"><time datetime="{{ s.data }}">{{ s.data | diaShow }}</time>{% if s.hora %} · {{ s.hora }}{% endif %}</p>
+          <h3>{{ s.banda }}</h3>
+          <p>{% if casaShow %}<a href="/casas/{{ casaShow.slug }}/">{{ s.local }}</a>{% else %}{{ s.local }}{% endif %} · {{ s.cidade }}{% if s.estado %} ({{ s.estado }}){% endif %}</p>
+          {% if s.link_ingresso %}<a class="botao" href="{{ s.link_ingresso }}" target="_blank" rel="noopener">Ingresso</a>{% endif %}
+        </li>
+        {% endfor %}
+      </ol>
+      {% else %}
+      <p class="vazio">Nenhum show na nossa agenda agora. A agenda cobre o Sul do Brasil e é atualizada toda segunda.</p>
+      {% endif %}
+
+      {% if lanc.length %}
+      <h2>Lançamentos</h2>
+      <ul class="lista-simples">{% for l in lanc %}<li><time datetime="{{ l.data }}">{{ l.data | dataParcial }}</time>: <em>{{ l.titulo }}</em> ({{ l.tipo }})</li>{% endfor %}</ul>
+      {% endif %}
+
+      {% if vids.length %}
+      <h2>Do canal oficial</h2>
+      <div class="grade-videos">
+        {% for v in vids %}
+        <figure class="video-banda">
+          <div class="video"><button type="button" class="yt-lite" data-id="{{ v.id }}" aria-label="Tocar o vídeo: {{ v.titulo }}" style="background-image:url(https://i.ytimg.com/vi/{{ v.id }}/hqdefault.jpg)"><span aria-hidden="true">▶</span></button></div>
+          <figcaption>{{ v.titulo }}</figcaption>
+        </figure>
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if mats.length %}
+      <h2>No Awhuuu!</h2>
+      <ul class="lista-simples">{% for m in mats %}<li><a href="{{ m.url }}">{{ m.data.title }}</a></li>{% endfor %}</ul>
+      {% endif %}
+
+      {%- set url = page.url | absoluta(site.url) %}{%- set textoComp = banda.nome + " no Awhuuu!: links oficiais, shows e lançamentos" %}
+      {% include "compartilhar.njk" %}
+    </div>
+
+    <aside class="casa-lado">
+      <h2 class="sub-lado">Links oficiais</h2>
+      <p class="botoes coluna">
+        {% if banda.site %}<a class="botao" href="{{ banda.site }}" target="_blank" rel="noopener">Site oficial</a>{% endif %}
+        {% if banda.instagram %}<a class="botao contorno" href="{{ banda.instagram }}" target="_blank" rel="noopener">Instagram</a>{% endif %}
+        {% if banda.youtube %}<a class="botao contorno" href="{{ banda.youtube }}" target="_blank" rel="noopener">YouTube</a>{% endif %}
+        {% if banda.spotify %}<a class="botao contorno" href="{{ banda.spotify }}" target="_blank" rel="noopener">Spotify</a>{% endif %}
+        {% if banda.bandcamp %}<a class="botao contorno" href="{{ banda.bandcamp }}" target="_blank" rel="noopener">Bandcamp</a>{% endif %}
+      </p>
+      {% if site.afiliados_ativos %}<p><a class="botao contorno" href="https://www.amazon.com.br/s?k={{ banda.nome | urlencode }}+cd+vinil&tag=awhuuu-20" target="_blank" rel="noopener sponsored">Discos na Amazon</a><br><small>Link de afiliado.</small></p>{% endif %}
+      {% if banda.musicbrainz %}<p class="miudo">Dados de origem e discografia: <a href="https://musicbrainz.org/artist/{{ banda.musicbrainz }}" target="_blank" rel="noopener">MusicBrainz</a>. Viu um erro? <a href="{{ site.redes[0].url }}" target="_blank" rel="noopener">Avisa a gente</a>.</p>{% endif %}
+    </aside>
+  </div>
+</article>

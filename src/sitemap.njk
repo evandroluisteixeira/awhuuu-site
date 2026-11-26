@@ -9,6 +9,11 @@ eleventyExcludeFromCollections: true
   <url><loc>{{ site.url }}/mapa/</loc></url>
   <url><loc>{{ site.url }}/agenda/</loc></url>
   <url><loc>{{ site.url }}/casas/</loc></url>
+  <url><loc>{{ site.url }}/bandas/</loc></url>
+  <url><loc>{{ site.url }}/neste-dia/</loc></url>
+  {%- for b in bandas | bandasAtivas %}
+  <url><loc>{{ site.url }}/bandas/{{ b.slug }}/</loc></url>
+  {%- endfor %}
   <url><loc>{{ site.url }}/links/</loc></url>
   {%- for c in casas | casasAtivas %}
   <url><loc>{{ site.url }}/casas/{{ c.slug }}/</loc></url>

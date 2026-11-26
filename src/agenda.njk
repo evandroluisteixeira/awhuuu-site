@@ -33,7 +33,8 @@ descricao: Shows de rock no Brasil e no mundo, com foto, data, local e link do i
         </div>
         <div class="info-show">
           <p class="quando"><time datetime="{{ s.data }}">{{ s.data | diaShow }}</time>{% if s.hora %} · {{ s.hora }}{% endif %}</p>
-          <h2>{{ s.banda }}</h2>
+          {%- set bandaShow = s.banda | bandaDoShow(bandas) %}
+          <h2>{% if bandaShow %}<a href="/bandas/{{ bandaShow.slug }}/">{{ s.banda }}</a>{% else %}{{ s.banda }}{% endif %}</h2>
           {%- set casaShow = s.local | casaDoLocal(casas) %}
           <p class="onde">{% if casaShow %}<a href="/casas/{{ casaShow.slug }}/">{{ s.local }}</a>{% else %}{{ s.local }}{% endif %}{% if s.cidade %}, {{ s.cidade }}{% endif %}{% if s.estado and s.estado != s.cidade %} ({{ s.estado }}){% endif %}{% if s.pais and s.pais != "Brasil" %} · {{ s.pais }}{% endif %}{% if s.preco %} · {{ s.preco }}{% endif %}</p>
           {% if s.texto %}<p>{{ s.texto }}</p>{% endif %}

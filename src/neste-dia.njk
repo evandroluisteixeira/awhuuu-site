@@ -1,0 +1,68 @@
+---
+layout: base.njk
+title: Neste dia no rock
+permalink: /neste-dia/
+descricao: Quem nasceu, quem se foi, que disco saiu e o que aconteceu no rock em cada dia do ano. Atualiza sozinho todo dia.
+---
+<section class="secao" style="border-top:0">
+  <div class="faixa">
+    <p class="rotulo">Calendário do rock</p>
+    <h1 class="titulo-pag">Neste dia no rock</h1>
+    <p class="chamada-pag">Aniversários, despedidas, discos lançados e as histórias do Awhuuu! que caem em cada dia do ano. Abre sempre no dia de hoje.</p>
+
+    <div class="nd-controles">
+      <button type="button" class="botao contorno" id="nd-ant" aria-label="Dia anterior">←</button>
+      <label class="nd-data"><span class="sr">Escolher o dia</span><input type="date" id="nd-escolha"></label>
+      <button type="button" class="botao contorno" id="nd-prox" aria-label="Dia seguinte">→</button>
+      <button type="button" class="botao contorno" id="nd-hoje">Hoje</button>
+    </div>
+    <h2 class="nd-titulo" id="nd-titulo">Carregando o dia...</h2>
+    <ol class="nd-lista" id="nd-lista" aria-live="polite"></ol>
+    <p class="botoes"><button type="button" class="botao" id="nd-comp">Compartilhar este dia</button></p>
+    <p class="miudo">Fontes: Wikidata e MusicBrainz, bases públicas e colaborativas, e as matérias do Awhuuu!. Cada item leva à sua fonte. Viu uma data errada? <a href="{{ site.redes[0].url }}" target="_blank" rel="noopener">Avisa a gente</a>.</p>
+  </div>
+</section>
+
+<script>
+(function(){
+  var MESES=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
+  var lista=document.getElementById('nd-lista'), tit=document.getElementById('nd-titulo'), esc=document.getElementById('nd-escolha');
+  var dados=null, atual=null;
+  function hojeBR(){ var d=new Date(Date.now()-3*3600e3); return new Date(Date.UTC(d.getUTCFullYear(),d.getUTCMonth(),d.getUTCDate())); }
+  function chave(d){ return String(d.getUTCMonth()+1).padStart(2,'0')+'-'+String(d.getUTCDate()).padStart(2,'0'); }
+  function esc_(t){ return String(t||'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+  function linha(e){
+    var fonte = e.wd ? 'https://www.wikidata.org/wiki/'+e.wd : (e.mb ? 'https://musicbrainz.org/artist/'+e.mb : '');
+    var nome = e.ficha ? '<a href="'+e.ficha+'">'+esc_(e.nome)+'</a>' : esc_(e.nome);
+    var txt;
+    if(e.tipo==='fato') txt = esc_(e.texto) + (e.url ? ' <a href="'+e.url+'">Leia a história →</a>' : '');
+    else if(e.tipo==='nasce') txt = 'Nasce '+nome+'.';
+    else if(e.tipo==='morre') txt = 'Morre '+nome+'.';
+    else if(e.tipo==='banda') txt = 'Nasce a banda '+nome+'.';
+    else txt = 'Sai o disco <em>'+esc_(e.nome)+'</em>, de '+esc_(e.de)+'.';
+    var rot={fato:'História',nasce:'Aniversário',morre:'Despedida',banda:'Formação',disco:'Disco'}[e.tipo]||'';
+    return '<li class="nd-'+e.tipo+(e.br?' nd-br':'')+'"><span class="nd-ano">'+e.ano+'</span><span class="nd-rot">'+rot+'</span><p>'+txt+(fonte&&e.tipo!=='fato'?' <a class="nd-fonte" href="'+fonte+'" target="_blank" rel="noopener">fonte</a>':'')+'</p></li>';
+  }
+  function mostra(d){
+    atual=d; var k=chave(d);
+    esc.value=d.toISOString().slice(0,10);
+    tit.textContent=d.getUTCDate()+' de '+MESES[d.getUTCMonth()];
+    var itens=(dados&&dados[k])||[];
+    lista.innerHTML=itens.length?itens.map(linha).join(''):'<li class="vazio">Nada anotado para este dia ainda. Sabe de algo? Conta pra gente.</li>';
+    history.replaceState(null,'','#'+k);
+  }
+  function passo(n){ mostra(new Date(atual.getTime()+n*864e5)); }
+  document.getElementById('nd-ant').onclick=function(){passo(-1);};
+  document.getElementById('nd-prox').onclick=function(){passo(1);};
+  document.getElementById('nd-hoje').onclick=function(){mostra(hojeBR());};
+  esc.onchange=function(){ if(esc.value){ var p=esc.value.split('-'); mostra(new Date(Date.UTC(+p[0],+p[1]-1,+p[2]))); } };
+  document.getElementById('nd-comp').onclick=function(){
+    var url=location.href, t='Neste dia no rock: '+tit.textContent;
+    if(navigator.share) navigator.share({title:t,url:url}).catch(function(){});
+    else if(navigator.clipboard) navigator.clipboard.writeText(url).then(function(){ document.getElementById('nd-comp').textContent='Link copiado'; });
+  };
+  var inicio=hojeBR(), h=location.hash.match(/^#(\d\d)-(\d\d)$/);
+  if(h) inicio=new Date(Date.UTC(inicio.getUTCFullYear(),+h[1]-1,+h[2]));
+  fetch('/dados/neste-dia.json').then(function(r){return r.json();}).then(function(j){dados=j; mostra(inicio);}).catch(function(){ tit.textContent='Não deu para carregar agora.'; });
+})();
+</script>
