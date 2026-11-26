@@ -1,0 +1,17 @@
+{#- Interface de uma Copa do Rock. Precisa de: C (a copa), capas, clube, bandas -#}
+{%- set f = clube.formulario %}
+<div class="copa" id="copa">
+  <p class="jogo-quando" id="cp-status"></p>
+  <div id="cp-atual" class="copa-atual"></div>
+  <div class="copa-player" id="cp-player" hidden><button type="button" class="fechar" id="cp-fechar" aria-label="Fechar o player">×</button><div id="cp-iframe"></div></div>
+  <h2 class="sub-pag">A chave</h2>
+  <div id="cp-chave" class="copa-chave"></div>
+  <p class="miudo">Um voto por confronto em cada aparelho. Empate dá a vaga para o disco de cima da chave. Capas e player: Spotify. Os botões Comprar são links de afiliado da Amazon: se você comprar por eles, o Awhuuu! ganha uma comissão, sem custo a mais para você.</p>
+</div>
+<script>
+window.COPA={{ C | dump | safe }};
+window.CAPAS={{ capas | dump | safe }};
+window.COPA_DB={{ {url: f.supabase_url, chave: f.chave_publica} | dump | safe }};
+window.FICHAS={{ bandas | bandasAtivas | dump | safe }}.reduce(function(o,b){o[b.nome.toLowerCase()]=b.slug;return o;},{});
+</script>
+<script src="/js/copa.js"></script>

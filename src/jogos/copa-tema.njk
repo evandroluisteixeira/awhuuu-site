@@ -1,0 +1,16 @@
+---js
+{
+  layout: "base.njk",
+  pagination: { data: "jogos.copas", size: 1, alias: "C" },
+  permalink: (data) => `/jogos/copa-do-rock/${data.C.slug}/`,
+  eleventyComputed: { title: (data) => data.C.titulo, descricao: (data) => data.C.texto }
+}
+---
+{%- set jcTitulo = C.titulo %}{% set jcTexto = C.texto %}{% set jcImagem = jogos.imagens.copa %}{% set jcQuando = C.tema %}
+{% include "jogo-cab.njk" %}
+<section class="secao jogo-palco">
+  <div class="faixa jogo">
+    {% include "copa-ui.njk" %}
+    {% include "copa-lista.njk" %}
+  </div>
+</section>

@@ -15,6 +15,9 @@ eleventyExcludeFromCollections: true
   <url><loc>{{ site.url }}/jogos/qual-monstro/</loc></url>
   <url><loc>{{ site.url }}/jogos/prova-do-lobo/</loc></url>
   <url><loc>{{ site.url }}/jogos/copa-do-rock/</loc></url>
+  {%- for k in jogos.copas %}
+  <url><loc>{{ site.url }}/jogos/copa-do-rock/{{ k.slug }}/</loc></url>
+  {%- endfor %}
   <url><loc>{{ site.url }}/jogos/estrada-666/</loc></url>
   <url><loc>{{ site.url }}/neste-dia/</loc></url>
   {%- for b in bandas | bandasAtivas %}

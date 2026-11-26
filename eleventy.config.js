@@ -152,6 +152,18 @@ export default function (eleventyConfig) {
       discos: discos.map((d) => ({ titulo: d.titulo, ano: ano(d.ano), pos: pos(ano(d.ano)) + 50 / total }))
     };
   });
+  // copa em destaque: a que está rolando; senão a próxima; senão a última que acabou
+  eleventyConfig.addFilter("copaAtual", (copas) => {
+    const hoje = new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 10);
+    const l = (copas || []).filter((c) => c.rodadas && c.rodadas.length);
+    const ini = (c) => c.rodadas[0].inicio, fim = (c) => c.rodadas[c.rodadas.length - 1].fim;
+    return l.find((c) => ini(c) <= hoje && hoje <= fim(c)) || l.filter((c) => ini(c) > hoje).sort((a, b) => ini(a).localeCompare(ini(b)))[0] || l.sort((a, b) => fim(b).localeCompare(fim(a)))[0];
+  });
+  eleventyConfig.addFilter("situacaoCopa", (c) => {
+    const hoje = new Date(Date.now() - 3 * 3600e3).toISOString().slice(0, 10);
+    const ini = c.rodadas[0].inicio, fim = c.rodadas[c.rodadas.length - 1].fim;
+    return hoje < ini ? "em breve" : hoje > fim ? "encerrada" : "valendo";
+  });
   eleventyConfig.addFilter("hojeISO", () => new Date().toISOString().slice(0, 10));
   eleventyConfig.addFilter("casasAtivas", (casas) => ((casas && casas.casas) || []).filter((c) => c.ativa !== false));
 

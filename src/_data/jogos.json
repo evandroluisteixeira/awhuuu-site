@@ -286,131 +286,6 @@
       ]
     }
   ],
-  "copa": {
-    "slug": "copa-rock-nacional-80",
-    "titulo": "Copa do Rock: discos nacionais dos anos 80",
-    "texto": "Dezesseis discos, um mata-mata. Uma rodada por semana, um voto por confronto. O vencedor de cada duelo passa sozinho para a próxima rodada.",
-    "discos": [
-      {
-        "id": "dois",
-        "disco": "Dois",
-        "banda": "Legião Urbana",
-        "ano": 1986
-      },
-      {
-        "id": "cadeasarmas",
-        "disco": "Cadê as Armas?",
-        "banda": "As Mercenárias",
-        "ano": 1986
-      },
-      {
-        "id": "cabeca",
-        "disco": "Cabeça Dinossauro",
-        "banda": "Titãs",
-        "ano": 1986
-      },
-      {
-        "id": "seuespiao",
-        "disco": "Seu Espião",
-        "banda": "Kid Abelha",
-        "ano": 1984
-      },
-      {
-        "id": "selvagem",
-        "disco": "Selvagem?",
-        "banda": "Os Paralamas do Sucesso",
-        "ano": 1986
-      },
-      {
-        "id": "crucificados",
-        "disco": "Crucificados pelo Sistema",
-        "banda": "Ratos de Porão",
-        "ano": 1984
-      },
-      {
-        "id": "vivendo",
-        "disco": "Vivendo e Não Aprendendo",
-        "banda": "Ira!",
-        "ano": 1986
-      },
-      {
-        "id": "ideologia",
-        "disco": "Ideologia",
-        "banda": "Cazuza",
-        "ano": 1988
-      },
-      {
-        "id": "maiorabandonado",
-        "disco": "Maior Abandonado",
-        "banda": "Barão Vermelho",
-        "ano": 1984
-      },
-      {
-        "id": "beneath",
-        "disco": "Beneath the Remains",
-        "banda": "Sepultura",
-        "ano": 1989
-      },
-      {
-        "id": "invadir",
-        "disco": "Nós Vamos Invadir Sua Praia",
-        "banda": "Ultraje a Rigor",
-        "ano": 1985
-      },
-      {
-        "id": "batalhoes",
-        "disco": "Batalhões de Estranhos",
-        "banda": "Camisa de Vênus",
-        "ano": 1984
-      },
-      {
-        "id": "capital",
-        "disco": "Capital Inicial",
-        "banda": "Capital Inicial",
-        "ano": 1986
-      },
-      {
-        "id": "vidabandida",
-        "disco": "Vida Bandida",
-        "banda": "Lobão",
-        "ano": 1987
-      },
-      {
-        "id": "dandis",
-        "disco": "A Revolta dos Dândis",
-        "banda": "Engenheiros do Hawaii",
-        "ano": 1987
-      },
-      {
-        "id": "blitz",
-        "disco": "As Aventuras da Blitz",
-        "banda": "Blitz",
-        "ano": 1982
-      }
-    ],
-    "rodadas": [
-      {
-        "nome": "Oitavas",
-        "inicio": "2026-12-07",
-        "fim": "2026-12-13"
-      },
-      {
-        "nome": "Quartas",
-        "inicio": "2026-12-14",
-        "fim": "2026-12-20"
-      },
-      {
-        "nome": "Semifinal",
-        "inicio": "2026-12-21",
-        "fim": "2026-12-27"
-      },
-      {
-        "nome": "Final",
-        "inicio": "2026-12-28",
-        "fim": "2027-01-03"
-      }
-    ]
-  },
   "banda_do_dia": {
     "titulo": "Banda do Dia",
     "texto": "Uma banda por dia. Seis chances. Cada erro abre uma pista nova.",
@@ -427,5 +302,323 @@
     "prova": "/img/jogos/prova-do-lobo.svg",
     "copa": "/img/jogos/copa-do-rock.svg",
     "estrada": "/img/jogos/estrada-666.svg"
-  }
+  },
+  "copas": [
+    {
+      "slug": "copa-rock-nacional-80",
+      "titulo": "Copa do Rock: discos nacionais dos anos 80",
+      "texto": "Dezesseis discos, um mata-mata. Uma rodada por semana, um voto por confronto. O vencedor de cada duelo passa sozinho para a próxima rodada.",
+      "discos": [
+        {
+          "id": "dois",
+          "disco": "Dois",
+          "banda": "Legião Urbana",
+          "ano": 1986,
+          "spotify": "4OCJTpOLqSgysGY4yBCGhn",
+          "amazon": ""
+        },
+        {
+          "id": "ritalee80",
+          "disco": "Rita Lee",
+          "banda": "Rita Lee e Roberto de Carvalho",
+          "ano": 1980,
+          "spotify": "77whDq0J0bYLftDVMKAlK7",
+          "amazon": ""
+        },
+        {
+          "id": "cabeca",
+          "disco": "Cabeça Dinossauro",
+          "banda": "Titãs",
+          "ano": 1986,
+          "spotify": "557bzwt1Yb2hUSGIZNrToj",
+          "amazon": ""
+        },
+        {
+          "id": "seuespiao",
+          "disco": "Seu Espião",
+          "banda": "Kid Abelha",
+          "ano": 1984,
+          "spotify": "4NLVOcRYthD3SL6gm7fyVN",
+          "amazon": ""
+        },
+        {
+          "id": "selvagem",
+          "disco": "Selvagem?",
+          "banda": "Os Paralamas do Sucesso",
+          "ano": 1986,
+          "spotify": "3ZsGNvzweYcvGf2NlIe7VX",
+          "amazon": ""
+        },
+        {
+          "id": "crucificados",
+          "disco": "Crucificados pelo Sistema",
+          "banda": "Ratos de Porão",
+          "ano": 1984,
+          "spotify": "4CigBRCIUDLTIpfEfbSbQ4",
+          "amazon": ""
+        },
+        {
+          "id": "vivendo",
+          "disco": "Vivendo e Não Aprendendo",
+          "banda": "Ira!",
+          "ano": 1986,
+          "spotify": "7tMZCSJn9O7uEEOTczU9T9",
+          "amazon": ""
+        },
+        {
+          "id": "ideologia",
+          "disco": "Ideologia",
+          "banda": "Cazuza",
+          "ano": 1988,
+          "spotify": "0EeQ43GyKU8pVTULAlx5be",
+          "amazon": ""
+        },
+        {
+          "id": "maiorabandonado",
+          "disco": "Maior Abandonado",
+          "banda": "Barão Vermelho",
+          "ano": 1984,
+          "spotify": "6k3oXZh66IHJ9EznRhC9kR",
+          "amazon": ""
+        },
+        {
+          "id": "beneath",
+          "disco": "Beneath the Remains",
+          "banda": "Sepultura",
+          "ano": 1989,
+          "spotify": "3BDZvMYxZ6E8IuSQL2ew6Z",
+          "amazon": ""
+        },
+        {
+          "id": "invadir",
+          "disco": "Nós Vamos Invadir Sua Praia",
+          "banda": "Ultraje a Rigor",
+          "ano": 1985,
+          "spotify": "3FDWDH4o2aAp9aDwMWo8aK",
+          "amazon": ""
+        },
+        {
+          "id": "batalhoes",
+          "disco": "Batalhões de Estranhos",
+          "banda": "Camisa de Vênus",
+          "ano": 1984,
+          "spotify": "5Le2qjifHoAvAO0Yzl8E7T",
+          "amazon": ""
+        },
+        {
+          "id": "capital",
+          "disco": "Capital Inicial",
+          "banda": "Capital Inicial",
+          "ano": 1986,
+          "spotify": "05tsAf1h467AEWN46GtKnD",
+          "amazon": ""
+        },
+        {
+          "id": "vidabandida",
+          "disco": "Vida Bandida",
+          "banda": "Lobão",
+          "ano": 1987,
+          "spotify": "0x3jNrBUztseRbz840pGnr",
+          "amazon": ""
+        },
+        {
+          "id": "dandis",
+          "disco": "A Revolta dos Dândis",
+          "banda": "Engenheiros do Hawaii",
+          "ano": 1987,
+          "spotify": "3EYoZQUIKrDPd1teAZbSsC",
+          "amazon": ""
+        },
+        {
+          "id": "blitz",
+          "disco": "As Aventuras da Blitz",
+          "banda": "Blitz",
+          "ano": 1982,
+          "spotify": "40wuumo6MyuWUGBdZwcjGP",
+          "amazon": ""
+        }
+      ],
+      "rodadas": [
+        {
+          "nome": "Oitavas",
+          "inicio": "2026-12-07",
+          "fim": "2026-12-13"
+        },
+        {
+          "nome": "Quartas",
+          "inicio": "2026-12-14",
+          "fim": "2026-12-20"
+        },
+        {
+          "nome": "Semifinal",
+          "inicio": "2026-12-21",
+          "fim": "2026-12-27"
+        },
+        {
+          "nome": "Final",
+          "inicio": "2026-12-28",
+          "fim": "2027-01-03"
+        }
+      ],
+      "tema": "Rock nacional dos anos 80"
+    },
+    {
+      "slug": "copa-das-imortais",
+      "tema": "Mulheres que fizeram o rock",
+      "titulo": "Copa das Imortais: discos de mulheres no rock",
+      "texto": "Dezesseis discos de bandas e artistas mulheres, do punk de 1975 ao metal de 2021, daqui e de fora. Uma rodada por semana, um voto por confronto.",
+      "discos": [
+        {
+          "id": "horses",
+          "disco": "Horses",
+          "banda": "Patti Smith",
+          "ano": 1975,
+          "spotify": "0OeuSeP8wp8n8OuTqYb61C",
+          "amazon": ""
+        },
+        {
+          "id": "frutoproibido",
+          "disco": "Fruto Proibido",
+          "banda": "Rita Lee e Tutti Frutti",
+          "ano": 1975,
+          "spotify": "48SnM2iORxlYTyCefwJZvs",
+          "amazon": ""
+        },
+        {
+          "id": "runaways",
+          "disco": "The Runaways",
+          "banda": "The Runaways",
+          "ano": 1976,
+          "spotify": "5DVNCzpvDrSEIFiU7hm8ey",
+          "amazon": ""
+        },
+        {
+          "id": "crypta",
+          "disco": "Echoes of the Soul",
+          "banda": "Crypta",
+          "ano": 2021,
+          "spotify": "4Qn60MSSzOZ3JJuKuy9JLc",
+          "amazon": ""
+        },
+        {
+          "id": "parallel",
+          "disco": "Parallel Lines",
+          "banda": "Blondie",
+          "ano": 1978,
+          "spotify": "5wc12ZsmXNIlppTmNFZFLU",
+          "amazon": ""
+        },
+        {
+          "id": "chipnovo",
+          "disco": "Admirável Chip Novo",
+          "banda": "Pitty",
+          "ano": 2003,
+          "spotify": "6t9HEcqxPe5dsIlHyYwATK",
+          "amazon": ""
+        },
+        {
+          "id": "pretenders",
+          "disco": "Pretenders",
+          "banda": "Pretenders",
+          "ano": 1980,
+          "spotify": "28Eu96aUziJU9iemBomWRs",
+          "amazon": ""
+        },
+        {
+          "id": "error",
+          "disco": "Error",
+          "banda": "The Warning",
+          "ano": 2022,
+          "spotify": "0el7KHRPZwYXPwXNeSNdJB",
+          "amazon": ""
+        },
+        {
+          "id": "iloverock",
+          "disco": "I Love Rock 'n' Roll",
+          "banda": "Joan Jett & the Blackhearts",
+          "ano": 1981,
+          "spotify": "1MYPH5YMxk1auN13mcfLvh",
+          "amazon": ""
+        },
+        {
+          "id": "victim",
+          "disco": "Victim of Yourself",
+          "banda": "Nervosa",
+          "ano": 2014,
+          "spotify": "63FMeHus1um7rz3CADXMK7",
+          "amazon": ""
+        },
+        {
+          "id": "juju",
+          "disco": "Juju",
+          "banda": "Siouxsie and the Banshees",
+          "ano": 1981,
+          "spotify": "5OEum65e1HMGX51Ifu51Wb",
+          "amazon": ""
+        },
+        {
+          "id": "digmeout",
+          "disco": "Dig Me Out",
+          "banda": "Sleater-Kinney",
+          "ano": 1997,
+          "spotify": "3tshnNFNhHrO6NUQ0BHw42",
+          "amazon": ""
+        },
+        {
+          "id": "bricks",
+          "disco": "Bricks Are Heavy",
+          "banda": "L7",
+          "ano": 1992,
+          "spotify": "0z7Dc7FRsDH7E4kj32mKyM",
+          "amazon": ""
+        },
+        {
+          "id": "pussywhipped",
+          "disco": "Pussy Whipped",
+          "banda": "Bikini Kill",
+          "ano": 1993,
+          "spotify": "4rCgFExY3JIJdFij2kwB1w",
+          "amazon": ""
+        },
+        {
+          "id": "ridofme",
+          "disco": "Rid of Me",
+          "banda": "PJ Harvey",
+          "ano": 1993,
+          "spotify": "2fDJpBJhtloxzUENHlU9JB",
+          "amazon": ""
+        },
+        {
+          "id": "livethrough",
+          "disco": "Live Through This",
+          "banda": "Hole",
+          "ano": 1994,
+          "spotify": "2Rwf2nPYZQ9aIe4QXACTC7",
+          "amazon": ""
+        }
+      ],
+      "rodadas": [
+        {
+          "nome": "Oitavas",
+          "inicio": "2027-01-04",
+          "fim": "2027-01-10"
+        },
+        {
+          "nome": "Quartas",
+          "inicio": "2027-01-11",
+          "fim": "2027-01-17"
+        },
+        {
+          "nome": "Semifinal",
+          "inicio": "2027-01-18",
+          "fim": "2027-01-24"
+        },
+        {
+          "nome": "Final",
+          "inicio": "2027-01-25",
+          "fim": "2027-01-31"
+        }
+      ]
+    }
+  ]
 }

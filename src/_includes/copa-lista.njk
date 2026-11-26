@@ -1,0 +1,8 @@
+{%- if jogos.copas.length > 1 %}
+<h2 class="sub-pag">Todas as copas</h2>
+<ul class="lista-copas">
+  {% for k in jogos.copas %}
+  <li><a href="/jogos/copa-do-rock/{{ k.slug }}/"><span class="mosaico">{% for d in k.discos | limite(4) %}{% if capas[d.spotify] %}<img src="{{ capas[d.spotify] }}" alt="" loading="lazy">{% endif %}{% endfor %}</span><strong>{{ k.tema }}</strong><span>{{ k | situacaoCopa }}, {{ k.rodadas[0].inicio | dataParcial }}</span></a></li>
+  {% endfor %}
+</ul>
+{%- endif %}

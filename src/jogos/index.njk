@@ -15,7 +15,7 @@ descricao: Jogos de rock do Awhuuu!. Qual monstro você é, a Prova do Lobo, a B
       <li><a class="card-jogo" href="/jogos/estrada-666/"><img src="{{ I.estrada }}" alt="" loading="lazy"><span class="tag">Arcade</span><strong>{{ jogos.estrada.titulo }}</strong><span class="desc">Junte discos, desvie da estrada. Quanto mais longe, mais rápido.</span></a></li>
       <li><a class="card-jogo" href="/jogos/qual-monstro/"><img src="{{ I.monstro }}" alt="" loading="lazy"><span class="tag">Teste</span><strong>{{ jogos.monstro.titulo }}</strong><span class="desc">{{ jogos.monstro.texto }}</span></a></li>
       <li><a class="card-jogo" href="/jogos/prova-do-lobo/"><img src="{{ I.prova }}" alt="" loading="lazy"><span class="tag">Toda semana</span><strong>Prova do Lobo</strong><span class="desc">Cinco perguntas sobre as matérias da semana.</span></a></li>
-      <li><a class="card-jogo" href="/jogos/copa-do-rock/"><img src="{{ I.copa }}" alt="" loading="lazy"><span class="tag">Votação</span><strong>Copa do Rock</strong><span class="desc">{{ jogos.copa.titulo | replace("Copa do Rock: ", "") }}. Seu voto decide quem passa.</span></a></li>
+      {%- set CA = jogos.copas | copaAtual %}<li><a class="card-jogo" href="/jogos/copa-do-rock/"><span class="mosaico-capas">{% for d in CA.discos | limite(4) %}{% if capas[d.spotify] %}<img src="{{ capas[d.spotify] }}" alt="" loading="lazy">{% endif %}{% endfor %}</span><span class="tag">Votação</span><strong>Copa do Rock</strong><span class="desc">{{ CA.tema }}. Ouça, vote e leve o disco.</span></a></li>
     </ul>
   </div>
 </section>

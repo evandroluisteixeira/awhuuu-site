@@ -411,25 +411,6 @@ footer a{color:var(--cinza)}
 .bd-chutes li{padding:6px 12px;font-size:.9rem}
 .bd-chutes .errado{background:#2a0605;border:1px solid var(--sangue);text-decoration:line-through}
 .bd-chutes .certo{background:#10240f;border:1px solid #3d9b4b}
-.copa-atual{display:grid;gap:14px;margin:20px 0 40px}
-.duelo{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:stretch}
-.duelo .x{align-self:center;font:400 1.6rem var(--titulo);color:var(--sangue)}
-.lado{display:flex;flex-direction:column;gap:4px;text-align:left;font:inherit;color:var(--osso);background:#141414;border:1px solid #333;padding:14px 16px;cursor:pointer;position:relative;overflow:hidden;min-height:76px}
-.lado:hover:not(:disabled){border-color:var(--osso)}
-.lado:disabled{cursor:default}
-.lado.meu{border-color:var(--sangue)}
-.lado strong{font:400 1.25rem/1.1 var(--titulo);text-transform:uppercase}
-.lado span{font-size:.82rem;color:#bda57a}
-.lado .pct{font:400 1.3rem var(--titulo);color:var(--osso);font-style:normal;position:relative;z-index:1}
-.lado .pct::before{content:"";position:absolute;right:-16px;top:-200px;bottom:-200px;width:0}
-@media (max-width:620px){.duelo{grid-template-columns:1fr}.duelo .x{justify-self:center}}
-.copa-chave{display:grid;grid-template-columns:repeat(4,minmax(150px,1fr));gap:14px;overflow-x:auto;padding-bottom:10px}
-.copa-chave .coluna{display:flex;flex-direction:column;justify-content:space-around;gap:10px}
-.copa-chave h3{font:700 .75rem var(--mono);text-transform:uppercase;letter-spacing:.12em;color:var(--sepia);margin:0 0 4px}
-.jogo-chave{border:1px solid #2a2a2a;background:#111}
-.jogo-chave p{margin:0;padding:6px 10px;font-size:.8rem;border-bottom:1px solid #1e1e1e}
-.jogo-chave p.venceu{color:var(--osso);font-weight:700;border-left:3px solid var(--sangue)}
-.jogo-chave p.perdeu{color:#5e574c;text-decoration:line-through}
 .a-definir{color:#6d665a}
 .e6-moldura{max-width:540px;margin:20px auto 0;border:1px solid #2a2a2a;box-shadow:0 0 60px rgba(213,6,12,.18)}
 .e6-moldura canvas{display:block;width:100%;height:auto;max-height:82vh;aspect-ratio:9/16;margin:0 auto;touch-action:none;cursor:pointer}
@@ -530,3 +511,48 @@ a.patch:focus-visible{outline-color:var(--sangue)}
 .discografia span{font:400 1.05rem var(--titulo);color:var(--sangue);min-width:3ch}
 @media (max-width:640px){.lt-grade{--rotulo:96px}.lt-nome{font-size:.7rem}.lt-nome small{display:none}.lt-eixo span{font-size:.6rem}}
 @media (max-width:640px){.lt-disco{width:10px;height:10px;margin-left:-5px;top:6px}}
+
+/* ===== Copa do Rock: duelos de capa contra capa ===== */
+.copa-atual{display:grid;gap:28px;margin:22px 0 44px}
+.duelo{display:grid;grid-template-columns:1fr auto 1fr;gap:18px;align-items:stretch}
+.duelo .x{align-self:center;font:400 2.4rem var(--titulo);color:var(--sangue)}
+.lado{display:flex;flex-direction:column;background:#141313;border:1px solid #2a2828;min-width:0}
+.lado.meu{border-color:var(--sangue);box-shadow:0 0 0 2px var(--sangue)}
+.lado .capa{position:relative;display:block;aspect-ratio:1;background:#0d0d0d;overflow:hidden}
+.lado .capa img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .25s ease}
+.lado .capa:hover img{transform:scale(1.03)}
+.selo-spotify{position:absolute;left:10px;bottom:10px;font-size:.7rem;font-weight:700;background:rgba(10,10,10,.8);color:#1ed760;padding:3px 8px;border-radius:20px}
+.lado .info{padding:14px 16px 6px;display:flex;flex-direction:column;gap:4px}
+.lado .info strong{font:400 1.45rem/1.05 var(--titulo)}
+.lado .info>span{font-size:.85rem;color:var(--cinza)}
+.lado .barra{position:relative;display:block;height:24px;margin-top:8px;background:#222}
+.lado .barra::before{content:"";position:absolute;inset:0 auto 0 0;width:var(--p);background:var(--sangue)}
+.lado .barra b{position:relative;padding-left:8px;font:400 1rem/24px var(--titulo);color:var(--osso)}
+.lado .acoes{display:flex;flex-wrap:wrap;gap:8px;padding:10px 16px 16px;margin-top:auto}
+.lado .acoes .botao{flex:1 1 auto;text-align:center;padding:10px 12px;font-size:.9rem;min-width:0}
+.lado .acoes .comprar{border-color:var(--sepia);color:var(--sepia)}
+.lado.vazio{align-items:center;justify-content:center;min-height:200px}
+.sem-capa{display:block;width:100%;aspect-ratio:1;background:repeating-linear-gradient(45deg,#151515 0 10px,#1b1b1b 10px 20px)}
+.copa-player{position:sticky;bottom:10px;z-index:5;margin:-20px 0 30px;padding:8px;background:#0d0d0d;border:1px solid #2a2828;box-shadow:0 10px 30px rgba(0,0,0,.6)}
+.copa-player .fechar{position:absolute;right:-10px;top:-14px;width:32px;height:32px;border-radius:50%;border:0;background:var(--sangue);color:var(--osso);font-size:1.2rem;cursor:pointer}
+.campeao{display:grid;grid-template-columns:minmax(0,320px) 1fr;gap:32px;align-items:center}
+.campeao .capa img{width:100%;display:block}
+@media (max-width:700px){.duelo{grid-template-columns:1fr 1fr;gap:10px}.duelo .x{display:none}.lado .info strong{font-size:1.05rem}.lado .info{padding:10px 10px 4px}.lado .acoes{padding:8px 10px 12px;gap:6px}.lado .acoes .botao{font-size:.78rem;padding:8px 6px;flex-basis:100%}.campeao{grid-template-columns:1fr}}
+.copa-chave{display:grid;grid-template-columns:repeat(4,minmax(170px,1fr));gap:14px;overflow-x:auto;padding-bottom:10px}
+.copa-chave .coluna{display:flex;flex-direction:column;justify-content:space-around;gap:10px}
+.copa-chave h3{font-size:.8rem;color:var(--sepia);margin:0 0 4px}
+.jogo-chave{border:1px solid #2a2a2a;background:#111}
+.jogo-chave p{display:flex;align-items:center;gap:8px;margin:0;padding:5px 8px;font-size:.78rem;border-bottom:1px solid #1e1e1e;min-height:52px}
+.jogo-chave img,.jogo-chave .sem-capa{width:40px;height:40px;flex:none}
+.jogo-chave span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.jogo-chave small{margin-left:auto;color:var(--sepia)}
+.jogo-chave p.venceu{color:var(--osso);font-weight:700;box-shadow:inset 3px 0 0 var(--sangue)}
+.jogo-chave p.perdeu{color:#5e574c}.jogo-chave p.perdeu img{filter:grayscale(1) brightness(.5)}
+.lista-copas{list-style:none;padding:0;margin:16px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.lista-copas a{display:flex;flex-direction:column;gap:6px;text-decoration:none;color:var(--osso);background:#141313;border:1px solid #2a2828;padding-bottom:14px}
+.lista-copas a:hover,.lista-copas a:focus-visible{border-color:var(--sangue)}
+.lista-copas .mosaico{display:grid;grid-template-columns:1fr 1fr;aspect-ratio:1}
+.lista-copas .mosaico img{width:100%;height:100%;object-fit:cover;display:block}
+.lista-copas strong{font:400 1.3rem var(--titulo);padding:6px 14px 0}
+.lista-copas span:last-child{font-size:.8rem;color:var(--cinza);padding:0 14px}
+.mosaico-capas{display:grid;grid-template-columns:1fr 1fr;aspect-ratio:4/5;border-bottom:3px solid var(--sangue);overflow:hidden}.mosaico-capas img{width:100%;height:100%;object-fit:cover;display:block;aspect-ratio:auto;border:0}

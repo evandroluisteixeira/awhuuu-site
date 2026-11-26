@@ -365,11 +365,14 @@ content:
               - { name: imagem, label: Imagem, type: string, description: "Caminho de uma imagem do site, ex.: /img/capas/remendo.webp" }
               - { name: editoria, label: Editoria (endereço), type: string }
               - { name: link_texto, label: Texto do botão, type: string }
-      - name: copa
-        label: Copa do Rock
+      - name: copas
+        label: Copas do Rock (uma por tema)
+        description: "Para criar um tema novo, duplique uma copa, troque o código, o tema, os 16 discos e as datas. A página principal mostra a copa que está valendo."
         type: object
+        list: true
         fields:
           - { name: slug, label: "Código da copa (mude ao criar uma copa nova, ex.: copa-metal-90)", type: string }
+          - { name: tema, label: Tema, type: string }
           - { name: titulo, label: Título, type: string }
           - { name: texto, label: Texto, type: text }
           - name: discos
@@ -381,6 +384,8 @@ content:
               - { name: disco, label: Disco, type: string }
               - { name: banda, label: Banda, type: string }
               - { name: ano, label: Ano, type: number }
+              - { name: spotify, label: Código do disco no Spotify, type: string, description: "O código no fim do link open.spotify.com/album/CÓDIGO. Traz a capa e o player." }
+              - { name: amazon, label: Código do produto na Amazon (ASIN), type: string, description: "Opcional. Sem ele, o botão Comprar abre a busca do disco na Amazon com a tag de afiliado." }
           - name: rodadas
             label: Rodadas
             type: object
