@@ -13,6 +13,7 @@ function publicada(item) {
 export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/img": "img" });
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
+  eleventyConfig.addPassthroughCopy({ "src/js": "js" });
   eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
   eleventyConfig.addPassthroughCopy({ "src/favicon.ico": "favicon.ico" });
   eleventyConfig.addPassthroughCopy({ "src/verificacao": "/" });
@@ -116,6 +117,7 @@ export default function (eleventyConfig) {
     for (const d in out) out[d].sort((a, b) => (a.tipo === "fato" ? -1 : 0) - (b.tipo === "fato" ? -1 : 0) || a.ano - b.ano);
     return out;
   });
+  eleventyConfig.addFilter("mapaMaterias", (materias) => Object.fromEntries((materias || []).map((m) => [m.fileSlug, { url: m.url, titulo: m.data.title }])));
   eleventyConfig.addFilter("hojeISO", () => new Date().toISOString().slice(0, 10));
   eleventyConfig.addFilter("casasAtivas", (casas) => ((casas && casas.casas) || []).filter((c) => c.ativa !== false));
 

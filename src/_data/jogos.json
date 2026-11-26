@@ -1,0 +1,424 @@
+{
+  "titulo": "Jogos",
+  "chamada": "Pra jogar no intervalo do show, na fila do bar ou às três da manhã. Tudo de graça, sem cadastro.",
+  "monstro": {
+    "titulo": "Qual monstro da matilha é você?",
+    "texto": "Sete perguntas. No fim, um cartão pra postar nos Stories.",
+    "perguntas": [
+      {
+        "pergunta": "Sexta à noite. Onde você está?",
+        "opcoes": [
+          {
+            "texto": "Na estrada, sem destino, com o som no talo",
+            "monstro": "lobo"
+          },
+          {
+            "texto": "Numa festa escura que só acaba quando o sol ameaça",
+            "monstro": "vampira"
+          },
+          {
+            "texto": "No porão, montando uma banda com o que tiver",
+            "monstro": "frank"
+          }
+        ]
+      },
+      {
+        "pergunta": "Seu disco de cabeceira é...",
+        "opcoes": [
+          {
+            "texto": "Um ao vivo, gravado suado e sem retoque",
+            "monstro": "lobo"
+          },
+          {
+            "texto": "Um clássico que quase ninguém lembra, mas devia",
+            "monstro": "vampira"
+          },
+          {
+            "texto": "Uma coletânea de covers, uma melhor que a outra",
+            "monstro": "frank"
+          }
+        ]
+      },
+      {
+        "pergunta": "Na roda do show, você...",
+        "opcoes": [
+          {
+            "texto": "Está no meio, de olho fechado, uivando junto",
+            "monstro": "lobo"
+          },
+          {
+            "texto": "Assiste do fundo, de óculos escuros, julgando o figurino",
+            "monstro": "vampira"
+          },
+          {
+            "texto": "Levanta quem caiu e ainda costura a jaqueta dele depois",
+            "monstro": "frank"
+          }
+        ]
+      },
+      {
+        "pergunta": "Sua jaqueta tem...",
+        "opcoes": [
+          {
+            "texto": "Poeira de três estados e uma lua bordada",
+            "monstro": "lobo"
+          },
+          {
+            "texto": "Gola alta, renda e um broche antigo",
+            "monstro": "vampira"
+          },
+          {
+            "texto": "Patch em cima de patch, cada um de uma banda",
+            "monstro": "frank"
+          }
+        ]
+      },
+      {
+        "pergunta": "Alguém fala mal da sua banda preferida. Você...",
+        "opcoes": [
+          {
+            "texto": "Rosna e muda de assunto",
+            "monstro": "lobo"
+          },
+          {
+            "texto": "Conta a história inteira da banda até a pessoa pedir desculpa",
+            "monstro": "vampira"
+          },
+          {
+            "texto": "Mostra a versão de outra banda pra pessoa entender",
+            "monstro": "frank"
+          }
+        ]
+      },
+      {
+        "pergunta": "Qual instrumento?",
+        "opcoes": [
+          {
+            "texto": "Bateria, no peito",
+            "monstro": "lobo"
+          },
+          {
+            "texto": "Voz, de preferência num órgão de igreja",
+            "monstro": "vampira"
+          },
+          {
+            "texto": "Guitarra montada com peça de três guitarras",
+            "monstro": "frank"
+          }
+        ]
+      },
+      {
+        "pergunta": "A lua está cheia. Você...",
+        "opcoes": [
+          {
+            "texto": "Vira bicho. Óbvio.",
+            "monstro": "lobo"
+          },
+          {
+            "texto": "Acorda. A noite está só começando.",
+            "monstro": "vampira"
+          },
+          {
+            "texto": "Aproveita a luz pra terminar a letra da música",
+            "monstro": "frank"
+          }
+        ]
+      }
+    ],
+    "resultados": [
+      {
+        "chave": "lobo",
+        "nome": "O Lobo",
+        "texto": "Você vive de estrada, volume alto e lua cheia. Não espera o show perfeito: faz o show acontecer. Seu habitat é a Hora do Lobo, onde moram os shows que viraram lenda.",
+        "imagem": "/img/capas/hora-do-lobo.webp",
+        "editoria": "hora-do-lobo",
+        "link_texto": "Ver a Hora do Lobo"
+      },
+      {
+        "chave": "vampira",
+        "nome": "A Vampira",
+        "texto": "Você é guardiã da memória. Sabe quem veio primeiro, quem foi apagado e por quê. Seu habitat é As Imortais, a editoria das mulheres que o rock tentou enterrar.",
+        "imagem": "/img/capas/as-imortais.webp",
+        "editoria": "as-imortais",
+        "link_texto": "Ver As Imortais"
+      },
+      {
+        "chave": "frank",
+        "nome": "O Remendo",
+        "texto": "Você é feito de pedaços de todo mundo e é melhor por isso. Cover, versão, sample, gambiarra: pra você, música é coisa viva. Seu habitat é o Remendo.",
+        "imagem": "/img/capas/remendo.webp",
+        "editoria": "remendo",
+        "link_texto": "Ver o Remendo"
+      }
+    ]
+  },
+  "provas": [
+    {
+      "titulo": "Prova do Lobo: semana 1",
+      "data": "2026-12-06",
+      "perguntas": [
+        {
+          "pergunta": "Por qual gravadora saiu Krig-ha, Bandolo!, de Raul Seixas?",
+          "opcoes": [
+            "Philips",
+            "Odeon",
+            "Som Livre",
+            "RCA"
+          ],
+          "certa": 0,
+          "explicacao": "Saiu pela Philips, em 21 de julho de 1973.",
+          "materia": "krig-ha-bandolo"
+        },
+        {
+          "pergunta": "O que queria dizer CBGB, o nome do bar de Nova York?",
+          "opcoes": [
+            "Country, bluegrass e blues",
+            "Clube dos Bons Garotos do Bowery",
+            "Casa Brasileira de Gaita e Bateria",
+            "Cerveja, Banda, Guitarra e Barulho"
+          ],
+          "certa": 0,
+          "explicacao": "O dono queria música de raiz. Recebeu Ramones, Blondie, Talking Heads, Television e Patti Smith.",
+          "materia": "cbgb"
+        },
+        {
+          "pergunta": "Quem era o dono do CBGB?",
+          "opcoes": [
+            "Hilly Kristal",
+            "Malcolm McLaren",
+            "Bill Graham",
+            "Joey Ramone"
+          ],
+          "certa": 0,
+          "explicacao": "Hilly Kristal abriu o bar em 1973.",
+          "materia": "cbgb"
+        },
+        {
+          "pergunta": "Em que cidade Ozzy Osbourne mordeu o morcego, em 1982?",
+          "opcoes": [
+            "Des Moines",
+            "Detroit",
+            "Birmingham",
+            "Cleveland"
+          ],
+          "certa": 0,
+          "explicacao": "Foi no Veterans Memorial Auditorium, em Des Moines, Iowa, em 20 de janeiro de 1982.",
+          "materia": "ozzy-e-o-morcego"
+        },
+        {
+          "pergunta": "Qual música do Queen o público cantou no Rock in Rio de 1985?",
+          "opcoes": [
+            "Love of My Life",
+            "Bohemian Rhapsody",
+            "We Are the Champions",
+            "Radio Ga Ga"
+          ],
+          "certa": 0,
+          "explicacao": "Brian May perguntou se o público queria cantar. O público quis.",
+          "materia": "queen-rock-in-rio-1985"
+        }
+      ]
+    },
+    {
+      "titulo": "Prova do Lobo: semana 2",
+      "data": "2026-12-13",
+      "perguntas": [
+        {
+          "pergunta": "Onde o Circo Voador armou a lona pela primeira vez, no verão de 1982?",
+          "opcoes": [
+            "Na praia do Arpoador",
+            "No Aterro do Flamengo",
+            "Na Lapa",
+            "Em Copacabana"
+          ],
+          "certa": 0,
+          "explicacao": "Começou na areia do Arpoador e chegou à Lapa em outubro de 1982.",
+          "materia": "circo-voador"
+        },
+        {
+          "pergunta": "Na história do aniversário de Keith Moon, que carro foi parar na piscina?",
+          "opcoes": [
+            "Um Lincoln Continental",
+            "Um Rolls-Royce",
+            "Um Cadillac",
+            "Um Fusca"
+          ],
+          "certa": 0,
+          "explicacao": "Na lenda virou Rolls-Royce. E só o Keith contava essa história.",
+          "materia": "keith-moon-piscina"
+        },
+        {
+          "pergunta": "Quantos pedidos de ingresso teve o show do Led Zeppelin na O2, em 2007?",
+          "opcoes": [
+            "Mais de 20 milhões",
+            "Cerca de 2 milhões",
+            "500 mil",
+            "Mais de 100 milhões"
+          ],
+          "certa": 0,
+          "explicacao": "Recorde do Guinness, para uma noite só.",
+          "materia": "led-zeppelin-o2"
+        },
+        {
+          "pergunta": "Onde Sister Rosetta Tharpe tocou \"Didn't It Rain\" na chuva, em 1964?",
+          "opcoes": [
+            "Numa estação de trem desativada em Manchester",
+            "No Royal Albert Hall",
+            "Num festival em Newport",
+            "Numa igreja em Chicago"
+          ],
+          "certa": 0,
+          "explicacao": "Foi para a TV Granada, com futuros guitarristas famosos na plateia.",
+          "materia": "sister-rosetta-tharpe"
+        },
+        {
+          "pergunta": "Quem gravou \"Hound Dog\" primeiro?",
+          "opcoes": [
+            "Big Mama Thornton",
+            "Elvis Presley",
+            "Freddie Bell and the Bellboys",
+            "Chuck Berry"
+          ],
+          "certa": 0,
+          "explicacao": "Big Mama gravou em 13 de agosto de 1952. Elvis, só em 1956.",
+          "materia": "hound-dog"
+        }
+      ]
+    }
+  ],
+  "copa": {
+    "slug": "copa-rock-nacional-80",
+    "titulo": "Copa do Rock: discos nacionais dos anos 80",
+    "texto": "Dezesseis discos, um mata-mata. Uma rodada por semana, um voto por confronto. O vencedor de cada duelo passa sozinho para a próxima rodada.",
+    "discos": [
+      {
+        "id": "dois",
+        "disco": "Dois",
+        "banda": "Legião Urbana",
+        "ano": 1986
+      },
+      {
+        "id": "cadeasarmas",
+        "disco": "Cadê as Armas?",
+        "banda": "As Mercenárias",
+        "ano": 1986
+      },
+      {
+        "id": "cabeca",
+        "disco": "Cabeça Dinossauro",
+        "banda": "Titãs",
+        "ano": 1986
+      },
+      {
+        "id": "seuespiao",
+        "disco": "Seu Espião",
+        "banda": "Kid Abelha",
+        "ano": 1984
+      },
+      {
+        "id": "selvagem",
+        "disco": "Selvagem?",
+        "banda": "Os Paralamas do Sucesso",
+        "ano": 1986
+      },
+      {
+        "id": "crucificados",
+        "disco": "Crucificados pelo Sistema",
+        "banda": "Ratos de Porão",
+        "ano": 1984
+      },
+      {
+        "id": "vivendo",
+        "disco": "Vivendo e Não Aprendendo",
+        "banda": "Ira!",
+        "ano": 1986
+      },
+      {
+        "id": "ideologia",
+        "disco": "Ideologia",
+        "banda": "Cazuza",
+        "ano": 1988
+      },
+      {
+        "id": "maiorabandonado",
+        "disco": "Maior Abandonado",
+        "banda": "Barão Vermelho",
+        "ano": 1984
+      },
+      {
+        "id": "beneath",
+        "disco": "Beneath the Remains",
+        "banda": "Sepultura",
+        "ano": 1989
+      },
+      {
+        "id": "invadir",
+        "disco": "Nós Vamos Invadir Sua Praia",
+        "banda": "Ultraje a Rigor",
+        "ano": 1985
+      },
+      {
+        "id": "batalhoes",
+        "disco": "Batalhões de Estranhos",
+        "banda": "Camisa de Vênus",
+        "ano": 1984
+      },
+      {
+        "id": "capital",
+        "disco": "Capital Inicial",
+        "banda": "Capital Inicial",
+        "ano": 1986
+      },
+      {
+        "id": "vidabandida",
+        "disco": "Vida Bandida",
+        "banda": "Lobão",
+        "ano": 1987
+      },
+      {
+        "id": "dandis",
+        "disco": "A Revolta dos Dândis",
+        "banda": "Engenheiros do Hawaii",
+        "ano": 1987
+      },
+      {
+        "id": "blitz",
+        "disco": "As Aventuras da Blitz",
+        "banda": "Blitz",
+        "ano": 1982
+      }
+    ],
+    "rodadas": [
+      {
+        "nome": "Oitavas",
+        "inicio": "2026-12-07",
+        "fim": "2026-12-13"
+      },
+      {
+        "nome": "Quartas",
+        "inicio": "2026-12-14",
+        "fim": "2026-12-20"
+      },
+      {
+        "nome": "Semifinal",
+        "inicio": "2026-12-21",
+        "fim": "2026-12-27"
+      },
+      {
+        "nome": "Final",
+        "inicio": "2026-12-28",
+        "fim": "2027-01-03"
+      }
+    ]
+  },
+  "banda_do_dia": {
+    "titulo": "Banda do Dia",
+    "texto": "Uma banda por dia. Seis chances. Cada erro abre uma pista nova.",
+    "inicio": "2026-11-27"
+  },
+  "estrada": {
+    "titulo": "Estrada 666",
+    "texto": "O lobo pegou a moto. Junte discos, desvie do que aparecer na estrada e veja até onde a lua deixa você ir.",
+    "trilha": ""
+  }
+}

@@ -279,6 +279,100 @@ content:
           - { name: materia, label: Matéria (endereço curto), type: string, description: "O nome do arquivo da matéria, sem .md. Ex.: cbgb" }
           - { name: link, label: Ou um link de fora, type: string }
 
+  - name: jogos
+    label: Jogos
+    type: file
+    path: src/_data/jogos.json
+    fields:
+      - { name: titulo, label: Título da página de jogos, type: string }
+      - { name: chamada, label: Texto de abertura, type: text }
+      - name: provas
+        label: Prova do Lobo
+        description: "O site mostra a prova mais recente cuja data já chegou. Crie a da semana com a data do domingo."
+        type: object
+        list: true
+        fields:
+          - { name: titulo, label: Título, type: string }
+          - { name: data, label: "Data de liberação (AAAA-MM-DD)", type: string }
+          - name: perguntas
+            label: Perguntas
+            type: object
+            list: true
+            fields:
+              - { name: pergunta, label: Pergunta, type: text }
+              - { name: opcoes, label: Opções, type: string, list: true }
+              - { name: certa, label: "Número da opção certa (a primeira é 0)", type: number }
+              - { name: explicacao, label: Explicação depois da resposta, type: text }
+              - { name: materia, label: Matéria (nome do arquivo sem .md), type: string }
+      - name: monstro
+        label: Qual monstro é você?
+        type: object
+        fields:
+          - { name: titulo, label: Título, type: string }
+          - { name: texto, label: Texto, type: text }
+          - name: perguntas
+            label: Perguntas
+            type: object
+            list: true
+            fields:
+              - { name: pergunta, label: Pergunta, type: text }
+              - name: opcoes
+                label: Opções
+                type: object
+                list: true
+                fields:
+                  - { name: texto, label: Texto, type: string }
+                  - { name: monstro, label: "Monstro (a chave de um resultado)", type: string }
+          - name: resultados
+            label: Resultados (um por monstro)
+            type: object
+            list: true
+            fields:
+              - { name: chave, label: "Chave (ex.: lobo, vampira, frank)", type: string }
+              - { name: nome, label: Nome, type: string }
+              - { name: texto, label: Texto, type: text }
+              - { name: imagem, label: Imagem, type: string, description: "Caminho de uma imagem do site, ex.: /img/capas/remendo.webp" }
+              - { name: editoria, label: Editoria (endereço), type: string }
+              - { name: link_texto, label: Texto do botão, type: string }
+      - name: copa
+        label: Copa do Rock
+        type: object
+        fields:
+          - { name: slug, label: "Código da copa (mude ao criar uma copa nova, ex.: copa-metal-90)", type: string }
+          - { name: titulo, label: Título, type: string }
+          - { name: texto, label: Texto, type: text }
+          - name: discos
+            label: "Discos, na ordem da chave (1º x 2º, 3º x 4º...)"
+            type: object
+            list: true
+            fields:
+              - { name: id, label: "Código curto (sem espaço)", type: string }
+              - { name: disco, label: Disco, type: string }
+              - { name: banda, label: Banda, type: string }
+              - { name: ano, label: Ano, type: number }
+          - name: rodadas
+            label: Rodadas
+            type: object
+            list: true
+            fields:
+              - { name: nome, label: Nome, type: string }
+              - { name: inicio, label: "Início (AAAA-MM-DD)", type: string }
+              - { name: fim, label: "Fim (AAAA-MM-DD)", type: string }
+      - name: banda_do_dia
+        label: Banda do Dia
+        type: object
+        fields:
+          - { name: titulo, label: Título, type: string }
+          - { name: texto, label: Texto, type: text }
+          - { name: inicio, label: "Dia do nº 1 (AAAA-MM-DD)", type: string, description: "As bandas sorteadas vêm da lista de Bandas e artistas." }
+      - name: estrada
+        label: Estrada 666
+        type: object
+        fields:
+          - { name: titulo, label: Título, type: string }
+          - { name: texto, label: Texto, type: text }
+          - { name: trilha, label: "Trilha (link de um arquivo .mp3 seu)", type: string, description: "Toca em loop durante a corrida. Deixe vazio para jogar só com os efeitos." }
+
   - name: links
     label: Página de links (bio do Instagram e TikTok)
     type: file

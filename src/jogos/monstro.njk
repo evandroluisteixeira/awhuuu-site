@@ -1,0 +1,39 @@
+---
+layout: base.njk
+permalink: /jogos/qual-monstro/
+eleventyComputed:
+  title: "{{ jogos.monstro.titulo }}"
+descricao: Sete perguntas pra descobrir qual monstro da matilha do Awhuuu! é você. No fim, um cartão pra postar nos Stories.
+---
+{%- set M = jogos.monstro %}
+<section class="secao" style="border-top:0">
+  <div class="faixa jogo">
+    <p class="rotulo"><a href="/jogos/">Jogos</a> · Teste</p>
+    <h1 class="titulo-pag">{{ M.titulo }}</h1>
+    <p class="chamada-pag">{{ M.texto }}</p>
+    <div id="mq" class="quiz"></div>
+  </div>
+</section>
+<script>window.MONSTRO={{ M | dump | safe }};</script>
+<script src="/js/cartao.js"></script>
+<script>
+(function(){
+  var M=window.MONSTRO, box=document.getElementById('mq'), i=0, pontos={};
+  var e_=function(t){return String(t||'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});};
+  function pergunta(){
+    var p=M.perguntas[i];
+    var ops=p.opcoes.slice().sort(function(){return Math.random()-.5;});
+    box.innerHTML='<p class="passo">'+(i+1)+' de '+M.perguntas.length+'</p><h2>'+e_(p.pergunta)+'</h2><div class="opcoes">'+ops.map(function(o){return '<button type="button" class="opcao" data-m="'+e_(o.monstro)+'">'+e_(o.texto)+'</button>';}).join('')+'</div>';
+    box.querySelectorAll('.opcao').forEach(function(b){ b.onclick=function(){ pontos[b.dataset.m]=(pontos[b.dataset.m]||0)+1; i++; i<M.perguntas.length?pergunta():resultado(); }; });
+    box.querySelector('.opcao').focus();
+  }
+  function resultado(){
+    var chave=Object.keys(pontos).sort(function(a,b){return pontos[b]-pontos[a];})[0];
+    var r=M.resultados.find(function(x){return x.chave===chave;})||M.resultados[0];
+    box.innerHTML='<div class="resultado"><img src="'+r.imagem+'" alt=""><div><p class="rotulo">Você é</p><h2 class="grande">'+e_(r.nome)+'</h2><p>'+e_(r.texto)+'</p><p class="botoes"><button type="button" class="botao" id="mq-comp">Compartilhar</button> <a class="botao contorno" href="/'+r.editoria+'/">'+e_(r.link_texto)+'</a> <button type="button" class="botao contorno" id="mq-de-novo">Jogar de novo</button></p></div></div>';
+    document.getElementById('mq-de-novo').onclick=function(){i=0;pontos={};pergunta();};
+    document.getElementById('mq-comp').onclick=function(){ cartaoAwhuuu({img:r.imagem, rotulo:'QUAL MONSTRO É VOCÊ?', titulo:r.nome, linha:'awhuuu.com.br/jogos', arquivo:'awhuuu-monstro.png', texto:'Deu '+r.nome+' no teste do Awhuuu!. Qual monstro é você?', url:location.href}); };
+  }
+  pergunta();
+})();
+</script>

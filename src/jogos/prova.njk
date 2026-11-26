@@ -1,0 +1,52 @@
+---
+layout: base.njk
+title: Prova do Lobo
+permalink: /jogos/prova-do-lobo/
+descricao: Cinco perguntas sobre as matérias da semana do Awhuuu!. Toda semana uma prova nova.
+---
+{%- set hoje = "" | hojeISO %}
+{%- set liberadas = [] %}{% for p in jogos.provas %}{% if p.data <= hoje %}{% set liberadas = (liberadas.push(p), liberadas) %}{% endif %}{% endfor %}
+{%- set prova = (liberadas | sort(true, false, "data"))[0] %}
+<section class="secao" style="border-top:0">
+  <div class="faixa jogo">
+    <p class="rotulo"><a href="/jogos/">Jogos</a> · Toda semana</p>
+    <h1 class="titulo-pag">Prova do Lobo</h1>
+    {% if prova %}
+    <p class="chamada-pag">{{ prova.titulo }}. Cinco perguntas sobre as matérias que saíram no Awhuuu!. Errou? A resposta leva pra matéria.</p>
+    <div id="pq" class="quiz"></div>
+    {% else %}
+    <p class="chamada-pag">A primeira prova sai no domingo, {{ (jogos.provas | sort(false, false, "data"))[0].data | dataParcial }}, com as matérias da primeira semana. Enquanto isso, <a href="/materias/">vai estudando</a>.</p>
+    {% endif %}
+  </div>
+</section>
+{% if prova %}
+<script>window.PROVA={{ prova | dump | safe }};window.MATS={{ collections.materias | mapaMaterias | dump | safe }};</script>
+<script src="/js/cartao.js"></script>
+<script>
+(function(){
+  var P=window.PROVA, box=document.getElementById('pq'), i=0, certas=0;
+  var e_=function(t){return String(t||'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});};
+  function pergunta(){
+    var p=P.perguntas[i], ordem=p.opcoes.map(function(o,k){return k;}).sort(function(){return Math.random()-.5;});
+    box.innerHTML='<p class="passo">'+(i+1)+' de '+P.perguntas.length+'</p><h2>'+e_(p.pergunta)+'</h2><div class="opcoes">'+ordem.map(function(k){return '<button type="button" class="opcao" data-k="'+k+'">'+e_(p.opcoes[k])+'</button>';}).join('')+'</div><div class="explica" aria-live="polite"></div>';
+    box.querySelectorAll('.opcao').forEach(function(b){ b.onclick=function(){
+      var ok=+b.dataset.k===+p.certa; if(ok) certas++;
+      box.querySelectorAll('.opcao').forEach(function(x){ x.disabled=true; if(+x.dataset.k===+p.certa) x.classList.add('certa'); });
+      if(!ok) b.classList.add('errada');
+      var m=window.MATS[p.materia];
+      box.querySelector('.explica').innerHTML='<p><strong>'+(ok?'Acertou.':'Não foi dessa vez.')+'</strong> '+e_(p.explicacao)+(m?' <a href="'+m.url+'">Ler a matéria →</a>':'')+'</p><button type="button" class="botao" id="pq-seg">'+(i+1<P.perguntas.length?'Próxima':'Ver resultado')+'</button>';
+      document.getElementById('pq-seg').onclick=function(){ i++; i<P.perguntas.length?pergunta():fim(); };
+      document.getElementById('pq-seg').focus();
+    }; });
+  }
+  function fim(){
+    var n=P.perguntas.length, frase=certas===n?'Lobo alfa. Leu tudo.':certas>=n-2?'Uivo forte. Quase lá.':'Filhote. Bora ler as matérias.';
+    try{ localStorage.setItem('awhuuu-prova-'+P.data, certas+'/'+n); }catch(e){}
+    box.innerHTML='<div class="resultado so-texto"><p class="rotulo">'+e_(P.titulo)+'</p><h2 class="grande">'+certas+' de '+n+'</h2><p>'+frase+'</p><p class="botoes"><button type="button" class="botao" id="pq-comp">Compartilhar</button> <button type="button" class="botao contorno" id="pq-de-novo">Fazer de novo</button></p></div>';
+    document.getElementById('pq-de-novo').onclick=function(){i=0;certas=0;pergunta();};
+    document.getElementById('pq-comp').onclick=function(){ cartaoAwhuuu({img:'/img/capas/hora-do-lobo.webp', rotulo:'PROVA DO LOBO', titulo:certas+' DE '+n, linha:frase, arquivo:'awhuuu-prova.png', texto:'Fiz '+certas+' de '+n+' na Prova do Lobo do Awhuuu!. Encara?', url:location.href}); };
+  }
+  pergunta();
+})();
+</script>
+{% endif %}

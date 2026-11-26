@@ -1,0 +1,20 @@
+---
+layout: base.njk
+title: Jogos
+permalink: /jogos/
+descricao: Jogos de rock do Awhuuu!. Qual monstro você é, a Prova do Lobo, a Banda do Dia, a Copa do Rock e a Estrada 666. De graça, sem cadastro.
+---
+<section class="secao" style="border-top:0">
+  <div class="faixa">
+    <p class="rotulo">Hora do recreio</p>
+    <h1 class="titulo-pag">{{ jogos.titulo }}</h1>
+    <p class="chamada-pag">{{ jogos.chamada }}</p>
+    <ul class="grade-jogos">
+      <li><a class="card-jogo" href="/jogos/banda-do-dia/"><span class="tag">Todo dia</span><strong>{{ jogos.banda_do_dia.titulo }}</strong><span>{{ jogos.banda_do_dia.texto }}</span></a></li>
+      <li><a class="card-jogo" href="/jogos/qual-monstro/" style="--fundo:url('/img/capas/as-imortais.webp')"><span class="tag">Teste</span><strong>{{ jogos.monstro.titulo }}</strong><span>{{ jogos.monstro.texto }}</span></a></li>
+      <li><a class="card-jogo" href="/jogos/prova-do-lobo/" style="--fundo:url('/img/capas/hora-do-lobo.webp')"><span class="tag">Toda semana</span><strong>Prova do Lobo</strong><span>Cinco perguntas sobre as matérias da semana. Leu? Prova.</span></a></li>
+      <li><a class="card-jogo" href="/jogos/copa-do-rock/" style="--fundo:url('/img/capas/pedrada-do-dia.webp')"><span class="tag">Votação</span><strong>Copa do Rock</strong><span>{{ jogos.copa.titulo | replace("Copa do Rock: ", "") }}. Seu voto decide quem passa.</span></a></li>
+      <li><a class="card-jogo" href="/jogos/estrada-666/" style="--fundo:url('/img/capas/rota-666.webp')"><span class="tag">Arcade</span><strong>{{ jogos.estrada.titulo }}</strong><span>{{ jogos.estrada.texto }}</span></a></li>
+    </ul>
+  </div>
+</section>
