@@ -61,7 +61,7 @@ descricao: Bandas e artistas do rock, das lendas à cena de Santa Catarina. Link
     <div class="grade-videos">
       {% for v in novidades.recentes %}
       <figure class="video-banda">
-        <div class="video"><button type="button" class="yt-lite" data-id="{{ v.id }}" aria-label="Tocar o vídeo: {{ v.titulo }}" style="background-image:url(https://i.ytimg.com/vi/{{ v.id }}/hqdefault.jpg)"><span aria-hidden="true">▶</span></button></div>
+        <div class="embed video"><button type="button" class="yt-lite" data-id="{{ v.id }}" aria-label="Tocar o vídeo: {{ v.titulo }}" style="background-image:url(https://i.ytimg.com/vi/{{ v.id }}/hqdefault.jpg)"><span aria-hidden="true">▶</span></button></div>
         <figcaption><a href="/bandas/{{ v.slug }}/">{{ v.banda }}</a> · {{ v.titulo }}</figcaption>
       </figure>
       {% endfor %}

@@ -69,7 +69,7 @@
       <div class="grade-videos">
         {% for v in vids %}
         <figure class="video-banda">
-          <div class="video"><button type="button" class="yt-lite" data-id="{{ v.id }}" aria-label="Tocar o vídeo: {{ v.titulo }}" style="background-image:url(https://i.ytimg.com/vi/{{ v.id }}/hqdefault.jpg)"><span aria-hidden="true">▶</span></button></div>
+          <div class="embed video"><button type="button" class="yt-lite" data-id="{{ v.id }}" aria-label="Tocar o vídeo: {{ v.titulo }}" style="background-image:url(https://i.ytimg.com/vi/{{ v.id }}/hqdefault.jpg)"><span aria-hidden="true">▶</span></button></div>
           <figcaption>{{ v.titulo }}</figcaption>
         </figure>
         {% endfor %}
