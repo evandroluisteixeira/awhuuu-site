@@ -35,5 +35,13 @@
     "titulo": "A trilha da lua",
     "texto": "A playlist da Sexta de Lua Cheia mais recente. Dá o play e deixa rolar.",
     "spotify_playlist": "5InBKBAr5FMGoZbiQT6JbW"
+  },
+  "youtube": {
+    "mostrar": true,
+    "titulo": "No canal",
+    "texto": "Os vídeos mais novos do canal do lobo.",
+    "canal_id": "UCXIneTLfn7ZVEI1UjPI5Gpg",
+    "quantos": 4,
+    "playlist_reserva": "PLWFVBrzM-44o"
   }
 }

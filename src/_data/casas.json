@@ -27,7 +27,8 @@
         "Célula Showcase",
         "Célula"
       ],
-      "ativa": true
+      "ativa": true,
+      "videos": []
     },
     {
       "nome": "Desgosto",
@@ -53,7 +54,8 @@
       "nomes_na_agenda": [
         "Desgosto"
       ],
-      "ativa": true
+      "ativa": true,
+      "videos": []
     },
     {
       "nome": "The Frostbier Pub",
@@ -80,7 +82,8 @@
         "Frostbier",
         "The Frostbier Pub"
       ],
-      "ativa": true
+      "ativa": true,
+      "videos": []
     },
     {
       "nome": "Bro Cave Pub",
@@ -107,7 +110,8 @@
         "Bro Cave",
         "Brocave"
       ],
-      "ativa": true
+      "ativa": true,
+      "videos": []
     },
     {
       "nome": "John Bull Floripa",
@@ -133,7 +137,8 @@
       "nomes_na_agenda": [
         "John Bull"
       ],
-      "ativa": true
+      "ativa": true,
+      "videos": []
     },
     {
       "nome": "Casa do Bob Rock",
@@ -159,7 +164,8 @@
       "nomes_na_agenda": [
         "Bob Rock"
       ],
-      "ativa": true
+      "ativa": true,
+      "videos": []
     },
     {
       "nome": "Music Park BC",
@@ -186,7 +192,8 @@
         "Music Park BC",
         "Music Park"
       ],
-      "ativa": true
+      "ativa": true,
+      "videos": []
     },
     {
       "nome": "The Bunker 663",
@@ -213,7 +220,8 @@
         "Bunker 663",
         "The Bunker"
       ],
-      "ativa": true
+      "ativa": true,
+      "videos": []
     },
     {
       "nome": "Tribus Bar",
@@ -239,7 +247,8 @@
       "nomes_na_agenda": [
         "Tribus"
       ],
-      "ativa": true
+      "ativa": true,
+      "videos": []
     },
     {
       "nome": "Tork n' Roll",
@@ -267,7 +276,8 @@
         "Tork n' Roll",
         "Tork 'n' Roll"
       ],
-      "ativa": true
+      "ativa": true,
+      "videos": []
     }
   ]
 }

@@ -1,0 +1,21 @@
+---
+layout: base.njk
+permalink: /links/
+title: "Links"
+descricao: "Todos os caminhos do Awhuuu!: matérias novas, agenda de shows, casas de rock, clube, newsletter e playlists."
+---
+<section class="secao links-bio">
+  <div class="faixa estreita">
+    <img class="links-lobo" src="/img/awhuuu-palavra.webp" alt="Awhuuu!" width="900" height="560">
+    {% if links.texto %}<p class="linha-fina">{{ links.texto }}</p>{% endif %}
+    <ul class="lista-links">
+      {% for m in collections.materias | limite(links.mostrar_ultimas or 0) %}
+      <li><a class="botao" href="{{ m.url }}"><small>Nova no site</small>{{ m.data.title }}</a></li>
+      {% endfor %}
+      {% for l in links.links %}
+      <li><a class="botao{% if not l.destaque %} contorno{% endif %}" href="{{ l.url }}"{% if l.url.startsWith("http") %} target="_blank" rel="noopener"{% endif %}>{{ l.titulo }}</a></li>
+      {% endfor %}
+    </ul>
+    <p class="redes-bio">{% for r in site.redes %}<a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.nome }}</a>{% if not loop.last %} · {% endif %}{% endfor %}</p>
+  </div>
+</section>

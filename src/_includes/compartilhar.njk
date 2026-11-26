@@ -1,0 +1,11 @@
+{#- Botões de compartilhar. Precisa de: url (absoluto) e textoComp -#}
+<div class="compartilhar" data-url="{{ url }}" data-texto="{{ textoComp }}">
+  <p class="rotulo">Manda pra quem precisa ouvir</p>
+  <div class="botoes">
+    <a class="botao" href="https://wa.me/?text={{ (textoComp + ' ' + url) | urlencode }}" target="_blank" rel="noopener">WhatsApp</a>
+    <button type="button" class="botao contorno comp-nativo" hidden>Compartilhar (Stories, Telegram…)</button>
+    <a class="botao contorno" href="https://www.facebook.com/sharer/sharer.php?u={{ url | urlencode }}" target="_blank" rel="noopener">Facebook</a>
+    <a class="botao contorno" href="https://x.com/intent/post?text={{ textoComp | urlencode }}&url={{ url | urlencode }}" target="_blank" rel="noopener">X</a>
+    <button type="button" class="botao contorno comp-copiar">Copiar link</button>
+  </div>
+</div>

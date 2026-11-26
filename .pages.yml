@@ -36,6 +36,8 @@ content:
             - { value: sexta-de-lua-cheia, label: "Sexta de Lua Cheia" }
             - { value: garagem, label: "Garagem" }
             - { value: trapos-e-bugigangas, label: "Trapos e Bugigangas" }
+            - { value: as-imortais, label: "As Imortais" }
+            - { value: remendo, label: "Remendo" }
       - name: numero
         label: Número na série
         type: number
@@ -96,6 +98,11 @@ content:
         label: ID da playlist do Spotify
         description: O código depois de /playlist/ no link do Spotify (a playlist precisa estar pública).
         type: string
+      - name: videos
+        label: Vídeos
+        description: "Cole o link de um vídeo do YouTube (inclusive Shorts), do TikTok ou um Reel do Instagram. Pode pôr vários."
+        type: string
+        list: true
       - name: youtube_playlist
         label: ID da playlist do YouTube
         description: O código depois de list= no endereço da playlist.
@@ -215,8 +222,26 @@ content:
           - { name: foto_inteira, label: Mostrar a imagem inteira (bom para logotipos), type: boolean }
           - { name: foto_alt, label: Descrição da foto (para leitores de tela), type: string }
           - { name: credito, label: Crédito da foto, type: string }
+          - { name: videos, label: "Vídeos (YouTube, TikTok ou Instagram)", type: string, list: true }
           - { name: nomes_na_agenda, label: Como o nome aparece na agenda, type: string, list: true, description: "Os shows da agenda cujo local contém um destes nomes aparecem na página da casa." }
           - { name: ativa, label: Ativa (aparece no site), type: boolean }
+
+  - name: links
+    label: Página de links (bio do Instagram e TikTok)
+    type: file
+    path: src/_data/links.json
+    fields:
+      - { name: texto, label: Texto de abertura, type: text }
+      - { name: mostrar_ultimas, label: Quantas matérias novas mostrar no topo, type: number }
+      - name: links
+        label: Links
+        description: Arraste para mudar a ordem.
+        type: object
+        list: true
+        fields:
+          - { name: titulo, label: Texto do botão, type: string }
+          - { name: url, label: Endereço, type: string, description: "Do site (ex.: /agenda/) ou de fora (https://...)" }
+          - { name: destaque, label: Botão em destaque (vermelho), type: boolean }
 
   - name: clube
     label: Clube (assinaturas e caixas)
@@ -374,6 +399,16 @@ content:
           - { name: titulo, label: Título, type: string }
           - { name: texto, label: Texto curto, type: text }
           - { name: spotify_playlist, label: ID da playlist do Spotify (o código depois de /playlist/ no link), type: string }
+      - name: youtube
+        label: Vídeos do YouTube na página inicial
+        type: object
+        fields:
+          - { name: mostrar, label: Mostrar, type: boolean }
+          - { name: titulo, label: Título, type: string }
+          - { name: texto, label: Texto curto, type: text }
+          - { name: canal_id, label: Código do canal (começa com UC), type: string }
+          - { name: quantos, label: Quantos vídeos mostrar, type: number }
+          - { name: playlist_reserva, label: Playlist mostrada enquanto o canal não tem vídeos, type: string }
       - { name: afiliados_ativos, label: Mostrar os Achados (afiliados), type: boolean }
       - { name: aviso_afiliados, label: Aviso de afiliados, type: text }
       - name: analytics

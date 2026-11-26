@@ -329,3 +329,26 @@ footer a{color:var(--cinza)}
 .casa .foto-show img.inteira{object-fit:contain;padding:18px 24px;background:var(--noite)}
 .casa-foto.inteira{background:var(--noite);border:1px solid var(--linha);padding:24px;text-align:center}
 .casa-foto.inteira img{width:auto;max-width:100%;max-height:200px;display:inline-block}
+
+/* vídeos e compartilhar */
+.embed.video{position:relative;aspect-ratio:16/9;background:#000;margin:16px 0}
+.embed.video.vertical{aspect-ratio:9/16;max-width:360px}
+.embed.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.yt-lite{position:absolute;inset:0;width:100%;height:100%;border:0;cursor:pointer;background:#000 center/cover no-repeat;display:grid;place-items:center}
+.yt-lite span{width:72px;height:72px;border-radius:50%;background:var(--sangue);color:var(--osso);display:grid;place-items:center;font-size:28px;box-shadow:0 0 24px rgba(213,6,12,.6)}
+.yt-lite:hover span{transform:scale(1.08)}
+.grade-videos{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px;margin:16px 0}
+.grade-videos figure{margin:0}.grade-videos figcaption{color:var(--cinza);font-size:14px;margin-top:6px}
+.videos{margin:40px 0}
+.tiktok-embed,.instagram-media{margin:16px 0 !important}
+.compartilhar{margin:40px 0 16px;padding:20px;border:1px solid var(--linha)}
+.compartilhar .rotulo{margin:0 0 10px}
+.compartilhar button.botao{font:inherit;cursor:pointer}
+/* página de links */
+.faixa.estreita{max-width:560px}
+.links-bio{text-align:center}
+.links-lobo{width:220px;height:auto;margin:0 auto 12px;display:block}
+.lista-links{list-style:none;margin:24px 0;padding:0;display:grid;gap:12px}
+.lista-links .botao{display:block;width:100%;text-align:center;padding:16px}
+.lista-links small{display:block;font-size:11px;letter-spacing:.15em;text-transform:uppercase;opacity:.75;margin-bottom:4px}
+.redes-bio a{color:var(--osso)}

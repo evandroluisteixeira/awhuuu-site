@@ -43,6 +43,13 @@ layout: base.njk
 
     {% if nota %}{{ notaLua(nota, nota_frase) }}{% endif %}
 
+    {% if videos and videos.length %}
+    <section class="videos" aria-label="Vídeos">
+      <h2>{{ "Vídeo" if videos.length == 1 else "Vídeos" }}</h2>
+      {% for link in videos %}{% set v = link | videoDe %}{% set titulo = title %}{% include "video.njk" %}{% endfor %}
+    </section>
+    {% endif %}
+
     {% if spotify_playlist or youtube_playlist or links_ouvir %}
     <section class="ouvir" aria-label="Ouvir">
       <h2>Ouça</h2>
@@ -77,7 +84,10 @@ layout: base.njk
 
     {% include "newsletter.njk" %}
 
-    <p class="compartilhe">Gostou? Manda pra quem precisa ouvir. Siga o uivo:
+    {%- set url = page.url | absoluta(site.url) %}{%- set textoComp = title %}
+    {% include "compartilhar.njk" %}
+
+    <p class="compartilhe">Siga o uivo:
       {% for r in site.redes %}<a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.nome }}</a>{% endfor %}</p>
 
     {%- set anterior = collections.materias | getPreviousCollectionItem(page) %}

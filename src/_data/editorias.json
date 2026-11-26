@@ -69,5 +69,19 @@
     "descricao": "O visual rock peça por peça: coturno, jaqueta, calça rasgada, spikes, correntes e outras bugigangas.",
     "capa": "/img/capas/trapos-e-bugigangas.webp",
     "ativa": true
+  },
+  {
+    "slug": "as-imortais",
+    "nome": "As Imortais",
+    "descricao": "As mulheres que fizeram e fazem o rock, de Rita Lee às bandas daqui. Quem apresenta é a vampira: ela não envelhece, elas também não.",
+    "capa": "/img/capas/as-imortais.webp",
+    "ativa": false
+  },
+  {
+    "slug": "remendo",
+    "nome": "Remendo",
+    "descricao": "Covers, versões e músicas que nasceram costuradas de outras. Quem apresenta é o monstro feito de pedaços.",
+    "capa": "/img/capas/remendo.webp",
+    "ativa": false
   }
 ]

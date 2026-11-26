@@ -78,6 +78,17 @@ export default function (eleventyConfig) {
   );
   eleventyConfig.addFilter("casasAtivas", (casas) => ((casas && casas.casas) || []).filter((c) => c.ativa !== false));
 
+  // vídeo a partir do link colado no CMS
+  eleventyConfig.addFilter("videoDe", (url) => {
+    const u = String(url || "").trim();
+    let m;
+    if ((m = u.match(/(?:youtube\.com\/(?:watch\?(?:.*&)?v=|shorts\/|embed\/|live\/)|youtu\.be\/)([\w-]{6,})/)))
+      return { tipo: "youtube", id: m[1], vertical: /\/shorts\//.test(u), url: u };
+    if ((m = u.match(/tiktok\.com\/@[^/]+\/video\/(\d+)/))) return { tipo: "tiktok", id: m[1], url: u.split("?")[0] };
+    if (/instagram\.com\/(?:reel|p|tv)\//.test(u)) return { tipo: "instagram", url: u.split("?")[0] };
+    return { tipo: "", url: u };
+  });
+
   eleventyConfig.addFilter("diaShow", (d) => {
     const dt = new Date(String(d).slice(0, 10) + "T12:00:00Z");
     return dt.toLocaleDateString("pt-BR", { weekday: "short", day: "2-digit", month: "short", timeZone: "UTC" });

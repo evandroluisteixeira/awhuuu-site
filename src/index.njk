@@ -19,6 +19,29 @@ layout: base.njk
 </section>
 {% endif %}
 
+{% if site.youtube and site.youtube.mostrar and (youtube.videos.length or site.youtube.playlist_reserva) %}
+<section class="secao" aria-labelledby="titulo-canal">
+  <div class="faixa">
+    <p class="rotulo">YouTube</p>
+    <h2 id="titulo-canal">{{ site.youtube.titulo }}</h2>
+    {% if site.youtube.texto %}<p>{{ site.youtube.texto }}</p>{% endif %}
+    {% if youtube.videos.length %}
+    <div class="grade-videos">
+      {% for vid in youtube.videos | limite(site.youtube.quantos or 4) %}
+      <figure>
+        {%- set v = { tipo: "youtube", id: vid.id, vertical: vid.short } %}{% set titulo = vid.titulo %}{% include "video.njk" %}
+        <figcaption>{{ vid.titulo }}</figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+    {% else %}
+    <div class="embed"><iframe src="https://www.youtube-nocookie.com/embed/videoseries?list={{ site.youtube.playlist_reserva }}" title="Playlist no YouTube" loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+    {% endif %}
+    <p class="botoes"><a class="botao contorno" href="https://www.youtube.com/@awhuuurock" target="_blank" rel="noopener">Inscreva-se no canal</a></p>
+  </div>
+</section>
+{% endif %}
+
 <section class="secao manifesto">
   <div class="faixa">
     <p class="rotulo">Manifesto</p>

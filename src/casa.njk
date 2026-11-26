@@ -52,6 +52,14 @@
       <p class="vazio">Nenhum show desta casa na agenda agora. A agenda é atualizada toda segunda.</p>
       {% endif %}
       <p><a href="/agenda/">Ver a agenda completa →</a></p>
+
+      {% if casa.videos and casa.videos.length %}
+      <h2>Vídeos</h2>
+      {% for link in casa.videos %}{% set v = link | videoDe %}{% set titulo = casa.nome %}{% include "video.njk" %}{% endfor %}
+      {% endif %}
+
+      {%- set url = page.url | absoluta(site.url) %}{%- set textoComp = casa.nome + ": casa de rock em " + casa.cidade + " (endereço e próximos shows)" %}
+      {% include "compartilhar.njk" %}
     </div>
 
     <aside class="casa-lado">

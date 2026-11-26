@@ -1,0 +1,12 @@
+{#- Um vídeo a partir do link: YouTube (vídeo, Short ou youtu.be), TikTok ou Instagram (reel ou post). Use: {% set v = link | videoDe %} -#}
+{%- if v.tipo == "youtube" %}
+<div class="embed video{% if v.vertical %} vertical{% endif %}">
+  <button type="button" class="yt-lite" data-id="{{ v.id }}" aria-label="Tocar o vídeo{% if titulo %}: {{ titulo }}{% endif %}" style="background-image:url(https://i.ytimg.com/vi/{{ v.id }}/hqdefault.jpg)"><span aria-hidden="true">▶</span></button>
+</div>
+{%- elif v.tipo == "tiktok" %}
+<blockquote class="tiktok-embed" cite="{{ v.url }}" data-video-id="{{ v.id }}" style="max-width:605px;min-width:300px"><section><a href="{{ v.url }}" target="_blank" rel="noopener">Ver no TikTok</a></section></blockquote>
+{%- elif v.tipo == "instagram" %}
+<blockquote class="instagram-media" data-instgrm-permalink="{{ v.url }}" data-instgrm-version="14" style="max-width:540px;width:100%"><a href="{{ v.url }}" target="_blank" rel="noopener">Ver no Instagram</a></blockquote>
+{%- elif v.url %}
+<p><a class="botao contorno" href="{{ v.url }}" target="_blank" rel="noopener">Ver o vídeo</a></p>
+{%- endif %}

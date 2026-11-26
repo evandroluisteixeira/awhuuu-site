@@ -1,0 +1,42 @@
+{
+  "titulo": "Awhuuu!",
+  "texto": "Rock, noite e estrada. Tudo o que o lobo anda fazendo, num lugar só.",
+  "mostrar_ultimas": 3,
+  "links": [
+    {
+      "titulo": "Agenda de shows",
+      "url": "/agenda/",
+      "destaque": true
+    },
+    {
+      "titulo": "Casas de rock",
+      "url": "/casas/",
+      "destaque": false
+    },
+    {
+      "titulo": "Clube da Lua Cheia",
+      "url": "/clube/",
+      "destaque": true
+    },
+    {
+      "titulo": "Carta do Lobo (newsletter)",
+      "url": "https://awhuuu.substack.com",
+      "destaque": false
+    },
+    {
+      "titulo": "Playlist no Spotify",
+      "url": "https://open.spotify.com/playlist/5InBKBAr5FMGoZbiQT6JbW",
+      "destaque": false
+    },
+    {
+      "titulo": "Canal no YouTube",
+      "url": "https://www.youtube.com/@awhuuurock",
+      "destaque": false
+    },
+    {
+      "titulo": "Mapa do rock",
+      "url": "/mapa/",
+      "destaque": false
+    }
+  ]
+}
