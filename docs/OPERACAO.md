@@ -18,7 +18,11 @@ Produzir aos pouquinhos, todo dia, gasta mais do que produzir de uma vez. Cada c
 | Segunda, 7h23 | Agenda de shows, casas novas, vídeos e fotos das matérias da semana, relatório do Clube | Tarefa agendada "Último Bonde" |
 | No horário marcado | Posts do Instagram e do TikTok | Buffer (plano grátis: até 10 agendados por rede) |
 
-O limite de 10 agendados por rede no Buffer é o gargalo: os rascunhos aprovados precisam ser agendados aos poucos, conforme as vagas abrem. Uma tarefa automática para isso foi barrada (publicaria sem supervisão). Enquanto o Buffer for o grátis, o agendamento é feito numa conversa curta ou pelo próprio Evandro no app; a tag "segurar" marca rascunho que não deve sair.
+O limite de 10 agendados por rede no Buffer é o gargalo: os rascunhos precisam ser agendados aos poucos, conforme as vagas abrem. Uma tarefa automática para isso foi barrada (publicaria sem supervisão). Combinado: o agendamento é feito numa conversa, com o Evandro autorizando na hora; a tag "segurar" marca rascunho que não deve sair.
+
+## Produtos: adequar ao cliente
+
+Vender melhor é deixar a pessoa escolher: cor da malha, tamanho, modelo (camiseta, regata, moletom, caneca) e versões da mesma arte para fundo claro e escuro. Cada arte nova sai pelo menos em duas versões de cor.
 
 ## Datas marcadas
 
@@ -26,8 +30,8 @@ O limite de 10 agendados por rede no Buffer é o gargalo: os rascunhos aprovados
 
 ## Assinaturas (Substack)
 
-- Grátis: um ensaio aberto por mês. Pago: R$ 15/mês ou R$ 150/ano (é o Clube da Lua Cheia digital). Fundador "Alfa da Matilha": R$ 330/ano, com a camiseta do lobo em casa a cada ano e voto na pauta do mês.
-- A camiseta do fundador é comprada pelo Evandro na Uma Penca (preço base) e enviada ao endereço do assinante, que é pedido por e-mail: o Substack não coleta endereço.
+- Grátis: um ensaio aberto por mês. Pago: R$ 15/mês ou R$ 150/ano (é o Clube da Lua Cheia digital). Fundador "Primeira Fila": R$ 330/ano, com a camiseta do lobo no tamanho da pessoa a cada ano e voto na pauta do mês. (Nada de "alfa": a marca se afasta da imagem de dominação.)
+- A camiseta do fundador é comprada pelo Evandro na Uma Penca (preço base) e enviada ao endereço do assinante, que é pedido por e-mail junto com o tamanho: o Substack não coleta endereço.
 - Clube físico (disco em casa, caixas de presente): só depois de a lista de espera (tabela `interessados`) passar de 20 a 30 pessoas e de falar com o contador. Plano em `supabase/CLUBE-FASE2.md`.
 
 ## A conversa de produção do mês
