@@ -61,7 +61,7 @@
   "proprios": {
     "ativo": true,
     "titulo": "Coisas do Awhuuu!",
-    "texto": "Camisetas e canecas com a marca do lobo, feitas sob demanda pela Uma Penca e enviadas para todo o Brasil. Cada compra ajuda a manter o site no ar.",
+    "texto": "Camisetas (modelo regular e babylook), canecas e ecobag com a marca do lobo, feitas sob demanda pela Uma Penca e enviadas para todo o Brasil. Cada compra ajuda a manter o site no ar.",
     "itens": [
       {
         "nome": "Camiseta Lobo da Lua Cheia",
@@ -73,6 +73,24 @@
         "ativo": true
       },
       {
+        "nome": "Camiseta Sexta de Lua Cheia",
+        "preco": "R$ 79,90",
+        "texto": "Camiseta preta com o lobo uivando para a lua cheia no alto da cidade em chamas.",
+        "imagem": "/img/loja-sexta-de-lua-cheia.webp",
+        "imagem_alt": "Ilustração do lobisomem uivando para a lua cheia no telhado de um prédio, com a cidade em vermelho ao fundo e o letreiro Awhuuu! embaixo, sobre fundo preto",
+        "link": "https://umapenca.com/awhuuu/camiseta/sexta-de-lua-cheia-480013.html",
+        "ativo": false
+      },
+      {
+        "nome": "Camiseta Madrugada Elétrica",
+        "preco": "R$ 79,90",
+        "texto": "Camiseta preta com o lobo uivando no meio do show, sob as luzes vermelhas.",
+        "imagem": "/img/loja-madrugada-eletrica.webp",
+        "imagem_alt": "Ilustração do lobisomem fazendo chifrinho no meio do público de um show, com luzes vermelhas, a banda no palco e a lua cheia na janela, e o letreiro Awhuuu! embaixo, sobre fundo preto",
+        "link": "https://umapenca.com/awhuuu/camiseta/madrugada-eletrica-480020.html",
+        "ativo": false
+      },
+      {
         "nome": "Caneca Awhuuu!",
         "preco": "R$ 59,90",
         "texto": "Caneca branca com o letreiro do lobo dos dois lados.",
@@ -80,6 +98,24 @@
         "imagem_alt": "Letreiro Awhuuu! em creme com contorno vermelho e preto, sobre fundo branco",
         "link": "https://umapenca.com/awhuuu/caneca/awhuuu-479418.html",
         "ativo": true
+      },
+      {
+        "nome": "Caneca Awhuuu! Preta",
+        "preco": "R$ 59,90",
+        "texto": "Caneca toda preta com o letreiro do lobo dos dois lados.",
+        "imagem": "/img/loja-caneca-preta.webp",
+        "imagem_alt": "Dois letreiros Awhuuu! em creme e vermelho sobre fundo preto",
+        "link": "https://umapenca.com/awhuuu/caneca/awhuuu-preta-480010.html",
+        "ativo": false
+      },
+      {
+        "nome": "Ecobag Lobo da Lua Cheia",
+        "preco": "R$ 49,90",
+        "texto": "Ecobag de algodão cru com o lobisomem da guitarra diante da lua cheia.",
+        "imagem": "/img/loja-ecobag-lobo.webp",
+        "imagem_alt": "Estampa do lobisomem com guitarra recortado numa lua cheia escura e o letreiro Awhuuu! em preto e vermelho, sobre fundo cru",
+        "link": "https://umapenca.com/awhuuu/ecobag/lobo-da-lua-cheia-480011.html",
+        "ativo": false
       }
     ]
   }
