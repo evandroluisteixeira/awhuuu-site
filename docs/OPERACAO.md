@@ -76,9 +76,11 @@ Produzir aos pouquinhos, todo dia, gasta mais do que produzir de uma vez. Cada c
 |---|---|---|
 | Todo dia | O site publica a matéria do dia (a data fica no cabeçalho da matéria) | GitHub Actions |
 | Segunda, 7h23 | Agenda de shows (até 15 por semana: SC mais uma região em foco, em rodízio), até 2 casas e 2 bandas novas (o mapa cresce devagar, de propósito), vídeos e fotos das matérias da semana, relatório do Clube | Tarefa agendada "Último Bonde" |
-| No horário marcado | Posts do Instagram e do TikTok | Buffer até 7/12 (grátis: 10 agendados por rede) e Metricool de 8/12 em diante (grátis: cerca de 20 por rede por mês) |
+| No horário marcado | Posts do Instagram, do TikTok e do Facebook | Buffer até 7/12 (grátis: 10 agendados por rede) e Metricool de 8/12 em diante (grátis: cerca de 20 por rede por mês) |
 
 Desde 26/11 os posts estão divididos: o Buffer guarda a fila curta (até 7/12) e o Metricool (marca AWHUUU!, Instagram, TikTok e YouTube conectados) recebeu todos os posts de 8 a 30/12, já agendados e automáticos. Como o Metricool não tem o limite de 10, os posts novos de cada mês vão direto para lá, e as rodadas de segunda e quinta servem só para revisar e encaixar o Último Bonde. O agendamento continua sendo feito numa conversa, com o Evandro autorizando na hora.
+
+Facebook (desde 27/11): página "Awhuuu" criada na conta pessoal do Evandro, ligada ao @awhuuu.rock e conectada ao Metricool. Cada carrossel do Instagram ganha um post próprio no Facebook, com as mesmas imagens e o mesmo texto, trocando "link na bio" pelo endereço awhuuu.com.br (no Facebook o link é clicável) e tirando o "Arrasta →". Os 17 posts de 8 a 30/12 já estão agendados. Antes de 8/12 o Facebook fica sem posts, porque a fila curta está no Buffer, que não tem a página.
 
 No TikTok todos os posts saem sozinhos (modo automático, desde 26/11). O "Notify Me" foi abandonado porque a confirmação pelo celular falhou no primeiro dia e nada foi publicado. O som entra depois: abrir o post publicado no app do TikTok e adicionar a música. Os três posts que ficaram presos (manifesto, Uivos e Krig-ha) foram refeitos no automático para 26/11 21h15, 27/11 e 28/11 às 20h30.
 
