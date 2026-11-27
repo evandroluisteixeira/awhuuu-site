@@ -165,3 +165,11 @@ No Facebook o alcance vem mais dos grupos do que da página. Ritmo leve: um comp
 | Discos de Vinil - Brasil (facebook.com/groups/vinilbr), privado | 38 mil | guia de toca-discos da Garagem |
 
 Grupos muito grandes postam 90+ por dia: o post afunda rápido, então vale mais um grupo médio e no tema do que três gigantes.
+
+## Anúncio dos produtos próprios (Meta), montado em 27/11
+
+- **Portfólio da Meta:** "awhuuu" (ID 1128567629777163), na conta pessoal do Evandro. Tem a página Awhuuu e o Instagram @awhuuu.rock. (O outro portfólio que aparece, "Cor & Imagem Fotografias", não é do Awhuuu!.)
+- **Pixel (conjunto de dados) "Awhuuu! Loja":** ID 1692576735597673. Está colado na Uma Penca (Configurações → Anúncios), então a loja já manda à Meta quem viu produto e quem comprou.
+- **Catálogo "Awhuuu! Loja do lobo":** ID 1700989071759890, alimentado de hora em hora pelo link de produtos da Uma Penca (umapenca.com/awhuuu/…/feed/facebook.xml), em reais. Produto aprovado ou desativado na Uma Penca entra ou sai do catálogo sozinho.
+- **O que falta para anunciar:** conta de anúncios no portfólio "awhuuu" com forma de pagamento, decisão do Evandro. A sacolinha de compras no Instagram exige domínio próprio verificado: um dia, ligar loja.awhuuu.com.br na Uma Penca (Configurações → Conectar seu domínio).
+- **Regra:** anúncio leva para a página do produto (Uma Penca) ou para a matéria; nunca direto para link de afiliado.
