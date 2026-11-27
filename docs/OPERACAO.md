@@ -25,7 +25,11 @@ Este arquivo é o ponto de partida de qualquer conversa nova de trabalho no Awhu
 | Link na bio do TikTok | Só com 1.000 seguidores ou conta comercial | Esperar |
 | Produtos novos (caneca preta, série das editorias) | Fila; camisetas ficam pretas | Produção do mês |
 | Clube físico e caixas de presente | Esperando 20 a 30 inscritos e o contador | Evandro |
-| Plano de crescimento (bandas e casas em Collab, Canal do WhatsApp, vídeo) | Proposto em 26/11, sem decisão | Evandro responde: topa vídeo? vai a shows? tem verba? |
+| Plano de crescimento | **Decidido em 27/11:** sem formulário de cadastro (bandas e casas entram só pela rotina semanal); cobertura nacional, com o Sul como casa; vídeos curtos feitos com IA a partir das ilustrações, enquanto o Evandro não aparece em vídeo. Falta decidir: Canal do WhatsApp e verba para impulsionar | Evandro |
+
+## Cadastro de casas e bandas (decisão de 27/11)
+
+Ninguém manda formulário. O site não tem mais o "Sua banda na matilha" nem pedidos de direct para casas e shows. Casas, bandas e shows entram só pela rotina de segunda, que agora aceita como prova de uma casa de rock tanto dois shows em bilheteria quanto o site da casa ou um guia que a descreva como bar de rock com banda ao vivo. Essa segunda prova existe por causa de bares como o Chopp do Gus, que anunciam os shows só no Instagram e por isso nunca apareciam. A página de Parcerias (divulgação paga) continua no ar.
 
 ## Reescrita de dezembro (padrão da casa)
 
@@ -59,7 +63,7 @@ Produzir aos pouquinhos, todo dia, gasta mais do que produzir de uma vez. Cada c
 | Quando | O quê | Onde |
 |---|---|---|
 | Todo dia | O site publica a matéria do dia (a data fica no cabeçalho da matéria) | GitHub Actions |
-| Segunda, 7h23 | Agenda de shows, casas novas, vídeos e fotos das matérias da semana, relatório do Clube | Tarefa agendada "Último Bonde" |
+| Segunda, 7h23 | Agenda de shows do Brasil inteiro (SC toda semana mais uma região em foco, em rodízio: Sul, Sudeste, Nordeste e Norte, Centro-Oeste), casas e bandas novas, vídeos e fotos das matérias da semana, relatório do Clube | Tarefa agendada "Último Bonde" |
 | No horário marcado | Posts do Instagram e do TikTok | Buffer até 7/12 (grátis: 10 agendados por rede) e Metricool de 8/12 em diante (grátis: cerca de 20 por rede por mês) |
 
 Desde 26/11 os posts estão divididos: o Buffer guarda a fila curta (até 7/12) e o Metricool (marca AWHUUU!, Instagram, TikTok e YouTube conectados) recebeu todos os posts de 8 a 30/12, já agendados e automáticos. Como o Metricool não tem o limite de 10, os posts novos de cada mês vão direto para lá, e as rodadas de segunda e quinta servem só para revisar e encaixar o Último Bonde. O agendamento continua sendo feito numa conversa, com o Evandro autorizando na hora.
