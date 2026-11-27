@@ -49,6 +49,8 @@ Decisão do Evandro em 27/11: nenhuma matéria rasa. Todas crescem até o padrã
 
 **Onde se faz:** numa conversa nova chamada "Matérias de dezembro", de duas a três matérias por mensagem, em levas. A conversa de Administração só confere se cada leva ficou pronta no prazo e cuida dos posts.
 
+**Lojas (27/11):** em cada matéria reescrita, os Achados ganham o link do Mercado Livre ao lado do da Amazon, e o Magalu entra nos itens caros. A regra está no guia de redação, em "Produtos e playlists". Hoje só os guias da Garagem, do kit do lobo e de presentes têm Mercado Livre; as histórias têm só Amazon.
+
 **Prazo:** cada matéria fica pronta até dois dias antes da data dela. Se não ficar, a data da matéria e a do post nas redes passam para a semana seguinte. Melhor atrasar do que publicar raso. A matéria reescrita mantém o endereço; os carrosséis já feitos continuam valendo.
 
 | Leva | Pronta até | Matérias |
