@@ -55,9 +55,52 @@ Corrige no ato, com uma linha no fim da matéria dizendo o que mudou e quando. A
 
 ## Como escrever uma reportagem
 
-Vale para Rota 666, Hora do Lobo, Mondo Bizarro e As Imortais. Pedrada, Remendo, guias da Garagem e Fita Gasta seguem formatos próprios, mais curtos. Modelo: a matéria do Queen no Rock in Rio (`src/materias/queen-rock-in-rio-1985.md`).
+Vale para Rota 666, Hora do Lobo, Mondo Bizarro, As Imortais e Remendo. Pedrada, guias e Fita Gasta seguem a seção "O padrão da casa", com tamanhos próprios. Modelo de esqueleto: `docs/MODELO-MATERIA.md`.
 
-**Tamanho:** de 1.200 a 2.000 palavras. Menos que isso vira lista de fatos; mais que isso vai para o Substack.
+**Nada de matéria rasa.** O padrão é o texto do Raul no Substack: muito conteúdo, citações de quem viveu a história, vídeos no ponto certo, produtos onde o texto fala deles. Matéria de 300 palavras não sai mais.
+
+### O padrão da casa
+
+**Tamanho por formato** (contando só o texto, sem ficha, boxe e fontes):
+
+| Formato | Editorias | Palavras |
+|---|---|---|
+| Reportagem | Rota 666, Hora do Lobo, Mondo Bizarro, As Imortais, Remendo | 1.800 a 2.800 |
+| Guia de compra | Garagem, Trapos e Bugigangas | 1.500 a 2.500 |
+| Disco | Pedrada | 1.000 a 1.600 |
+| Fita | Fita Gasta | 800 a 1.200, com um comentário por faixa |
+
+**O que toda reportagem leva** (o "kit"):
+
+- **Ficha** no topo, com os números da história e as divergências entre fontes.
+- **Três vídeos ou mais no meio do texto**, cada um no parágrafo em que a cena acontece, de canal oficial. Nunca todos juntos no fim.
+- **Duas citações em destaque ou mais**, de gente que viveu a história, com quem disse, onde e quando. Uma delas, se der, da época.
+- **Um boxe**: linha do tempo, "Enquanto isso, no Brasil", "Pra entender" (o termo técnico, a cena, o gênero) ou o disco faixa a faixa.
+- **Faixa do Spotify** no corpo quando o texto analisa uma música.
+- **Um ou dois produtos no corpo**, no parágrafo em que o texto fala deles (o disco do show, o livro da fonte, a camiseta do lobo quando a matéria tem a ver), e **de três a seis Achados** no fim.
+- **Playlists do Spotify e do YouTube** no fim, as duas públicas.
+- **Foto com crédito** de lugar, documento ou objeto, quando houver de licença livre.
+- **Mapa** (campo `lugares`) quando a história tem endereço.
+- **Seis fontes ou mais**, com pelo menos uma da época e uma fala de quem estava lá.
+- **Pergunta ao leitor** no fim.
+
+**Ritmo de leitura:** algo para ver ou ouvir a cada três ou quatro parágrafos (vídeo, citação, boxe, faixa, foto ou produto). Intertítulo a cada 300 a 500 palavras. O leitor de celular precisa de pausa, e é a pausa que segura ele até o fim.
+
+**Pedrada, guias e Fita Gasta** levam o mesmo kit na medida do formato: a Pedrada tem a faixa no Spotify, dois vídeos, uma citação de quem gravou e o disco no corpo; o guia tem vídeo de quem ensina a usar o produto e produtos em cada faixa de preço; a Fita tem a playlist aberta no topo e um vídeo para as faixas que têm história.
+
+**Atalhos para o corpo do texto** (cada um numa linha sozinha, entre parágrafos):
+
+    {% video "LINK-DO-YOUTUBE", "O que é o vídeo, em uma frase", "canal oficial de Fulano" %}
+    {% citacao "A frase, curta, traduzida se for o caso", "Quem disse", "onde e quando", "link da fonte" %}
+    {% produto "Vinil: Nome do disco", "link de afiliado", "link da imagem", "Por que ele está aqui, em uma frase" %}
+    {% spotify "LINK-DA-FAIXA-OU-DISCO-NO-SPOTIFY" %}
+    {% figura "LINK-DA-IMAGEM", "Legenda", "Autor, licença", "link da página da foto" %}
+    {% box "Enquanto isso, no Brasil" %}
+    - **1985:** o que aconteceu.
+    - **1986:** o que aconteceu.
+    {% endbox %}
+
+Citação em destaque é curta: uma ou duas frases. Letra de música não entra em citação: no máximo um verso, no corpo, quando a análise precisa dele. Todo produto do corpo entra também nos Achados, para aparecer na Loja.
 
 **Quem assina:** campo `assina` da matéria, com o código de `src/_data/assinaturas.json` (página pública `/quem-escreve/`). Pode ser o Evandro, o Lobo, a Vampira, a Criatura ou um pseudônimo novo criado lá. Regras para personagens e pseudônimos:
 - Aparecem sempre com o selo "personagem da casa" e estão listados em Quem escreve. Nunca se apresentam como jornalista real, nunca têm foto de pessoa real e nunca "entrevistam" ninguém.
@@ -93,7 +136,10 @@ Vale para Rota 666, Hora do Lobo, Mondo Bizarro e As Imortais. Pedrada, Remendo,
 - [ ] Tem a informação que quase ninguém conta?
 - [ ] Cada número e cada citação têm fonte na lista?
 - [ ] Algum "eu" afirma algo que o Evandro não viveu?
-- [ ] Tem vídeo oficial ou foto de lugar no ponto certo do texto?
+- [ ] Está no tamanho do formato (tabela do padrão da casa)?
+- [ ] Tem o kit completo: ficha, três vídeos no corpo, duas citações, boxe, produto no corpo, Achados, playlists, pergunta?
+- [ ] Tem algo para ver ou ouvir a cada três ou quatro parágrafos?
+- [ ] Todo produto do corpo está também nos Achados, com link conferido?
 
 ## Vídeos e fotos no meio do texto
 
@@ -143,7 +189,7 @@ O carrossel do Instagram e o vídeo do TikTok saem da matéria já pronta, não 
 
 Toda publicação que puder levar link leva produto: matéria do site, texto do Substack, carrossel, vídeo. O produto sai do próprio texto (o disco de que se fala, o livro que serviu de fonte, o instrumento do guia), nunca de um catálogo genérico.
 
-- **No site:** os produtos vão no campo Achados da matéria, com o tipo no começo do nome ("Vinil: ...", "Livro: ...", "CD: ..."). Assim eles aparecem também na Loja do lobo, no filtro certo.
+- **No site:** um ou dois produtos entram no corpo, com o atalho `{% produto %}`, no parágrafo em que o texto fala deles. Todos vão no campo Achados da matéria, com o tipo no começo do nome ("Vinil: ...", "Livro: ...", "CD: ..."). Assim eles aparecem também na Loja do lobo, no filtro certo.
 - **No Substack:** seção "Para levar pra casa" antes das Fontes, com 2 a 5 itens e uma frase dizendo por que cada um está ali. Embaixo, em itálico, o aviso de afiliados.
 - **Nas redes:** o link vai na bio ou no primeiro comentário, apontando para a matéria ou para a Loja, nunca direto para a loja do produto.
 - **Links:** Amazon com a tag `awhuuu-20`; Mercado Livre e Magalu com os links de afiliado do Awhuuu!. Conferir se o produto está disponível e tem preço antes de pôr o link.

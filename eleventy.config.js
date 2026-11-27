@@ -1,4 +1,6 @@
 // Configuração do site Awhuuu! (Eleventy 3)
+import markdownIt from "markdown-it";
+const mdBox = markdownIt({ html: true, typographer: true });
 // Matérias com data futura só aparecem no dia: o site é reconstruído todo dia
 // (veja .github/workflows/deploy.yml). Para ver tudo localmente: MOSTRAR_FUTURO=1 npm run dev
 
@@ -232,6 +234,34 @@ export default function (eleventyConfig) {
     const esc = (t) => String(t || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
     const cred = credito ? (fonte ? `<a href="${esc(fonte)}" target="_blank" rel="noopener">${esc(credito)}</a>` : esc(credito)) : "";
     return `<figure class="figura-materia"><img src="${esc(src)}" alt="${esc(legenda)}" loading="lazy" referrerpolicy="no-referrer">${legenda || cred ? `<figcaption>${esc(legenda)}${cred ? ` <span>Foto: ${cred}.</span>` : ""}</figcaption>` : ""}</figure>`;
+  });
+  // citação em destaque, com quem disse e onde: {% citacao "frase", "quem", "onde e quando", "link" %}
+  eleventyConfig.addShortcode("citacao", (texto, quem = "", onde = "", link = "") => {
+    const esc = (t) => String(t || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    const local = onde ? (link ? `<a href="${esc(link)}" target="_blank" rel="noopener">${esc(onde)}</a>` : esc(onde)) : "";
+    return `<figure class="citacao"><blockquote><p>${esc(texto)}</p></blockquote>${quem || local ? `<figcaption>${esc(quem)}${local ? `<span>${local}</span>` : ""}</figcaption>` : ""}</figure>`;
+  });
+  // produto no meio do texto: {% produto "Vinil: Nome", "link de afiliado", "imagem", "por que ele está aqui" %}
+  // O mesmo produto vai também no campo Achados, para entrar na Loja.
+  eleventyConfig.addShortcode("produto", (nome, url, imagem = "", motivo = "") => {
+    const esc = (t) => String(t || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    if (!url) return "";
+    const loja = /amazon\.|amzn\./.test(url) ? "na Amazon" : /mercadoli|mercadolivre/.test(url) ? "no Mercado Livre" : /magazineluiza|magalu/.test(url) ? "na Magalu" : /shopee/.test(url) ? "na Shopee" : /umapenca/.test(url) ? "na loja do Awhuuu!" : "na loja";
+    const proprio = /umapenca/.test(url);
+    return `<aside class="produto-materia" aria-label="Produto"><a href="${esc(url)}" target="_blank" rel="${proprio ? "noopener" : "sponsored noopener"}">${imagem ? `<img src="${esc(imagem)}" alt="" width="120" height="120" loading="lazy" referrerpolicy="no-referrer">` : ""}<span class="produto-texto"><strong>${esc(nome)}</strong>${motivo ? `<span>${esc(motivo)}</span>` : ""}<em>Ver ${loja}</em></span></a>${proprio ? "" : `<small>Link de afiliado: o Awhuuu! ganha uma comissão se você comprar, sem custo a mais para você.</small>`}</aside>`;
+  });
+  // faixa, disco ou playlist do Spotify no meio do texto: {% spotify "link do Spotify" %}
+  eleventyConfig.addShortcode("spotify", (link, titulo = "") => {
+    const m = String(link || "").match(/open\.spotify\.com\/(?:intl-[a-z]+\/)?(track|album|playlist|episode)\/([A-Za-z0-9]+)/);
+    if (!m) return "";
+    const alto = m[1] === "track" || m[1] === "episode" ? 152 : 352;
+    return `<div class="spotify-materia"><iframe src="https://open.spotify.com/embed/${m[1]}/${m[2]}?theme=0" height="${alto}" title="${String(titulo || "Ouvir no Spotify").replace(/"/g, "&quot;")}" loading="lazy" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe></div>`;
+  });
+  // boxe ao lado do texto (linha do tempo, "enquanto isso no Brasil", ficha de disco):
+  // {% box "Título do boxe" %} texto em markdown, pode ter lista {% endbox %}
+  eleventyConfig.addPairedShortcode("box", (conteudo, titulo = "") => {
+    const esc = (t) => String(t || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+    return `<aside class="box-materia">${titulo ? `<h3>${esc(titulo)}</h3>` : ""}${mdBox.render(String(conteudo || "").trim())}</aside>`;
   });
   eleventyConfig.addFilter("hojeISO", () => new Date().toISOString().slice(0, 10));
   eleventyConfig.addFilter("casasAtivas", (casas) => ((casas && casas.casas) || []).filter((c) => c.ativa !== false));

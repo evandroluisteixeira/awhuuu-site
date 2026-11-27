@@ -14,7 +14,7 @@ Este arquivo é o ponto de partida de qualquer conversa nova de trabalho no Awhu
 
 | O quê | Situação | Quem |
 |---|---|---|
-| Matérias de dezembro curtas demais | O guia pede 1.200 a 2.000 palavras por reportagem, e 13 das 14 de 30/11 a 30/12 têm 250 a 500 (só a do Queen está no padrão). A do CBGB sai em 30/11 | Decidir: reescrever todas aos poucos, só as maiores, ou criar um formato "nota" curto para as outras |
+| Matérias de dezembro curtas demais | **Decidido em 27/11: todas crescem até o padrão do texto do Raul** (guia, seção "O padrão da casa"). Plano e prazos em "Reescrita de dezembro", abaixo | Conversa "Matérias de dezembro" |
 | Post do LinkedIn de 1/12 | Fala em "caneca preta"; a caneca à venda é branca com o letreiro | Corrigir antes de 1/12 |
 | Prazo de entrega da Uma Penca antes do Natal | Não conferido; afeta o post de 12/12 | Evandro |
 | Playlist de Natal no Spotify pública | Até 21/12 (lembrete na agenda) | Evandro |
@@ -26,6 +26,25 @@ Este arquivo é o ponto de partida de qualquer conversa nova de trabalho no Awhu
 | Produtos novos (caneca preta, série das editorias) | Fila; camisetas ficam pretas | Produção do mês |
 | Clube físico e caixas de presente | Esperando 20 a 30 inscritos e o contador | Evandro |
 | Plano de crescimento (bandas e casas em Collab, Canal do WhatsApp, vídeo) | Proposto em 26/11, sem decisão | Evandro responde: topa vídeo? vai a shows? tem verba? |
+
+## Reescrita de dezembro (padrão da casa)
+
+Decisão do Evandro em 27/11: nenhuma matéria rasa. Todas crescem até o padrão do texto do Raul no Substack: tamanho do formato, citações, vídeos no corpo, boxe, produtos no corpo e nos Achados, playlists. As regras estão no guia de redação ("O padrão da casa") e o esqueleto em `docs/MODELO-MATERIA.md`.
+
+**Onde se faz:** numa conversa nova chamada "Matérias de dezembro", de duas a três matérias por mensagem, em levas. A conversa de Administração só confere se cada leva ficou pronta no prazo e cuida dos posts.
+
+**Prazo:** cada matéria fica pronta até dois dias antes da data dela. Se não ficar, a data da matéria e a do post nas redes passam para a semana seguinte. Melhor atrasar do que publicar raso. A matéria reescrita mantém o endereço; os carrosséis já feitos continuam valendo.
+
+| Leva | Pronta até | Matérias |
+|---|---|---|
+| 1 | dom 29/11 | CBGB (30/11), Ozzy e o morcego (1/12), Queen (2/12, já tem o tamanho; falta o kit) e Krig-ha (já publicada em 28/11; cresce no lugar) |
+| 2 | sex 4/12 | Circo Voador (7/12), Keith Moon (8/12), Led Zeppelin (9/12), Sister Rosetta Tharpe (10/12), Hound Dog (11/12) |
+| 3 | sex 11/12 | Cavern Club (14/12), toca-discos (15/12), Nirvana (16/12), Kiss (17/12), Kit do lobo (18/12), Presente de lobo (19/12) |
+| 4 | sex 18/12 | Guitarra (22/12), Noite feliz (25/12), Madame Satã (28/12), Paul is dead (29/12), Legião (30/12) e Uivos (já publicada; cresce no lugar) |
+
+**Mensagem para abrir a conversa "Matérias de dezembro":**
+
+> Leia `docs/OPERACAO.md` (seção "Reescrita de dezembro"), `docs/GUIA-DE-REDACAO.md` (seção "O padrão da casa") e `docs/MODELO-MATERIA.md` no repositório evandroluisteixeira/awhuuu-site. Reescreva a leva que está no prazo, uma matéria por vez, pesquisando as fontes antes de escrever. Para cada uma: kit completo, link de produto conferido, playlist do YouTube e do Spotify públicas. Me mande a matéria para eu aprovar antes de publicar no site. Ao fim da leva, atualize a tabela de pendências.
 
 ## O princípio: produzir em lote, publicar sozinho
 

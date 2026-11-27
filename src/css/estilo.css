@@ -609,3 +609,30 @@ a.patch:focus-visible{outline-color:var(--sangue)}
 .loja-origem a{color:var(--cinza)}
 .loja-proprios{border:1px solid var(--sepia);padding:24px;margin:0 0 40px}
 .aviso-loja{font-size:12px;color:var(--apagado);max-width:70ch}
+
+/* citação em destaque no meio da matéria */
+.citacao{margin:40px 0;padding:0 0 0 20px;border-left:4px solid var(--sangue)}
+.citacao blockquote{margin:0;padding:0;border:0;background:none}
+.citacao blockquote p{font-family:var(--titulo);font-weight:400;font-size:clamp(24px,3.4vw,34px);line-height:1.15;color:var(--osso);margin:0}
+.citacao figcaption{margin-top:12px;font-size:.9rem;color:var(--cinza);font-weight:700}
+.citacao figcaption span{display:block;font-weight:400;font-size:.8rem;color:var(--apagado)}
+.citacao figcaption a{color:inherit}
+/* produto no meio da matéria */
+.produto-materia{margin:32px 0}
+.produto-materia>a{display:flex;gap:16px;align-items:center;padding:14px;border:1px solid var(--sepia);text-decoration:none;color:var(--osso);min-height:44px}
+.produto-materia>a:hover,.produto-materia>a:focus-visible{border-color:var(--osso);background:#141412}
+.produto-materia img{width:96px;height:96px;object-fit:contain;background:#fff;flex:none}
+.produto-texto{display:flex;flex-direction:column;gap:4px;line-height:1.35}
+.produto-texto strong{font-size:1rem}
+.produto-texto span{font-size:.88rem;color:var(--cinza)}
+.produto-texto em{font-style:normal;font-family:var(--stencil);font-size:17px;color:var(--sangue);margin-top:4px}
+.produto-materia small{display:block;margin-top:6px;font-size:.72rem;color:var(--apagado)}
+/* faixa do Spotify no meio da matéria */
+.spotify-materia{margin:28px 0}
+.spotify-materia iframe{display:block;width:100%;border:0;border-radius:12px}
+/* boxe */
+.box-materia{margin:36px 0;padding:20px 22px;border:1px solid var(--linha);border-top:4px solid var(--sepia);background:#121211;font-size:.92rem}
+.box-materia h3{font-family:var(--stencil);font-weight:400;font-size:22px;letter-spacing:.03em;margin:0 0 10px;color:var(--sepia)}
+.box-materia p,.box-materia ul,.box-materia ol{margin:0 0 10px}
+.box-materia>:last-child{margin-bottom:0}
+.box-materia li{margin-bottom:6px}
