@@ -27,6 +27,18 @@ Este arquivo é o ponto de partida de qualquer conversa nova de trabalho no Awhu
 | Clube físico e caixas de presente | Esperando 20 a 30 inscritos e o contador | Evandro |
 | Plano de crescimento | **Decidido em 27/11:** sem formulário de cadastro (bandas e casas entram só pela rotina semanal); cobertura nacional, com o Sul como casa; vídeos curtos feitos com IA a partir das ilustrações, enquanto o Evandro não aparece em vídeo. Falta decidir: Canal do WhatsApp e verba para impulsionar | Evandro |
 
+## Se acabar a cota semanal de uso
+
+A operação foi montada para não depender de conversa no dia: as matérias publicam sozinhas na data, os posts de dezembro já estão agendados até 30/12 e a rotina de segunda é leve (com ordem de prioridade: se a rodada ficar longa, ela pula casas e bandas). Se a cota acabar no meio da semana:
+
+1. Nada do que está agendado para: site, Buffer e Metricool seguem.
+2. O que para é a produção: a leva de matérias que estiver no prazo atrasa uma semana, pela regra da reescrita (melhor atrasar do que publicar raso).
+3. Para não chegar lá: produzir no começo da semana, em lote, e manter sempre duas semanas de posts e matérias prontas à frente.
+
+## Medir o que dá dinheiro
+
+O site conta visitas no Umami (sem cookies). Desde 27/11 conta também os cliques que saem do site, por tipo: `saida-afiliado` (Amazon, Mercado Livre), `saida-loja-propria` (Uma Penca), `saida-substack`, `saida-ingresso`, `saida-ouvir`, `saida-rede`. Os números aparecem em Events, no painel do Umami. Antes de qualquer anúncio pago, olhar esses números por um mês.
+
 ## Cadastro de casas e bandas (decisão de 27/11)
 
 Ninguém manda formulário. O site não tem mais o "Sua banda na matilha" nem pedidos de direct para casas e shows. Casas, bandas e shows entram só pela rotina de segunda, que agora aceita como prova de uma casa de rock tanto dois shows em bilheteria quanto o site da casa ou um guia que a descreva como bar de rock com banda ao vivo. Essa segunda prova existe por causa de bares como o Chopp do Gus, que anunciam os shows só no Instagram e por isso nunca apareciam. A página de Parcerias (divulgação paga) continua no ar.
@@ -63,7 +75,7 @@ Produzir aos pouquinhos, todo dia, gasta mais do que produzir de uma vez. Cada c
 | Quando | O quê | Onde |
 |---|---|---|
 | Todo dia | O site publica a matéria do dia (a data fica no cabeçalho da matéria) | GitHub Actions |
-| Segunda, 7h23 | Agenda de shows do Brasil inteiro (SC toda semana mais uma região em foco, em rodízio: Sul, Sudeste, Nordeste e Norte, Centro-Oeste), casas e bandas novas, vídeos e fotos das matérias da semana, relatório do Clube | Tarefa agendada "Último Bonde" |
+| Segunda, 7h23 | Agenda de shows (até 15 por semana: SC mais uma região em foco, em rodízio), até 2 casas e 2 bandas novas (o mapa cresce devagar, de propósito), vídeos e fotos das matérias da semana, relatório do Clube | Tarefa agendada "Último Bonde" |
 | No horário marcado | Posts do Instagram e do TikTok | Buffer até 7/12 (grátis: 10 agendados por rede) e Metricool de 8/12 em diante (grátis: cerca de 20 por rede por mês) |
 
 Desde 26/11 os posts estão divididos: o Buffer guarda a fila curta (até 7/12) e o Metricool (marca AWHUUU!, Instagram, TikTok e YouTube conectados) recebeu todos os posts de 8 a 30/12, já agendados e automáticos. Como o Metricool não tem o limite de 10, os posts novos de cada mês vão direto para lá, e as rodadas de segunda e quinta servem só para revisar e encaixar o Último Bonde. O agendamento continua sendo feito numa conversa, com o Evandro autorizando na hora.
