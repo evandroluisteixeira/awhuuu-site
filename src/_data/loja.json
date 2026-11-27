@@ -88,7 +88,7 @@
         "imagem": "/img/loja-madrugada-eletrica.webp",
         "imagem_alt": "Ilustração do lobisomem fazendo chifrinho no meio do público de um show, com luzes vermelhas, a banda no palco e a lua cheia na janela, e o letreiro Awhuuu! embaixo, sobre fundo preto",
         "link": "https://umapenca.com/awhuuu/camiseta/madrugada-eletrica-480066.html",
-        "ativo": false
+        "ativo": true
       },
       {
         "nome": "Caneca Awhuuu!",
@@ -106,7 +106,7 @@
         "imagem": "/img/loja-caneca-preta.webp",
         "imagem_alt": "Dois letreiros Awhuuu! em creme e vermelho sobre fundo preto",
         "link": "https://umapenca.com/awhuuu/caneca/awhuuu-preta-480040.html",
-        "ativo": false
+        "ativo": true
       },
       {
         "nome": "Ecobag Lobo da Lua Cheia",
@@ -115,7 +115,7 @@
         "imagem": "/img/loja-ecobag-lobo.webp",
         "imagem_alt": "Estampa do lobisomem com guitarra recortado numa lua cheia escura e o letreiro Awhuuu! em preto e vermelho, sobre fundo cru",
         "link": "https://umapenca.com/awhuuu/ecobag/lobo-da-lua-cheia-480046.html",
-        "ativo": false
+        "ativo": true
       }
     ]
   }
