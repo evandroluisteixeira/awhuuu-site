@@ -27,6 +27,21 @@
 <link rel="stylesheet" href="/css/estilo.css?v={{ versao }}">
 {%- if site.analytics and site.analytics.umami_id %}
 <script defer src="https://cloud.umami.is/script.js" data-website-id="{{ site.analytics.umami_id }}" data-domains="awhuuu.com.br"></script>
+<script>
+/* Conta cliques que saem do site (sem cookies, só o tipo e o destino), para saber o que dá dinheiro:
+   afiliado (Amazon, Mercado Livre), loja (Uma Penca), assinatura (Substack), ingresso (bilheterias) e outros. */
+document.addEventListener('click',function(e){
+  var a=e.target.closest&&e.target.closest('a[href^="http"]'); if(!a||a.host===location.host||!window.umami) return;
+  var h=a.hostname.replace(/^www\./,''), t='externo';
+  if(/amazon\.|amzn\.|meli\.la|mercadolivre|mercadolibre/.test(h)) t='afiliado';
+  else if(/umapenca/.test(h)) t='loja-propria';
+  else if(/substack/.test(h)) t='substack';
+  else if(/sympla|eventim|ticketmaster|blueticket|shotgun|ingresse|ticket360|bilheteriadigital|pensanoevento|minhaentrada|fullticket|zig\./.test(h)) t='ingresso';
+  else if(/youtube|youtu\.be|spotify/.test(h)) t='ouvir';
+  else if(/instagram|tiktok|facebook|ig\.me/.test(h)) t='rede';
+  try{ umami.track('saida-'+t,{destino:h,pagina:location.pathname}); }catch(_){}
+},true);
+</script>
 {%- endif %}
 </head>
 <body>
