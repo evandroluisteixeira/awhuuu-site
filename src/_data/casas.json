@@ -1,6 +1,6 @@
 {
   "chamada": "Onde o rock acontece de verdade: bares, porões e casas de show com palco aberto para banda. Cada casa tem endereço, rota no Google Maps e os próximos shows da agenda.",
-  "aviso_vazio": "Nenhuma casa nesta cidade ainda. Conhece uma? Manda pelo direct.",
+  "aviso_vazio": "Nenhuma casa nesta cidade ainda. A lista cresce toda semana.",
   "casas": [
     {
       "nome": "Célula Showcase",
@@ -504,6 +504,35 @@
       "credito": "Foto: Divina Comédia / Google Maps",
       "nomes_na_agenda": [
         "Divina Comédia"
+      ],
+      "ativa": true,
+      "videos": []
+    },
+    {
+      "nome": "Chopp do Gus",
+      "slug": "chopp-do-gus",
+      "tipo": "Bar com palco",
+      "cidade": "Florianópolis",
+      "estado": "SC",
+      "pais": "Brasil",
+      "endereco": "Rua João Pio Duarte Silva, 1650 · Córrego Grande, Florianópolis (SC)",
+      "lat": -27.6008463,
+      "lng": -48.5012551,
+      "aproximado": false,
+      "estilos": "rock clássico, pop rock, acústicos",
+      "texto": "Choperia do Córrego Grande que se apresenta como bar de rock: abre de terça a sábado, com palco, e anuncia shows de bandas de rock do Sul do país.",
+      "instagram": "https://www.instagram.com/choppdogus/",
+      "site": "https://choppdogus.com.br/",
+      "foto": "",
+      "foto_url": "",
+      "pagina_foto": "",
+      "foto_inteira": false,
+      "foto_alt": "",
+      "credito": "",
+      "nomes_na_agenda": [
+        "Chopp do Gus",
+        "Chopp Gus",
+        "Chopp do Gus Córrego Grande"
       ],
       "ativa": true,
       "videos": []

@@ -2,7 +2,7 @@
 layout: base.njk
 permalink: /casas/
 title: "Casas de rock"
-descricao: "Bares, porões e casas de show onde o rock acontece em Santa Catarina e arredores: endereço, rota no Google Maps e os próximos shows."
+descricao: "Bares, porões e casas de show onde o rock acontece no Brasil: endereço, rota no Google Maps e os próximos shows."
 ---
 {%- set lista = casas | casasAtivas %}
 {%- set proximos = agenda.shows | futuros %}
@@ -54,7 +54,6 @@ descricao: "Bares, porões e casas de show onde o rock acontece em Santa Catarin
       {% endfor %}
     </ol>
     <p class="vazio" id="vazio-casas" hidden>{{ casas.aviso_vazio }}</p>
-    <p style="margin-top:32px">Conhece uma casa de rock que falta aqui? <a href="https://ig.me/m/awhuuu.rock" target="_blank" rel="noopener">Manda pelo direct</a>.</p>
   </div>
 </section>
 
