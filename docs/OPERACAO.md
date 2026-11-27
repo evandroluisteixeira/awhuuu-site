@@ -144,3 +144,22 @@ Abrir uma conversa nova e pedir: "Produção do mês de <mês>: leia docs/OPERAC
 - Produtos próprios: Uma Penca, loja `umapenca.com/awhuuu`. Artes-fonte e vetores ficam com o Evandro (não no site).
 - No site: `src/_data/loja.json`, editável no CMS em "Loja do lobo". A área "Coisas do Awhuuu!" só é ligada quando os produtos estiverem aprovados na Uma Penca.
 - Ideias na fila: caneca preta com a marca; série de camisetas com as capas das editorias (precisa de artes em alta resolução).
+
+## Grupos do Facebook (lista de 27/11)
+
+No Facebook o alcance vem mais dos grupos do que da página. Ritmo leve: um compartilhamento por semana, da matéria que combina com o grupo, feito pelo Evandro (como pessoa ou como página, onde o grupo aceitar páginas). Antes do primeiro post em cada grupo, ler as regras: muitos proíbem link ou divulgação.
+
+| Grupo | Tamanho | Combina com |
+|---|---|---|
+| Historia do Rock SC (facebook.com/groups/436737210340967) | 198, pequeno e no tema | tudo, em especial cena de SC |
+| Procura-se músicos do Rock Floripa (busca: "rock florianópolis") | 1,7 mil | agenda local, casas, bandas |
+| Músicos de Florianópolis | 2,3 mil | agenda local, guias da Garagem |
+| Classic Rock (Clássicos do Rock) (facebook.com/groups/ClassicRockBR) | 260 mil, 90+ posts/dia | Hora do Lobo, Mondo Bizarro |
+| Velha Guarda do Rock (facebook.com/groups/300778476201852) | 103 mil | Hora do Lobo, Rota 666 |
+| Raízes do Rock (facebook.com/groups/2055461654855258) | 7,1 mil | Remendo, As Imortais |
+| BRock, o Rock do Brasil dos Anos 80 (facebook.com/groups/BRockRockBrasil80) | 11 mil | Legião no Mané, Madame Satã |
+| Legião Urbana e Rock Nacional (facebook.com/groups/1061870057675204) | 180 mil | Legião no Mané |
+| HEAVY METAL BRASIL (facebook.com/groups/metalnacional) | 14 mil | pautas de metal |
+| Discos de Vinil - Brasil (facebook.com/groups/vinilbr), privado | 38 mil | guia de toca-discos da Garagem |
+
+Grupos muito grandes postam 90+ por dia: o post afunda rápido, então vale mais um grupo médio e no tema do que três gigantes.
