@@ -5,7 +5,7 @@ eleventyComputed:
   title: "{{ loja.titulo }}"
 descricao: Discos, livros, instrumentos e roupas que aparecem nos textos do Awhuuu!, com o link da loja e o texto de onde cada um saiu.
 ---
-{%- set itens = collections.materias | lojaItens(loja.destaques) %}
+{%- set itens = collections.materias | lojaItens(loja.destaques, imagensProdutos) %}
 <section class="secao" style="border-top:0">
   <div class="faixa">
     <p class="rotulo">Loja</p>

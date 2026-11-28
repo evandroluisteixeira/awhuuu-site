@@ -121,7 +121,15 @@ export default function (eleventyConfig) {
   });
   // Loja do lobo: junta os destaques escolhidos à mão com os "achados" das matérias publicadas.
   // O mesmo produto em várias lojas ("Tagima TG-530 (Amazon)", "(Magalu)"...) vira um cartão só, com um botão por loja.
-  eleventyConfig.addFilter("lojaItens", (materias, destaques) => {
+  eleventyConfig.addFilter("lojaItens", (materias, destaques, fotos) => {
+    // código Amazon (ASIN) do link, para achar a foto e juntar o achado ao destaque do mesmo produto
+    const asin = (url) => (String(url || "").match(/amazon\.com\.br\/(?:[^?]*\/)?dp\/([A-Z0-9]{10})/) || [])[1] || "";
+    const fotoDe = (url) => {
+      const a = asin(url);
+      if (a && fotos && fotos.amazon && fotos.amazon[a]) return `https://m.media-amazon.com/images/I/${fotos.amazon[a]}._SL500_.jpg`;
+      const links = (fotos && fotos.links) || {};
+      return links[String(url)] || links[String(url).split("?")[0]] || "";
+    };
     const nomeLoja = (url) => {
       const u = String(url || "");
       if (/amazon\.|amzn\./.test(u)) return "Amazon";
@@ -154,11 +162,20 @@ export default function (eleventyConfig) {
         lojas: (d.lojas || []).filter((l) => l.url).map((l) => ({ loja: l.loja || nomeLoja(l.url), url: l.url })),
         de_onde: d.de_onde || "", de_onde_link: d.de_onde_link || "", destaque: true,
       });
+      const ult = itens[itens.length - 1];
+      if (!ult.imagem) ult.imagem = ult.lojas.map((l) => fotoDe(l.url)).find(Boolean) || "";
     }
+    const porAsin = new Map();
+    for (const it of itens) for (const l of it.lojas) if (asin(l.url)) porAsin.set(asin(l.url), it);
     const porChave = new Map();
     for (const m of materias || []) {
       for (const a of m.data.achados || []) {
         if (!a || !a.url || !a.nome) continue;
+        const igual = porAsin.get(asin(a.url));
+        if (igual) {
+          if (!igual.imagem) igual.imagem = a.imagem || fotoDe(a.url);
+          continue;
+        }
         const nome = limpa(a.nome);
         const categoria = a.categoria || categoriaDe(a.nome, m.data.editoria);
         const chave = m.fileSlug + "|" + categoria + "|" + nome.toLowerCase();
@@ -168,7 +185,7 @@ export default function (eleventyConfig) {
           porChave.set(chave, it);
           itens.push(it);
         }
-        if (!it.imagem && a.imagem) it.imagem = a.imagem;
+        if (!it.imagem) it.imagem = a.imagem || fotoDe(a.url);
         it.lojas.push({ loja: nomeLoja(a.url), url: a.url });
       }
     }
