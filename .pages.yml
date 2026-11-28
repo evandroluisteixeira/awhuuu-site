@@ -692,6 +692,7 @@ content:
         type: object
         fields:
           - { name: ativo, label: Mostrar esta área, type: boolean }
+          - { name: na_home, label: Mostrar 4 produtos na página inicial, type: boolean }
           - { name: titulo, label: Título da área, type: string }
           - { name: texto, label: Texto, type: text }
           - name: itens

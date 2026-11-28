@@ -648,3 +648,22 @@ a.patch:focus-visible{outline-color:var(--sangue)}
   .loja-proprios .loja-item .loja-preco{margin:0 0 .5em}
   .loja-proprios .loja-botao{margin-top:auto;padding:.5em;font-size:.9rem}
 }
+
+/* Home: vitrine da loja e grades compactas no celular (27/11) */
+.loja-home .loja-grade{grid-template-columns:repeat(4,1fr)}
+@media (max-width:900px){.loja-home .loja-grade{grid-template-columns:1fr 1fr;gap:12px}}
+.loja-home .loja-item{display:flex;flex-direction:column}
+.loja-home .loja-botao{margin-top:auto}
+@media (max-width:519px){
+  .loja-home .loja-item{padding:8px}
+  .loja-home .loja-item h3{font-size:1rem;line-height:1.15;margin:.5em 0 .2em}
+  .loja-home .loja-item .loja-preco{margin:0 0 .5em}
+  .loja-home .loja-botao{padding:.5em;font-size:.9rem}
+  .grade-ed{grid-template-columns:1fr 1fr;gap:10px}
+  .grade-ed .ed-card .txt p{display:none}
+  .grade-ed .ed-card h3{font-size:1rem;line-height:1.15}
+  .grade-ed .ed-card .txt{padding:8px}
+  .grade-playlists{grid-template-columns:1fr 1fr;gap:10px}
+  .grade-playlists .playlist .nome{font-size:.9rem;line-height:1.2}
+  .grade-playlists .playlist .obs{font-size:.75rem}
+}

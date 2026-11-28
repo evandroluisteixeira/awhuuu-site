@@ -80,6 +80,28 @@ layout: base.njk
   </div>
 </section>
 
+{%- set lojaHome = [] -%}
+{%- for p in loja.proprios.itens -%}{%- if p.ativo and lojaHome.length < 4 -%}{%- set lojaHome = (lojaHome.push(p), lojaHome) -%}{%- endif -%}{%- endfor -%}
+{% if loja.proprios.ativo and loja.proprios.na_home !== false and lojaHome.length %}
+<section class="secao loja-home" id="loja-home">
+  <div class="faixa">
+    <p class="rotulo">Loja do lobo</p>
+    <h2>Coisas do Awhuuu!</h2>
+    <ul class="loja-grade">
+      {% for p in lojaHome %}
+      <li class="loja-item">
+        <img src="{{ p.imagem }}" alt="{{ p.imagem_alt }}" width="300" height="300" loading="lazy">
+        <h3>{{ p.nome }}</h3>
+        <p class="loja-preco">{{ p.preco }}</p>
+        <a class="loja-botao" href="{{ p.link }}" target="_blank" rel="noopener">Comprar</a>
+      </li>
+      {% endfor %}
+    </ul>
+    <p style="margin-top:28px"><a class="botao contorno" href="/loja/">Ver a loja inteira</a></p>
+  </div>
+</section>
+{% endif %}
+
 <section class="secao" id="hoje-no-rock">
   <div class="faixa">
     <p class="rotulo">Neste dia no rock</p>
