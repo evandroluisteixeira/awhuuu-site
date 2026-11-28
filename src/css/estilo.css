@@ -638,3 +638,13 @@ a.patch:focus-visible{outline-color:var(--sangue)}
 .box-materia p,.box-materia ul,.box-materia ol{margin:0 0 10px}
 .box-materia>:last-child{margin-bottom:0}
 .box-materia li{margin-bottom:6px}
+/* Loja: no celular, as coisas do Awhuuu! em duas colunas compactas (27/11) */
+@media (max-width:519px){
+  .loja-proprios{padding:16px}
+  .loja-proprios .loja-grade{grid-template-columns:1fr 1fr;gap:12px;background:none}
+  .loja-proprios .loja-item{padding:8px;display:flex;flex-direction:column}
+  .loja-proprios .loja-item p:not(.loja-preco){display:none}
+  .loja-proprios .loja-item h3{font-size:1rem;line-height:1.15;margin:.5em 0 .2em}
+  .loja-proprios .loja-item .loja-preco{margin:0 0 .5em}
+  .loja-proprios .loja-botao{margin-top:auto;padding:.5em;font-size:.9rem}
+}
