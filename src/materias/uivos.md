@@ -28,10 +28,13 @@ pergunta: "Qual faltou? Entra na próxima fita."
 achados:
   - nome: "Vinil: David Bowie, Ziggy Stardust (tem Moonage Daydream) — Amazon"
     url: "https://www.amazon.com.br/dp/B09Z278TXX?tag=awhuuu-20"
+    imagem: "https://m.media-amazon.com/images/I/61YkcTlelRL._SL500_.jpg"
   - nome: "Vinil: Creedence, Green River (tem Bad Moon Rising) — Amazon"
     url: "https://www.amazon.com.br/dp/B0DP566GNQ?tag=awhuuu-20"
+    imagem: "https://m.media-amazon.com/images/I/81XApJiz-KL._SL500_.jpg"
   - nome: "Vinil: Warren Zevon, Excitable Boy (tem Werewolves of London) — Amazon"
     url: "https://www.amazon.com.br/dp/B0H7217GF9?tag=awhuuu-20"
+    imagem: "https://m.media-amazon.com/images/I/71JSS3HP3gL._SL500_.jpg"
 ---
 Toda primeira fita tem que ser sobre o que importa. A nossa é sobre a lua, sobre os lobos e sobre o que a noite faz com quem tem uma guitarra por perto.
 
