@@ -9,6 +9,11 @@
       "destaque": true
     },
     {
+      "titulo": "Loja do lobo: camisetas, canecas e ecobag",
+      "url": "/loja/",
+      "destaque": true
+    },
+    {
       "titulo": "Casas de rock",
       "url": "/casas/",
       "destaque": false

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://awhuuu.com.br/sitemap.xml
