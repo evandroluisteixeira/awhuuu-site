@@ -2,7 +2,7 @@
 title: "O kit do lobo: visual rock da bota à corrente"
 editoria: trapos-e-bugigangas
 numero: 1
-date: 2026-12-18T20:00:00-03:00
+date: 2026-12-05T20:00:00-03:00
 resumo: "Coturno, jaqueta, calça rasgada, cinto de pirâmide, choker, bracelete e corrente. Peça por peça, com o preço da semana."
 capa: /img/capas/trapos-e-bugigangas.webp
 capa_alt: "Ilustração de um lobisomem de jaqueta de couro ajustando uma choker de spikes diante de um espelho rachado, com saia xadrez, calças rasgadas, coturnos e correntes ao redor e a lua cheia na janela"

@@ -2,7 +2,7 @@
 title: "Toca-discos para começar: o que comprar sem estragar seus discos"
 editoria: garagem
 numero: 1
-date: 2026-12-15T20:00:00-03:00
+date: 2026-12-03T20:00:00-03:00
 resumo: "Do primeiro toca-discos honesto ao que dura a vida toda, com preço de loja brasileira. E por que a maleta bonitinha é a pior porta de entrada."
 capa: /img/capas/garagem.webp
 capa_alt: "Ilustração de um lobisomem de jaqueta de couro numa garagem à noite, pondo um disco no toca-discos entre amplificadores, com a lua cheia na porta"

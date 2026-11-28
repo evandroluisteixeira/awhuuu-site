@@ -2,7 +2,7 @@
 title: "Presente de lobo: o guia de Natal do Awhuuu!"
 editoria: trapos-e-bugigangas
 numero: 2
-date: 2026-12-19T11:00:00-03:00
+date: 2026-12-06T20:00:00-03:00
 resumo: "Bugiganga de menos de cem reais, disco embaixo da árvore, livro, toca-discos, primeira guitarra e o presente que chega por e-mail na véspera. Separado por bolso."
 capa: /img/capas/trapos-e-bugigangas.webp
 capa_alt: "Ilustração de um lobisomem de jaqueta de couro ajustando uma choker de spikes diante de um espelho rachado, com a lua cheia na janela"

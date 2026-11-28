@@ -2,7 +2,7 @@
 title: "Guitarra para começar: o que comprar para não desistir no terceiro mês"
 editoria: garagem
 numero: 2
-date: 2026-12-22T20:00:00-03:00
+date: 2026-12-04T20:00:00-03:00
 resumo: "Três guitarras honestas, dois amplificadores e a armadilha da voltagem que ninguém te conta. Com preço de loja brasileira."
 capa: /img/capas/garagem.webp
 capa_alt: "Ilustração de um lobisomem de jaqueta de couro numa garagem à noite, pondo um disco no toca-discos entre amplificadores, com a lua cheia na porta"

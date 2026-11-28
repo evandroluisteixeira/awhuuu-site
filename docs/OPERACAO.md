@@ -57,8 +57,10 @@ Decisão do Evandro em 27/11: nenhuma matéria rasa. Todas crescem até o padrã
 |---|---|---|
 | 1 | dom 29/11 | CBGB (30/11), Ozzy e o morcego (1/12), Queen (2/12, já tem o tamanho; falta o kit) e Krig-ha (já publicada em 28/11; cresce no lugar) |
 | 2 | sex 4/12 | Circo Voador (7/12), Keith Moon (8/12), Led Zeppelin (9/12), Sister Rosetta Tharpe (10/12), Hound Dog (11/12) |
-| 3 | sex 11/12 | Cavern Club (14/12), toca-discos (15/12), Nirvana (16/12), Kiss (17/12), Kit do lobo (18/12), Presente de lobo (19/12) |
-| 4 | sex 18/12 | Guitarra (22/12), Noite feliz (25/12), Madame Satã (28/12), Paul is dead (29/12), Legião (30/12) e Uivos (já publicada; cresce no lugar) |
+| 3 | sex 11/12 | Cavern Club (14/12), Nirvana (16/12), Kiss (17/12) |
+| 4 | sex 18/12 | Noite feliz (25/12), Madame Satã (28/12), Paul is dead (29/12), Legião (30/12) e Uivos (já publicada; cresce no lugar) |
+
+**Guias de compra antecipados (decidido em 28/11):** para pegar a semana da Black Friday e dar tempo de entrega antes do Natal, os quatro guias saem antes e são reescritos na conversa de Administração, não na "Matérias de dezembro". Toca-discos 3/12 (pronto até 1/12), Guitarra 4/12 (até 2/12), Kit do lobo 5/12 (até 3/12), Presente de lobo 6/12 (até 4/12). O Presente vem por último porque aponta para os outros três. Os posts do Metricool (Instagram, Facebook e TikTok) já foram para as datas novas. Evandro aprova cada guia antes de ir ao ar; o que não for aprovado no prazo volta para a semana seguinte, pela regra acima.
 
 **Mensagem para abrir a conversa "Matérias de dezembro":**
 
